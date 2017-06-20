@@ -17,9 +17,9 @@ In the following you will find an overview of the necessary components which mus
 
 `adSSetup = {view: "[View]", // has to fit the design of the page, please use m for mobile and d for desktop`
 
-##### 2. Switch for the 3th party scripts. We strictly recommend to set it as "true"
+##### 2. Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
 
-`	partners: false,`
+`	partners: true,`
 
 ##### 3. Define the ad placements for the website
 
