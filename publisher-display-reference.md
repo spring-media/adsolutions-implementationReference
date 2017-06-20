@@ -57,50 +57,50 @@ Example for 3 Medium Rectangle btf
 
 #### 4. Define the sizes for every ad placement:
 
-
-```adSlotSizes: {
-
-			"superbanner": {
-				"minWidth": 1,
-				"sizes": [[728,90],[728,600],[1000,600]]
-			},
-      
-			"sky": {
-				"minWidth": 1,
-				"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-			},
-      
-			"billboard": {
-				"minWidth": 1,
-				"sizes": [[970,250],[850,250]]
-			},
-      
-			"mrec": {
-				"minWidth": 1,
-				"sizes": [[300,250],[300,600]]
-			},
-      
-			"mrec_btf": {
-				"minWidth": 1,
-				"sizes": [[300,250],[300,600]]
-			},
-      
-			"mrec_btf_2": {
-				"minWidth": 1,
-				"sizes": [[300,250],[300,600]]
-			},
-      
-			"mrec_btf_3": {
-				"minWidth": 1,
-				"sizes": [[300,250],[300,600]]
-			},
-      
-			"inpage": {
-				"minWidth": 1,
-				"sizes": [[1x1],[640,360],[1000,300]]
-			},
-      
-		},```
+```
+adSlotSizes: {
+		"superbanner": {
+			"minWidth": 1,
+			"sizes": [[728,90],[728,600],[1000,600]]
+		},
+     
+		"sky": {
+			"minWidth": 1,
+			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
+		},
+     
+		"billboard": {
+			"minWidth": 1,
+			"sizes": [[970,250],[850,250]]
+		},
+     
+		"mrec": {
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		},
+     
+		"mrec_btf": {
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		},
+     
+		"mrec_btf_2": {
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		},
+     
+		"mrec_btf_3": {
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		},
+     
+		"inpage": {
+			"minWidth": 1,
+			"sizes": [[1x1],[640,360],[1000,300]]
+		},
+     
+	},
+```
 
 #### Ad Sizes for every placement:
 ##### For Desktop:
