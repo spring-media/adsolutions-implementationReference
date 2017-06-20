@@ -160,7 +160,7 @@ This `js` contains the whole Ad Library. Every website will get its own `js` fro
 <div id="${adPlacement}"></div>
 ```
 
-The `div id` must be the name of the placement. See from line 24 of this document. 
+The `div id` must be the name of the placement. [See from line 24 of this document] (https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website). 
 
 #### Example
 
