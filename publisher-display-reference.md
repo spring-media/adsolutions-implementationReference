@@ -15,8 +15,7 @@ In the following you will find an overview of the necessary components which mus
 
 ##### 1. Set the viewport of the website. Use for desktop "d" and for mobile "m"
 
-`adSSetup = {
-		view: "[View]", // has to fit the design of the page, please use m for mobile and d for desktop`
+`adSSetup = {view: "[View]", // has to fit the design of the page, please use m for mobile and d for desktop`
 
 ##### 2. Switch for the 3th party scripts. We strictly recommend to set it as "true"
 
@@ -59,7 +58,7 @@ Example for 3 Medium Rectangle btf
 #### 4. Define the sizes for every ad placement:
 
 
-`adSlotSizes: {`
+```adSlotSizes: {
 
 			"superbanner": {
 				"minWidth": 1,
@@ -101,7 +100,7 @@ Example for 3 Medium Rectangle btf
 				"sizes": [[1x1],[640,360],[1000,300]]
 			},
       
-		},`
+		},```
 
 #### Ad Sizes for every placement:
 ##### For Desktop:
@@ -111,7 +110,7 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5
 *sky* | `[160,600]` | `[120,600]` | `[300,600]` | `[500,1000]` | `[1000,1000]`
 *billboard* | `[970,250]` | `[850,250]` |  |  | 
 *mrec* | `[300,250]` | `[300,600]` |  |  | 
-*inpage* | `[1,1]` | `[640,360]` | `1000,300` |  | 
+*inpage* | `[1,1]` | `[640,360]` | `[1000,300]` |  | 
 
 ##### For Mobile:
 Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
