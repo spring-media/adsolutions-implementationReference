@@ -19,11 +19,11 @@ In the following you will find an overview of the necessary components which mus
 
 ##### 2. Switch for the 3th party scripts. We strictly recommend to set it as "true"
 
-`partners: false,`
+`	partners: false,`
 
 ##### 3. Define the ad placements for the website
 
-`adSlots: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
+`	adSlots: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
 
 #### For Desktop:
 ##### Mandatory:
@@ -58,7 +58,7 @@ Example for 3 Medium Rectangle btf
 #### 4. Define the sizes for every ad placement:
 
 ```
-adSlotSizes: {
+	adSlotSizes: {
 		"superbanner": {
 			"minWidth": 1,
 			"sizes": [[728,90],[728,600],[1000,600]]
