@@ -165,7 +165,7 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 *mrec* | `[300,250]` | `[320,50]` | `[320,75]` | `[320,80]` | `[320,160]` | `[300,300]`
 *inpage* | `[1,1]` | `[640,360]` | `[1000,300]` |  |  | 
 
-### 5. Page configuration
+#### 5. Page configuration
 
 ```
 	colorBg: true, // enable/disable coloring of the page-background
@@ -191,7 +191,7 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 
 `</script>`
 
-### 6. AdLib
+#### 6. AdLib
 
 `<script type="text/javascript" src="https://www.example-cdn.com/assets/js/mywebsite.js"></script>`
 
