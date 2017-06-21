@@ -172,3 +172,22 @@ __Superbanner__
 
 `</body>`
 
+## Ad Placements Overview
+
+## Display
+
+### Superbanner
+
+![superbanner](https://bracho.xyz/adtech/img/superbanner.png "superbanner")
+
+This placement should be positioned at the top of the web page. Wallpapers and fireplaces are also delivered via this placement. [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+
+*superbanner* | `[728,90]` | `[728,600]` | `[1000,600]`
+
+### Sky
+
+![sky](https://bracho.xyz/adtech/img/sky.png "sky")
+
+This placement is to be positioned on the left side of the content of the website. Sitebars, dynamic sitebars, and double-dinamic sitebarsare also delivered via this placement. [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+
+*sky* | `[160,600]` | `[120,600]` | `[300,600]` | `[500,1000]` | `[1000,1000]`
