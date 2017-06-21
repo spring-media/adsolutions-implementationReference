@@ -1,5 +1,16 @@
 # Integration - Online Desktop & Mobile Advertisement
 
+
+# Table of Contents
+
+
+
+
+
+
+
+
+
 ## Introduction
 
 This document describes the necessary steps for integrating online advertisements on desktop and mobile websites for Axel Springer. 
@@ -34,7 +45,7 @@ In the following you will find an overview of the necessary components which mus
 - billboard
 - mrec
 - inpage
-### Optional
+#### Optional
 - billboard_btf
 - mrec_btf
 - sky_btf
@@ -46,7 +57,7 @@ In the following you will find an overview of the necessary components which mus
 - inpage
 - mrec_btf
 
-### Optional
+#### Optional
 - banner_sticky
 
 __You can repeat the _btf placements as much as you want. Please use the following schema:__
