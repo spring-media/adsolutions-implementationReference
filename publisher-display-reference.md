@@ -9,6 +9,8 @@ The delivery of ads utilizes a "One Call" function, which have to be included in
 
 In the following you will find an overview of the necessary components which must be implemented to deliver and display the advertising media.
 
+## Ad Integration
+
 ### Elements in the `<head>` of the website:
 
 `<script type="text/javascript">`
