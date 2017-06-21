@@ -3,10 +3,12 @@
 
 **Table of Contents**  
 
+- [Integration - Online Desktop & Mobile Advertisement](#)
+- [Table of Contents](#)
 	- [Introduction](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#introduction)
 	- [Overview](#)
 	- [Ad Integration](#)
-		- [Elements in the `<head>` of the website:](#)
+		- [Elements in the head of the website:](#)
 			- [1. Set the viewport of the website. Use for desktop "d" and for mobile "m"](#)
 			- [2. Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue](#)
 			- [3. Define the ad placements for the website](#)
@@ -27,7 +29,7 @@
 			- [pageName: it is the name of the channel or article in CMS](#)
 			- [target: Every editorial keyword or custom target](#)
 		- [6. AdLib](#)
-		- [Ad Placements in the `<body>` of the website:](#)
+		- [Ad Placements in the <body> of the website:](#)
 			- [Example](#)
 	- [Ad Placements Overview](#)
 	- [Display](#)
@@ -41,12 +43,6 @@
 		- [mrec](#)
 		- [inpage](#)
 		- [mrec_btf](#)
-
-
-
-
-
-
 
 ## Introduction
 
