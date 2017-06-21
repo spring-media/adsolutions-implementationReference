@@ -136,12 +136,12 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 #### bgClick: enable/disable click on page-background
 #### stickySky: enable/disable stickiness for skyscraper
 #### pageName: it is the name of the channel or article in CMS
-*We recommend the following schema*
+**_We recommend the following schema:_**
 - Home Site --> "home_index"
 - Channel, e.g. sport --> "sport_index"
 - Sub-Channel e.g. soccer --> "sport.soccer_index"
 - Article e.g. soccer article --> "sport.soccer_story"
-### target: Every editorial keyword or custom target
+#### target: Every editorial keyword or custom target
 - you can use stand alone keywords with semicolon `;` separately
 - key/values are also supported. `;key=value1,value2;`
 
@@ -212,6 +212,6 @@ We recommend installing the first Mrec above the fold (ATF). [This sizes must be
 
 ![inpage](https://bracho.xyz/adtech/img/inpage.png "inpage")
 
-We recommend installing the first Mrec above the fold (ATF). [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+Interstitials, Understitials, and InText-Outstream Advertising Materials are delivered through the inpage Placement. This placement is to be placed in the position requested by the publisher for InText- Outstream ads. [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *inpage* | `[1,1]` | `[640,360]` | `[1000,300]` 
