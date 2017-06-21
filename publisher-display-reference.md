@@ -237,3 +237,39 @@ Interstitials, Understitials, and InText-Outstream Advertising Materials are del
 This placement should be positioned at the top of the web page.  [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *banner* | `[320,50]` | `[320,75]` | `[320,80]`
+
+### mrec
+
+`<div id="mrec"></div>`
+
+![mrec](https://bracho.xyz/adtech/img/mobil_mrec.png "mrec")
+
+We recommend to place the first Mrec above the fold (ATF). [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+
+*mrec* | `[300,250]` | `[320,50]` | `[320,75]` | `[320,80]` | `[320,160]` | `[300,300]`
+
+### inpage
+
+`<div id="inpage"></div>`
+
+![inpage](https://bracho.xyz/adtech/img/mobil_inpage.png "inpage")
+
+Interstitials, Understitials, and InText-Outstream Advertising Materials are delivered through the inpage Placement. This placement is to be placed in the position requested by the publisher for InText- Outstream ads. [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+
+*inpage* | `[1,1]` | `[640,360]` | `[1000,300]` 
+
+### mrec_btf
+
+`<div id="mrec"></div>`
+
+![mrec_btf](https://bracho.xyz/adtech/img/mobil_mrec-btf.png "mrec")
+
+This placement can be placed multiple times on a page. We stron recommend to place one mrec_btf after 3 blocks of text. 
+**_Please use the following schema_**
+- mrec_btf
+- mrec_btf_2
+- mrec_btf_3
+
+[This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+
+*mrec* | `[300,250]` | `[320,50]` | `[320,75]` | `[320,80]` | `[320,160]` | `[300,300]`
