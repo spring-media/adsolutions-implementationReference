@@ -182,7 +182,7 @@ __Superbanner__
 
 ![superbanner](https://bracho.xyz/adtech/img/superbanner.png "superbanner")
 
-This placement should be positioned at the top of the web page. Wallpapers and fireplaces are also delivered via this placement. [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+This placement should be positioned at the top of the web page. Wallpapers and fireplaces are also delivered via this placement. [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *superbanner* | `[728,90]` | `[728,600]` | `[1000,600]`
 
@@ -192,7 +192,7 @@ This placement should be positioned at the top of the web page. Wallpapers and f
 
 ![sky](https://bracho.xyz/adtech/img/sky.png "sky")
 
-This placement is to be positioned on the left side of the content of the website. Sitebars, dynamic sitebars, and double-dinamic sitebarsare also delivered via this placement. [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+This placement is to be positioned on the left side of the website content. Sitebars, dynamic sitebars, and double-dinamic sitebars are also delivered via this placement. [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *sky* | `[160,600]` | `[120,600]` | `[300,600]` | `[500,1000]` | `[1000,1000]`
 
@@ -202,7 +202,7 @@ This placement is to be positioned on the left side of the content of the websit
 
 ![billboard](https://bracho.xyz/adtech/img/billboard.png "billboard")
 
-This placement is to be placed directly under the navigation or under the first teaser of the website. [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+This placement is to be placed directly under the navigation or under the first teaser of the website. [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *billboard* | `[970,250]` | `[800,250]` 
 
@@ -212,7 +212,7 @@ This placement is to be placed directly under the navigation or under the first 
 
 ![mrec](https://bracho.xyz/adtech/img/mrec.png "mrec")
 
-We recommend to place the first Mrec above the fold (ATF). [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+We recommend to place the first Mrec above the fold (ATF). [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *mrec* | `[300,250]` | `[300,600]`  
 
@@ -222,7 +222,7 @@ We recommend to place the first Mrec above the fold (ATF). [This sizes must be u
 
 ![inpage](https://bracho.xyz/adtech/img/inpage.png "inpage")
 
-Interstitials, Understitials, and InText-Outstream Advertising Materials are delivered through the inpage Placement. This placement is to be placed in the position requested by the publisher for InText- Outstream ads. [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+Interstitials, Understitials, and InText-Outstream Advertising Materials are delivered through the inpage Placement. This placement is to be placed in the position requested by the publisher for InText- Outstream ads. [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *inpage* | `[1,1]` | `[640,360]` | `[1000,300]` 
 
@@ -234,7 +234,7 @@ Interstitials, Understitials, and InText-Outstream Advertising Materials are del
 
 ![banner](https://bracho.xyz/adtech/img/mobil_banner.png "banner")
 
-This placement should be positioned at the top of the web page.  [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+This placement should be positioned at the top of the web page.  [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *banner* | `[320,50]` | `[320,75]` | `[320,80]`
 
@@ -244,7 +244,7 @@ This placement should be positioned at the top of the web page.  [This sizes mus
 
 ![mrec](https://bracho.xyz/adtech/img/mobil_mrec.png "mrec")
 
-We recommend to place the first Mrec above the fold (ATF). [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+We recommend to place the first Mrec above the fold (ATF). [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *mrec* | `[300,250]` | `[320,50]` | `[320,75]` | `[320,80]` | `[320,160]` | `[300,300]`
 
