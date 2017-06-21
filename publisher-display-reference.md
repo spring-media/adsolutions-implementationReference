@@ -3,12 +3,12 @@
 
 **Table of Contents**  
 
-- [Integration - Online Desktop & Mobile Advertisement](#)
+- [Integration - Online Desktop & Mobile Advertisement](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#integration---online-desktop--mobile-advertisement)
 - [Table of Contents](#)
 	- [Introduction](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#introduction)
-	- [Overview](#)
-	- [Ad Integration](#)
-		- [Elements in the head of the website:](#)
+	- [Overview](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#overview)
+	- [Ad Integration](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#ad-integration)
+		- [Elements in the `<head>` of the website:](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#elements-in-the-head-of-the-website)
 			- [1. Set the viewport of the website. Use for desktop "d" and for mobile "m"](#)
 			- [2. Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue](#)
 			- [3. Define the ad placements for the website](#)
