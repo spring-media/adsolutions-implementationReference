@@ -176,7 +176,7 @@ __Superbanner__
 
 ## Display
 
-### Superbanner
+### superbanner
 
 ![superbanner](https://bracho.xyz/adtech/img/superbanner.png "superbanner")
 
@@ -184,10 +184,34 @@ This placement should be positioned at the top of the web page. Wallpapers and f
 
 *superbanner* | `[728,90]` | `[728,600]` | `[1000,600]`
 
-### Sky
+### sky
 
 ![sky](https://bracho.xyz/adtech/img/sky.png "sky")
 
 This placement is to be positioned on the left side of the content of the website. Sitebars, dynamic sitebars, and double-dinamic sitebarsare also delivered via this placement. [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *sky* | `[160,600]` | `[120,600]` | `[300,600]` | `[500,1000]` | `[1000,1000]`
+
+### billboard
+
+![billboard](https://bracho.xyz/adtech/img/billboard.png "billboard")
+
+This placement is to be placed directly under the navigation or under the first teaser of the website. [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+
+*billboard* | `[970,250]` | `[800,250]` 
+
+### mrec
+
+![mrec](https://bracho.xyz/adtech/img/mrec.png "mrec")
+
+We recommend installing the first Mrec above the fold (ATF). [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+
+*mrec* | `[300,250]` | `[300,600]`  
+
+### inpage
+
+![inpage](https://bracho.xyz/adtech/img/inpage.png "inpage")
+
+We recommend installing the first Mrec above the fold (ATF). [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+
+*inpage* | `[1,1]` | `[640,360]` | `[1000,300]` 
