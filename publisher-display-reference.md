@@ -16,8 +16,8 @@
 			- [Mobile](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-mobile)
 				- [Mandatory](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mandatory-1)
 				- [Optional](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#optional-1)
-		- [4. Placement Sizes:](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
-			- [Size Reference](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#ad-sizes-for-every-placement)
+		- [4. Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+			- [Placement's Sizes Reference](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#ad-sizes-for-every-placement)
 				- [For Desktop](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1)
 				- [For Mobile](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-mobile-1)
 		- [5. Page configuration](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#5-page-configuration)
@@ -315,3 +315,10 @@ This placement can be placed multiple times on a page. We stron recommend to pla
 [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *mrec* | `[300,250]` | `[320,50]` | `[320,75]` | `[320,80]` | `[320,160]` | `[300,300]`
+
+## Creative Sizes Reference
+
+Each Size belongs to a certain creative. For standard creatives we use the IAB standards.
+
+
+## Display
