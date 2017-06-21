@@ -101,7 +101,7 @@ Example for 3 Medium Rectangle btf
 - mrec_btf_2
 - mrec_btf_3
 
-### 4. Define the sizes for every ad placement:
+#### 4. Define the sizes for every ad placement:
 
 ```
 	adSlotSizes: {
