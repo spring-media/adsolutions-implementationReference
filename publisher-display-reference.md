@@ -304,7 +304,7 @@ Interstitials, Understitials, and InText-Outstream Advertising Materials are del
 
 `<div id="mrec"></div>`
 
-![mrec_btf](https://bracho.xyz/adtech/img/mobil_mrec-btf.png "mrec")
+![mrec_btf](https://bracho.xyz/adtech/img/mobil_mrec-btf.png "mrec_btf")
 
 This placement can be placed multiple times on a page. We stron recommend to place one mrec_btf after 3 blocks of text. 
 **_Please use the following schema_**
@@ -322,3 +322,8 @@ Each Size belongs to a certain creative. For standard creatives we use the IAB s
 
 
 ## Display
+
+Size | Creative | IAB | Preview
+--- | --- | --- | ---
+*728,90* | Superbanner/Leaderboard | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![superbanner](https://www.mediaimpact.de/img/259938729_8679ac04a5.png) 
+ 
