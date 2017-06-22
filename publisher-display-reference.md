@@ -41,6 +41,7 @@
 			- [mrec](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mrec-1)
 			- [inpage](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#inpage-1)
 			- [mrec_btf](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mrec_btf)
+- [Creative Sizes Reference](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#creative-sizes-reference)
 
 ## Introduction
 
@@ -320,8 +321,6 @@ This placement can be placed multiple times on a page. We stron recommend to pla
 
 Each Size belongs to a certain creative. For standard creatives we use the IAB standards.
 
-
-## Display
 
 Size | Creative | IAB | Preview
 --- | --- | --- | ---
