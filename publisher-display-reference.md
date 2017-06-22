@@ -325,5 +325,5 @@ Each Size belongs to a certain creative. For standard creatives we use the IAB s
 
 Size | Creative | IAB | Preview
 --- | --- | --- | ---
-*728,90* | Superbanner/Leaderboard | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![superbanner](https://www.mediaimpact.de/img/259938729_8679ac04a5.png =200x) 
+*728,90* | Superbanner/Leaderboard | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![superbanner](https://www.mediaimpact.de/img/259938729_8679ac04a5.png = 200x) 
  
