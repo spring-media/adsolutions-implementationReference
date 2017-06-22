@@ -325,5 +325,8 @@ Each Size belongs to a certain creative. For standard creatives we use the IAB s
 
 Size | Creative | IAB | Preview
 --- | --- | --- | ---
-*728,90* | Superbanner/Leaderboard | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![superbanner](https://www.mediaimpact.de/img/259938729_8679ac04a5.png = 200x) 
+*728,90* | Superbanner/Leaderboard | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![superbanner](https://www.mediaimpact.de/img/259938729_8679ac04a5.png) 
+*728,600* | Wallpaper | NO | ![wallpaper](https://www.mediaimpact.de/img/259939288_8f18a8ab42.png)
+*1000,600* | Fireplace | NO | ![fireplace](https://www.mediaimpact.de/img/259936043_5720a66922.png)
+*160,600* | Skyscraper/Wide Skyscraper | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![sky](https://www.mediaimpact.de/img/259938354_61b8de7b87.png)
  
