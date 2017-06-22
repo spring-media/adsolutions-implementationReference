@@ -328,5 +328,7 @@ Size | Creative | IAB | Preview
 *728,90* | Superbanner/Leaderboard | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![superbanner](https://www.mediaimpact.de/img/259938729_8679ac04a5.png) 
 *728,600* | Wallpaper | NO | ![wallpaper](https://www.mediaimpact.de/img/259939288_8f18a8ab42.png)
 *1000,600* | Fireplace | NO | ![fireplace](https://www.mediaimpact.de/img/259936043_5720a66922.png)
-*160,600* | Skyscraper/Wide Skyscraper | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![sky](https://www.mediaimpact.de/img/259938354_61b8de7b87.png)
- 
+*120,600 / 160,600* | Skyscraper/Wide Skyscraper | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![sky](https://www.mediaimpact.de/img/259938354_61b8de7b87.png)
+*300,600* | Half Page | [YES](https://www.iab.com/guidelines/other-ad-units/) | ![halfpage](https://www.mediaimpact.de/img/259936459_36e5ebd2d7.png) 
+*500,1000* | Sitebar / Dynamic Sitebar | NO | ![sitebar](https://www.mediaimpact.de/img/259938311_668a6ffc7f.jpg) 
+*1000,1000* | Doble Dynamic Sitebar | NO | ![ddsitebar](https://www.mediaimpact.de/img/259935976_a7ceba51e1.jpg)
