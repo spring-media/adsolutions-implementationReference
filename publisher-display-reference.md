@@ -114,45 +114,48 @@ Example for 3 Medium Rectangle btf
 
 ```
 	adSlotSizes: {
-		"superbanner": {
+		"superbanner": [{
 			"minWidth": 1,
 			"sizes": [[728,90],[728,600],[1000,600]]
-		},
+		}],
      
-		"sky": {
+		"sky": [{
 			"minWidth": 1,
 			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		},
+		}],
      
-		"billboard": {
-			"minWidth": 1,
+		"billboard": [{
+			"minWidth": 799,
+			"sizes": [[800,250]]
+		},{
+			"minWidth": 969,
 			"sizes": [[970,250],[800,250]]
-		},
+		}],
      
-		"mrec": {
+		"mrec": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
-		},
+		}],
      
-		"mrec_btf": {
+		"mrec_btf": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
-		},
+		}],
      
-		"mrec_btf_2": {
+		"mrec_btf_2": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
-		},
+		}],
      
-		"mrec_btf_3": {
+		"mrec_btf_3": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
-		},
+		}],
      
-		"inpage": {
+		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
-		},
+		}],
      
 	},
 ```
@@ -161,35 +164,35 @@ Example for 3 Medium Rectangle btf
 
 ```
 	adSlotSizes: {
-		"banner": {
+		"banner": [{
 			"minWidth": 1,
 			"sizes": [[320,50],[320,75],[320,80]]
-		},
+		}],
      
-		"mrec": {
+		"mrec": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
-		},
+		}],
      
-		"mrec_btf": {
+		"mrec_btf": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
-		},
+		}],
      
-		"mrec_btf_2": {
+		"mrec_btf_2": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
-		},
+		}],
      
-		"mrec_btf_3": {
+		"mrec_btf_3": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
-		},
+		}],
      
-		"inpage": {
+		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
-		},
+		}],
      
 	},
 ```
@@ -253,13 +256,13 @@ This `js` contains the whole Ad Library. Every website will get its own `js` fro
 <div id="${adPlacement}"></div>
 ```
 
-The `div id` must be the name of the placement. [See from line 24 of this document](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website). 
+This `div` has to be wrapped in an own container, has to be free of Styles/CSS and the `div id` must be the name of the placement. [See from line 24 of this document](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website). 
 
 #### Example
 
 __Superbanner__
 
-`<div id="superbanner"></div>`
+`<div id="superbannerWrapper" class="container"><div id="superbanner"></div></div>`
 
 `</body>`
 
