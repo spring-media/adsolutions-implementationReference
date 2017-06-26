@@ -68,7 +68,13 @@ In the following you will find an overview of the necessary components which mus
 
 #### 3. Define the ad placements for the website
 
+##### Desktop:
+
 `	adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
+
+##### Mobile:
+
+`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
 
 ### For Desktop:
 #### Mandatory:
@@ -101,6 +107,8 @@ Example for 3 Medium Rectangle btf
 - mrec_btf_3
 
 #### 4. Define the sizes for every ad placement:
+
+##### Desktop:
 
 ```
 	adSlotSizes: {
@@ -146,6 +154,44 @@ Example for 3 Medium Rectangle btf
      
 	},
 ```
+
+##### Mobile:
+
+```
+	adSlotSizes: {
+		"banner": {
+			"minWidth": 1,
+			"sizes": [[320,50],[320,75],[320,80]]
+		},
+     
+		"mrec": {
+			"minWidth": 1,
+			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+		},
+     
+		"mrec_btf": {
+			"minWidth": 1,
+			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+		},
+     
+		"mrec_btf_2": {
+			"minWidth": 1,
+			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+		},
+     
+		"mrec_btf_3": {
+			"minWidth": 1,
+			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+		},
+     
+		"inpage": {
+			"minWidth": 1,
+			"sizes": [[1,1],[640,360],[1000,300]]
+		},
+     
+	},
+```
+
 
 ### Ad Sizes for every placement:
 #### For Desktop:
