@@ -17,6 +17,8 @@
 				- [Mandatory](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mandatory-1)
 				- [Optional](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#optional-1)
 		- [4. Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+				-[Desktop](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#desktop-1)
+				-[Mobile](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mobile-1)
 			- [Placement's Sizes Reference](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#ad-sizes-for-every-placement)
 				- [For Desktop](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1)
 				- [For Mobile](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-mobile-1)
