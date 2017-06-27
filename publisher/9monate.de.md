@@ -1,6 +1,6 @@
 # 9monate.de
 
-In this documentation you find the Placement Detail for your Website.
+In this documentation you find the placement details for your Website.
 
 ## Placements
 
