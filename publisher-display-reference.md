@@ -237,7 +237,8 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 - Article e.g. soccer article --> "sport.soccer_story"
 #### target: Every editorial keyword or custom target
 - you can use stand alone keywords with semicolon `;` separately
-- key/values are also supported. `;key=value1,value2;`
+- key/values are also supported. `key=value1,value2;`
+- please ensure to end the line with a semicolon
 
 `</script>`
 
