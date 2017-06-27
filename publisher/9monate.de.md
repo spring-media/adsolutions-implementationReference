@@ -6,7 +6,7 @@ In this documentation you find the placement details for your Website.
 
 ### Desktop
 
-| Placement Name|Currently Format ID (Smart)|Appnexus|
+| Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
@@ -17,7 +17,7 @@ In this documentation you find the placement details for your Website.
 ### Mobile
 
 
-| Placement Name|Currently Format ID (Smart)|Appnexus|
+| Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
 |Reminder|12815|banner|
 |Content Ad|5720|mrec|
@@ -99,9 +99,9 @@ In this documentation you find the placement details for your Website.
 
 ## Important notes
 
-- A Contentbar is on the website but it genrated no impressions. Please remove it.
+- A Contentbar is on the website but it is not being used. Please remove it.
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
-- __IMPORTANT__ Please p,lace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
+- __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
 ## Help
 
