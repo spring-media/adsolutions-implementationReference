@@ -7,7 +7,7 @@ In this documentation you find the placement details for your Website.
 nationalgeographic.de has a MI Tag-in-Tag Integration on Freehwheel.
 
 ### Desktop
-stream|3651 / 18913|inpage|
+
 
 ### Mobile
 
