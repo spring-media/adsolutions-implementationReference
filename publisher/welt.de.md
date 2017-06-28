@@ -30,7 +30,7 @@ In this documentation you find the placement details for your Website.
 |Medium Rectangle|4459|mrec_btf|
 |Medium Rectangle 2|4460|mrec_btf_2|
 |Footer Ad|5721|mrec_btf_3|
-|contentbar_welt2|6813|mrec_btf_5|
+|contentbar_welt2|6813|mrec_btf_4|
 |regteaser01|3938|teaser|
 |regteaser02|3939|teaser_2|
 |regteaser03|3940|teaser_3|
@@ -40,11 +40,12 @@ In this documentation you find the placement details for your Website.
 
 #### Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","inpage"],`
+`	adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec","mrec_btf","teaser","teaser_2","teaser_3","inpage"],`
 
 #### Mobile:
 
-`	adPlacements: ["banner","mrec","mrec_btf","inpage"],`
+`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","teaser","teaser_2","teaser_3","inpage"],`
+
 ### [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 #### Desktop:
@@ -60,7 +61,12 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 1,
 			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
 		}],
-     
+
+		"sky_2": [{
+			"minWidth": 1,
+			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
+		}],
+
 		"billboard": [{
 			"minWidth": 799,
 			"sizes": [[800,250]]
@@ -68,12 +74,40 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 969,
 			"sizes": [[970,250],[800,250]]
 		}],
-     
+
+		"billboard_2": [{
+			"minWidth": 799,
+			"sizes": [[800,250]]
+		},{
+			"minWidth": 969,
+			"sizes": [[970,250],[800,250]]
+		}],
+
 		"mrec": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
-     
+
+		"mrec_2": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+
+		"teaser": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
+		"teaser_2": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
+		"teaser_3": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
@@ -100,7 +134,37 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 1,
 			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
 		}],
-     
+
+		"mrec_btf_2": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+		}],
+
+		"mrec_btf_3": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+		}],
+
+		"mrec_btf_4": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+		}],
+
+		"teaser": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
+		"teaser_2": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
+		"teaser_3": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
