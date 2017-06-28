@@ -4,7 +4,7 @@ In this documentation you find the placement details for your Website.
 
 ## Placements
 
-nationalgeographic.de has a MI Tag-in-Tag Integration on Freehwheel.
+nationalgeographic.de has a MI Tag-in-Tag Integration on Freewheel.
 
 ### Desktop
 
