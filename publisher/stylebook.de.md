@@ -22,7 +22,7 @@ In this documentation you find the placement details for your Website.
 |Reminder|12815|banner|
 |Content Ad|5720|mrec|
 |Medium Rectangle|4459|mrec_btf|
-|Medium Rectangle 2|4459|mrec_btf_2|
+|Medium Rectangle 2|4460|mrec_btf_2|
 |Footer Ad|5721|mrec_btf_3|
 |Richmedia / Outstream|6419 / 29606|inpage|
 
