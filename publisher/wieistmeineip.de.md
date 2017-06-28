@@ -1,4 +1,4 @@
-# 9monate.de
+# wieistmeineip.de
 
 In this documentation you find the placement details for your Website.
 
@@ -12,6 +12,7 @@ In this documentation you find the placement details for your Website.
 |Sky|3650|sky|
 |Billboard|5419|billboard|
 |Medium Rectangle|4459|mrec|
+|Medium Rectangle 2|4460|mrec_btf|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
 ### Mobile
