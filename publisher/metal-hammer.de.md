@@ -1,4 +1,4 @@
-# 9monate.de
+# Metal-hammer.de
 
 In this documentation you find the placement details for your Website.
 
@@ -99,7 +99,6 @@ In this documentation you find the placement details for your Website.
 
 ## Important notes
 
-- A Contentbar is on the website but it is not being used. Please remove it.
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
