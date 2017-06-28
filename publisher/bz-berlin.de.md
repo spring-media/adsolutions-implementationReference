@@ -1,4 +1,4 @@
-# 9monate.de
+# bz-berlin.de
 
 In this documentation you find the placement details for your Website.
 
@@ -21,7 +21,8 @@ In this documentation you find the placement details for your Website.
 | ------------- |:-------------:| -----:|
 |Reminder|12815|banner|
 |Content Ad|5720|mrec|
-|Footer Ad|5721|mrec_btf|
+|Medium Rectangle|4459|mrec_btf|
+|Footer Ad|5721|mrec_btf_2|
 |Richmedia / Outstream|6419 / 29606|inpage|
 
 ### [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
@@ -32,7 +33,7 @@ In this documentation you find the placement details for your Website.
 
 #### Mobile:
 
-`	adPlacements: ["banner","mrec","mrec_btf","inpage"],`
+`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","inpage"],`
 ### [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 #### Desktop:
@@ -88,6 +89,11 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 1,
 			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
 		}],
+		
+		"mrec_btf_2": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+		}],
      
 		"inpage": [{
 			"minWidth": 1,
@@ -99,7 +105,6 @@ In this documentation you find the placement details for your Website.
 
 ## Important notes
 
-- A Contentbar is on the website but it is not being used. Please remove it.
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
