@@ -1,4 +1,4 @@
-# 9monate.de
+# transfermarkt.de
 
 In this documentation you find the placement details for your Website.
 
@@ -11,7 +11,9 @@ In this documentation you find the placement details for your Website.
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
 |Billboard|5419|billboard|
+|fullsize_contentad |4463|billboard_btf|
 |Medium Rectangle|4459|mrec|
+|Medium Rectangle 2|4460|mrec_btf|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
 ### Mobile
@@ -28,7 +30,7 @@ In this documentation you find the placement details for your Website.
 
 #### Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","inpage"],`
+`	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"],`
 
 #### Mobile:
 
@@ -56,12 +58,25 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 969,
 			"sizes": [[970,250],[800,250]]
 		}],
+
+		"billboard_btf": [{
+			"minWidth": 799,
+			"sizes": [[800,250]]
+		},{
+			"minWidth": 969,
+			"sizes": [[970,250],[800,250]]
+		}],
      
 		"mrec": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
-     
+
+		"mrec_btf": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
@@ -99,7 +114,7 @@ In this documentation you find the placement details for your Website.
 
 ## Important notes
 
-- A Contentbar is on the website but it is not being used. Please remove it.
+- A billboard02 is on a part of the website but it is not being used and causing just a few impressions. Please remove it.
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
