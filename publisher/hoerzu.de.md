@@ -1,4 +1,4 @@
-# 9monate.de
+# hoerzu.de
 
 In this documentation you find the placement details for your Website.
 
@@ -11,6 +11,7 @@ In this documentation you find the placement details for your Website.
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
 |Billboard|5419|billboard|
+|Billboard 2|23743|billboard_btf|
 |Medium Rectangle|4459|mrec|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
@@ -28,7 +29,7 @@ In this documentation you find the placement details for your Website.
 
 #### Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","inpage"],`
+`	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","inpage"],`
 
 #### Mobile:
 
@@ -50,6 +51,14 @@ In this documentation you find the placement details for your Website.
 		}],
      
 		"billboard": [{
+			"minWidth": 799,
+			"sizes": [[800,250]]
+		},{
+			"minWidth": 969,
+			"sizes": [[970,250],[800,250]]
+		}],
+		
+		"billboard_btf": [{
 			"minWidth": 799,
 			"sizes": [[800,250]]
 		},{
@@ -99,7 +108,6 @@ In this documentation you find the placement details for your Website.
 
 ## Important notes
 
-- A Contentbar is on the website but it is not being used. Please remove it.
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
