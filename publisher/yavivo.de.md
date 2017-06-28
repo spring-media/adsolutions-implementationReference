@@ -1,4 +1,4 @@
-# 9monate.de
+# yavivo.de
 
 In this documentation you find the placement details for your Website.
 
@@ -11,6 +11,7 @@ In this documentation you find the placement details for your Website.
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
 |Billboard|5419|billboard|
+|contentbar01|3937|billboard_btf|
 |Medium Rectangle|4459|mrec|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
@@ -28,7 +29,7 @@ In this documentation you find the placement details for your Website.
 
 #### Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","inpage"],`
+`	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","inpage"],`
 
 #### Mobile:
 
@@ -56,7 +57,15 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 969,
 			"sizes": [[970,250],[800,250]]
 		}],
-     
+
+		"billboard_btf": [{
+			"minWidth": 799,
+			"sizes": [[800,250]]
+		},{
+			"minWidth": 969,
+			"sizes": [[970,250],[800,250]]
+		}],
+
 		"mrec": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
