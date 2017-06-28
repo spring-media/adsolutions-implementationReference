@@ -1,4 +1,4 @@
-# 9monate.de
+# businessinsider.de
 
 In this documentation you find the placement details for your Website.
 
