@@ -1,4 +1,4 @@
-# 9monate.de
+# welt.de
 
 In this documentation you find the placement details for your Website.
 
@@ -10,8 +10,14 @@ In this documentation you find the placement details for your Website.
 | ------------- |:-------------:| -----:|
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
+|Sky 2|4454|sky_btf|
 |Billboard|5419|billboard|
+|contentbar_welt2|6813|billboard_btf|
 |Medium Rectangle|4459|mrec|
+|Medium Rectangle 2|4460|mrec_btf|
+|regteaser01|3938|teaser|
+|regteaser02|3939|teaser_2|
+|regteaser03|3940|teaser_3|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
 ### Mobile
@@ -21,7 +27,13 @@ In this documentation you find the placement details for your Website.
 | ------------- |:-------------:| -----:|
 |Reminder|12815|banner|
 |Content Ad|5720|mrec|
-|Footer Ad|5721|mrec_btf|
+|Medium Rectangle|4459|mrec_btf|
+|Medium Rectangle 2|4460|mrec_btf_2|
+|Footer Ad|5721|mrec_btf_3|
+|contentbar_welt2|6813|mrec_btf_5|
+|regteaser01|3938|teaser|
+|regteaser02|3939|teaser_2|
+|regteaser03|3940|teaser_3|
 |Richmedia / Outstream|6419 / 29606|inpage|
 
 ### [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
