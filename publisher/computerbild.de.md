@@ -14,7 +14,7 @@ In this documentation you find the placement details for your Website.
 |Billboard|5419|billboard|
 |Medium Rectangle|4459|mrec|
 |Medium Rectangle 2|4460|mrec_btf|
-|Te|5419|teaser|
+|textlinkbox|6915|teaser|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
 ### Mobile
@@ -31,7 +31,7 @@ In this documentation you find the placement details for your Website.
 
 #### Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","inpage"],`
+`	adPlacements: ["superbanner","superbanner_btf","sky","billboard","mrec","mrec_btf","teaser","inpage"],`
 
 #### Mobile:
 
