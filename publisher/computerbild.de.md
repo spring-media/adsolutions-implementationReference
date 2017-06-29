@@ -9,9 +9,12 @@ In this documentation you find the placement details for your Website.
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
 |Superbanner|3648|superbanner|
+|contentad|5749|superbanner_btf|
 |Sky|3650|sky|
 |Billboard|5419|billboard|
 |Medium Rectangle|4459|mrec|
+|Medium Rectangle 2|4460|mrec_btf|
+|Te|5419|teaser|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
 ### Mobile
