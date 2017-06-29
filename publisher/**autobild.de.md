@@ -1,4 +1,4 @@
-# computerbild.de
+# autobild.de
 
 In this documentation you find the placement details for your Website.
 
@@ -32,7 +32,7 @@ In this documentation you find the placement details for your Website.
 | ------------- |:-------------:| -----:|
 |Reminder|12815|banner|
 |Content Ad|5720|mrec|
-|Rectangle_Mobil|19619|mrec|
+|Rectangle_Mobil|19619|mrec_btf|
 |regteaser01|3938|teaser|
 |regteaser02|3939|teaser_2|
 |Footer Ad|5721|mrec_btf|
@@ -70,17 +70,78 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 969,
 			"sizes": [[970,250],[800,250]]
 		}],
+		
+		"billboard_btf": [{
+			"minWidth": 799,
+			"sizes": [[800,250]]
+		},{
+			"minWidth": 969,
+			"sizes": [[970,250],[800,250]]
+		}],
      
 		"mrec": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
-     
+
+		"mrec_btf": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+		
+		"billboard_btf_2": [{
+			"minWidth": 799,
+			"sizes": [[800,250]]
+		},{
+			"minWidth": 969,
+			"sizes": [[970,250],[800,250]]
+		}],		
+
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
 		}],
-     
+
+		"menuad": [{
+			"minWidth": 1,
+			"sizes": [[1,1],[640,360],[1000,300]]
+		}],
+
+		"multilink": [{
+			"minWidth": 1,
+			"sizes": [[1,1],[640,360],[1000,300]]
+		}],
+
+		"teaser": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
+		"teaser_2": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
+		"teaser_3": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
+		"teaser_4": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
+		"teaser_5": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
+		"teaser_6": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
 	},
 ```
 
