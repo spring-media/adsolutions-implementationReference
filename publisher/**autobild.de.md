@@ -1,4 +1,4 @@
-# 9monate.de
+# computerbild.de
 
 In this documentation you find the placement details for your Website.
 
@@ -11,7 +11,18 @@ In this documentation you find the placement details for your Website.
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
 |Billboard|5419|billboard|
+|Billboard 2|23743|billboard_btf|
 |Medium Rectangle|4459|mrec|
+|Medium Rectangle 2|4460|mrec_btf|
+|Contentbar01|3937|billboard_btf_2|
+|menuad|23447|menuad|
+|multilink|4465|multilink|
+|regteaser01|3938|teaser|
+|regteaser02|3939|teaser_2|
+|regteaser03|3940|teaser_3|
+|regteaser04|19237|teaser_4|
+|regteaser05|19238|teaser_5|
+|regteaser06|19239|teaser_6|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
 ### Mobile
@@ -21,6 +32,9 @@ In this documentation you find the placement details for your Website.
 | ------------- |:-------------:| -----:|
 |Reminder|12815|banner|
 |Content Ad|5720|mrec|
+|Rectangle_Mobil|19619|mrec|
+|regteaser01|3938|teaser|
+|regteaser02|3939|teaser_2|
 |Footer Ad|5721|mrec_btf|
 |Richmedia / Outstream|6419 / 29606|inpage|
 
