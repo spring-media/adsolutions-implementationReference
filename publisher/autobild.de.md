@@ -42,11 +42,11 @@ In this documentation you find the placement details for your Website.
 
 #### Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","inpage"],`
+`	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","billboard_btf_2","menuad","multilink","teaser","teaser_2","teaser_3","teaser_4","teaser_5","teaser_6","inpage"],`
 
 #### Mobile:
 
-`	adPlacements: ["banner","mrec","mrec_btf","inpage"],`
+`	adPlacements: ["banner","mrec","mrec_btf","teaser","teaser_2","mrec_btf_2","inpage"],`
 ### [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 #### Desktop:
@@ -189,7 +189,18 @@ In this documentation you find the placement details for your Website.
 
 ## Important notes
 
-- A Contentbar is on the website but it is not being used. Please remove it.
+- The following formats should be removed because they are no longer used:
+	- bigbox_aubi: 4466
+	- double_content_ad: 15953
+	- fullbanner01: 4158
+	- fullbanner02: 4468
+	- header_aubi: 4467
+	- sponsoring_button_aubi: 4806
+	- superflyout_aubi: 15889
+	- verticalbanner: 4464
+	- mobile_native_ad_branded_news: 24940
+
+
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
