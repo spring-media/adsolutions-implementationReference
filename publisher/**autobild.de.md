@@ -163,6 +163,21 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 1,
 			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
 		}],
+		
+		"mrec_btf_3": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+		}],		
+		
+		"teaser": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
+		"teaser_2": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],		
      
 		"inpage": [{
 			"minWidth": 1,
