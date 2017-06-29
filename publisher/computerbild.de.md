@@ -46,7 +46,12 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 1,
 			"sizes": [[728,90],[728,600],[1000,600]]
 		}],
-     
+
+		"superbanner_btf": [{
+			"minWidth": 1,
+			"sizes": [[728,90]]
+		}],
+
 		"sky": [{
 			"minWidth": 1,
 			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
@@ -64,7 +69,17 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
-     
+
+		"mrec_btf": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+
+		"teaser": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
