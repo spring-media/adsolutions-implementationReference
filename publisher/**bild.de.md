@@ -40,6 +40,26 @@ In this documentation you find the placement details for your Website.
 |regteaser01|3939|teaser_2|
 |regteaser01|3940|teaser_3|
 
+#### Special Sport Placements
+
+| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| ------------- |:-------------:| -----:|
+|bild_buli_powerbutton|16669|home a-teaser|
+|bild_buli_powerplace|16267|buli_powerplace|
+|bild_buli_powerplace_inverted|16269|buli_powerplace_inverted|
+|bild_buli_powersky_bottom_left|16270|buli_powersky_bottom_left|
+|bild_buli_powersky_bottom_right|16271|buli_powersky_bottom_right|
+|bild_buli_powersky_top_left|16272|buli_powersky_top_left|
+|bild_buli_powersky_top_right|16273|buli_powersky_top_right|
+|wettpartner_ergebnisModul|16274|wettpartner_ergebnisModul|
+|wettpartner_livekalender_ankuendigung|17376|wettpartner_livekalender_ankuendigung|
+|wettpartner_scoreboard|17377|wettpartner_scoreboard|
+|wettpartner_textlink|3937|wettpartner_textlink|
+|wettpartner_wettbox_ergebnis_BuLi Home|8443|wettpartner_wettbox_ergebnis_BuLiHome|
+|wettpartner_wettbox_ergebnis_Vereinsbuehnen|8444|wettpartner_wettbox_ergebnis_Vereinsbuehnen|
+|wettpartner_wettbox_tabelle|3938|wettpartner_wettbox_tabelle|
+
+
 ### Mobile
 
 
