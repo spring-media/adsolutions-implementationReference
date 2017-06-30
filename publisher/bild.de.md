@@ -96,7 +96,7 @@ In this documentation you find the placement details for your Website.
 
 #### Mobile:
 
-`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_3","mrec_btf_3","inpage"],`
+`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
 
 ### [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
