@@ -44,29 +44,32 @@ In this documentation you find the placement details for your Website.
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
-|bild_buli_powerbutton|16669|home a-teaser|
-|bild_buli_powerplace|16267|buli_powerplace|
-|bild_buli_powerplace_inverted|16269|buli_powerplace_inverted|
-|bild_buli_powersky_bottom_left|16270|buli_powersky_bottom_left|
-|bild_buli_powersky_bottom_right|16271|buli_powersky_bottom_right|
-|bild_buli_powersky_top_left|16272|buli_powersky_top_left|
-|bild_buli_powersky_top_right|16273|buli_powersky_top_right|
-|wettpartner_ergebnisModul|16274|wettpartner_ergebnisModul|
-|wettpartner_livekalender_ankuendigung|17376|wettpartner_livekalender_ankuendigung|
-|wettpartner_scoreboard|17377|wettpartner_scoreboard|
-|wettpartner_textlink|3937|wettpartner_textlink|
-|wettpartner_wettbox_ergebnis_BuLi Home|8443|wettpartner_wettbox_ergebnis_BuLiHome|
-|wettpartner_wettbox_ergebnis_Vereinsbuehnen|8444|wettpartner_wettbox_ergebnis_Vereinsbuehnen|
-|wettpartner_wettbox_tabelle|3938|wettpartner_wettbox_tabelle|
+|bild_buli_powerbutton|19708|home a-teaser|
+|bild_buli_powerplace|19702|buli_powerplace|
+|bild_buli_powerplace_inverted|19703|buli_powerplace_inverted|
+|bild_buli_powersky_bottom_left|19706|buli_powersky_bottom_left|
+|bild_buli_powersky_bottom_right|19707|buli_powersky_bottom_right|
+|bild_buli_powersky_top_left|19704|buli_powersky_top_left|
+|bild_buli_powersky_top_right|19705|buli_powersky_top_right|
+|wettpartner_ergebnisModul|22150|wettpartner_ergebnisModul|
+|wettpartner_livekalender_ankuendigung|33910|wettpartner_livekalender_ankuendigung|
+|wettpartner_scoreboard|22149|wettpartner_scoreboard|
+|wettpartner_textlink|22148|wettpartner_textlink|
+|wettpartner_wettbox_ergebnis_BuLi Home|33906|wettpartner_wettbox_ergebnis_BuLiHome|
+|wettpartner_wettbox_ergebnis_Vereinsbuehnen|33980|wettpartner_wettbox_ergebnis_Vereinsbuehnen|
+|wettpartner_wettbox_tabelle|33905|wettpartner_wettbox_tabelle|
 
 
 ### Mobile
 
+#### Standard Placements
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
 |Reminder|12815|banner|
 |Content Ad|5720|mrec|
+|Medium Rectangle|5721|mrec_btf|
+|Footer Ad|5721|mrec_btf|
 |Footer Ad|5721|mrec_btf|
 |Richmedia / Outstream|6419 / 29606|inpage|
 
