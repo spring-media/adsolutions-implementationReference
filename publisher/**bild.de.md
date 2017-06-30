@@ -68,10 +68,25 @@ In this documentation you find the placement details for your Website.
 | ------------- |:-------------:| -----:|
 |Reminder|12815|banner|
 |Content Ad|5720|mrec|
-|Medium Rectangle|5721|mrec_btf|
-|Footer Ad|5721|mrec_btf|
-|Footer Ad|5721|mrec_btf|
+|Medium Rectangle|4459|mrec_btf|
+|Medium Rectangle 2|4460|mrec_btf_2|
+|Footer Ad|5721|mrec_btf_3|
 |Richmedia / Outstream|6419 / 29606|inpage|
+
+#### Special Sport Placements
+
+| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| ------------- |:-------------:| -----:|
+|wettpartner_ergebnisModul|22150|wettpartner_ergebnisModul|
+|wettpartner_livekalender_ankuendigung_mobil|33911|wettpartner_livekalender_ankuendigung|
+|wettpartner_scoreboard_mobil|33908|wettpartner_scoreboard|
+|wettpartner_textlink_mobil|33913|wettpartner_textlink|
+|wettpartner_wettbox_box unter artikel_mobil|33909|wettpartner_textlink|
+|wettpartner_wettbox_ergebnis_BuLi Home|33906|wettpartner_wettbox_ergebnis_BuLiHome|
+|wettpartner_wettbox_ergebnis_Vereinsbuehnen|33980|wettpartner_wettbox_ergebnis_Vereinsbuehnen|
+|wettpartner_wettbox_tabelle|33905|wettpartner_wettbox_tabelle|
+
+## Standard Integration Sample
 
 ### [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
