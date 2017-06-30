@@ -96,7 +96,8 @@ In this documentation you find the placement details for your Website.
 
 #### Mobile:
 
-`	adPlacements: ["banner","mrec","mrec_btf","inpage"],`
+`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_3","mrec_btf_3","inpage"],`
+
 ### [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 #### Desktop:
@@ -107,12 +108,22 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 1,
 			"sizes": [[728,90],[728,600],[1000,600]]
 		}],
-     
+
+		"superbanner_btf": [{
+			"minWidth": 1,
+			"sizes": [[728,90],[728,600],[1000,600]]
+		}],
+
 		"sky": [{
 			"minWidth": 1,
 			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
 		}],
-     
+
+		"sky_btf": [{
+			"minWidth": 1,
+			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
+		}],
+
 		"billboard": [{
 			"minWidth": 799,
 			"sizes": [[800,250]]
@@ -125,7 +136,12 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
-     
+
+		"mrec_btf": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
@@ -145,14 +161,24 @@ In this documentation you find the placement details for your Website.
      
 		"mrec": [{
 			"minWidth": 1,
-			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+			"sizes": [[320,50],[320,75],[320,80],[320,160]]
 		}],
      
 		"mrec_btf": [{
 			"minWidth": 1,
-			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+			"sizes": [[300,250],[320,50],[320,75],[320,80],[320,160],[300,300]]
 		}],
-     
+
+		"mrec_btf_2": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,80],[320,160],[300,300]]
+		}],
+
+		"mrec_btf_3": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,80],[320,160],[300,300]]
+		}],
+
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
@@ -163,7 +189,6 @@ In this documentation you find the placement details for your Website.
 
 ## Important notes
 
-- A Contentbar is on the website but it is not being used. Please remove it.
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
