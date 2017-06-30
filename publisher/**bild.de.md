@@ -19,6 +19,27 @@ In this documentation you find the placement details for your Website.
 |Medium Rectangle 2|4460|mrec|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
+#### Special Placements
+
+| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| ------------- |:-------------:| -----:|
+|Bild_Home A-Teaser|16669|home a-teaser|
+|content_stoerer_1 (NewsBlock)|16267|newsblock|
+|content_stoerer_2 (PolitikBlock)|16269|sky|
+|content_stoerer_3 (Unterhaltung Block)|16270|sky|
+|content_stoerer_4 (Sport)|16271|billboard|
+|content_stoerer_5 (Geld Block)|16272|mrec|
+|content_stoerer_6 (Regional Block)|16273|mrec|
+|content_stoerer_7 (Video)|16274|inpage|
+|content_stoerer_XXL_1|17376|inpage|
+|content_stoerer_XXL_2|17377|inpage|
+|contentbar01||inpage|
+|contentbar02||inpage|
+|contentbar03||inpage|
+|content_stoerer_XXL_2||teaser|
+|content_stoerer_XXL_1||teaser_2|
+|content_stoerer_XXL_2||teaser_3|
+
 ### Mobile
 
 
