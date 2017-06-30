@@ -64,11 +64,11 @@ In this documentation you find the placement details for your Website.
 
 #### Desktop:
 
-`	adPlacements: ["superbanner","superbanner_btf","sky","sky_btf","billboard","mrec","mrec_btf","inpage"],`
+`	adPlacements: ["superbanner","sky","sky_btf","billboard","mrec","mrec_btf","inpage"],`
 
 #### Mobile:
 
-`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_3","mrec_btf_3","inpage"],`
+`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","inpage"],`
 
 ### [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
@@ -77,11 +77,6 @@ In this documentation you find the placement details for your Website.
 ```
 	adSlotSizes: {
 		"superbanner": [{
-			"minWidth": 1,
-			"sizes": [[728,90],[728,600],[1000,600]]
-		}],
-
-		"superbanner_btf": [{
 			"minWidth": 1,
 			"sizes": [[728,90],[728,600],[1000,600]]
 		}],
@@ -142,11 +137,6 @@ In this documentation you find the placement details for your Website.
 		}],
 
 		"mrec_btf_2": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,80],[320,160],[300,300]]
-		}],
-
-		"mrec_btf_3": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[320,50],[320,75],[320,80],[320,160],[300,300]]
 		}],
