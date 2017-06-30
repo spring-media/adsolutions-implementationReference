@@ -1,4 +1,4 @@
-# 9monate.de
+# bild.de
 
 In this documentation you find the placement details for your Website.
 
@@ -6,12 +6,17 @@ In this documentation you find the placement details for your Website.
 
 ### Desktop
 
+#### Standard Placements
+
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
 |Superbanner|3648|superbanner|
+|Superbanner 2|3648|superbanner|
 |Sky|3650|sky|
+|Sky 2|3650|sky|
 |Billboard|5419|billboard|
 |Medium Rectangle|4459|mrec|
+|Medium Rectangle 2|4460|mrec|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
 ### Mobile
