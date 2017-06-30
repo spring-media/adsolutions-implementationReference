@@ -12,6 +12,7 @@ In this documentation you find the placement details for your Website.
 |Sky|3650|sky|
 |Billboard|5419|billboard|
 |Medium Rectangle|4459|mrec|
+|Medium Rectangle|4460|mrec_btf|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
 ### Mobile
@@ -30,7 +31,7 @@ In this documentation you find the placement details for your Website.
 
 #### Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","inpage"],`
+`	adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","inpage"],`
 
 #### Mobile:
 
@@ -43,7 +44,7 @@ In this documentation you find the placement details for your Website.
 ```
 	adSlotSizes: {
 		"superbanner": [{
-			"minWidth": 1,
+			"minWidth": 1023,
 			"sizes": [[728,90],[728,600],[1000,600]]
 		}],
      
@@ -58,13 +59,21 @@ In this documentation you find the placement details for your Website.
 		},{
 			"minWidth": 969,
 			"sizes": [[970,250],[800,250]]
+		},{
+			"minWidth": 767,
+			"sizes": [[728,90]]			
 		}],
      
 		"mrec": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
-     
+
+		"mrec_btf": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
