@@ -6,33 +6,74 @@ In this documentation you find the placement details for your Website.
 
 ### Desktop
 
+#### Standard Placements
+
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
+|Sky 2|3650|sky_btf|
 |Billboard|5419|billboard|
 |Medium Rectangle|4459|mrec|
+|Medium Rectangle 2|4460|mrec_btf|
 |Richmedia / Outstream|3651 / 18913|inpage|
+
+#### Special Placements
+
+| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| ------------- |:-------------:| -----:|
+|contentbar01|3937|billboard_btf|
+|contentbar02|8443|billboard_btf_2|
+|regteaser01|3938|teaser|
+
+#### Special Sport Placements
+
+| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| ------------- |:-------------:| -----:|
+|wettpartner_ergebnisModul|22150|wettpartner_ergebnisModul|
+|wettpartner_livekalender_ankuendigung|33910|wettpartner_livekalender_ankuendigung|
+|wettpartner_scoreboard|22149|wettpartner_scoreboard|
+|wettpartner_textlink|22148|wettpartner_textlink|
+
 
 ### Mobile
 
+#### Standard Placements
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
 |Reminder|12815|banner|
 |Content Ad|5720|mrec|
-|Footer Ad|5721|mrec_btf|
+|Medium Rectangle|4459|mrec_btf|
+|Medium Rectangle 2|4460|mrec_btf_2|
+|Footer Ad|5721|mrec_btf_3|
 |Richmedia / Outstream|6419 / 29606|inpage|
+
+#### Special Sport Placements
+
+| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| ------------- |:-------------:| -----:|
+|wettpartner_ergebnisModul|22150|wettpartner_ergebnisModul|
+|wettpartner_livekalender_ankuendigung_mobil|33911|wettpartner_livekalender_ankuendigung|
+|wettpartner_scoreboard_mobil|33908|wettpartner_scoreboard|
+|wettpartner_textlink_mobil|33913|wettpartner_textlink|
+|wettpartner_wettbox_box unter artikel_mobil|33909|wettpartner_textlink|
+|wettpartner_wettbox_ergebnis_BuLi Home|33906|wettpartner_wettbox_ergebnis_BuLiHome|
+|wettpartner_wettbox_ergebnis_Vereinsbuehnen|33980|wettpartner_wettbox_ergebnis_Vereinsbuehnen|
+|wettpartner_wettbox_tabelle|33905|wettpartner_wettbox_tabelle|
+
+## Standard Integration Sample
 
 ### [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
 #### Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","inpage"],`
+`	adPlacements: ["superbanner","superbanner_btf","sky","sky_btf","billboard","mrec","mrec_btf","inpage"],`
 
 #### Mobile:
 
-`	adPlacements: ["banner","mrec","mrec_btf","inpage"],`
+`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_3","mrec_btf_3","inpage"],`
+
 ### [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 #### Desktop:
@@ -43,12 +84,22 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 1,
 			"sizes": [[728,90],[728,600],[1000,600]]
 		}],
-     
+
+		"superbanner_btf": [{
+			"minWidth": 1,
+			"sizes": [[728,90],[728,600],[1000,600]]
+		}],
+
 		"sky": [{
 			"minWidth": 1,
 			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
 		}],
-     
+
+		"sky_btf": [{
+			"minWidth": 1,
+			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
+		}],
+
 		"billboard": [{
 			"minWidth": 799,
 			"sizes": [[800,250]]
@@ -61,7 +112,12 @@ In this documentation you find the placement details for your Website.
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
-     
+
+		"mrec_btf": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
@@ -81,14 +137,24 @@ In this documentation you find the placement details for your Website.
      
 		"mrec": [{
 			"minWidth": 1,
-			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+			"sizes": [[320,50],[320,75],[320,80],[320,160]]
 		}],
      
 		"mrec_btf": [{
 			"minWidth": 1,
-			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+			"sizes": [[300,250],[320,50],[320,75],[320,80],[320,160],[300,300]]
 		}],
-     
+
+		"mrec_btf_2": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,80],[320,160],[300,300]]
+		}],
+
+		"mrec_btf_3": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,80],[320,160],[300,300]]
+		}],
+
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
@@ -98,7 +164,6 @@ In this documentation you find the placement details for your Website.
 ```
 
 ## Important notes
-
 
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
