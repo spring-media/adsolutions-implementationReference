@@ -33,12 +33,12 @@ In this documentation you find the placement details for your Website.
 |content_stoerer_7 (Video)|16274|inpage|
 |content_stoerer_XXL_1|17376|inpage|
 |content_stoerer_XXL_2|17377|inpage|
-|contentbar01||inpage|
-|contentbar02||inpage|
-|contentbar03||inpage|
-|content_stoerer_XXL_2||teaser|
-|content_stoerer_XXL_1||teaser_2|
-|content_stoerer_XXL_2||teaser_3|
+|contentbar01|3937|inpage|
+|contentbar02|8443|inpage|
+|contentbar03|8444|inpage|
+|regteaser01|3938|teaser|
+|regteaser01|3939|teaser_2|
+|regteaser01|3940|teaser_3|
 
 ### Mobile
 
