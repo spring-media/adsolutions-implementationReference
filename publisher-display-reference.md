@@ -171,22 +171,22 @@ Example for 3 Medium Rectangle btf
      
 		"mrec": [{
 			"minWidth": 1,
-			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+			"sizes": [[300,250],[320,50],[320,75],[320,80],[320,160],[300,300]]
 		}],
      
 		"mrec_btf": [{
 			"minWidth": 1,
-			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+			"sizes": [[300,250],[320,50],[320,75],[320,80],[320,160],[300,300]]
 		}],
      
 		"mrec_btf_2": [{
 			"minWidth": 1,
-			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+			"sizes": [[300,250],[320,50],[320,75],[320,80],[320,160],[300,300]]
 		}],
      
 		"mrec_btf_3": [{
 			"minWidth": 1,
-			"sizes": [[300,250],[320,500],[320,75],[320,80],[320,160],[300,300]]
+			"sizes": [[300,250],[320,50],[320,75],[320,80],[320,160],[300,300]]
 		}],
      
 		"inpage": [{
@@ -384,7 +384,7 @@ Size | Creative | IAB | Preview
 *500,1000* | Sitebar / Dynamic Sitebar | NO | ![sitebar](https://www.mediaimpact.de/img/259938311_668a6ffc7f.jpg) 
 *1000,1000* | Doble Dynamic Sitebar | NO | ![ddsitebar](https://www.mediaimpact.de/img/259935976_a7ceba51e1.jpg)
 *970,250 / 800,250* | Billboard | [YES](https://www.iab.com/guidelines/display-rising-stars-ad-units/) | ![billboard](https://www.mediaimpact.de/img/260414472_afb6b266ac.png)
-*300,50* | Mobile Banner 6:1 | [YES](https://www.iab.com/wp-content/uploads/2015/11/IAB_Display_Mobile_Creative_Guidelines_HTML5_2015.pdf) | ![banner](https://www.mediaimpact.de/img/255769308_93e7985278.png)
+*320,50* | Mobile Banner 6:1 | [YES](https://www.iab.com/wp-content/uploads/2015/11/IAB_Display_Mobile_Creative_Guidelines_HTML5_2015.pdf) | ![banner](https://www.mediaimpact.de/img/255769308_93e7985278.png)
 *300,75 / 320,80 / 320,160* | Mobile Banner 4:1, 2:1 | NO | ![banner](https://www.mediaimpact.de/img/259935346_91d7ad6f6a.png)
 *300,300* | Premium Content Ad / 1:1 | NO | ![banner](https://bracho.xyz/adtech/img/1zu1.png)
 *1,1* | Interstitial / Layer | NO | ![layer](https://www.mediaimpact.de/img/259936587_91132c38f0.png)
