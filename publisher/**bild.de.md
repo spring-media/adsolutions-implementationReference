@@ -25,17 +25,17 @@ In this documentation you find the placement details for your Website.
 | ------------- |:-------------:| -----:|
 |Bild_Home A-Teaser|16669|home a-teaser|
 |content_stoerer_1 (NewsBlock)|16267|newsblock|
-|content_stoerer_2 (PolitikBlock)|16269|sky|
-|content_stoerer_3 (Unterhaltung Block)|16270|sky|
-|content_stoerer_4 (Sport)|16271|billboard|
-|content_stoerer_5 (Geld Block)|16272|mrec|
-|content_stoerer_6 (Regional Block)|16273|mrec|
-|content_stoerer_7 (Video)|16274|inpage|
-|content_stoerer_XXL_1|17376|inpage|
-|content_stoerer_XXL_2|17377|inpage|
-|contentbar01|3937|inpage|
-|contentbar02|8443|inpage|
-|contentbar03|8444|inpage|
+|content_stoerer_2 (PolitikBlock)|16269|politikblock|
+|content_stoerer_3 (Unterhaltung Block)|16270|untelhaltungsblock|
+|content_stoerer_4 (Sport)|16271|sportblock|
+|content_stoerer_5 (Geld Block)|16272|geldblock|
+|content_stoerer_6 (Regional Block)|16273|regionalblock|
+|content_stoerer_7 (Video)|16274|videoblock|
+|content_stoerer_XXL_1|17376|xxlblock|
+|content_stoerer_XXL_2|17377|xxlblock_2|
+|contentbar01|3937|billboard_btf|
+|contentbar02|8443|billboard_btf_2|
+|contentbar03|8444|billboard_btf_3|
 |regteaser01|3938|teaser|
 |regteaser01|3939|teaser_2|
 |regteaser01|3940|teaser_3|
