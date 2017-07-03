@@ -23,14 +23,10 @@ In this documentation you find the placement details for your Website.
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
-|Bild_Home A-Teaser|16669|home a-teaser|
-|content_stoerer_1 (NewsBlock)|16267|newsblock|
-|content_stoerer_2 (PolitikBlock)|16269|politikblock|
-|content_stoerer_3 (Unterhaltung Block)|16270|untelhaltungsblock|
-|content_stoerer_4 (Sport)|16271|sportblock|
-|content_stoerer_5 (Geld Block)|16272|geldblock|
-|content_stoerer_6 (Regional Block)|16273|regionalblock|
-|content_stoerer_7 (Video)|16274|videoblock|
+|Bild_Home A-Teaser|16669|home-a-teaser|
+|content_stoerer_1 (NewsBlock)|16267|mrec_btf_2|
+|content_stoerer_3 (Unterhaltung Block)|16270|mrec_btf_3|
+|content_stoerer_5 (Geld Block)|16272|mrec_btf_4|
 |content_stoerer_XXL_1|17376|xxlblock|
 |content_stoerer_XXL_2|17377|xxlblock_2|
 |contentbar01|3937|billboard_btf|
