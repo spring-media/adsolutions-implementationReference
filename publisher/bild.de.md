@@ -13,7 +13,7 @@ In this documentation you find the placement details for your Website.
 |Superbanner|3648|superbanner|
 |Superbanner 2|16671|superbanner_btf|
 |Sky|3650|sky|
-|Sky 2|3650|sky_btf|
+|Sky 2|4454|sky_btf|
 |Billboard|5419|billboard|
 |Medium Rectangle|4459|mrec|
 |Medium Rectangle 2|4460|mrec_btf|
