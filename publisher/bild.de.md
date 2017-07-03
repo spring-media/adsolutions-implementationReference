@@ -44,7 +44,7 @@ In this documentation you find the placement details for your Website.
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
-|bild_buli_powerbutton|19708|home a-teaser|
+|bild_buli_powerbutton|19708|buli_powerbutton|
 |bild_buli_powerplace|19702|buli_powerplace|
 |bild_buli_powerplace_inverted|19703|buli_powerplace_inverted|
 |bild_buli_powersky_bottom_left|19706|buli_powersky_bottom_left|
