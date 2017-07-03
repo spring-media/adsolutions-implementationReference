@@ -11,7 +11,7 @@ In this documentation you find the placement details for your Website.
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
 |Superbanner|3648|superbanner|
-|Superbanner 2|3648|superbanner_btf|
+|Superbanner 2|16671|superbanner_btf|
 |Sky|3650|sky|
 |Sky 2|3650|sky_btf|
 |Billboard|5419|billboard|
