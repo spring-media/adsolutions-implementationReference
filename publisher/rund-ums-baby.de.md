@@ -1,17 +1,17 @@
 # rund-ums-baby.de
 
-In this documentation you find the placement details for your Website.
+In this documentation you find the placement details for your Website.  Please find an test-site on the following link:    [Appnexus test site](https://adtechnology.mediaimpact.de/test-appnexus/)
 
 ## Placements
 
-### Desktop
+ Desktop
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
 |Sky|3650|sky|
 |Medium Rectangle|4459|mrec|
 
-### Mobile
+ Mobile
 
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
@@ -19,18 +19,18 @@ In this documentation you find the placement details for your Website.
 |Content Ad|5720|banner|
 |Medium Rectangle|4459|mrec|
 
-### [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+ [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
-#### Desktop:
+# Desktop:
 
 `	adPlacements: ["sky","mrec"],`
 
-#### Mobile:
+# Mobile:
 
 `	adPlacements: ["banner","mrec"],`
-### [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+ [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
-#### Desktop:
+# Desktop:
 
 ```
 	adSlotSizes: {
@@ -47,7 +47,7 @@ In this documentation you find the placement details for your Website.
 	},
 ```
 
-#### Mobile:
+# Mobile:
 
 ```
 	adSlotSizes: {

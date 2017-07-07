@@ -56,48 +56,48 @@ In the following you will find an overview of the necessary components which mus
 
 ## Ad Integration
 
-### Elements in the `<head>` of the website:
+ Elements in the `<head>` of the website:
 
 `<script type="text/javascript">`
 
-#### 1. Set the viewport of the website. Use for desktop "d" and for mobile "m"
+# 1. Set the viewport of the website. Use for desktop "d" and for mobile "m"
 
 `adSSetup = {view: "[View]", // has to fit the design of the page, please use m for mobile and d for desktop`
 
-#### 2. Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
+# 2. Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
 
 `	partners: true,`
 
-#### 3. Define the ad placements for the website
+# 3. Define the ad placements for the website
 
-##### Desktop:
+## Desktop:
 
 `	adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
 
-##### Mobile:
+## Mobile:
 
 `	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
 
-### For Desktop:
-#### Mandatory:
+ For Desktop:
+# Mandatory:
 - superbanner
 - sky
 - billboard
 - mrec
 - inpage
-#### Optional
+# Optional
 - billboard_btf
 - mrec_btf
 - sky_btf
 
-### For Mobile:
-#### Mandatory:
+ For Mobile:
+# Mandatory:
 - banner
 - mrec
 - inpage
 - mrec_btf
 
-#### Optional
+# Optional
 - banner_sticky
 
 __You can repeat the _btf placements as much as you want. Please use the following schema:__
@@ -108,9 +108,9 @@ Example for 3 Medium Rectangle btf
 - mrec_btf_2
 - mrec_btf_3
 
-#### 4. Define the sizes for every ad placement:
+# 4. Define the sizes for every ad placement:
 
-##### Desktop:
+## Desktop:
 
 ```
 	adSlotSizes: {
@@ -160,7 +160,7 @@ Example for 3 Medium Rectangle btf
 	},
 ```
 
-##### Mobile:
+## Mobile:
 
 ```
 	adSlotSizes: {
@@ -194,12 +194,13 @@ Example for 3 Medium Rectangle btf
 			"sizes": [[1,1],[640,360],[1000,300]]
 		}],
      
-	},
+	}
+}
 ```
 
 
-### Ad Sizes for every placement:
-#### For Desktop:
+ Ad Sizes for every placement:
+# For Desktop:
 Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5 
 --- | --- | --- | --- | --- | ---
 *superbanner* | `[728,90]` | `[728,600]` | `[1000,600]` |  | 
@@ -208,14 +209,14 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5
 *mrec* | `[300,250]` | `[300,600]` |  |  | 
 *inpage* | `[1,1]` | `[640,360]` | `[1000,300]` |  | 
 
-#### For Mobile:
+# For Mobile:
 Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 --- | --- | --- | --- | --- | --- | ---
 *banner* | `[320,50]` | `[320,75]` | `[320,80]` |  |  |  
 *mrec* | `[300,250]` | `[320,50]` | `[320,75]` | `[320,80]` | `[320,160]` | `[300,300]`
 *inpage* | `[1,1]` | `[640,360]` | `[1000,300]` |  |  | 
 
-#### 5. Page configuration
+# 5. Page configuration
 
 ```
 	colorBg: true, // enable/disable coloring of the page-background
@@ -226,23 +227,23 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 }
 ```
 
-#### colorBG: enable/disable coloring of the page-background
-#### bgClick: enable/disable click on page-background
-#### stickySky: enable/disable stickiness for skyscraper
-#### pageName: it is the name of the channel or article in CMS
+# colorBG: enable/disable coloring of the page-background
+# bgClick: enable/disable click on page-background
+# stickySky: enable/disable stickiness for skyscraper
+# pageName: it is the name of the channel or article in CMS
 **_We recommend the following schema:_**
 - Home Site --> "home_index"
 - Channel, e.g. sport --> "sport_index"
 - Sub-Channel e.g. soccer --> "sport.soccer_index"
 - Article e.g. soccer article --> "sport.soccer_story"
-#### target: Every editorial keyword or custom target
+# target: Every editorial keyword or custom target
 - you can use stand alone keywords with semicolon `;` separately
 - key/values are also supported. `key=value1,value2;`
 - please ensure to end the line with a semicolon
 
 `</script>`
 
-#### 6. AdLib
+# 6. AdLib
 
 `<script type="text/javascript" src="https://www.example-cdn.com/assets/js/mywebsite.js"></script>`
 
@@ -251,7 +252,7 @@ This `js` contains the whole Ad Library. Every website will get its own `js` fro
 `</head>`
 
 
-### Ad Placements in the `<body>` of the website:
+ Ad Placements in the `<body>` of the website:
 
 ```
 <div id="${adPlacement}"></div>
@@ -259,7 +260,7 @@ This `js` contains the whole Ad Library. Every website will get its own `js` fro
 
 This `div` has to be wrapped in an own container, has to be free of Styles/CSS and the `div id` must be the name of the placement. [See from line 24 of this document](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website). 
 
-#### Example
+# Example
 
 __Superbanner__
 
@@ -271,7 +272,7 @@ __Superbanner__
 
 ## Display
 
-### superbanner
+ superbanner
 
 `<div id="superbanner"></div>`
 
@@ -281,7 +282,7 @@ This placement should be positioned at the top of the web page. Wallpapers and f
 
 *superbanner* | `[728,90]` | `[728,600]` | `[1000,600]`
 
-### sky
+ sky
 
 `<div id="sky"></div>`
 
@@ -291,7 +292,7 @@ This placement is to be positioned on the left side of the website content. Site
 
 *sky* | `[160,600]` | `[120,600]` | `[300,600]` | `[500,1000]` | `[1000,1000]`
 
-### billboard
+ billboard
 
 `<div id="billboard"></div>`
 
@@ -301,7 +302,7 @@ This placement is to be placed directly under the navigation or under the first 
 
 *billboard* | `[970,250]` | `[800,250]` 
 
-### mrec
+ mrec
 
 `<div id="mrec"></div>`
 
@@ -311,7 +312,7 @@ We recommend to place the first Mrec above the fold (ATF). [These sizes must be 
 
 *mrec* | `[300,250]` | `[300,600]`  
 
-### inpage
+ inpage
 
 `<div id="inpage"></div>`
 
@@ -323,7 +324,7 @@ Interstitials, Understitials, and InText-Outstream Advertising Materials are del
 
 ## Mobile
 
-### banner
+ banner
 
 `<div id="banner"></div>`
 
@@ -333,7 +334,7 @@ This placement should be positioned at the top of the web page.  [These sizes mu
 
 *banner* | `[320,50]` | `[320,75]` | `[320,80]`
 
-### mrec
+ mrec
 
 `<div id="mrec"></div>`
 
@@ -343,7 +344,7 @@ We recommend to place the first Mrec above the fold (ATF). [These sizes must be 
 
 *mrec* | `[300,250]` | `[320,50]` | `[320,75]` | `[320,80]` | `[320,160]` | `[300,300]`
 
-### inpage
+ inpage
 
 `<div id="inpage"></div>`
 
@@ -353,7 +354,7 @@ Interstitials, Understitials, and InText-Outstream Advertising Materials are del
 
 *inpage* | `[1,1]` | `[640,360]` | `[1000,300]` 
 
-### mrec_btf
+ mrec_btf
 
 `<div id="mrec"></div>`
 
@@ -380,7 +381,6 @@ Size | Creative | IAB | Preview
 *728,600* | Wallpaper | NO | ![wallpaper](https://www.mediaimpact.de/img/259939288_8f18a8ab42.png)
 *1000,600* | Fireplace | NO | ![fireplace](https://www.mediaimpact.de/img/259936043_5720a66922.png)
 *120,600 / 160,600* | Skyscraper/Wide Skyscraper | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![sky](https://www.mediaimpact.de/img/259938354_61b8de7b87.png)
-*300,600* | Half Page | [YES](https://www.iab.com/guidelines/other-ad-units/) | ![halfpage](https://www.mediaimpact.de/img/259936459_36e5ebd2d7.png) 
 *500,1000* | Sitebar / Dynamic Sitebar | NO | ![sitebar](https://www.mediaimpact.de/img/259938311_668a6ffc7f.jpg) 
 *1000,1000* | Doble Dynamic Sitebar | NO | ![ddsitebar](https://www.mediaimpact.de/img/259935976_a7ceba51e1.jpg)
 *970,250 / 800,250* | Billboard | [YES](https://www.iab.com/guidelines/display-rising-stars-ad-units/) | ![billboard](https://www.mediaimpact.de/img/260414472_afb6b266ac.png)

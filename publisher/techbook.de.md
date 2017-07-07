@@ -1,10 +1,10 @@
 # techbook.de
 
-In this documentation you find the placement details for your Website.
+In this documentation you find the placement details for your Website.  Please find an test-site on the following link:    [Appnexus test site](https://adtechnology.mediaimpact.de/test-appnexus/)
 
 ## Placements
 
-### Desktop
+ Desktop
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
@@ -15,7 +15,7 @@ In this documentation you find the placement details for your Website.
 |Medium Rectangle|4460|mrec_btf|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
-### Mobile
+ Mobile
 
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
@@ -27,19 +27,19 @@ In this documentation you find the placement details for your Website.
 |Footer Ad|5721|mrec_btf_3|
 |Richmedia / Outstream|6419 / 29606|inpage|
 
-### [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+ [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
-#### Desktop:
+# Desktop:
 
 `	adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","inpage"],`
 
-#### Mobile:
+# Mobile:
 
 `	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
 
-### [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+ [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
-#### Desktop:
+# Desktop:
 
 ```
 	adSlotSizes: {
@@ -82,7 +82,7 @@ In this documentation you find the placement details for your Website.
 	},
 ```
 
-#### Mobile:
+# Mobile:
 
 ```
 	adSlotSizes: {
