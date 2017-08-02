@@ -382,7 +382,7 @@ Size | Creative | IAB | Preview
 *1000,600* | Fireplace | NO | ![fireplace](https://www.mediaimpact.de/img/259936043_5720a66922.png)
 *120,600 / 160,600* | Skyscraper/Wide Skyscraper | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![sky](https://www.mediaimpact.de/img/259938354_61b8de7b87.png)
 *500,1000* | Sitebar / Dynamic Sitebar | NO | ![sitebar](https://www.mediaimpact.de/img/259938311_668a6ffc7f.jpg) 
-*1000,1000* | Doble Dynamic Sitebar | NO | ![ddsitebar](https://www.mediaimpact.de/img/259935976_a7ceba51e1.jpg)
+*1000,1000* | Double Dynamic Sitebar | NO | ![ddsitebar](https://www.mediaimpact.de/img/259935976_a7ceba51e1.jpg)
 *970,250 / 800,250* | Billboard | [YES](https://www.iab.com/guidelines/display-rising-stars-ad-units/) | ![billboard](https://www.mediaimpact.de/img/260414472_afb6b266ac.png)
 *320,50* | Mobile Banner 6:1 | [YES](https://www.iab.com/wp-content/uploads/2015/11/IAB_Display_Mobile_Creative_Guidelines_HTML5_2015.pdf) | ![banner](https://www.mediaimpact.de/img/255769308_93e7985278.png)
 *320,75 / 320,160* | Mobile Banner 4:1, 2:1 | NO | ![banner](https://www.mediaimpact.de/img/259935346_91d7ad6f6a.png)
