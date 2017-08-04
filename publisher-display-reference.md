@@ -245,7 +245,7 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 
 # 6. AdLib
 
-`<script type="text/javascript" src="https://www.example-cdn.com/assets/js/mywebsite.js"></script>`
+`<script type="text/javascript" src="https://acdn.adnxs.com/as/1h/pages/mywebsite.js"></script>`
 
 This `js` contains the whole Ad Library. Every website will get its own `js` from Axel Springer.
 
