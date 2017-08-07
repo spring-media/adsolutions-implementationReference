@@ -16,7 +16,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
-|Content Ad|5720|banner|
+|Content Ad|5720 (5419)|banner|
 |Medium Rectangle|4459|mrec|
 
  [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)

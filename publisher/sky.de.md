@@ -17,9 +17,9 @@ In this documentation you find the placement details for your Website.  Please f
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
-|Reminder|12815|banner|
+|Reminder|12815 (3648)|banner|
 |Medium Rectangle|4459|mrec|
-|Footer Ad|5721|mrec_btf|
+|Footer Ad|5721 (3650)|mrec_btf|
 
  [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 

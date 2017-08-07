@@ -17,13 +17,12 @@ In this documentation you find the placement details for your Website.  Please f
 
  Mobile
 
-
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
-|Reminder|12815|banner|
-|Content Ad|5720|mrec|
-|Footer Ad|5721|mrec_btf|
-|Richmedia / Outstream|6419 / 29606|inpage|
+|Reminder|12815 (3648)|banner|
+|Content Ad|5720 (5419)|mrec|
+|Footer Ad|5721 (3650)|mrec_btf|
+|Richmedia / Outstream|6419 (3651) / 29606 (18913)|inpage|
 
  [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 

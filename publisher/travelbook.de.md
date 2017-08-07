@@ -19,12 +19,12 @@ In this documentation you find the placement details for your Website.  Please f
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
-|Reminder|12815|banner|
-|Content Ad|5720|mrec|
+|Reminder|12815 (3648)|banner|
+|Content Ad|5720 (5419)|mrec|
 |Medium Rectangle|4459|mrec_btf|
 |Medium Rectangle 2|4460|mrec_btf_2|
 |Footer Ad|5721|mrec_btf_3|
-|Richmedia / Outstream|6419 / 29606|inpage|
+|Richmedia / Outstream|6419 (3651) / 29606 (18913)|inpage|
 
  [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
