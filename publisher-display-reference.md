@@ -227,11 +227,9 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 }
 ```
 
-# colorBG: enable/disable coloring of the page-background
-# bgClick: enable/disable click on page-background
-# stickySky: enable/disable stickiness for skyscraper
-# pageName: it is the name of the channel or article in CMS
-**_We recommend the following schema:_**
+
+
+**_We recommend the following schema for pageName:_**
 - Home Site --> "home_index"
 - Channel, e.g. sport --> "sport_index"
 - Sub-Channel e.g. soccer --> "sport.soccer_index"
