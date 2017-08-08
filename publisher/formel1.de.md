@@ -37,7 +37,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 # Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","inpage"],`
+`	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","teaser_4","teaser_5","inpage"],`
 
 # Mobile:
 
@@ -74,8 +74,13 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"minWidth": 969,
 			"sizes": [[970,250],[800,250]]
 		}],
-
+		
 		"mrec": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+
+		"mrec_btf": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
