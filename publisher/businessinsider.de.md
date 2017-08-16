@@ -140,7 +140,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
-		     
+		  
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
