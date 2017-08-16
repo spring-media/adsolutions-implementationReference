@@ -17,6 +17,10 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Sky|3650|sky|
 |Billboard|5419|billboard|
 |Medium Rectangle|4459|mrec|
+|Medium Rectangle 2|new|mrec_btf|
+|Medium Rectangle 3|new|mrec_btf_2|
+|Medium Rectangle 4|new|mrec_btf_3|
+|Medium Rectangle 5|new|mrec_btf_4|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
  Mobile
@@ -27,17 +31,20 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Reminder|12815 (3648)|banner|
 |Content Ad|5720 (5419)|mrec|
 |Footer Ad|5721 (3650)|mrec_btf|
+|Medium Rectangle 3|new|mrec_btf_2|
+|Medium Rectangle 4|new|mrec_btf_3|
+|Medium Rectangle 5|new|mrec_btf_4|
 |Richmedia / Outstream|6419 (3651) / 29606 (18913)|inpage|
 
  [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
 # Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","inpage"],`
+`	adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","mrec_btf_5","inpage"],`
 
 # Mobile:
 
-`	adPlacements: ["banner","mrec","mrec_btf","inpage"],`
+`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","inpage"],`
  [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 # Desktop:
@@ -67,6 +74,31 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"sizes": [[300,250],[300,600]]
 		}],
      
+		"mrec_btf": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+     
+		"mrec_btf_2": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+     
+		"mrec_btf_3": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+     
+		"mrec_btf_4": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+     
+		"mrec_btf_5": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+										     
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
@@ -94,6 +126,21 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],
      
+		"mrec_btf_2": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+     
+		"mrec_btf_3": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+     
+		"mrec_btf_4": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+		     
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]

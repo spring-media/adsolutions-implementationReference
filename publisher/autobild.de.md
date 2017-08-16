@@ -15,6 +15,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 | ------------- |:-------------:| -----:|
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
+|Sky 2|4454|sky_btf|
 |Billboard|5419|billboard|
 |Billboard 2|23743|billboard_btf|
 |Medium Rectangle|4459|mrec|
