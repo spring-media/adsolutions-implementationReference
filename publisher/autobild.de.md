@@ -38,10 +38,11 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 | ------------- |:-------------:| -----:|
 |Reminder|12815 (3648)|banner|
 |Content Ad|5720 (5419)|mrec|
-|Rectangle_Mobil|19619|mrec_btf|
+|Rectangle_Mobil/Rectangle01|19619/4459|mrec_btf|
+|Rectangle02|4460|mrec_btf_2|
 |regteaser01|3938|teaser|
 |regteaser02|3939|teaser_2|
-|Footer Ad|5721 (3650)|mrec_btf_2|
+|Footer Ad|5721 (3650)|mrec_btf_3|
 |Richmedia / Outstream|6419 (3651) / 29606 (18913)|inpage|
 
  [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)

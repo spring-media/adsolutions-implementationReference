@@ -270,7 +270,7 @@ __Superbanner__
 
 ## Display
 
- superbanner
+ ### superbanner
 
 `<div id="superbanner"></div>`
 
@@ -280,7 +280,7 @@ This placement should be positioned at the top of the web page. Wallpapers and f
 
 *superbanner* | `[728,90]` | `[728,600]` | `[1000,600]`
 
- sky
+### sky
 
 `<div id="sky"></div>`
 
@@ -290,7 +290,7 @@ This placement is to be positioned on the left side of the website content. Site
 
 *sky* | `[160,600]` | `[120,600]` | `[300,600]` | `[500,1000]` | `[1000,1000]`
 
- billboard
+### billboard
 
 `<div id="billboard"></div>`
 
@@ -300,7 +300,7 @@ This placement is to be placed directly under the navigation or under the first 
 
 *billboard* | `[970,250]` | `[800,250]` 
 
- mrec
+### mrec
 
 `<div id="mrec"></div>`
 
@@ -310,7 +310,7 @@ We recommend to place the first Mrec above the fold (ATF). [These sizes must be 
 
 *mrec* | `[300,250]` | `[300,600]`  
 
- inpage
+### inpage
 
 `<div id="inpage"></div>`
 
@@ -322,7 +322,7 @@ Interstitials, Understitials, and InText-Outstream Advertising Materials are del
 
 ## Mobile
 
- banner
+### banner
 
 `<div id="banner"></div>`
 
@@ -332,7 +332,7 @@ This placement should be positioned at the top of the web page.  [These sizes mu
 
 *banner* | `[320,50]` | `[320,75]` | `[320,80]`
 
- mrec
+### mrec
 
 `<div id="mrec"></div>`
 
@@ -342,7 +342,7 @@ We recommend to place the first Mrec above the fold (ATF). [These sizes must be 
 
 *mrec* | `[300,250]` | `[320,50]` | `[320,75]` | `[320,80]` | `[320,160]` | `[300,300]`
 
- inpage
+### inpage
 
 `<div id="inpage"></div>`
 
@@ -352,7 +352,7 @@ Interstitials, Understitials, and InText-Outstream Advertising Materials are del
 
 *inpage* | `[1,1]` | `[640,360]` | `[1000,300]` 
 
- mrec_btf
+### mrec_btf
 
 `<div id="mrec"></div>`
 
