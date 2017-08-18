@@ -44,6 +44,8 @@
 			- [inpage](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#inpage-1)
 			- [mrec_btf](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mrec_btf)
 - [Creative Sizes Reference](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#creative-sizes-reference)
+- [QA and Testing](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#qa-and-testing)
+
 
 ## Introduction
 
