@@ -258,7 +258,7 @@ This `js` contains the whole Ad Library. Every website will get its own `js` fro
 
 This `div` has to be wrapped in an own container, has to be free of Styles/CSS and the `div id` must be the name of the placement. [See from line 24 of this document](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website). 
 
-# Example
+### Example
 
 __Superbanner__
 
@@ -388,3 +388,25 @@ Size | Creative | IAB | Preview
 *1,1* | Interstitial / Layer | NO | ![layer](https://www.mediaimpact.de/img/259936587_91132c38f0.png)
 *640,360* | InText Outstream | NO | ![intext](https://www.mediaimpact.de/img/247697695_eb888aae1f.png)
 *1000,300* | Understitial | NO | ![understitial](https://www.mediaimpact.de/img/241655065_2d46473d2d.png)
+
+## QA and Testing
+
+### Anti - Blacklisting Chrome Plugin
+Appnexus blocks clients or ip-address that make too many ad requests on a determined placement or in a too short time interval. For it is strongly recommended that before you start testing, to install the AppNexus test header plugin.
+#### Please use the following link to get the plugin:
+https://chrome.google.com/webstore/detail/appnexus-test-header/ohpfchfiacpahjblgfhfilaanmedflne?utm_source=chrome-app-launcher-info-dialog
+
+
+### Test Ads
+
+#### Test Ads for standard placements
+In order to get test advertising, you should only change the URL of the [AdLib](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#6-adlib) to the following URL:
+
+`https://adtechnology.mediaimpact.de/assets/js/adtechnology.js`
+
+If you can't change your AdLib-URL you can use the Plugin Switcheroo to rewrite the AdLib-URL direct on your browser:
+https://chrome.google.com/webstore/detail/switcheroo-redirector/cnmciclhnghalnpfhhleggldniplelbg
+
+#### Test Ads for special placements
+If your website hast special placement f.e. Teaser, multilinks, etc., please contact adtechnology@axelspringer.de to get the test-instructions.
+ 
