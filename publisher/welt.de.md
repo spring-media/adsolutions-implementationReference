@@ -80,7 +80,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"sizes": [[970,250],[800,250]]
 		}],
 
-		"billboard_2": [{
+		"billboard_btf": [{
 			"minWidth": 799,
 			"sizes": [[800,250]]
 		},{
@@ -93,7 +93,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"sizes": [[300,250],[300,600]]
 		}],
 
-		"mrec_2": [{
+		"mrec_btf": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
