@@ -402,12 +402,10 @@ https://chrome.google.com/webstore/detail/appnexus-test-header/ohpfchfiacpahjblg
 ### Test Ads
 
 #### Test Ads for standard placements
-In order to get test advertising, you should only change the URL of the [AdLib](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#6-adlib) to the following URL:
+In order to get test advertising please open the [following URL at first](https://adtechnology.mediaimpact.de/testads.html), it will turn on the test ads for 30 days. 
 
-`https://adtechnology.mediaimpact.de/assets/js/adtechnology.js`
+https://adtechnology.mediaimpact.de/testads.html
 
-If you can't change your AdLib-URL you can use the Plugin Switcheroo to rewrite the AdLib-URL direct on your browser:
-https://chrome.google.com/webstore/detail/switcheroo-redirector/cnmciclhnghalnpfhhleggldniplelbg
 
 #### Test Ads for special placements
 If your website hast special placement f.e. Teaser, multilinks, etc., please contact adtechnology@axelspringer.de to get the test-instructions.
