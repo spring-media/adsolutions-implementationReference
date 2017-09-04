@@ -402,7 +402,7 @@ https://chrome.google.com/webstore/detail/appnexus-test-header/ohpfchfiacpahjblg
 ### Test Ads
 
 #### Test Ads for standard placements
-In order to get test advertising please open the [following URL at first](https://adtechnology.mediaimpact.de/testads.html), it will turn on the test ads for 30 days. 
+In order to get test advertising please open the [following URL at first](https://adtechnology.mediaimpact.de/testads.html), it will turn on the test ads for 30 days. **Please be sure that your browsers accepts 3th party cookies**. 
 
 https://adtechnology.mediaimpact.de/testads.html
 
