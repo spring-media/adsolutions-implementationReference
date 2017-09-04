@@ -54,7 +54,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 		"superbanner_btf": [{
 			"minWidth": 1,
-			"sizes": [[728,90]]
+			"sizes": [[660,110]]
 		}],
 
 		"sky": [{
