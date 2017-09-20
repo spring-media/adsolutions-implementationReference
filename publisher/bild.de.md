@@ -28,6 +28,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
 |Bild_Home A-Teaser|16669|home-a-teaser|
+|Bild_Home B/C-Teaser|23460|home-b-teaser|
 |content_stoerer_1 (NewsBlock)|16267|mrec_btf_2|
 |content_stoerer_3 (Unterhaltung Block)|16270|mrec_btf_3|
 |content_stoerer_5 (Geld Block)|16272|mrec_btf_4|
