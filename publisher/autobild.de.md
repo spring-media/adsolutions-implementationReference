@@ -111,7 +111,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 		"menuad": [{
 			"minWidth": 1,
-			"sizes": [[1,1],[640,360],[1000,300]]
+			"sizes": [[4,4]]
 		}],
 
 		"multilink": [{
