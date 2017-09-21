@@ -18,7 +18,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Billboard|5419|billboard|
 |Medium Rectangle|4459|mrec|
 |Medium Rectangle 2|4460|mrec_btf|
-|Content Bar 1|4459|billboard_btf|
+|Content Bar 1|3937|billboard_btf|
 |Sky 2|4454|sky_btf|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
