@@ -20,7 +20,7 @@
                       {
                         "kw_misc": ["rock", "pop"]
                         "pt0": [siteId]
-                        "pt1": [pageName]
+                        "pt1": ["pageName"]
                     },
                       "targetId": "mrec"
                       
