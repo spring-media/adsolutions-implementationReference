@@ -19,6 +19,8 @@
                       "keywords": 
                       {
                         "kw_misc": ["rock", "pop"]
+                        "pt0": [siteId]
+                        "pt1": [pageName]
                     },
                       "targetId": "mrec"
                       
@@ -43,6 +45,8 @@
         - Placement --> actually we just use the placement "mrec" for AMP, if you need of them please contact us.
     - sizes ist the size of the ad. Actually ist the same size of the Amp container
     - keywords --> if you want to send keywords, please us the object "kw_misc" and place every keyword comma separated. 
+    - siteId --> the old site ID of Smart Ad Server, will provided by Ad Technology
+    - pageName --> it is the adlevel "Vertaggung" from you CMS. It is the same value used for the other platforms.
     - targetId has the same value of data-target.
 
 
