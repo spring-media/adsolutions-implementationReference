@@ -1,4 +1,4 @@
-##Bookmark Tool/JS-Code to submit aderrors
+## Bookmark Tool/JS-Code to submit aderrors
 
 This small javascript is meant to be saved as bookmark so you can run it by click.
 It will check the placements on the page and sum them up in a small box to th top left corner.
