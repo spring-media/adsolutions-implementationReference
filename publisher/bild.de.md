@@ -71,7 +71,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Content Ad|5720 (5419)|mrec|
 |Medium Rectangle|4459|mrec_btf|
 |Medium Rectangle 2|4460|mrec_btf_2|
-|Footer Ad|5721 (3659)|mrec_btf_3|
+|Footer Ad|5721 (3650)|mrec_btf_3|
 |Richmedia / Outstream|6419 (3651) / 29606 (18913)|inpage|
 
 # Special Sport Placements
