@@ -394,9 +394,12 @@ Size | Creative | IAB | Preview
 ## QA and Testing
 
 ### Anti - Blacklisting Chrome Plugin
-Appnexus blocks clients or ip-address that make too many ad requests on a determined placement or in a too short time interval. For it is strongly recommended that before you start testing, to install the AppNexus test header plugin.
-#### Please use the following link to get the plugin:
-https://chrome.google.com/webstore/detail/appnexus-test-header/ohpfchfiacpahjblgfhfilaanmedflne?utm_source=chrome-app-launcher-info-dialog
+Appnexus blocks clients or ip-address that make too many ad requests on a determined placement or in a too short time interval. For it is strongly recommended that before you start testing, to change the browser headers.
+
+#### We recomend to use the browser plugin modheaders:
+https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=de
+
+After installing the plugin please insert the following Request Header: 'X-Is-Test:1'
 
 
 ### Test Ads
