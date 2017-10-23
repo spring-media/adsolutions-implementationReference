@@ -202,8 +202,15 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 }'>
 
 </amp-ad>
+```
+# Sticky Ad
+Please ad the following JS
+```
+<script async custom-element="amp-sticky-ad" src="https://cdn.ampproject.org/v0/amp-sticky-ad-1.0.js"></script>
+```
 
-
+```
+<amp-sticky-ad layout="nodisplay">
 <amp-ad width=320 height=50
         type="appnexus"
         data-target="banner_sticky"
@@ -243,6 +250,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 }'>
 
 </amp-ad>
+</amp-sticky-ad>
 
 ```
 ## Important notes
