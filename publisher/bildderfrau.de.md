@@ -208,6 +208,7 @@ Please ad the following JS
 ```
 <script async custom-element="amp-sticky-ad" src="https://cdn.ampproject.org/v0/amp-sticky-ad-1.0.js"></script>
 ```
+### Please place these Ad container above the fold 
 
 ```
 <amp-sticky-ad layout="nodisplay">
