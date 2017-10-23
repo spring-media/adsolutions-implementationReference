@@ -120,6 +120,131 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 	},
 ```
 
+# AMP
+```
+<amp-ad width=320 height=50
+        type="appnexus"
+        data-target="banner"
+        json='{
+   "pageOpts":{
+      "member":7823
+   },
+   "adUnits":[
+
+      {
+         "disablePsa":true,
+         "invCode":"bildderfrau.de-amp-gesundheit_check-banner",
+         "sizes":[
+            320,
+            50
+         ],
+         "targetId":"banner"
+     },
+     {
+         "disablePsa":true,
+         "invCode":"bildderfrau.de-amp-gesundheit_check-mrec",
+         "sizes":[
+            300,
+            250
+         ],
+         "targetId":"mrec"
+     },
+      {
+         "invCode":"bildderfrau.de-amp-gesundheit_check-banner_sticky",
+         "sizes":[
+            320,
+            50
+         ],
+         "targetId":"banner_sticky"
+      }
+   ]
+}'>
+
+</amp-ad>
+
+
+<amp-ad width=300 height=250
+        type="appnexus"
+        data-target="mrec"
+        json='{
+   "pageOpts":{
+      "member":7823
+   },
+   "adUnits":[
+
+      {
+         "disablePsa":true,
+         "invCode":"bildderfrau.de-amp-gesundheit_check-banner",
+         "sizes":[
+            320,
+            50
+         ],
+         "targetId":"banner"
+     },
+     {
+         "disablePsa":true,
+         "invCode":"bildderfrau.de-amp-gesundheit_check-mrec",
+         "sizes":[
+            300,
+            250
+         ],
+         "targetId":"mrec"
+     },
+      {
+         "invCode":"bildderfrau.de-amp-gesundheit_check-banner_sticky",
+         "sizes":[
+            320,
+            50
+         ],
+         "targetId":"banner_sticky"
+      }
+   ]
+}'>
+
+</amp-ad>
+
+
+<amp-ad width=320 height=50
+        type="appnexus"
+        data-target="banner_sticky"
+        json='{
+   "pageOpts":{
+      "member":7823
+   },
+   "adUnits":[
+
+      {
+         "disablePsa":true,
+         "invCode":"bildderfrau.de-amp-gesundheit_check-banner",
+         "sizes":[
+            320,
+            50
+         ],
+         "targetId":"banner"
+     },
+     {
+         "disablePsa":true,
+         "invCode":"bildderfrau.de-amp-gesundheit_check-mrec",
+         "sizes":[
+            300,
+            250
+         ],
+         "targetId":"mrec"
+     },
+      {
+         "invCode":"bildderfrau.de-amp-gesundheit_check-banner_sticky",
+         "sizes":[
+            320,
+            50
+         ],
+         "targetId":"banner_sticky"
+      }
+   ]
+}'>
+
+</amp-ad>
+
+```
 ## Important notes
 
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
