@@ -7,9 +7,8 @@ In this documentation you find the placement details for your app.
 ## Redirect:
 
 ```
-<!-- BEGIN JS TAG - Transfermart Android < - DO NOT MODIFY -->
 <SCRIPT SRC="https://ib.adnxs.com/mob?member=7823&inv_code=upday-app-ad&appid=de.axelspringer.yana&aaid=[AAID]&psa=0&size=300x250&promo_sizes=300x600,320x480,320x460,320x75,320x160&promo_alignment=center&cb=${CACHEBUSTER}&kw_type=app&disablePsa=true" TYPE="text/javascript"></SCRIPT>
-<!-- END TAG -->
+
 ```
 
 ## Help
