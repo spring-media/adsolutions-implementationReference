@@ -120,7 +120,7 @@ adPlacements: ["superbanner","sky","billboard","mrec","inpage","mrec_btf","mrec_
 adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec","mrec_btf","mrec_btf_2","inpage"],
 ```
 
-##### Placement sizes"mrec_btf",
+##### Placement sizes 
 
 ```
 	adSlotSizes: {
@@ -216,7 +216,7 @@ adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec",
 adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],
 ```
 
-##### Placement sizes"mrec_btf",
+##### Placement sizes
 
 ```
 	adSlotSizes: {
@@ -299,7 +299,7 @@ adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","m
 adPlacements: ["superbanner","sky","billboard","billboard_btf","inpage"],
 ```
 
-##### Placement sizes"mrec_btf",
+##### Placement sizes
 
 ```
 	adSlotSizes: {
@@ -375,7 +375,7 @@ adPlacements: ["superbanner","sky","billboard","billboard_btf","inpage"],
 adPlacements: ["superbanner","sky","billboard","billboard_btf","inpage"],
 ```
 
-##### Placement sizes"mrec_btf",
+##### Placement sizes
 
 ```
 	adSlotSizes: {
