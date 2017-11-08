@@ -104,7 +104,7 @@ adPlacements: ["superbanner","sky","billboard","mrec","inpage","mrec_btf","mrec_
 
 		"inpage": [{
 			"minWidth": 1,
-			"sizes": [[1,1],[640,360],[1000,300]]
+			"sizes": [[1,1],[1000,300]]
 		}],
      
 	},
@@ -200,7 +200,7 @@ adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec",
 
 		"inpage": [{
 			"minWidth": 1,
-			"sizes": [[1,1],[640,360],[1000,300]]
+			"sizes": [[1,1],[1000,300]]
 		}],
      
 	},
@@ -250,7 +250,7 @@ adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","m
      
 		"inpage": [{
 			"minWidth": 1,
-			"sizes": [[1,1],[1000,300]]
+			"sizes": [[1,1],[640,360],[1000,300]]
 		}],
 
     
@@ -359,7 +359,7 @@ adPlacements: ["superbanner","sky","billboard","billboard_btf","inpage"],
 
 		"inpage": [{
 			"minWidth": 1,
-			"sizes": [[1,1],[640,360],[1000,300]]
+			"sizes": [[1,1],[1000,300]]
 		}],
      
 	},
@@ -440,7 +440,7 @@ adPlacements: ["superbanner","sky","billboard","billboard_btf","inpage"],
 
 		"inpage": [{
 			"minWidth": 1,
-			"sizes": [[1,1],[640,360],[1000,300]]
+			"sizes": [[1,1],[1000,300]]
 		}],
      
 	},
