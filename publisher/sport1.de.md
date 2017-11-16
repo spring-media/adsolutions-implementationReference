@@ -611,7 +611,7 @@ Home (Tab News, Tab Videos, Tab Kompakt, Tab Live)
 
 
 | Description|Placement Name|
-| :------------- |-------------:|
+| :--- |-------------:|
 | Platzierung unterhalb der Navi |sport1.de-app-app_android_phone-sport1_home-banner|
 | Layer/Interstitial |sport1.de-app-app_android_phone-sport1_home-inpage|
 | Platzierung nach dem 3. Teaser (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-app_android_phone-sport1_home-mrec|
