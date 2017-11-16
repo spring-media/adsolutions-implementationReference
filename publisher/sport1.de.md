@@ -496,6 +496,9 @@ adPlacements: ["superbanner","sky"],
 #### Placement names for Addapptr
 You can duplicate the mrec_btf placements
 
+### Sizes
+You don't need to define any size. Please use the multi-size placements of addapptr.
+
 ##### Startseite --> sport1_home
 Home (Tab News, Tab Videos, Tab Kompakt, Tab Live)
 
