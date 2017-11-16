@@ -491,6 +491,40 @@ adPlacements: ["superbanner","sky"],
 ```
 
 ## Sport1 News App
+
+### Vorbemerkung:
+
+AddApptr hat zusätzlich zu den bisherigen Banner APIs eine neuartige Banner API geschaffen, die eine ad request bezogene Kommunikation zwischen app und AATKit erlaubt. Somit wird es möglich, für jeden einzelnen ad request gezielt key-values zu übergeben und die ad response (impression) exakt einem bestimmten ad request zuzuordnen. Dies ist besonders für In-feed Szenarien mit mehreren channels von Vorteil, weil die app sicherstellen kann, dass impressions nur in dem channel angezeigt werden, für den sie auch geladen wurden, obwohl das selbe placement für beide channel verwendet wurde.
+
+Aktuell bieten wir diese neue API nur für Android an (Version 2.21.x) - die iOS Version ist noch in der Entwicklung und wird voraussichtlich Anfang Dezember 2017 veröffentlicht.
+
+Strategisch empfehlen wir, auf Android direkt mit der neuen API einzusteigen. Bei iOS, je nach dem gesteckten Zeitrahmen, zunächst mit der herkömmlichen API beginnen und ggf. in Folge-Releases auf die neue API umsteigen, um letzte Unschärfen bei der key-value Zuordnung zu beseitigen.
+
+#### iOS:
+
+Herkömmliche Multi Size Banner Integration
+
+Dokumentation: https://bitbucket.org/addapptr/aatkit-ios/wiki/AATKit_Project_Setup_Framework
+
+Sample app: https://bitbucket.org/addapptr/aatkit-ios/wiki/AATKit%20Sample
+
+Entweder download AATKit: https://download.addapptr.com/AATKit.zip
+Oder CocoaPods-Integration mit 2.65.x release (siehe Dokumentation)
+
+#### Android:
+
+Neuartige Multi Size Banner Integration
+
+Dokumentation: https://bitbucket.org/addapptr/aatkitexample-android/wiki/New%20banner%20placement%20instructions
+
+Sample app: https://bitbucket.org/addapptr/android-in-feed-banner-demo
+
+Entweder download AATKit: http://isxfs.com/gecko/AATKit-Android/beta/AATKitBeta.zipO
+Oder Maven-Integration mit 2.21.3 release  (siehe Dokumentation)
+
+General documentation: https://bitbucket.org/addapptr/aatkitexample-android/wiki/Documentation
+
+
 ### Sport1 News App iOS iPhone
 
 #### Placement names for Addapptr
