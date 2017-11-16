@@ -494,6 +494,8 @@ adPlacements: ["superbanner","sky"],
 ### Sport1 News App iOS iPhone
 
 #### Placement names for Addapptr
+You can duplicate the mrec_btf placements
+
 ##### Startseite --> sport1_home
 Home (Tab News, Tab Videos, Tab Kompakt, Tab Live)
 
