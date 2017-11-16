@@ -589,6 +589,22 @@ Bildergalerien
 
 ### Sport1 News App Android Smartphone
 
+### Using keywords in Apps
+In order to deliver ads on every channel- and article type we need keywords for that.
+
+| Description|Key|
+| :------------- |-------------:|
+| First hierarchy  |kw_adlevel1 |
+| Second hierarchy  |kw_adlevel2 |
+| third hierarchy |kw_adlevel3 |
+
+Example:
+- if the placements are in the channel Fussball, you should use the following keyword --> kw_adlevel1=fussball
+- if the placements are in the channel Fussball and in the sub-channel Bundesliga, you should use the following keywords --> kw_adlevel1=fussball;kw_adlevel2=bundesliga
+- if the placements are in the channel Fussball ,in the sub-channel Bundesliga and you are watching the Liveticker, you should use the following keywords --> kw_adlevel1=fussball;kw_adlevel2=bundesliga;kw_adlevel3=liveticker
+
+
+
 #### Placement names for Addapptr
 ##### Startseite --> sport1_home
 Home (Tab News, Tab Videos, Tab Kompakt, Tab Live)
