@@ -548,14 +548,14 @@ Home (Tab News, Tab Videos, Tab Kompakt, Tab Live)
 
 | Description|Placement Name|
 | :------------- |-------------:|
-| Platzierung unterhalb der Navi |sport1.de-app-ios-sport1_home-banner|
-| Layer/Interstitial |sport1.de-app-ios-sport1_home-inpage|
-| Platzierung nach dem 3. Teaser (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-ios-sport1_home-mrec|
-| Platzierung nach weiteren 6 Teasern (anders als bisher)  // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-ios-sport1_home-mrec_btf|
-| Platzierung nach weiteren 9 Teasern (anders als bisher)  // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-ios-sport1_home-mrec_btf|
-| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-ios-sport1_home-mrec_btf|
-| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-ios-sport1_home-mrec_btf|
-| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-ios-sport1_home-mrec_btf|
+| Platzierung unterhalb der Navi |sport1.de-app_ios-sport1_home-banner|
+| Layer/Interstitial |sport1.de-app_ios-sport1_home-inpage|
+| Platzierung nach dem 3. Teaser (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app_ios-sport1_home-mrec|
+| Platzierung nach weiteren 6 Teasern (anders als bisher)  // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app_ios-sport1_home-mrec_btf|
+| Platzierung nach weiteren 9 Teasern (anders als bisher)  // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app_ios-sport1_home-mrec_btf|
+| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app_ios-sport1_home-mrec_btf|
+| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app_ios-sport1_home-mrec_btf|
+| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app_ios-sport1_home-mrec_btf|
 *Anzahl Mrec von Seitenlänge abhängig; Maximal 6 Mrec Placements insgesamt
 
 
@@ -565,14 +565,14 @@ Channelstartseiten (Channel- und Wettbewerbsstartseite Tabs News, Videos, Bilder
 
 | Description|Placement Name|
 | :------------- |-------------:|
-| Platzierung unterhalb der Navi |sport1.de-app-ios-sport1_index-banner|
-| Layer/Interstitial |sport1.de-app-ios-sport1_index-inpage|
-| Platzierung nach dem 3. Teaser (anders als bisher) |sport1.de-app-ios-sport1_index-mrec|
-| Platzierung nach weiteren 6 Teasern (anders als bisher) |sport1.de-app-ios-sport1_index-mrec_btf|
-| Platzierung nach weiteren 9 Teasern (anders als bisher) |sport1.de-app-ios-sport1_home-mrec_btf|
-| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) |sport1.de-app-ios-sport1_index-mrec_btf|
-| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) |sport1.de-app-ios-sport1_index-mrec_btf|
-| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) |sport1.de-app-ios-sport1_index-mrec_btf|
+| Platzierung unterhalb der Navi |sport1.de-app_ios-sport1_index-banner|
+| Layer/Interstitial |sport1.de-app_ios-sport1_index-inpage|
+| Platzierung nach dem 3. Teaser (anders als bisher) |sport1.de-app_ios-sport1_index-mrec|
+| Platzierung nach weiteren 6 Teasern (anders als bisher) |sport1.de-app_ios-sport1_index-mrec_btf|
+| Platzierung nach weiteren 9 Teasern (anders als bisher) |sport1.de-app_ios-sport1_home-mrec_btf|
+| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) |sport1.de-app_ios-sport1_index-mrec_btf|
+| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) |sport1.de-app_ios-sport1_index-mrec_btf|
+| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) |sport1.de-app_ios-sport1_index-mrec_btf|
 *Anzahl Mrec von Seitenlänge abhängig; Maximal 6 Mrec Placements insgesamt
 
 
@@ -582,12 +582,12 @@ Artikelseiten
 
 | Description|Placement Name|
 | :------------- |-------------:|
-| Platzierung unterhalb des Teaserbildes |sport1.de-app-ios-sport1_story-banner|
-| Layer/Interstitial |sport1.de-app-ios-sport1_story-inpage|
-| 1. Rectangle nach 2 reinen Textblöcken|sport1.de-app-ios-sport1_story-mrec|
-| 2. Rectangle nach weiteren 8 Textblöcken (--> nach dem 10. Block) Wunsch an die S1 Devs, dass Zwischenüberschriften nicht als Textblock / Paragraph zählen   |sport1.de-app-ios-sport1_story-mrec_btf|
-| 3. Rectangle nach weiteren 8 Textblöcken (--> nach dem 18. Block) |sport1.de-app-ios-sport1_story-mrec_btf|
-| 4. Rectangle analog (wenn Artikel lang genug) |sport1.de-app-ios-sport1_story-mrec_btf|
+| Platzierung unterhalb des Teaserbildes |sport1.de-app_ios-sport1_story-banner|
+| Layer/Interstitial |sport1.de-app_ios-sport1_story-inpage|
+| 1. Rectangle nach 2 reinen Textblöcken|sport1.de-app_ios-sport1_story-mrec|
+| 2. Rectangle nach weiteren 8 Textblöcken (--> nach dem 10. Block) Wunsch an die S1 Devs, dass Zwischenüberschriften nicht als Textblock / Paragraph zählen   |sport1.de-app_ios-sport1_story-mrec_btf|
+| 3. Rectangle nach weiteren 8 Textblöcken (--> nach dem 18. Block) |sport1.de-app_ios-sport1_story-mrec_btf|
+| 4. Rectangle analog (wenn Artikel lang genug) |sport1.de-app_ios-sport1_story-mrec_btf|
 
 
 ##### Liveticker  --> sport1_liveticker
@@ -596,15 +596,15 @@ Liveticker
 
 | Description|Placement Name|
 | :------------- |-------------:|
-| Platzierung unterhalb der Navi |sport1.de-app-ios-sport1_liveticker-banner|
-| Layer/Interstitial |sport1.de-app-ios-sport1_liveticker-inpage|
+| Platzierung unterhalb der Navi |sport1.de-app_ios-sport1_liveticker-banner|
+| Layer/Interstitial |sport1.de-app_ios-sport1_liveticker-inpage|
 | TBD - Eventbasiertes Ad | |
-| Bitte vorerst 6 Mrecs einbauen, finale Entscheidung ob 3 oder 6 genutzt werden steht noch aus (Im Falle von Entscheidung pro 3: Platzierung nach der 75. & 30. Minute sowie unten auf der Seite  zwischen erstem Textblock und der Aufstellung) |sport1.de-app-ios-sport1_liveticker-mrec|
-|  |sport1.de-app-ios-sport1_liveticker-mrec_btf|
-|  |sport1.de-app-ios-sport1_liveticker-mrec_btf|
-|  |sport1.de-app-ios-sport1_liveticker-mrec_btf|
-|  |sport1.de-app-ios-sport1_liveticker-mrec_btf|
-|  |sport1.de-app-ios-sport1_liveticker-mrec_btf|
+| Bitte vorerst 6 Mrecs einbauen, finale Entscheidung ob 3 oder 6 genutzt werden steht noch aus (Im Falle von Entscheidung pro 3: Platzierung nach der 75. & 30. Minute sowie unten auf der Seite  zwischen erstem Textblock und der Aufstellung) |sport1.de-app_ios-sport1_liveticker-mrec|
+|  |sport1.de-app_ios-sport1_liveticker-mrec_btf|
+|  |sport1.de-app_ios-sport1_liveticker-mrec_btf|
+|  |sport1.de-app_ios-sport1_liveticker-mrec_btf|
+|  |sport1.de-app_ios-sport1_liveticker-mrec_btf|
+|  |sport1.de-app_ios-sport1_liveticker-mrec_btf|
 *Alle 15 Minuten ein neues Mrec (Maximal 6 Mrec Placements insgesamt)
 
 
@@ -614,9 +614,9 @@ Tabelle, Spielplan, Torjäger… Rennen, etc. (Wettbewerbsseite) & Tabs in Livem
 
 | Description|Placement Name|
 | :------------- |-------------:|
-| Platzierung unterhalb des Teaserbildes |sport1.de-app-ios-sport1_statistiken-banner|
-| Layer/Interstitial |sport1.de-app-ios-sport1_statistiken-inpage|
-| Platzierung oberhalb des Footers  |sport1.de-app-ios-sport1_statistiken-mrec|
+| Platzierung unterhalb des Teaserbildes |sport1.de-app_ios-sport1_statistiken-banner|
+| Layer/Interstitial |sport1.de-app_ios-sport1_statistiken-inpage|
+| Platzierung oberhalb des Footers  |sport1.de-app_ios-sport1_statistiken-mrec|
 
 
 
@@ -626,13 +626,13 @@ Bildergalerien
 
 | Description|Placement Name|
 | :------------- |-------------:|
-| Nach jeweils 4 Bildern (5. Bild = Mrec) (anders als bisher)  |sport1.de-app-ios-sport1_bildergalerien-mrec|
-|  |sport1.de-app-ios-sport1_bildergalerien-mrec_btf|
-|  |sport1.de-app-ios-sport1_bildergalerien-mrec_btf|
-|  |sport1.de-app-ios-sport1_bildergalerien-mrec_btf|
-|  |sport1.de-app-ios-sport1_bildergalerien-mrec_btf|
-|  |sport1.de-app-ios-sport1_bildergalerien-mrec_btf|
-| Layer/Interstitial |sport1.de-app-ios-sport1_bildergalerien-inpage|
+| Nach jeweils 4 Bildern (5. Bild = Mrec) (anders als bisher)  |sport1.de-app_ios-sport1_bildergalerien-mrec|
+|  |sport1.de-app_ios-sport1_bildergalerien-mrec_btf|
+|  |sport1.de-app_ios-sport1_bildergalerien-mrec_btf|
+|  |sport1.de-app_ios-sport1_bildergalerien-mrec_btf|
+|  |sport1.de-app_ios-sport1_bildergalerien-mrec_btf|
+|  |sport1.de-app_ios-sport1_bildergalerien-mrec_btf|
+| Layer/Interstitial |sport1.de-app_ios-sport1_bildergalerien-inpage|
 *Maximal 6 Mrec Placements insgesamt
 
 
@@ -661,14 +661,14 @@ Home (Tab News, Tab Videos, Tab Kompakt, Tab Live)
 
 | Description|Placement Name|
 | :--- |-------------:|
-| Platzierung unterhalb der Navi |sport1.de-app-app_android_phone-sport1_home-banner|
-| Layer/Interstitial |sport1.de-app-app_android_phone-sport1_home-inpage|
-| Platzierung nach dem 3. Teaser (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-app_android_phone-sport1_home-mrec|
-| Platzierung nach weiteren 6 Teasern (anders als bisher)  // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-app_android_phone-sport1_home-mrec_btf|
-| Platzierung nach weiteren 9 Teasern (anders als bisher)  // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-app_android_phone-sport1_home-mrec_btf|
-| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-app_android_phone-sport1_home-mrec_btf|
-| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-app_android_phone-sport1_home-mrec_btf|
-| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app-app_android_phone-sport1_home-mrec_btf|
+| Platzierung unterhalb der Navi |sport1.de-app_android_phone-sport1_home-banner|
+| Layer/Interstitial |sport1.de-app_android_phone-sport1_home-inpage|
+| Platzierung nach dem 3. Teaser (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app_android_phone-sport1_home-mrec|
+| Platzierung nach weiteren 6 Teasern (anders als bisher)  // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app_android_phone-sport1_home-mrec_btf|
+| Platzierung nach weiteren 9 Teasern (anders als bisher)  // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app_android_phone-sport1_home-mrec_btf|
+| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app_android_phone-sport1_home-mrec_btf|
+| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app_android_phone-sport1_home-mrec_btf|
+| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) // Tab Kompakt: Alle 10 Einträge 1 Mrec |sport1.de-app_android_phone-sport1_home-mrec_btf|
 *Anzahl Mrec von Seitenlänge abhängig; Maximal 6 Mrec Placements insgesamt
 
 
@@ -678,14 +678,14 @@ Channelstartseiten (Channel- und Wettbewerbsstartseite Tabs News, Videos, Bilder
 
 | Description|Placement Name|
 | :------------- |-------------:|
-| Platzierung unterhalb der Navi |sport1.de-app-app_android_phone-sport1_index-banner|
-| Layer/Interstitial |sport1.de-app-app_android_phone-sport1_index-inpage|
-| Platzierung nach dem 3. Teaser (anders als bisher) |sport1.de-app-app_android_phone-sport1_index-mrec|
-| Platzierung nach weiteren 6 Teasern (anders als bisher) |sport1.de-app-app_android_phone-sport1_index-mrec_btf|
-| Platzierung nach weiteren 9 Teasern (anders als bisher) |sport1.de-app-app_android_phone-sport1_home-mrec_btf|
-| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) |sport1.de-app-app_android_phone-sport1_index-mrec_btf|
-| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) |sport1.de-app-app_android_phone-sport1_index-mrec_btf|
-| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) |sport1.de-app-app_android_phone-sport1_index-mrec_btf|
+| Platzierung unterhalb der Navi |sport1.de-app_android_phone-sport1_index-banner|
+| Layer/Interstitial |sport1.de-app_android_phone-sport1_index-inpage|
+| Platzierung nach dem 3. Teaser (anders als bisher) |sport1.de-app_android_phone-sport1_index-mrec|
+| Platzierung nach weiteren 6 Teasern (anders als bisher) |sport1.de-app_android_phone-sport1_index-mrec_btf|
+| Platzierung nach weiteren 9 Teasern (anders als bisher) |sport1.de-app_android_phone-sport1_home-mrec_btf|
+| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) |sport1.de-app_android_phone-sport1_index-mrec_btf|
+| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) |sport1.de-app_android_phone-sport1_index-mrec_btf|
+| Je nach Länge des Content weitere Mrecs nach btf2 nach je weiteren 9 Teasern (anders als bisher) |sport1.de-app_android_phone-sport1_index-mrec_btf|
 *Anzahl Mrec von Seitenlänge abhängig; Maximal 6 Mrec Placements insgesamt
 
 
@@ -695,12 +695,12 @@ Artikelseiten
 
 | Description|Placement Name|
 | :------------- |-------------:|
-| Platzierung unterhalb des Teaserbildes |sport1.de-app-app_android_phone-sport1_story-banner|
-| Layer/Interstitial |sport1.de-app-app_android_phone-sport1_story-inpage|
-| 1. Rectangle nach 2 reinen Textblöcken|sport1.de-app-app_android_phone-sport1_story-mrec|
-| 2. Rectangle nach weiteren 8 Textblöcken (--> nach dem 10. Block) Wunsch an die S1 Devs, dass Zwischenüberschriften nicht als Textblock / Paragraph zählen   |sport1.de-app-app_android_phone-sport1_story-mrec_btf|
-| 3. Rectangle nach weiteren 8 Textblöcken (--> nach dem 18. Block) |sport1.de-app-app_android_phone-sport1_story-mrec_btf|
-| 4. Rectangle analog (wenn Artikel lang genug) |sport1.de-app-app_android_phone-sport1_story-mrec_btf|
+| Platzierung unterhalb des Teaserbildes |sport1.de-app_android_phone-sport1_story-banner|
+| Layer/Interstitial |sport1.de-app_android_phone-sport1_story-inpage|
+| 1. Rectangle nach 2 reinen Textblöcken|sport1.de-app_android_phone-sport1_story-mrec|
+| 2. Rectangle nach weiteren 8 Textblöcken (--> nach dem 10. Block) Wunsch an die S1 Devs, dass Zwischenüberschriften nicht als Textblock / Paragraph zählen   |sport1.de-app_android_phone-sport1_story-mrec_btf|
+| 3. Rectangle nach weiteren 8 Textblöcken (--> nach dem 18. Block) |sport1.de-app_android_phone-sport1_story-mrec_btf|
+| 4. Rectangle analog (wenn Artikel lang genug) |sport1.de-app_android_phone-sport1_story-mrec_btf|
 
 
 ##### Liveticker  --> sport1_liveticker
@@ -709,15 +709,15 @@ Liveticker
 
 | Description|Placement Name|
 | :------------- |-------------:|
-| Platzierung unterhalb der Navi |sport1.de-app-app_android_phone-sport1_liveticker-banner|
-| Layer/Interstitial |sport1.de-app-app_android_phone-sport1_liveticker-inpage|
+| Platzierung unterhalb der Navi |sport1.de-app_android_phone-sport1_liveticker-banner|
+| Layer/Interstitial |sport1.de-app_android_phone-sport1_liveticker-inpage|
 | TBD - Eventbasiertes Ad | |
-| Bitte vorerst 6 Mrecs einbauen, finale Entscheidung ob 3 oder 6 genutzt werden steht noch aus (Im Falle von Entscheidung pro 3: Platzierung nach der 75. & 30. Minute sowie unten auf der Seite  zwischen erstem Textblock und der Aufstellung) |sport1.de-app-app_android_phone-sport1_liveticker-mrec|
-|  |sport1.de-app-app_android_phone-sport1_liveticker-mrec_btf|
-|  |sport1.de-app-app_android_phone-sport1_liveticker-mrec_btf|
-|  |sport1.de-app-app_android_phone-sport1_liveticker-mrec_btf|
-|  |sport1.de-app-app_android_phone-sport1_liveticker-mrec_btf|
-|  |sport1.de-app-app_android_phone-sport1_liveticker-mrec_btf|
+| Bitte vorerst 6 Mrecs einbauen, finale Entscheidung ob 3 oder 6 genutzt werden steht noch aus (Im Falle von Entscheidung pro 3: Platzierung nach der 75. & 30. Minute sowie unten auf der Seite  zwischen erstem Textblock und der Aufstellung) |sport1.de-app_android_phone-sport1_liveticker-mrec|
+|  |sport1.de-app_android_phone-sport1_liveticker-mrec_btf|
+|  |sport1.de-app_android_phone-sport1_liveticker-mrec_btf|
+|  |sport1.de-app_android_phone-sport1_liveticker-mrec_btf|
+|  |sport1.de-app_android_phone-sport1_liveticker-mrec_btf|
+|  |sport1.de-app_android_phone-sport1_liveticker-mrec_btf|
 *Alle 15 Minuten ein neues Mrec (Maximal 6 Mrec Placements insgesamt)
 
 
@@ -727,9 +727,9 @@ Tabelle, Spielplan, Torjäger… Rennen, etc. (Wettbewerbsseite) & Tabs in Livem
 
 | Description|Placement Name|
 | :------------- |-------------:|
-| Platzierung unterhalb des Teaserbildes |sport1.de-app-app_android_phone-sport1_statistiken-banner|
-| Layer/Interstitial |sport1.de-app-app_android_phone-sport1_statistiken-inpage|
-| Platzierung oberhalb des Footers  |sport1.de-app-app_android_phone-sport1_statistiken-mrec|
+| Platzierung unterhalb des Teaserbildes |sport1.de-app_android_phone-sport1_statistiken-banner|
+| Layer/Interstitial |sport1.de-app_android_phone-sport1_statistiken-inpage|
+| Platzierung oberhalb des Footers  |sport1.de-app_android_phone-sport1_statistiken-mrec|
 
 
 
@@ -739,12 +739,12 @@ Bildergalerien
 
 | Description|Placement Name|
 | :------------- |-------------:|
-| Nach jeweils 4 Bildern (5. Bild = Mrec) (anders als bisher)  |sport1.de-app-app_android_phone-sport1_bildergalerien-mrec|
-|  |sport1.de-app-app_android_phone-sport1_bildergalerien-mrec_btf|
-|  |sport1.de-app-app_android_phone-sport1_bildergalerien-mrec_btf|
-|  |sport1.de-app-app_android_phone-sport1_bildergalerien-mrec_btf|
-|  |sport1.de-app-app_android_phone-sport1_bildergalerien-mrec_btf|
-|  |sport1.de-app-app_android_phone-sport1_bildergalerien-mrec_btf|
+| Nach jeweils 4 Bildern (5. Bild = Mrec) (anders als bisher)  |sport1.de-app_android_phone-sport1_bildergalerien-mrec|
+|  |sport1.de-app_android_phone-sport1_bildergalerien-mrec_btf|
+|  |sport1.de-app_android_phone-sport1_bildergalerien-mrec_btf|
+|  |sport1.de-app_android_phone-sport1_bildergalerien-mrec_btf|
+|  |sport1.de-app_android_phone-sport1_bildergalerien-mrec_btf|
+|  |sport1.de-app_android_phone-sport1_bildergalerien-mrec_btf|
 | Layer/Interstitial |sport1.de-app_android_phone-sport1_bildergalerien-inpage|
 *Maximal 6 Mrec Placements insgesamt
 
