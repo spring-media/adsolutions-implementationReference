@@ -453,7 +453,7 @@ adPlacements: ["superbanner","sky","billboard","billboard_btf","inpage"],
 ##### Placement codes
 
 ```
-adPlacements: ["superbanner","sky"],
+adPlacements: ["superbanner","sky","inpage"],
 ```
 
 ##### Placement sizes
@@ -469,6 +469,11 @@ adPlacements: ["superbanner","sky"],
 			"minWidth": 1,
 			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
 		}],
+
+		"inpage": [{
+			"minWidth": 1,
+			"sizes": [[1,1],[1000,300]]
+		}],
      
 	},
 ```
@@ -476,7 +481,7 @@ adPlacements: ["superbanner","sky"],
 
 ##### Placement codes
 
-`	adPlacements: ["mrec"],`
+`	adPlacements: ["mrec","inpage"],`
 
 ##### Placement sizes
 
@@ -486,7 +491,11 @@ adPlacements: ["superbanner","sky"],
 			"minWidth": 1,
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],
-     
+
+		"inpage": [{
+			"minWidth": 1,
+			"sizes": [[1,1],[1000,300]]
+		}],     
 	},
 ```
 
@@ -623,6 +632,7 @@ Bildergalerien
 |  |sport1.de-app-ios-sport1_bildergalerien-mrec_btf|
 |  |sport1.de-app-ios-sport1_bildergalerien-mrec_btf|
 |  |sport1.de-app-ios-sport1_bildergalerien-mrec_btf|
+| Layer/Interstitial |sport1.de-app-ios-sport1_bildergalerien-inpage|
 *Maximal 6 Mrec Placements insgesamt
 
 
