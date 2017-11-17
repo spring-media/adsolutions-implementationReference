@@ -745,6 +745,7 @@ Bildergalerien
 |  |sport1.de-app-app_android_phone-sport1_bildergalerien-mrec_btf|
 |  |sport1.de-app-app_android_phone-sport1_bildergalerien-mrec_btf|
 |  |sport1.de-app-app_android_phone-sport1_bildergalerien-mrec_btf|
+| Layer/Interstitial |sport1.de-app_android_phone-sport1_bildergalerien-inpage|
 *Maximal 6 Mrec Placements insgesamt
 
 
