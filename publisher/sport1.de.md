@@ -533,6 +533,20 @@ Oder Maven-Integration mit 2.21.3 release  (siehe Dokumentation)
 
 General documentation: https://bitbucket.org/addapptr/aatkitexample-android/wiki/Documentation
 
+### Using keywords in Apps
+In order to deliver ads on every channel- and article type we need keywords for that.
+
+| Description|Key|
+| :------------- |-------------:|
+| First hierarchy  |kw_adlevel1 |
+| Second hierarchy  |kw_adlevel2 |
+| third hierarchy |kw_adlevel3 |
+
+Example:
+- if the placements are in the channel Fussball, you should use the following keyword --> kw_adlevel1=fussball
+- if the placements are in the channel Fussball and in the sub-channel Bundesliga, you should use the following keywords --> kw_adlevel1=fussball;kw_adlevel2=bundesliga
+- if the placements are in the channel Fussball ,in the sub-channel Bundesliga and you are watching the Liveticker, you should use the following keywords --> kw_adlevel1=fussball;kw_adlevel2=bundesliga;kw_adlevel3=liveticker
+
 
 ### Sport1 News App iOS iPhone
 
@@ -638,20 +652,6 @@ Bildergalerien
 
 ### Sport1 News App Android Smartphone
 
-### Using keywords in Apps
-In order to deliver ads on every channel- and article type we need keywords for that.
-
-| Description|Key|
-| :------------- |-------------:|
-| First hierarchy  |kw_adlevel1 |
-| Second hierarchy  |kw_adlevel2 |
-| third hierarchy |kw_adlevel3 |
-
-Example:
-- if the placements are in the channel Fussball, you should use the following keyword --> kw_adlevel1=fussball
-- if the placements are in the channel Fussball and in the sub-channel Bundesliga, you should use the following keywords --> kw_adlevel1=fussball;kw_adlevel2=bundesliga
-- if the placements are in the channel Fussball ,in the sub-channel Bundesliga and you are watching the Liveticker, you should use the following keywords --> kw_adlevel1=fussball;kw_adlevel2=bundesliga;kw_adlevel3=liveticker
-
 
 
 #### Placement names for Addapptr
@@ -749,7 +749,117 @@ Bildergalerien
 *Maximal 6 Mrec Placements insgesamt
 
 
+## Video Vast Integration
 
+### Desktop
+
+#### Vast Tags
+
+##### Preroll
+```
+https://ib.adnxs.com/ptv?member=7823&inv_code=sport1.de-desktop-sport1_video-preroll&vplaybackmethod=3&kw_vidContentId=53639658&kw_adlevel1=adlevel1&kw_adlevel2=adlevel2&kw_adlevel3=adlevel3&kw_misc=CMSKeywords&pt2=www.sport1.de&pt3=sport1&vwidth=725&vheight=408&kw_vduration=47
+```
+##### Midroll
+```
+https://ib.adnxs.com/ptv?member=7823&inv_code=sport1.de-desktop-sport1_video-midroll&vplaybackmethod=3&kw_vidContentId=53639658&kw_adlevel1=adlevel1&kw_adlevel2=adlevel2&kw_adlevel3=adlevel3&kw_misc=CMSKeywords&pt2=www.sport1.de&pt3=sport1&vwidth=725&vheight=408&kw_vduration=47
+```
+##### Postroll
+```
+https://ib.adnxs.com/ptv?member=7823&inv_code=sport1.de-desktop-sport1_video-postroll&vplaybackmethod=3&kw_vidContentId=53639658&kw_adlevel1=adlevel1&kw_adlevel2=adlevel2&kw_adlevel3=adlevel3&kw_misc=CMSKeywords&pt2=www.sport1.de&pt3=sport1&vwidth=725&vheight=408&kw_vduration=47
+```
+
+### Mobile Web
+
+#### Vast Tags
+
+##### Preroll
+```
+https://ib.adnxs.com/ptv?member=7823&inv_code=sport1.de-mew-sport1_video-preroll&vplaybackmethod=3&kw_vidContentId=53639658&kw_adlevel1=adlevel1&kw_adlevel2=adlevel2&kw_adlevel3=adlevel3&kw_misc=CMSKeywords&pt2=m.sport1.de&pt3=sport1&vwidth=725&vheight=408&kw_vduration=47
+```
+##### Midroll
+```
+https://ib.adnxs.com/ptv?member=7823&inv_code=sport1.de-mew-sport1_video-midroll&vplaybackmethod=3&kw_vidContentId=53639658&kw_adlevel1=adlevel1&kw_adlevel2=adlevel2&kw_adlevel3=adlevel3&kw_misc=CMSKeywords&pt2=m.sport1.de&pt3=sport1&vwidth=725&vheight=408&kw_vduration=47
+```
+##### Postroll
+```
+https://ib.adnxs.com/ptv?member=7823&inv_code=sport1.de-mew-sport1_video-postroll&vplaybackmethod=3&kw_vidContentId=53639658&kw_adlevel1=adlevel1&kw_adlevel2=adlevel2&kw_adlevel3=adlevel3&kw_misc=CMSKeywords&pt2=m.sport1.de&pt3=sport1&vwidth=725&vheight=408&kw_vduration=47
+```
+
+### Sport1.de News App iOS iPhone
+
+#### Vast Tags
+
+##### Preroll
+```
+https://ib.adnxs.com/ptv?member=7823&inv_code=sport1.de-app_ios-sport1_video-preroll&vplaybackmethod=3&kw_vidContentId=53639658&kw_adlevel1=adlevel1&kw_adlevel2=adlevel2&kw_adlevel3=adlevel3&kw_misc=CMSKeywords&pt2=app.sport1.de&pt3=sport1&vwidth=725&vheight=408&kw_vduration=47
+```
+##### Midroll
+```
+https://ib.adnxs.com/ptv?member=7823&inv_code=sport1.de-app_ios-sport1_video-midroll&vplaybackmethod=3&kw_vidContentId=53639658&kw_adlevel1=adlevel1&kw_adlevel2=adlevel2&kw_adlevel3=adlevel3&kw_misc=CMSKeywords&pt2=app.sport1.de&pt3=sport1&vwidth=725&vheight=408&kw_vduration=47
+```
+##### Postroll
+```
+https://ib.adnxs.com/ptv?member=7823&inv_code=sport1.de-app_ios-sport1_video-postroll&vplaybackmethod=3&kw_vidContentId=53639658&kw_adlevel1=adlevel1&kw_adlevel2=adlevel2&kw_adlevel3=adlevel3&kw_misc=CMSKeywords&pt2=app.sport1.de&pt3=sport1&vwidth=725&vheight=408&kw_vduration=47
+```
+
+### Sport1.de News App Android Phone
+
+#### Vast Tags
+
+##### Preroll
+```
+https://ib.adnxs.com/ptv?member=7823&inv_code=sport1.de-app_android_phone-sport1_video-preroll&vplaybackmethod=3&kw_vidContentId=53639658&kw_adlevel1=adlevel1&kw_adlevel2=adlevel2&kw_adlevel3=adlevel3&kw_misc=CMSKeywords&pt2=app.sport1.de&pt3=sport1&vwidth=725&vheight=408&kw_vduration=47
+```
+##### Midroll
+```
+https://ib.adnxs.com/ptv?member=7823&inv_code=sport1.de-app_android_phone-sport1_video-midroll&vplaybackmethod=3&kw_vidContentId=53639658&kw_adlevel1=adlevel1&kw_adlevel2=adlevel2&kw_adlevel3=adlevel3&kw_misc=CMSKeywords&pt2=app.sport1.de&pt3=sport1&vwidth=725&vheight=408&kw_vduration=47
+```
+##### Postroll
+```
+https://ib.adnxs.com/ptv?member=7823&inv_code=sport1.de-app_android_phone-sport1_video-postroll&vplaybackmethod=3&kw_vidContentId=53639658&kw_adlevel1=adlevel1&kw_adlevel2=adlevel2&kw_adlevel3=adlevel3&kw_misc=CMSKeywords&pt2=app.sport1.de&pt3=sport1&vwidth=725&vheight=408&kw_vduration=47
+```
+
+#### Description of the variables
+
+| Variable|Description|
+| :------------- |-------------:|
+| vplaybackmethod|1 - Auto-play, sound-on|
+||2 - Auto-play, sound-off|
+||3 - Click-to-play|
+||4 - Mouse-over|
+||5 - Auto-play, sound unknown|
+| kw_vidContentId| CMS Id of the video|
+| kw_adlevel1|First hierarchy|
+| kw_adlevel2|Second hierarchy|
+| kw_adlevel3|Third hierarchy |
+| kw_misc|another keywords, comma separated|
+| vwidth|The width of the video player|
+| vheight|The height of the video player|
+| kw_vduration|The video duration in seconds|
+|kw_vidAdBlock|optional, video adblock Information; 1 or 0, when adblock bypass is enabled|
+
+additionally params in apps:
+
+| Variable|Description|
+| :------------- |-------------:|
+|idfa| [The Apple advertising identifier for iOS devices running iOS 6+]|
+|aaid| [The Google advertising identifier for Android devices as retrieved from Google Play services]|
+|appid| This string is used to identify a mobile app running on Android or iOS devices. On Android, this is the app's package name. It's formatted as follows: com.example.helloworld. On iOS, this is the app's iTunes ID. It's formatted as follows: 123456789|
+
+
+### Using adlevels with Video Vast Tags
+In order to deliver ads on every channel- and article type we need keywords for that.
+
+| Description|Key|
+| :------------- |-------------:|
+| First hierarchy  |kw_adlevel1 |
+| Second hierarchy  |kw_adlevel2 |
+| third hierarchy |kw_adlevel3 |
+
+Example:
+- if the placements are in the channel Fussball, you should use the following keyword --> kw_adlevel1=fussball
+- if the placements are in the channel Fussball and in the sub-channel Bundesliga, you should use the following keywords --> kw_adlevel1=fussball;kw_adlevel2=bundesliga
+- if the placements are in the channel Fussball ,in the sub-channel Bundesliga and you are watching the Liveticker, you should use the following keywords --> kw_adlevel1=fussball;kw_adlevel2=bundesliga;kw_adlevel3=liveticker
 
 
 ## Important notes
