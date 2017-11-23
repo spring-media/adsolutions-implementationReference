@@ -36,8 +36,8 @@
 - We're using the regular integration of appnexus full md found [here](https://github.com/ampproject/amphtml/blob/master/ads/appnexus.md)
 - The standard size for Ads on AMP ist 300x250 (mrec), if you need extra sizes please contact us.
 - data-target is the placement name. e.g. for Medium Rectangle should be "mrec" 
-- JSON:
-    - memeber is a static value, please don't change it 
+- data-code / JSON:
+    - member is a static value, please don't change it 
     - Please don't forget to send us a fallback ad in order to avoid white spaces on you AMP Site. If you don't have any fallback ad please change disablePsa="true" to disablePsa="false", after doing it you will get fallback ads from Appnexus.
     - invCode is a combination of the following information:
         - Website --> mywebsite.de
