@@ -8,6 +8,7 @@
         data-member="7823"
         data-code="mywebsite.de-amp-ressort_story-mrec"
 ></amp-ad>
+```
 
 ## connected ads
 ```html
