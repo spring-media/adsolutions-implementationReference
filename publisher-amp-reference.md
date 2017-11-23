@@ -5,34 +5,35 @@
 ```html
 <amp-ad width=300 height=250
         type="appnexus"
+        data-member="7823"
+        data-code="mywebsite.de-amp-ressort_story-mrec"
+></amp-ad>
+
+## connected ads
+```html
+<amp-ad width=300 height=250
+        type="appnexus"
         data-target="mrec"
-        json='
-                {
-                  "pageOpts": 
-                  {
-                    "member": 7823},
-                  "adUnits": [
-                    {
-                      "disablePsa": true,
-                      "invCode": "mywebsite.de-amp-ressort_story-mrec",
-                      "sizes": [300, 250],
-                      "keywords": 
-                      {
-                        "kw_misc": ["rock", "pop"]
-                        "pt0": siteId
-                        "pt1": "pageName"
-                    },
-                      "targetId": "mrec"
-                      
-                    }
-                
-                    ]
-                  
-                }
-'>
-</amp-ad>
+        json='{
+            "pageOpts": {
+                "member": 7823
+            },
+            "adUnits": [{
+                "disablePsa": true,
+                "invCode": "mywebsite.de-amp-ressort_story-mrec",
+                "sizes": [300, 250],
+                "keywords": {
+                    "kw_misc": ["rock", "pop"]
+                    "pt0": siteId
+                    "pt1": "pageName"
+                },
+                "targetId": "mrec"
+            }]
+        }'
+></amp-ad>
 ```
 ### Notes
+- We're using the regular integration of appnexus full md found [here](https://github.com/ampproject/amphtml/blob/master/ads/appnexus.md)
 - The standard size for Ads on AMP ist 300x250 (mrec), if you need extra sizes please contact us.
 - data-target is the placement name. e.g. for Medium Rectangle should be "mrec" 
 - JSON:
