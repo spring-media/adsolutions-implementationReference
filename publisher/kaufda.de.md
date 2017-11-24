@@ -4,12 +4,6 @@ In this documentation you find the placement details for your Website.  Please f
 
 ## Placements
 
-MI is Tag-in-Tag integrated
-
- Desktop
-
-
- Mobile
 
 
 
