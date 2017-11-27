@@ -12,12 +12,12 @@ make sure you place it after you defined adSSetup
     p.style.display = 'none';
     p.onerror = function() {
         var x = document.createElement('img').src = 'https://bt.mediaimpact.de/' + f + '.png?b=1';
-    }
+    };
     p.onreadystatechange = p.onload = function() {
         if (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete'){ 
             var x = document.createElement('img').src = 'https://bt.mediaimpact.de/' + f + '.png?b=0'; p.onload = p.onreadystatechange = null;
         }
-    }
+    };
     p.src = '//ec-ns.sascdn.com/diff/251/verify.js';
     document.head.appendChild(p);
 })();
