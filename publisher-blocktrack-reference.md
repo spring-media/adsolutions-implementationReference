@@ -1,6 +1,7 @@
-# Please integrate the following HTML-Tag at the end of the page 
+# BlockTrack HTML-Tag
 
-make sure you place it after you defined adSSetup
+Please integrate the following HTML-Tag at the end of the page and
+make sure it gets loaded after adSSetup is defined
 
 
 ```html
