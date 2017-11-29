@@ -8,7 +8,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ```html
 <!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
-<SCRIPT SRC="http://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%
 &promo_alignment=[center]&kw_lvl1=%%PATTERN:lvl1%%&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&&kw_lvl6=%%PATTERN:lvl6%%cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
@@ -17,7 +17,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ```html
 <!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
-<SCRIPT SRC="http://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%
 &promo_alignment=[center]&kw_lvl1=%%PATTERN:lvl1%%&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&&kw_lvl6=%%PATTERN:lvl6%%cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
@@ -26,7 +26,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ```html
 <!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
-<SCRIPT SRC="http://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-superbanner&size=728x90&pubclickenc=%%CLICK_URL_ESC%%
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-superbanner&size=728x90&pubclickenc=%%CLICK_URL_ESC%%
 &promo_alignment=[center]&kw_lvl1=%%PATTERN:lvl1%%&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&&kw_lvl6=%%PATTERN:lvl6%%cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
@@ -35,7 +35,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ```html
 <!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
-<SCRIPT SRC="http://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-mew-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-mew-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%
 &promo_alignment=[center]&kw_lvl1=%%PATTERN:lvl1%%&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&&kw_lvl6=%%PATTERN:lvl6%%cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
