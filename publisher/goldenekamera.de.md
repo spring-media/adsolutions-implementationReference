@@ -4,7 +4,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ## AdLib
 
-Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages/fitbook.js```
+Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages/goldenekamera.js```
 
 
 ## Placements
@@ -18,7 +18,6 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Billboard|5419|billboard|
 |Medium Rectangle|4459|mrec|
 |Medium Rectangle|4460|mrec_btf|
-|Richmedia / Outstream|3651 / 18913|inpage|
 
  Mobile
 
@@ -27,20 +26,17 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 | ------------- |:-------------:| -----:|
 |Reminder|12815 (3648)|banner|
 |Content Ad|5720 (5419)|mrec|
-|Medium Rectangle|4459|mrec_btf|
-|Medium Rectangle 2|4460|mrec_btf_2|
-|Footer Ad|5721 (3650)|mrec_btf_3|
-|Richmedia / Outstream|6419 (3651) / 29606 (18913)|inpage|
+
 
  [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
 # Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","inpage"],`
+`	adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf"],`
 
 # Mobile:
 
-`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
+`	adPlacements: ["banner","mrec"],`
 
  [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
@@ -79,11 +75,6 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"sizes": [[300,250],[300,600]]
 		}],
 
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[640,360],[1000,300]]
-		}],
-     
 	},
 ```
 
@@ -100,27 +91,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"minWidth": 1,
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],
-
-		"mrec_btf": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
-
-		"mrec_2": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
 		
-		"mrec_3": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],		
-     
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[640,360],[1000,300]]
-		}],
-     
 	},
 ```
 
