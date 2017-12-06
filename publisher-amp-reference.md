@@ -22,7 +22,7 @@
             "adUnits": [{
                 "disablePsa": true,
                 "invCode": "mywebsite.de-amp-ressort_story-mrec",
-                "sizes": [300, 250],
+                "sizes": [[300, 250]],
                 "keywords": {
                     "kw_misc": ["rock", "pop"]
                     "pt0": siteId
