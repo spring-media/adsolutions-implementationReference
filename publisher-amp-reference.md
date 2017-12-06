@@ -24,8 +24,8 @@
                 "invCode": "mywebsite.de-amp-ressort_story-mrec",
                 "sizes": [[300, 250]],
                 "keywords": {
-                    "kw_misc": ["rock", "pop"]
-                    "pt0": siteId
+                    "kw_misc": ["rock", "pop"],
+                    "pt0": "siteId",
                     "pt1": "pageName"
                 },
                 "targetId": "mrec"
