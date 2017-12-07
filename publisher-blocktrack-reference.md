@@ -19,7 +19,7 @@ make sure it gets loaded after adSSetup is defined
             var x = document.createElement('img').src = 'https://bt.mediaimpact.de/' + f + '.png?b=0'; p.onload = p.onreadystatechange = null;
         }
     };
-    p.src = '//ec-ns.sascdn.com/diff/251/verify.js';
+    p.src = 'https://acdn.adnxs.com/as/1d/extensions/verify.js';
     document.head.appendChild(p);
 })();
 </script>
