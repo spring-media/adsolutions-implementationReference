@@ -44,12 +44,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 		"mrec": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
-		}],
-     
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1]]
-		}],
+		}]
      
 	},
 ```
@@ -58,8 +53,6 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 ## Important notes
 
-- For Intext Outstream and for Richmedia we just need one placement with Appnexus.
-- __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
 ## Help
 
