@@ -86,27 +86,27 @@ Please use the following JSs for the adLib:
      
 		"mrec": [{
 			"minWidth": 1,
-			"sizes": [[300,250],[300,600],[640,360],[1000,300]]
+			"sizes": [[300,250],[300,600],[1000,300]]
 		}],
      
-		"mrec_btf": [{
+		"mrec2": [{
 			"minWidth": 1,
 			"sizes": [[300,250]]
 		}],
 
-		"mrec_btf_2": [{
+		"mrec3": [{
 			"minWidth": 1,
 			"sizes": [[300,250]]
 		}],
 
-		"mrec_btf_3": [{
+		"mrec4": [{
 			"minWidth": 1,
 			"sizes": [[300,250]]
 		}],
      
 		"inpage": [{
 			"minWidth": 1,
-			"sizes": [[1,1]]
+			"sizes": [[1,1],[640,360]]
 		}],
      
 	},
@@ -118,27 +118,27 @@ Please use the following JSs for the adLib:
 	adSlotSizes: {
 		"mrec": [{
 			"minWidth": 1,
-			"sizes": [[300,250],[300,600],[640,360],[1000,300]]
+			"sizes": [[300,250],[300,600],[1000,300]]
 		}],
      
-		"mrec_btf": [{
+		"mrec2": [{
 			"minWidth": 1,
 			"sizes": [[300,250]]
 		}],
 
-		"mrec_btf_2": [{
+		"mrec3": [{
 			"minWidth": 1,
 			"sizes": [[300,250]]
 		}],
 
-		"mrec_btf_3": [{
+		"mrec4": [{
 			"minWidth": 1,
 			"sizes": [[300,250]]
 		}],
      
 		"inpage": [{
 			"minWidth": 1,
-			"sizes": [[1,1]]
+			"sizes": [[1,1],[640,360]]
 		}],
      
 	},
