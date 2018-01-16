@@ -23,16 +23,16 @@ In this documentation you find the placement details for your Websites.
 
 Please use the following JSs for the adLib: 
 
-www.gruenderszene.de ```https://acdn.adnxs.com/as/1h/pages/gruenderszene.js```
-www.ngin-food.com ```https://acdn.adnxs.com/as/1h/pages/ngin-food.js```
-www.ngin-mobility.com ```https://acdn.adnxs.com/as/1h/pages/ngin-mobility.js```
+- www.gruenderszene.de ```https://acdn.adnxs.com/as/1h/pages/gruenderszene.js```
+- www.ngin-food.com ```https://acdn.adnxs.com/as/1h/pages/ngin-food.js```
+- www.ngin-mobility.com ```https://acdn.adnxs.com/as/1h/pages/ngin-mobility.js```
 
 
 ## Placements
 
  Desktop
 
-| Placement Name|Sizes|PLacement Name|
+| Placement Name|Sizes|Placement Name|
 | ------------- |:-------------:| -----:|
 |Superbanner|[728,90],[728,600],[1000,600]|superbanner|
 |Sky|[160,600],[120,600],[300,600],[500,1000],[1000,1000]|sky|
