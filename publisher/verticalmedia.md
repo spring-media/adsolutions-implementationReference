@@ -1,22 +1,22 @@
 # Verticalmedia
 
-In this documentation you find the placement details for your Website.  
+In this documentation you find the placement details for your Websites.  
 
 ## Pagenames
 
--homepage
--automotive
--food
--gsconnect
--karriere
--artikel
--events
--gallery
--datenbank
--jobboard
--lexikon
--suche
--themenspezial
+- homepage
+- automotive
+- food
+- gsconnect
+- karriere
+- artikel
+- events
+- gallery
+- datenbank
+- jobboard
+- lexikon
+- suche
+- themenspezial
 
 
 ## AdLib
@@ -146,8 +146,7 @@ www.ngin-mobility.com ```https://acdn.adnxs.com/as/1h/pages/ngin-mobility.js```
 
 ## Important notes
 
-- For Intext Outstream and for Richmedia we just need one placement with Appnexus.
-- __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
+
 
 ## Help
 
