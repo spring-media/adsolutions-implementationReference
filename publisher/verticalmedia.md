@@ -37,22 +37,22 @@ Please use the following JSs for the adLib:
 |Superbanner|[728,90],[728,600],[1000,600]|superbanner|
 |Sky|[160,600],[120,600],[300,600],[500,1000],[1000,1000]|sky|
 |Billboard|[960,250],[800,250]|billboard|
-|Medium Rectangle|[300,250],[300,600],[640,360],[1000,300]|mrec|
-|Medium Rectangle 2|[300,250]|mrec_btf|
-|Medium Rectangle 3|[300,250]|mrec_btf_2|
-|Medium Rectangle 4|[300,250]|mrec_btf_3|
-|Richmedia|[1,1]|inpage|
+|Medium Rectangle|[300,250],[300,600],[1000,300]|mrec|
+|Medium Rectangle 2|[300,250]|mrec2|
+|Medium Rectangle 3|[300,250]|mrec3|
+|Medium Rectangle 4|[300,250]|mrec4|
+|Richmedia|[1,1],[640,360]|inpage|
 
  Mobile
 
 
 | Placement Name|Sizes|PLacement Name|
 | ------------- |:-------------:| -----:|
-|Medium Rectangle|[300,250],[300,600],[640,360],[1000,300]|mrec|
-|Medium Rectangle 2|[300,250]|mrec_btf|
-|Medium Rectangle 3|[300,250]|mrec_btf_2|
-|Medium Rectangle 4|[300,250]|mrec_btf_3|
-|Richmedia|[1,1]|inpage|
+|Medium Rectangle|[300,250],[300,600],[1000,300]|mrec|
+|Medium Rectangle 2|[300,250]|mrec2|
+|Medium Rectangle 3|[300,250]|mrec3|
+|Medium Rectangle 4|[300,250]|mrec4|
+|Richmedia|[1,1],[640,360]|inpage|
 
  [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
