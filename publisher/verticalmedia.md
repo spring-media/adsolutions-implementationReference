@@ -2,8 +2,11 @@
 
 In this documentation you find the placement details for your Websites.  
 
+
 ## Pagenames
 
+
+### Gründerszene
 - homepage
 - automotive
 - food
@@ -17,6 +20,11 @@ In this documentation you find the placement details for your Websites.
 - lexikon
 - suche
 - themenspezial
+
+### ngins
+- homepage
+- artikel
+- jobs
 
 
 ## AdLib
