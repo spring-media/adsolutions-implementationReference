@@ -24,7 +24,7 @@
                 "invCode": "mywebsite.de-amp-ressort_story-mrec",
                 "sizes": [[300, 250]],
                 "keywords": {
-                    "kw_misc": ["rock", "pop"]
+                    "misc": ["rock", "pop"]
                 },
                 "targetId": "mrec"
             },{
@@ -32,7 +32,7 @@
                 "invCode": "mywebsite.de-amp-ressort_story-mrec",
                 "sizes": [[300, 250]],
                 "keywords": {
-                    "kw_misc": ["rock", "pop"]
+                    "misc": ["rock", "pop"]
                 },
                 "targetId": "mrec_2"
             }]
