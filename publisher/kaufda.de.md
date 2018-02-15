@@ -33,7 +33,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 	adSlotSizes: {
 		"superbanner": [{
 			"minWidth": 1,
-			"sizes": [[728,90],[728,600],[1000,600]]
+			"sizes": [[970,250],[728,90],[728,600],[800,250],[1000,600]]
 		}],
      
 		"sky": [{
