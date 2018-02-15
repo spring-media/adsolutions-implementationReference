@@ -16,13 +16,12 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
 |Medium Rectangle|4459|mrec|
-|Richmedia / Outstream|3651 / 18913|inpage|
 
  
 
 # Desktop:
 
-`	adPlacements: ["superbanner","sky","mrec","inpage"],`
+`	adPlacements: ["superbanner","sky","mrec"],`
 
 
  [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
