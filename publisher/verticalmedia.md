@@ -152,6 +152,29 @@ Please use the following JSs for the adLib:
 	},
 ```
 
+## AMP
+
+### ngin Mobility
+
+```html
+<amp-ad width=300 height=250
+        type="appnexus"
+        data-member="7823"
+        data-code="ngin-mobility-amp-ros-mrec"
+></amp-ad>
+```
+
+### ngin Food
+
+```html
+<amp-ad width=300 height=250
+        type="appnexus"
+        data-member="7823"
+        data-code="ngin-food-amp-ros-mrec"
+></amp-ad>
+```
+
+
 ## Important notes
 
 
