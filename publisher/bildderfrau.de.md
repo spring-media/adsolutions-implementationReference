@@ -6,6 +6,12 @@ In this documentation you find the placement details for your Website.  Please f
 
 Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages/bildderfrau.js```
 
+## Besonderheit 
+
+Superbanner und Billboard haben nur auf der Home getrennte Placements. 
+
+Auf ROS werden die Billboard Sizes über das Superbanner-Placement gecallt. Billboards können trotzdem mit der Size 3x3 gebucht werden
+
 
 ## Placements
 
