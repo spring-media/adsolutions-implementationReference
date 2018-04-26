@@ -11,6 +11,8 @@ and theirfore it also works on mobile devices or tablets.
 javascript:!function(){var s=document.createElement("script");s.src="https://acdn.adnxs.com/as/1d/extensions/adalert.js",document.getElementsByTagName("head")[0].appendChild(s);}();void(0);
 
 ```
+javascript:!function(){var s=document.createElement("script");s.src="https://acdn.adnxs.com/as/1d/extensions/adalert.js",document.getElementsByTagName("head")[0].appendChild(s);}();void(0);
+
 
 Please don't modify this code and use it "as is".
 
