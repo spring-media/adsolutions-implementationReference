@@ -6,6 +6,7 @@ It will load a javascript file that checks the placements on the page and sum th
 The code is written in plain javascript so each browser on each device will accept it,
 and theirfore it also works on mobile devices or tablets.
 
+##### Please don't modify this code and use it "as is".
 ```
 
 javascript:!function(){var s=document.createElement("script");s.src="https://acdn.adnxs.com/as/1d/extensions/adalert.js",document.getElementsByTagName("head")[0].appendChild(s);}();void(0);
@@ -16,13 +17,13 @@ javascript:!function(){var s=document.createElement("script");s.src="https://acd
 
 javascript:!function(){var s=document.createElement("script");s.src="https://acdn.adnxs.com/as/1d/extensions/adalert.js",document.getElementsByTagName("head")[0].appendChild(s);}();void(0);
 
-##### Please don't modify this code and use it "as is".
+
 
 #### Definitions
 
 Color | stands for | means
 --- | --- | ---
-green | delivered | ad should be visible
+<span style="color:#8C9440">green</span> | delivered | ad should be visible
 orange | mediation noBid | there was no higher programmatic bid
 light grey | not rendered now | either slot is missing or it will be rendered on scroll
 dark grey | blocker | a creative blocker
