@@ -16,11 +16,9 @@ javascript:!function(){var s=document.createElement("script");s.src="https://acd
 
 javascript:!function(){var s=document.createElement("script");s.src="https://acdn.adnxs.com/as/1d/extensions/adalert.js",document.getElementsByTagName("head")[0].appendChild(s);}();void(0);
 
+##### Please don't modify this code and use it "as is".
 
-
-Please don't modify this code and use it "as is".
-
-####Definitions
+#### Definitions
 
 | green | delivered | ad should be visible |
 | orange | mediation noBid | there was no higher programmatic bid |
