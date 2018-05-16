@@ -23,7 +23,7 @@ javascript:!function(){var s=document.createElement("script");s.src="https://acd
 
 Color | stands for | means
 --- | --- | ---
-<span style="color:#8C9440">**green**</span> | delivered | ad should be visible
+green | delivered | ad should be visible
 orange | mediation noBid | there was no higher programmatic bid
 light grey | not rendered now | either slot is missing or it will be rendered on scroll
 dark grey | blocker | a creative blocker
