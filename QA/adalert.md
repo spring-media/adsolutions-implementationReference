@@ -27,6 +27,7 @@ green | delivered | ad should be visible
 orange | mediation noBid | there was no higher programmatic bid
 light grey | not rendered now | either slot is missing or it will be rendered on scroll
 dark grey | blocker | a creative blocker
+rose | foreignId | an ID passed by the partners redirect
 
 - The number after the creative id shows the member the ad belongs to
 
