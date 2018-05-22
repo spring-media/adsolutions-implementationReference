@@ -162,7 +162,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
      
 		"mrec": [{
 			"minWidth": 1,
-			"sizes": [[320,50],[320,75],[320,160]]
+			"sizes": [[300,250],[320,50],[320,75],[320,160]]
 		}],
      
 		"mrec_btf": [{
