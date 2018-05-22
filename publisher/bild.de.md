@@ -157,12 +157,17 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 	adSlotSizes: {
 		"banner": [{
 			"minWidth": 1,
-			"sizes": [[320,50],[320,75],[320,80]]
+			"sizes": [[320,50],[320,75],[320,160],[320,80]]
+		}],
+		
+		"banner2": [{
+			"minWidth": 1,
+			"sizes": [[4,4]]
 		}],
      
 		"mrec": [{
 			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160]]
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300],[320,80]]
 		}],
      
 		"mrec_btf": [{
