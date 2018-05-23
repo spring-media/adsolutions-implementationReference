@@ -15,3 +15,29 @@ We recommend to use the Chrome browser Plugin [Redirector](https://chrome.google
 ![Settings for Redirector](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/redirector.png?raw=true)
 
 **You can also use Charles Proxy as alternative.**
+
+If you have some question don't hesitate to contact us:
+
+
+__Timo Nolte__
+ 
+  Head of AdSolutions
+  Corporate Digital Platforms
+
+  Tel: +49 30 2591 78009
+  Mobile: +49 151 22334646 
+  timo.nolte@axelspringer.de
+
+
+__Carlos Bracho__
+ 
+  Senior Ad Technology Lead 
+  Corporate Digital Platforms
+  
+  Tel: +49 30 2591 76784
+  Mobile: +49 151 44619807 
+  carlos.bracho@axelspringer.de
+
+__Ad Technology Team__
+  adtechnology@axelspringer.de
+  
