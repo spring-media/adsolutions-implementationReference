@@ -2,9 +2,9 @@
 
 In order to use our Beta environment you should only redirect the AdLib request **from** the global Appnexus CDN **to** the Ad Solutions development server.
 
-From `https://acdn.adnxs.com/as/1h/pages/*` 
+From `https://acdn.adnxs.com/as/*` 
 
---> to `https://adtechnology.axelspringer.com/beta/1h/pages/$1`
+--> to `https://adtechnology.axelspringer.com/beta/$1`
 
 ## How to redirect the requests?
 
@@ -12,7 +12,7 @@ We recommend to use the Chrome browser Plugin [Redirector](https://chrome.google
 
 ### Settings for Redirector:
 
-![Settings for Redirector](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/redirector.png?raw=true)
+![Settings for Redirector](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/QA/redirector2.png?raw=true?raw=true)
 
 **You can also use Charles Proxy as alternative.**
 
