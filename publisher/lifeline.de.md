@@ -59,7 +59,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"sizes": [[800,250]]
 		},{
 			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
+			"sizes": [[800,250]]
 		}],
      
 		"mrec": [{
