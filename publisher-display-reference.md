@@ -393,6 +393,8 @@ Size | Creative | IAB | Preview
 
 ## QA and Testing
 
+### Please don't try to test ads on Localhost. Ads will be not delivered on localhost.
+
 ### Anti - Blacklisting Chrome Plugin
 Appnexus blocks clients or ip-address that make too many ad requests on a determined placement or in a too short time interval. For it is strongly recommended that before you start testing, to change the browser headers.
 
