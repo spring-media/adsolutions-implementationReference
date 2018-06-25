@@ -107,6 +107,9 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 	adSlotSizes: {
 		"superbanner": [{
 			"minWidth": 1,
+			"sizes": [[728,90],[728,600],[1000,600],[800,250]]
+		},{
+			"minWidth": 969,
 			"sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
 		}],
 
@@ -126,10 +129,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 		}],
 
 		"billboard": [{
-			"minWidth": 799,
-			"sizes": [[3,3]]
-		},{
-			"minWidth": 969,
+			"minWidth": 1,
 			"sizes": [[3,3]]
 		}],
      
