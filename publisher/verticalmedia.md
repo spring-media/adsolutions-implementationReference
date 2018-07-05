@@ -56,6 +56,7 @@ Please use the following JSs for the adLib:
 
 | Placement Name|Sizes|PLacement Name|
 | ------------- |:-------------:| -----:|
+|Banner|[300,150]|banner|
 |Medium Rectangle|[300,250],[300,600],[1000,300]|mrec|
 |Medium Rectangle 2|[300,250]|mrec2|
 |Medium Rectangle 3|[300,250]|mrec3|
@@ -70,7 +71,7 @@ Please use the following JSs for the adLib:
 
 # Mobile:
 
-`	adPlacements: ["mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
+`	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
  [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 # Desktop:
@@ -124,6 +125,10 @@ Please use the following JSs for the adLib:
 
 ```
 	adSlotSizes: {
+		"banner": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
 		"mrec": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600],[1000,300]]
