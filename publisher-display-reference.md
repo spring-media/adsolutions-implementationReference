@@ -45,8 +45,8 @@
 			- [mrec_btf](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mrec_btf)
 - [Creative Sizes Reference](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#creative-sizes-reference)
 - [QA and Testing](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#qa-and-testing)
-- [Special Reports(https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#special-features)
-
+- [Special Reports](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#special-features)
+			- [Lazy Loading](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#lazy-loading)
 
 
 
