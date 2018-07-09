@@ -415,3 +415,7 @@ https://adtechnology.axelspringer.com/testads.html
 #### Test Ads for special placements
 If your website hast special placement f.e. Teaser, multilinks, etc., please contact adtechnology@axelspringer.de to get the test-instructions.
  
+## Special Features
+### Lazy Loading
+The "btf" placements in the Browser are loaded with lazy loading. Those ads will be rendered only if the placement 100px under the viewport
+![Lazyloading](https://bracho.xyz/adtech/img/lazyloading.png "Lazy Loading")
