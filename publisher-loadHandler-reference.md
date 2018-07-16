@@ -16,7 +16,11 @@ Property | Type | used for
 --- | --- | --- 
 adSlot.id | *string* | the adSlot container id e.g. superbanner, billboard_btf ...
 adSlot.hasAd | *boolean* | let's you know if there is an ad.
+adSlot.hasMarker | *boolean* | let's you know if the ad brings an own marker.
+adSlot.placementSize | *string* | the size of the adplacement the winning bid is booked to
 adSlot.tempName | *string* | identifies the adformat, e.g. videowall, fireplace, oneTag etc.
+adSlot.crea1.height | *string* | the real base-height of the first creative of the adformat
+adSlot.crea1.width | *string* | the real base-width of the first creative of the adformat
 
 Given this you can do things like this:
 
