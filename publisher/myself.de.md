@@ -1,6 +1,7 @@
 # myself.de
 
-In this documentation you find the placement details for your Website.  Please find an test-site on the following link:    [Appnexus test site](https://adtechnology.mediaimpact.de/test-appnexus/)
+In this documentation you find the placement details for your Website.
+
 
 ## AdLib
 
@@ -17,6 +18,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Sky|sky|
 |Billboard|billboard|
 |Medium Rectangle|mrec|
+|Medium Rectangle 2|mrec_btf|
 |Richmedia / Outstream|inpage|
 
  Mobile
@@ -33,12 +35,13 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 # Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","inpage"],`
+`	adPlacements: ["superbanner","sky","billboard","mrec","inpage","mrec_btf"],`
 
 # Mobile:
 
 `	adPlacements: ["banner","mrec","mrec_btf","inpage"],`
- [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+ 
+[Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 # Desktop:
 
@@ -63,6 +66,11 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 		}],
      
 		"mrec": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+		
+		"mrec_btf": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
