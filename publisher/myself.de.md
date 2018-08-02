@@ -10,46 +10,43 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 ## Placements
 
- Desktop
+### Desktop
+#### Startseite
 
 | Placement Name|Appnexus|
 | ------------- | -----:|
+|menuad right|menuad|
+|menuad left|menuad2|
 |Superbanner|superbanner|
 |Sky|sky|
 |Billboard|billboard|
-|Medium Rectangle|mrec|
-|Medium Rectangle 2|mrec_btf|
-|Richmedia / Outstream|inpage|
-
- Mobile
-
-
-| Placement Name|Appnexus|
-| ------------- | -----:|
-|Reminder|banner|
-|Content Ad|mrec|
-|Footer Ad|mrec_btf|
-|Richmedia / Outstream|inpage|
+|Billboard 2|billboard_btf|
+|Billboard 3|billboard_btf_2|
+|Billboard 4|billboard_btf_3|
 
 [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
-# Desktop:
+`	adPlacements: ["menuad","menuad2","superbanner","sky","billboard","billboard_btf","billboard_btf_2","billboard_btf_3"],`
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","inpage","mrec_btf"],`
-
-# Mobile:
-
-`	adPlacements: ["banner","mrec","mrec_btf","inpage"],`
- 
 [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
-# Desktop:
+# Startseite:
 
 ```
 	adSlotSizes: {
+		"menuad": [{
+			"minWidth": 1,
+			"sizes": [[300,90]]
+		}],
+     
+		"menuad2": [{
+			"minWidth": 1,
+			"sizes": [[300,90]]
+		}],
+		
 		"superbanner": [{
 			"minWidth": 1,
-			"sizes": [[728,90],[728,600],[1000,600]]
+			"sizes": [[970,250],[800,250],[728,90],[728,600],[1000,600]]
 		}],
      
 		"sky": [{
@@ -59,31 +56,178 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
      
 		"billboard": [{
 			"minWidth": 799,
-			"sizes": [[800,250]]
+			"sizes": [[800,250],[728,90]]
 		},{
 			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
+			"sizes": [[970,250],[728,90]]
+		}],
+     		
+		"billboard_btf": [{
+			"minWidth": 799,
+			"sizes": [[800,250],[728,90]]
+		},{
+			"minWidth": 969,
+			"sizes": [[970,250],[728,90]]
 		}],
      
-		"mrec": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[300,600]]
-		}],
-		
-		"mrec_btf": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[300,600]]
-		}],
-     
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[640,360],[1000,300]]
-		}],
+
      
 	},
 ```
 
-# Mobile:
+
+
+#### Channels
+
+| Placement Name|Appnexus|
+| ------------- | -----:|
+|menuad right|menuad|
+|menuad left|menuad2|
+|Superbanner|superbanner|
+|Sky|sky|
+|Billboard|billboard|
+|Billboard 2|billboard_btf|
+
+[Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+
+`	adPlacements: ["menuad","menuad2","superbanner","sky","billboard","billboard_btf"],`
+
+[Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+
+# Channels:
+
+```
+	adSlotSizes: {
+		"menuad": [{
+			"minWidth": 1,
+			"sizes": [[300,90]]
+		}],
+     
+		"menuad2": [{
+			"minWidth": 1,
+			"sizes": [[300,90]]
+		}],
+		
+		"superbanner": [{
+			"minWidth": 1,
+			"sizes": [[970,250],[800,250],[728,90],[728,600],[1000,600]]
+		}],
+     
+		"sky": [{
+			"minWidth": 1,
+			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
+		}],
+     
+		"billboard": [{
+			"minWidth": 799,
+			"sizes": [[800,250],[728,90]]
+		},{
+			"minWidth": 969,
+			"sizes": [[970,250],[728,90]]
+		}],
+     		
+		"billboard_btf": [{
+			"minWidth": 799,
+			"sizes": [[800,250],[728,90]]
+		},{
+			"minWidth": 969,
+			"sizes": [[970,250],[728,90]]
+		}],
+     
+
+     
+	},
+```
+
+
+#### Artikel
+
+| Placement Name|Appnexus|
+| ------------- | -----:|
+|menuad right|menuad|
+|menuad left|menuad2|
+|Superbanner|superbanner|
+|Sky|sky|
+|Medium Rectangle|mrec|
+|Billboard|billboard_btf|
+|Billboard 2|billboard_btf_2|
+
+[Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+
+`	adPlacements: ["menuad","menuad2","superbanner","sky","mrec","billboard","billboard_btf"],`
+ 
+ [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+
+# Artikel:
+
+```
+	adSlotSizes: {
+		"menuad": [{
+			"minWidth": 1,
+			"sizes": [[300,90]]
+		}],
+     
+		"menuad2": [{
+			"minWidth": 1,
+			"sizes": [[300,90]]
+		}],
+		
+		"superbanner": [{
+			"minWidth": 1,
+			"sizes": [[970,250],[800,250],[728,90],[728,600],[1000,600]]
+		}],
+     
+		"sky": [{
+			"minWidth": 1,
+			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
+		}],
+		
+		"mrec": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[300,600]]
+		}],
+     
+		"billboard": [{
+			"minWidth": 799,
+			"sizes": [[800,250],[728,90]]
+		},{
+			"minWidth": 969,
+			"sizes": [[970,250],[728,90]]
+		}],
+     		
+		"billboard_btf": [{
+			"minWidth": 799,
+			"sizes": [[800,250],[728,90]]
+		},{
+			"minWidth": 969,
+			"sizes": [[970,250],[728,90]]
+		}],
+     
+
+     
+	},
+```
+
+ 
+ 
+### Mobile
+
+
+| Placement Name|Appnexus|
+| ------------- | -----:|
+|Reminder|banner|
+|Content Ad|mrec|
+
+
+[Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+
+
+`	adPlacements: ["banner","mrec"],`
+ 
+[Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+
+
+# Mobile alles:
 
 ```
 	adSlotSizes: {
@@ -97,24 +241,9 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],
      
-		"mrec_btf": [{
-			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
-     
-		"inpage": [{
-			"minWidth": 1,
-			"sizes": [[1,1],[640,360],[1000,300]]
-		}],
-     
 	},
 ```
 
-## Important notes
-
-- A Contentbar is on the website but it is not being used. Please remove it.
-- For Intext Outstream and for Richmedia we just need one placement with Appnexus.
-- __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
 ## Help
 
