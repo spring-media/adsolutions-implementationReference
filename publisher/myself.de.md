@@ -68,7 +68,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 		},{
 			"minWidth": 969,
 			"sizes": [[970,250],[728,90]]
-		}],
+		}]
      
 
      
@@ -132,7 +132,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 		},{
 			"minWidth": 969,
 			"sizes": [[970,250],[728,90]]
-		}],
+		}]
      
 
      
@@ -201,7 +201,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 		},{
 			"minWidth": 969,
 			"sizes": [[970,250],[728,90]]
-		}],
+		}]
      
 
      
@@ -239,7 +239,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 		"mrec": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
-		}],
+		}]
      
 	},
 ```
