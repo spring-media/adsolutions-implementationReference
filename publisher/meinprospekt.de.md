@@ -70,7 +70,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"sizes": [[728,90]]			
 		}],
     
-    "billboard_btf": [{
+    		"billboard_btf": [{
 			"minWidth": 799,
 			"sizes": [[800,250]]
 		},{
@@ -86,17 +86,17 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"sizes": [[300,250],[300,600]]
 		}],
     
-    "mrec_btf": [{
+    		"mrec_btf": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
     
-    "mrec_btf_2": [{
+    		"mrec_btf_2": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
     
-    "mrec_btf_3": [{
+    		"mrec_btf_3": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[300,600]]
 		}],
@@ -118,17 +118,17 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],    
 		
-    "mrec_btf_2": [{
+    		"mrec_btf_2": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],    
 		
-    "mrec_btf_3": [{
+    		"mrec_btf_3": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],    
 		
-    "mrec_btf_4": [{
+    		"mrec_btf_4": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],    
