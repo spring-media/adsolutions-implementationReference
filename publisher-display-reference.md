@@ -3,50 +3,50 @@
 
 **Table of Contents**  
 
-- [Introduction](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#introduction)
-- [Overview](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#overview)
-- [Ad Integration](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#ad-integration)
-	- [`<head>` elements](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#elements-in-the-head-of-the-website)
-		- [1. Viewport](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#1-set-the-viewport-of-the-website-use-for-desktop-d-and-for-mobile-m)
-		- [2. 3th party scripts.](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#2-switch-for-the-3th-party-scripts-we-strictly-recommend-to-set-it-as-false-only-on-pages-for-directsales-campaign-only-the-max-out-the-revenue)
-		- [3. Placements](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
-			- [Desktop](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop)
-				- [Mandatory](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mandatory)
-				- [Optional](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#optional)
-			- [Mobile](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-mobile)
-				- [Mandatory](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mandatory-1)
-				- [Optional](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#optional-1)
-		- [4. Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
-				-[Desktop](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#desktop-1)
-				-[Mobile](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mobile-1)
-			- [Placement's Sizes Reference](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#ad-sizes-for-every-placement)
-				- [For Desktop](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1)
-				- [For Mobile](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-mobile-1)
-		- [5. Page configuration](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#5-page-configuration)
-			- [colorBG](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#colorbg-enabledisable-coloring-of-the-page-background)
-			- [bgClick](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#bgclick-enabledisable-click-on-page-background)
-			- [stickySky](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#stickysky-enabledisable-stickiness-for-skyscraper)
-			- [pageName](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#pagename-it-is-the-name-of-the-channel-or-article-in-cms)
-			- [target](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#target-every-editorial-keyword-or-custom-target)
-		- [6. AdLib](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#6-adlib)
-- [Ad Placements in the `<body>`](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#ad-placements-in-the-body-of-the-website)
-		- [Example](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#example)
-	- [Ad Placements Overview](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#ad-placements-overview)
-		- [Display](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#display)
-			- [superbanner](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#superbanner)
-			- [sky](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#sky)
-			- [billboard](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#billboard)
-			- [mrec](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mrec)
-			- [inpage](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#inpage)
-		- [Mobile](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mobile)
-			- [banner](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#banner)
-			- [mrec](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mrec-1)
-			- [inpage](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#inpage-1)
-			- [mrec_btf](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#mrec_btf)
-- [Creative Sizes Reference](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#creative-sizes-reference)
-- [QA and Testing](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#qa-and-testing)
-- [Special Reports](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#special-features)
-			- [Lazy Loading](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#lazy-loading)
+- [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#introduction)
+- [Overview](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#overview)
+- [Ad Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#ad-integration)
+	- [`<head>` elements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#elements-in-the-head-of-the-website)
+		- [1. Viewport](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#1-set-the-viewport-of-the-website-use-for-desktop-d-and-for-mobile-m)
+		- [2. 3th party scripts.](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#2-switch-for-the-3th-party-scripts-we-strictly-recommend-to-set-it-as-false-only-on-pages-for-directsales-campaign-only-the-max-out-the-revenue)
+		- [3. Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+			- [Desktop](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop)
+				- [Mandatory](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#mandatory)
+				- [Optional](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#optional)
+			- [Mobile](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-mobile)
+				- [Mandatory](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#mandatory-1)
+				- [Optional](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#optional-1)
+		- [4. Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+				-[Desktop](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#desktop-1)
+				-[Mobile](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#mobile-1)
+			- [Placement's Sizes Reference](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#ad-sizes-for-every-placement)
+				- [For Desktop](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1)
+				- [For Mobile](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-mobile-1)
+		- [5. Page configuration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#5-page-configuration)
+			- [colorBG](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#colorbg-enabledisable-coloring-of-the-page-background)
+			- [bgClick](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#bgclick-enabledisable-click-on-page-background)
+			- [stickySky](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#stickysky-enabledisable-stickiness-for-skyscraper)
+			- [pageName](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#pagename-it-is-the-name-of-the-channel-or-article-in-cms)
+			- [target](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#target-every-editorial-keyword-or-custom-target)
+		- [6. AdLib](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#6-adlib)
+- [Ad Placements in the `<body>`](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#ad-placements-in-the-body-of-the-website)
+		- [Example](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#example)
+	- [Ad Placements Overview](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#ad-placements-overview)
+		- [Display](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#display)
+			- [superbanner](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#superbanner)
+			- [sky](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#sky)
+			- [billboard](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#billboard)
+			- [mrec](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#mrec)
+			- [inpage](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#inpage)
+		- [Mobile](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#mobile)
+			- [banner](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#banner)
+			- [mrec](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#mrec-1)
+			- [inpage](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#inpage-1)
+			- [mrec_btf](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#mrec_btf)
+- [Creative Sizes Reference](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#creative-sizes-reference)
+- [QA and Testing](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#qa-and-testing)
+- [Special Reports](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#special-features)
+			- [Lazy Loading](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#lazy-loading)
 
 
 
@@ -261,7 +261,7 @@ This `js` contains the whole Ad Library. Every website will get its own `js` fro
 <div id="${adPlacement}"></div>
 ```
 
-This `div` has to be wrapped in an own container, has to be free of Styles/CSS and the `div id` must be the name of the placement. [See from line 24 of this document](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website). 
+This `div` has to be wrapped in an own container, has to be free of Styles/CSS and the `div id` must be the name of the placement. [See from line 24 of this document](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website). 
 
 ### Example
 
@@ -281,7 +281,7 @@ __Superbanner__
 
 ![superbanner](https://bracho.xyz/adtech/img/superbanner.png "superbanner")
 
-This placement should be positioned at the top of the web page. Wallpapers and fireplaces are also delivered via this placement. [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+This placement should be positioned at the top of the web page. Wallpapers and fireplaces are also delivered via this placement. [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *superbanner* | `[728,90]` | `[728,600]` | `[1000,600]`
 
@@ -291,7 +291,7 @@ This placement should be positioned at the top of the web page. Wallpapers and f
 
 ![sky](https://bracho.xyz/adtech/img/sky.png "sky")
 
-This placement is to be positioned on the left side of the website content. Sitebars, dynamic sitebars, and double-dinamic sitebars are also delivered via this placement. [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+This placement is to be positioned on the left side of the website content. Sitebars, dynamic sitebars, and double-dinamic sitebars are also delivered via this placement. [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *sky* | `[160,600]` | `[120,600]` | `[300,600]` | `[500,1000]` | `[1000,1000]`
 
@@ -301,7 +301,7 @@ This placement is to be positioned on the left side of the website content. Site
 
 ![billboard](https://bracho.xyz/adtech/img/billboard.png "billboard")
 
-This placement is to be placed directly under the navigation or under the first teaser of the website. [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+This placement is to be placed directly under the navigation or under the first teaser of the website. [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *billboard* | `[970,250]` | `[800,250]` 
 
@@ -311,7 +311,7 @@ This placement is to be placed directly under the navigation or under the first 
 
 ![mrec](https://bracho.xyz/adtech/img/mrec.png "mrec")
 
-We recommend to place the first Mrec above the fold (ATF). [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+We recommend to place the first Mrec above the fold (ATF). [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *mrec* | `[300,250]` | `[300,600]`  
 
@@ -321,7 +321,7 @@ We recommend to place the first Mrec above the fold (ATF). [These sizes must be 
 
 ![inpage](https://bracho.xyz/adtech/img/inpage.png "inpage")
 
-Interstitials, Understitials, and InText-Outstream Advertising Materials are delivered through the inpage Placement. This placement is to be placed in the position requested by the publisher for InText- Outstream ads. [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+Interstitials, Understitials, and InText-Outstream Advertising Materials are delivered through the inpage Placement. This placement is to be placed in the position requested by the publisher for InText- Outstream ads. [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *inpage* | `[1,1]` | `[640,360]` | `[1000,300]` 
 
@@ -333,7 +333,7 @@ Interstitials, Understitials, and InText-Outstream Advertising Materials are del
 
 ![banner](https://bracho.xyz/adtech/img/mobil_banner.png "banner")
 
-This placement should be positioned at the top of the web page.  [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+This placement should be positioned at the top of the web page.  [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *banner* | `[320,50]` | `[320,75]` | `[320,80]`
 
@@ -343,7 +343,7 @@ This placement should be positioned at the top of the web page.  [These sizes mu
 
 ![mrec](https://bracho.xyz/adtech/img/mobil_mrec.png "mrec")
 
-We recommend to place the first Mrec above the fold (ATF). [These sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+We recommend to place the first Mrec above the fold (ATF). [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *mrec* | `[300,250]` | `[320,50]` | `[320,75]` | `[320,80]` | `[320,160]` | `[300,300]`
 
@@ -353,7 +353,7 @@ We recommend to place the first Mrec above the fold (ATF). [These sizes must be 
 
 ![inpage](https://bracho.xyz/adtech/img/mobil_inpage.png "inpage")
 
-Interstitials, Understitials, and InText-Outstream Advertising Materials are delivered through the inpage Placement. This placement is to be placed in the position requested by the publisher for InText- Outstream ads. [This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+Interstitials, Understitials, and InText-Outstream Advertising Materials are delivered through the inpage Placement. This placement is to be placed in the position requested by the publisher for InText- Outstream ads. [This sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *inpage* | `[1,1]` | `[640,360]` | `[1000,300]` 
 
@@ -369,7 +369,7 @@ This placement can be placed multiple times on a page. We stron recommend to pla
 - mrec_btf_2
 - mrec_btf_3
 
-[This sizes must be used](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#for-desktop-1).
+[This sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
 *mrec* | `[300,250]` | `[320,50]` | `[320,75]` | `[320,80]` | `[320,160]` | `[300,300]`
 

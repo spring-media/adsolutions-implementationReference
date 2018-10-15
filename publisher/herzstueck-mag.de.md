@@ -28,7 +28,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Richmedia / Outstream|3651 / 18913|inpage|
 
 
- [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+ [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
 # Desktop:
 
@@ -38,7 +38,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 `	adPlacements: ["banner","mrec","inpage"],`
 
- [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+ [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 # Desktop:
 

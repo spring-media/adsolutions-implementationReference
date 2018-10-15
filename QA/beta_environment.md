@@ -12,7 +12,7 @@ We recommend to use the Chrome browser Plugin [Redirector](https://chrome.google
 
 ### Settings for Redirector:
 
-![Settings for Redirector](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/QA/redirector2.png?raw=true?raw=true)
+![Settings for Redirector](https://github.com/spring-media/adsolutions-implementationReference/blob/master/QA/redirector2.png?raw=true?raw=true)
 
 **You can also use Charles Proxy as alternative.**
 

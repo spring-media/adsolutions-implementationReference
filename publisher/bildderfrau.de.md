@@ -38,7 +38,7 @@ Auf ROS werden die Billboard Sizes über das Superbanner-Placement gecallt. Bill
 |Footer Ad|5721|mrec_btf_3|
 |Richmedia / Outstream|6419 (3651) / 29606 (18913)|inpage|
 
- [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+ [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
 # Desktop:
 
@@ -47,7 +47,7 @@ Auf ROS werden die Billboard Sizes über das Superbanner-Placement gecallt. Bill
 # Mobile:
 
 `	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
- [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+ [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 # Desktop:
 

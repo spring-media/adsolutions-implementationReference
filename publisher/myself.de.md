@@ -24,11 +24,11 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Billboard 3|billboard_btf_2|
 |Billboard 4|billboard_btf_3|
 
-[Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+[Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
 `	adPlacements: ["menuad","menuad2","superbanner","sky","billboard","billboard_btf","billboard_btf_2","billboard_btf_3"],`
 
-[Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+[Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 # Startseite:
 
@@ -88,11 +88,11 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Billboard|billboard|
 |Billboard 2|billboard_btf|
 
-[Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+[Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
 `	adPlacements: ["menuad","menuad2","superbanner","sky","billboard","billboard_btf"],`
 
-[Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+[Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 # Channels:
 
@@ -152,11 +152,11 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Billboard|billboard_btf|
 |Billboard 2|billboard_btf_2|
 
-[Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+[Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
 `	adPlacements: ["menuad","menuad2","superbanner","sky","mrec","billboard","billboard_btf"],`
  
- [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+ [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 # Artikel:
 
@@ -219,12 +219,12 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Content Ad|mrec|
 
 
-[Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+[Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
 
 `	adPlacements: ["banner","mrec"],`
  
-[Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+[Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 
 # Mobile alles:

@@ -63,7 +63,7 @@ Please use the following JSs for the adLib:
 |Medium Rectangle 4|[300,250]|mrec4|
 |Richmedia|[1,1],[640,360]|inpage|
 
- [Placement Codes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+ [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
 # Desktop:
 
@@ -72,7 +72,7 @@ Please use the following JSs for the adLib:
 # Mobile:
 
 `	adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","inpage"],`
- [Placement Sizes](https://github.com/CDPAdSolution/adSolution-Reference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+ [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
 # Desktop:
 
