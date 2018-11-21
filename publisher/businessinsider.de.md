@@ -13,7 +13,6 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
-
 |Billboard|5419|billboard|
 |Sky|3650|sky|
 |Medium Rectangle|4459|mrec|
