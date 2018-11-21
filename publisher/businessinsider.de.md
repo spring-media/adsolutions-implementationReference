@@ -13,9 +13,9 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
-|Superbanner|3648|superbanner|
-|Sky|3650|sky|
+
 |Billboard|5419|billboard|
+|Sky|3650|sky|
 |Medium Rectangle|4459|mrec|
 |Medium Rectangle 2|new|mrec_btf|
 |Medium Rectangle 3|new|mrec_btf_2|
@@ -40,7 +40,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 # Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","mrec_btf_5","inpage"],`
+`	adPlacements: ["sky","billboard","mrec","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","mrec_btf_5","inpage"],`
 
 # Mobile:
 
