@@ -227,6 +227,7 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 	colorBg: true, // enable/disable coloring of the page-background
 	bgClick: true, // enable/disable click on page-background
 	stickySky: true, // enable/disable stickiness for skyscraper
+	hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding vor video
 	pageName: "demo_story", // channel/article name from CMS
        	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
 }
