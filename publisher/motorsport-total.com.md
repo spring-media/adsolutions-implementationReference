@@ -19,8 +19,8 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |contentbar01|3937|billboard_btf|
 |Medium Rectangle|4459|mrec|
 |Medium Rectangle 2|4460|mrec_btf|
-|regteaser04|19237|teaser_4|
-|regteaser05|19238|teaser_5|
+|regteaser|19237|teaser|
+|regteaser02|19238|teaser_2|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
  Mobile
@@ -31,17 +31,19 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Reminder|12815 (3648)|banner|
 |Content Ad|5720 (5419)|mrec|
 |Footer Ad|5721 (3650)|mrec_btf|
+|regteaser01|21530|teaser|
+|regteaser02|21532|teaser_2|
 |Richmedia / Outstream|6419 (3651) / 29606 (18913)|inpage|
 
  [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
 # Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","teaser_4","teaser_5","inpage"],`
+`	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","teaser","teaser_2","inpage"],`
 
 # Mobile:
 
-`	adPlacements: ["banner","mrec","mrec_btf","inpage"],`
+`	adPlacements: ["banner","mrec","mrec_btf","inpage","teaser","teaser_2"],`
 
  [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
 
@@ -85,12 +87,12 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"sizes": [[300,250],[300,600]]
 		}],
      
-		"teaser_4": [{
+		"teaser": [{
 			"minWidth": 1,
 			"sizes": [[300,150]]
 		}],
 
-		"teaser_5": [{
+		"teaser_2": [{
 			"minWidth": 1,
 			"sizes": [[300,150]]
 		}],
@@ -126,6 +128,16 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
 		}],
+		
+		"teaser": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],
+
+		"teaser_2": [{
+			"minWidth": 1,
+			"sizes": [[300,150]]
+		}],		
      
 	},
 ```
