@@ -144,7 +144,7 @@ If you have some question don't hesitate to contact us:
 __Timo Nolte__
  
   Head of AdSolutions
-  Corporate Digital Platforms
+  Spring
 
   Tel: +49 30 2591 78009
   Mobile: +49 151 22334646 
@@ -154,7 +154,7 @@ __Timo Nolte__
 __Carlos Bracho__
  
   Senior Ad Technology Lead 
-  Corporate Digital Platforms
+  Spring
   
   Tel: +49 30 2591 76784
   Mobile: +49 151 44619807 
