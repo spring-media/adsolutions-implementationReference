@@ -12,30 +12,42 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
  Desktop
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
-| ------------- |:-------------:| -----:|
-|Superbanner|3648|superbanner|
-|Sky|3650|sky|
-|Sky|4454|sky_btf|
-|Billboard|5419|billboard|
-|Billboard_btf|23743|billboard_btf|
-|Medium Rectangle|4459|mrec|
-|Medium Rectangle|4460|mrec_btf|
-|Richmedia / Outstream|3651 / 18913|inpage|
-|regteaser01|3938|teaser|
-|regteaser02|3939|teaser_2|
+| ------------- | -----|
+|Superbanner|superbanner|
+|Sky|sky|
+|Sky|sky_btf|
+|Billboard|billboard|
+|Billboard_btf|billboard_btf|
+|Medium Rectangle|mrec|
+|Medium Rectangle|mrec_btf|
+|Richmedia / Outstream|inpage|
+|regteaser01|teaser|
+|regteaser02|teaser_2|
 
  Mobile
 
 
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
-| ------------- |:-------------:| -----:|
-|Reminder|12815 (3648)|banner|
-|Content Ad|5720 (5419)|mrec|
-|Rectangle_Mobil/Rectangle01|19619/4459|mrec_btf|
-|Richmedia / Outstream|6419 (3651) / 29606 (18913)|inpage|
-|regteaser01|21530|teaser|
-|regteaser02|21532|teaser_2|
+| ------------- | -----|
+|Reminder|banner|
+|Content Ad|mrec|
+|Rectangle_Mobil/Rectangle01|mrec_btf|
+|Richmedia / Outstream|inpage|
+|regteaser01|teaser|
+|regteaser02|teaser_2|
 
+
+ AMP
+
+
+| Placement Name|Appnexus|
+| ------------- | -----|
+|Reminder|banner|
+|Content Ad|mrec|
+|Rectangle_Mobil/Rectangle01|mrec_btf|
+|Richmedia / Outstream|inpage|
+|regteaser01|teaser|
+|regteaser02|teaser_2|
 
  [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
