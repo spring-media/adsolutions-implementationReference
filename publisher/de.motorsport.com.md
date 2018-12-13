@@ -214,6 +214,14 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
+- You can repeat the btf placements as much as you want. Please use the following schema:
+```
+Example for 3 Medium Rectangle btf
+
+mrec_btf
+mrec_btf_2
+mrec_btf_3
+```
 
 ## Help
 
