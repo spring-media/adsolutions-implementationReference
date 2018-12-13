@@ -44,10 +44,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 | ------------- | ----- |
 |Reminder|banner|
 |Content Ad|mrec|
-|Rectangle_Mobil/Rectangle01|mrec_btf|
-|Richmedia / Outstream|inpage|
-|regteaser01|teaser|
-|regteaser02|teaser_2|
+
 
  [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
@@ -228,19 +225,10 @@ mrec_btf_3
 If you have some question don't hesitate to contact us:
 
 
-__Timo Nolte__
- 
-  Head of AdSolutions
-  Spring
-
-  Tel: +49 30 2591 78009
-  Mobile: +49 151 22334646 
-  timo.nolte@axelspringer.de
-
 
 __Carlos Bracho__
  
-  Senior Ad Technology Lead 
+  Head of Ad Technology
   Spring
   
   Tel: +49 30 2591 76784
