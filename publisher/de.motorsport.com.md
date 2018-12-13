@@ -39,15 +39,56 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
  [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
-# Desktop:
+# Desktop - Index:
 
 `	adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec","mrec_btf","inpage","teaser","teaser_2"],`
 
+# Desktop - Story:
+
+`	adPlacements: ["superbanner","sky","sky_btf","billboard_btf","mrec","mrec_btf","inpage","teaser","teaser_2"],`
+
+# Desktop - Bildergalerien:
+
+`	adPlacements: ["superbanner","mrec"],`
+
+# Desktop - Statistiken:
+
+`	adPlacements: ["superbanner","sky","sky_btf","billboard_btf","mrec","mrec_btf","inpage","teaser","teaser_2"],`
+
+# Desktop - Liveticker:
+
+`	adPlacements: ["superbanner","sky","sky_btf","billboard_btf","mrec","mrec_btf","inpage","teaser","teaser_2"],`
+
 # Mobile:
 
-`	adPlacements: ["banner","mrec","mrec_btf","inpage","teaser","teaser_2"],`
+`	adPlacements: ["banner","mrec","mrec_btf","inpage","teaser"],`
 
- [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+# AMP:
+
+`	adPlacements: ["banner_sticky","mrec"],`
+
+
+
+
+### Video
+
+# Desktop - Video:
+
+`	adPlacements: ["preroll","midroll"],`
+
+# Mobile - Video:
+
+`	adPlacements: ["preroll","midroll"],`
+
+# AMP - Video:
+
+`	adPlacements: ["preroll","midroll"],`
+
+
+
+
+[Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
+
 
 # Desktop:
 
@@ -55,7 +96,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 	adSlotSizes: {
 		"superbanner": [{
 			"minWidth": 1023,
-			"sizes": [[728,90],[728,600],[1000,600]]
+			"sizes": [[728,90],[728,600],[1000,600],[800,250],[970,250]]
 		}],
      
 		"sky": [{
