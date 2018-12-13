@@ -207,6 +207,46 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 	},
 ```
 
+
+
+# AMP:
+
+For AMP-Integration follow the guides on [publisher-amp-reference](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-amp-reference.md). Include your pagenames in "invCode":
+
+## connected ads
+```html
+<amp-ad width=300 height=250
+        type="appnexus"
+        data-target="mrec"
+        json='{
+            "pageOpts": {
+                "member": 7823
+            },
+            "adUnits": [{
+                "disablePsa": true,
+                "invCode": "mywebsite.de-amp-your_pagename-mrec",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"]
+                },
+                "targetId": "mrec"
+            },{
+                "disablePsa": true,
+                "invCode": "mywebsite.de-amp-your_pagename-mrec",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"]
+                },
+                "targetId": "mrec_2"
+            }]
+        }'
+></amp-ad>
+```
+
+Under [amp-sticky-ad](https://www.ampproject.org/docs/reference/components/amp-sticky-ad) is explained how the placement "sticky_banner" must be installed to be sticky and which script you have to include.
+
+
+
 ## Important notes
 
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
@@ -219,6 +259,8 @@ mrec_btf
 mrec_btf_2
 mrec_btf_3
 ```
+
+
 
 ## Help
 
