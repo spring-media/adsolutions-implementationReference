@@ -51,7 +51,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 	adSlotSizes: {
 		"superbanner": [{
 			"minWidth": 1,
-			"sizes": [[728,90],[728,600],[1000,600]]
+			"sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
 		}],
 
 		"superbanner_btf": [{
@@ -65,11 +65,9 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 		}],
      
 		"billboard": [{
-			"minWidth": 799,
-			"sizes": [[800,250]]
-		},{
-			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
+			"minWidth": 1,
+			"sizes": [[3,3]]
+
 		}],
      
 		"mrec": [{
@@ -138,20 +136,11 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 If you have some question don't hesitate to contact us:
 
 
-__Timo Nolte__
- 
-  Head of AdSolutions
-  Corporate Digital Platforms
-
-  Tel: +49 30 2591 78009
-  Mobile: +49 151 22334646 
-  timo.nolte@axelspringer.de
-
 
 __Carlos Bracho__
  
-  Senior Ad Technology Lead 
-  Corporate Digital Platforms
+  Head Ad Technology
+  Spring Media
   
   Tel: +49 30 2591 76784
   Mobile: +49 151 44619807 
