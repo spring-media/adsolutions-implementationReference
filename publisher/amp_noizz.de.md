@@ -28,6 +28,42 @@
                     "contId": ["mrec"]
                 },
                 "targetId": "mrec"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf"]
+                },
+                "targetId": "mrec_btf"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_2"]
+                },
+                "targetId": "mrec_btf_2"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_3"]
+                },
+                "targetId": "mrec_btf_3"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_4"]
+                },
+                "targetId": "mrec_btf_4"
             }]
         }'
 ></amp-ad>
@@ -49,6 +85,42 @@
                     "contId": ["mrec_btf"]
                 },
                 "targetId": "mrec_btf"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf"]
+                },
+                "targetId": "mrec_btf"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_2"]
+                },
+                "targetId": "mrec_btf_2"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_3"]
+                },
+                "targetId": "mrec_btf_3"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_4"]
+                },
+                "targetId": "mrec_btf_4"
             }]
         }'
 ></amp-ad>
@@ -70,6 +142,42 @@
                     "contId": ["mrec_btf_2"]
                 },
                 "targetId": "mrec_btf_2"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf"]
+                },
+                "targetId": "mrec_btf"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_2"]
+                },
+                "targetId": "mrec_btf_2"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_3"]
+                },
+                "targetId": "mrec_btf_3"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_4"]
+                },
+                "targetId": "mrec_btf_4"
             }]
         }'
 ></amp-ad>
@@ -91,6 +199,42 @@
                     "contId": ["mrec_btf_3"]
                 },
                 "targetId": "mrec_btf_3"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf"]
+                },
+                "targetId": "mrec_btf"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_2"]
+                },
+                "targetId": "mrec_btf_2"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_3"]
+                },
+                "targetId": "mrec_btf_3"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_4"]
+                },
+                "targetId": "mrec_btf_4"
             }]
         }'
 ></amp-ad>
@@ -104,6 +248,42 @@
                 "member": 7823
             },
             "adUnits": [{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_4"]
+                },
+                "targetId": "mrec_btf_4"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf"]
+                },
+                "targetId": "mrec_btf"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_2"]
+                },
+                "targetId": "mrec_btf_2"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_3"]
+                },
+                "targetId": "mrec_btf_3"
+            },{
                 "disablePsa": true,
                 "invCode": "noizz.de-amp-artikel_story-mrec_btf",
                 "sizes": [[300, 250]],
