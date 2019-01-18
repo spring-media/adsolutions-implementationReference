@@ -78,13 +78,13 @@
             },
             "adUnits": [{
                 "disablePsa": true,
-                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "invCode": "noizz.de-amp-artikel_story-mrec",
                 "sizes": [[300, 250]],
                 "keywords": {
                     "misc": ["rock", "pop"],
-                    "contId": ["mrec_btf"]
+                    "contId": ["mrec"]
                 },
-                "targetId": "mrec_btf"
+                "targetId": "mrec"
             },{
                 "disablePsa": true,
                 "invCode": "noizz.de-amp-artikel_story-mrec_btf",
@@ -135,13 +135,13 @@
             },
             "adUnits": [{
                 "disablePsa": true,
-                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "invCode": "noizz.de-amp-artikel_story-mrec",
                 "sizes": [[300, 250]],
                 "keywords": {
                     "misc": ["rock", "pop"],
-                    "contId": ["mrec_btf_2"]
+                    "contId": ["mrec"]
                 },
-                "targetId": "mrec_btf_2"
+                "targetId": "mrec"
             },{
                 "disablePsa": true,
                 "invCode": "noizz.de-amp-artikel_story-mrec_btf",
@@ -192,13 +192,13 @@
             },
             "adUnits": [{
                 "disablePsa": true,
-                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "invCode": "noizz.de-amp-artikel_story-mrec",
                 "sizes": [[300, 250]],
                 "keywords": {
                     "misc": ["rock", "pop"],
-                    "contId": ["mrec_btf_3"]
+                    "contId": ["mrec"]
                 },
-                "targetId": "mrec_btf_3"
+                "targetId": "mrec"
             },{
                 "disablePsa": true,
                 "invCode": "noizz.de-amp-artikel_story-mrec_btf",
@@ -249,13 +249,13 @@
             },
             "adUnits": [{
                 "disablePsa": true,
-                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "invCode": "noizz.de-amp-artikel_story-mrec",
                 "sizes": [[300, 250]],
                 "keywords": {
                     "misc": ["rock", "pop"],
-                    "contId": ["mrec_btf_4"]
+                    "contId": ["mrec"]
                 },
-                "targetId": "mrec_btf_4"
+                "targetId": "mrec"
             },{
                 "disablePsa": true,
                 "invCode": "noizz.de-amp-artikel_story-mrec_btf",
