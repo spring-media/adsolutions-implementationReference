@@ -33,14 +33,6 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Richmedia / Outstream|6419 (3651) / 29606 (18913)|inpage|
 
 
- AMP
-
-| Placement Name|Legacy Format ID (Smart)|Appnexus|
-| ------------- |:-------------:| -----:|
-|Medium Rectangle|4459|mrec|
-|Medium Rectangle 2|4460|mrec_btf|
-
-
 
  [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
@@ -52,10 +44,6 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 `	adPlacements: ["banner","mrec","mrec_btf","inpage"],`
  [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement)
-
-# AMP:
-
-`	adPlacements: ["mrec","mrec_btf"],`
 
 
 
@@ -140,27 +128,9 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 ```
 
 
-# AMP:
-
-```
-	adSlotSizes: {
-		"mrec": [{
-			"minWidth": 1,
-			"sizes": [[300,250]]
-		}],
-     
-		"mrec_btf": [{
-			"minWidth": 1,
-			"sizes": [[300,250]]
-		}],     
-	},
-```
-
-
 
 ## Important notes
 
-- 
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
