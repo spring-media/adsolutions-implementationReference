@@ -6,7 +6,7 @@
 <amp-ad width=300 height=250
         type="appnexus"
         data-member="7823"
-        data-code="noizz.de-amp-ressort_story-mrec"
+        data-code="noizz.de-amp-artikel_story-mrec"
 ></amp-ad>
 ```
 
@@ -30,12 +30,40 @@
                 "targetId": "mrec"
             },{
                 "disablePsa": true,
-                "invCode": "noizz.de-amp-artikel_story-mrec",
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
                 "sizes": [[300, 250]],
                 "keywords": {
-                    "misc": ["rock", "pop"]
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf"]
                 },
-                "targetId": "mrec_2"
+                "targetId": "mrec_btf"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_2"]
+                },
+                "targetId": "mrec_btf_2"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_3"]
+                },
+                "targetId": "mrec_btf_3"
+            },{
+                "disablePsa": true,
+                "invCode": "noizz.de-amp-artikel_story-mrec_btf",
+                "sizes": [[300, 250]],
+                "keywords": {
+                    "misc": ["rock", "pop"],
+                    "contId": ["mrec_btf_4"]
+                },
+                "targetId": "mrec_btf_4"
             }]
         }'
 ></amp-ad>
@@ -57,6 +85,7 @@
         - Placement --> actually we just use the placement "mrec" for AMP, if you need of them please contact us.
     - sizes ist the size of the ad. Actually ist the same size of the Amp container
     - keywords --> if you want to send keywords, please us the object "kw_misc" and place every keyword comma separated. 
+    - contId stands for the container ID of the ad slot.
     - targetId has the same value of data-target.
 
 
