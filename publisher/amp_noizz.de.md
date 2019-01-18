@@ -28,7 +28,19 @@
                     "contId": ["mrec"]
                 },
                 "targetId": "mrec"
-            },{
+            }]
+        }'
+></amp-ad>
+
+
+<amp-ad width=300 height=250
+        type="appnexus"
+        data-target="mrec_btf"
+        json='{
+            "pageOpts": {
+                "member": 7823
+            },
+            "adUnits": [{
                 "disablePsa": true,
                 "invCode": "noizz.de-amp-artikel_story-mrec_btf",
                 "sizes": [[300, 250]],
@@ -37,7 +49,19 @@
                     "contId": ["mrec_btf"]
                 },
                 "targetId": "mrec_btf"
-            },{
+            }]
+        }'
+></amp-ad>
+
+
+<amp-ad width=300 height=250
+        type="appnexus"
+        data-target="mrec_btf_2"
+        json='{
+            "pageOpts": {
+                "member": 7823
+            },
+            "adUnits": [{
                 "disablePsa": true,
                 "invCode": "noizz.de-amp-artikel_story-mrec_btf",
                 "sizes": [[300, 250]],
@@ -46,7 +70,19 @@
                     "contId": ["mrec_btf_2"]
                 },
                 "targetId": "mrec_btf_2"
-            },{
+            }]
+        }'
+></amp-ad>
+
+
+<amp-ad width=300 height=250
+        type="appnexus"
+        data-target="mrec_btf_3"
+        json='{
+            "pageOpts": {
+                "member": 7823
+            },
+            "adUnits": [{
                 "disablePsa": true,
                 "invCode": "noizz.de-amp-artikel_story-mrec_btf",
                 "sizes": [[300, 250]],
@@ -55,7 +91,19 @@
                     "contId": ["mrec_btf_3"]
                 },
                 "targetId": "mrec_btf_3"
-            },{
+            }]
+        }'
+></amp-ad>
+
+
+<amp-ad width=300 height=250
+        type="appnexus"
+        data-target="mrec_btf_4"
+        json='{
+            "pageOpts": {
+                "member": 7823
+            },
+            "adUnits": [{
                 "disablePsa": true,
                 "invCode": "noizz.de-amp-artikel_story-mrec_btf",
                 "sizes": [[300, 250]],
@@ -67,6 +115,8 @@
             }]
         }'
 ></amp-ad>
+
+
 ```
 
 
