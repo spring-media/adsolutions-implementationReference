@@ -133,7 +133,7 @@
         - amp --> it is the platform, please don't change it
         - ressort_story --> it is the adlevel "Vertaggung" from you CMS. It is the same value used for the other platforms. 
         - Placement --> actually we just use the placement "mrec" for AMP, if you need of them please contact us.
-    - sizes ist the size of the ad. Actually ist the same size of the Amp container
+    - sizes ist the size of the ad. Actually its the same size of the AMP container
     - keywords --> if you want to send keywords, please us the object "kw_misc" and place every keyword comma separated. 
     - contId stands for the container ID of the ad slot.
     - targetId has the same value of data-target.
