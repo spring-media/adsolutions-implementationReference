@@ -14,6 +14,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 | Placement Name|Legacy Format ID (Smart)|Appnexus|
 | ------------- |:-------------:| -----:|
 |Sky|3650|sky|
+|Superbanner|3648|superbanner|
 |Billboard|5419|billboard|
 |Billboard_btf|5419|billboard_btf|
 |Medium Rectangle|4459|mrec|
