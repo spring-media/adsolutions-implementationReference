@@ -50,8 +50,8 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 ```
 	adSlotSizes: {
 		"superbanner": [{
-			"minWidth": 1023,
-			"sizes": [[728,90],[728,600],[1000,600]]
+			"minWidth": 1,
+			"sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
 		}],
      
 		"sky": [{
@@ -60,25 +60,13 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 		}],
      
 		"billboard": [{
-			"minWidth": 799,
-			"sizes": [[800,250]]
-		},{
-			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
-		},{
-			"minWidth": 767,
-			"sizes": [[728,90]]			
+			"minWidth": 1,
+			"sizes": [[3,3]]			
 		}],
     
-    "billboard_btf": [{
-			"minWidth": 799,
-			"sizes": [[800,250]]
-		},{
-			"minWidth": 969,
-			"sizes": [[970,250],[800,250]]
-		},{
-			"minWidth": 767,
-			"sizes": [[728,90]]			
+    		"billboard_btf": [{
+			"minWidth": 1,
+			"sizes": [[3,3]]			
 		}],
         
 		"mrec": [{
