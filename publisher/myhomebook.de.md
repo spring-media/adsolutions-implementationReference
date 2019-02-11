@@ -1,10 +1,10 @@
-# toolbook.de
+# myhomebook.de
 
 In this documentation you find the placement details for your Website.  Please find an test-site on the following link:    [Appnexus test site](https://adtechnology.mediaimpact.de/test-appnexus/)
 
 ## AdLib
 
-Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages/toolbook.js```
+Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages/myhomebook.js```
 
 
 ## Placements
