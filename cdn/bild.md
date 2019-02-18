@@ -27,7 +27,6 @@ https://www.asadcdn.com/adlib/pages/bild.js
 ### **_Strong Recommended_** - Please add dns-prefetch- and preconnect for the ad-domains in HEAD
 
 ```html
-<link rel="dns-prefetch" href="//acdn.adnxs.com"/>
 <link rel="dns-prefetch" href="//www.asadcdn.com"/>
 <link rel="preconnect" href="//www.asadcdn.com"/>
 ```
