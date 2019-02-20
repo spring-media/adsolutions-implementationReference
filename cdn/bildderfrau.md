@@ -29,8 +29,8 @@ https://www.asadcdn.com/adlib/pages/bildderfrau.js
 ##### DNS prefetch is supported by most modern browsers with the exception of Opera Mini, so please make sure to use both.
 
 ```html
-<link rel="dns-prefetch" href="//www.asadcdn.com"/>
 <link rel="preconnect" href="//www.asadcdn.com"/>
+<link rel="dns-prefetch" href="//www.asadcdn.com"/>
 ```
 
 ## Step 3
