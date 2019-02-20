@@ -25,6 +25,8 @@ https://www.asadcdn.com/adlib/pages/travelbook.js
 
 ## Step 2
 ### **_Strong Recommended_** - Please add dns-prefetch- and preconnect for the ad-domains in HEAD
+##### Preconnect is supported by some modern browsers only with the exception of Internet Explorer, Safari, IOS Safari, and Opera Mini.
+##### DNS prefetch is supported by most modern browsers with the exception of Opera Mini, so please make sure to use both.
 
 ```html
 <link rel="dns-prefetch" href="//www.asadcdn.com"/>
