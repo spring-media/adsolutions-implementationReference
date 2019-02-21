@@ -1,10 +1,10 @@
 # foodbarn.de
 
-In this documentation you find the placement details for your Website.  Please find an test-site on the following link:    [Appnexus test site](https://adtechnology.mediaimpact.de/test-appnexus/)
+In this documentation you find the placement details for your Website.  
 
 ## AdLib
 
-Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages/foodbarn.js```
+Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/pages/foodbarn.js```
 
 
 ## Placements

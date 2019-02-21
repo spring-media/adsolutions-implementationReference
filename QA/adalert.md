@@ -9,13 +9,13 @@ and theirfore it also works on mobile devices or tablets.
 ##### Please don't modify this code and use it "as is".
 ```
 
-javascript:!function(){var s=document.createElement("script");s.src="https://acdn.adnxs.com/as/1d/extensions/adalert.js",document.getElementsByTagName("head")[0].appendChild(s);}();void(0);
+javascript:!function(){var s=document.createElement("script");s.src="https://www.asadcdn.com/adlib/extensions/adalert.js",document.getElementsByTagName("head")[0].appendChild(s);}();void(0);
 
 ```
 
 ### If you experience problems with copy/paste you can copy the following code:
 
-javascript:!function(){var s=document.createElement("script");s.src="https://acdn.adnxs.com/as/1d/extensions/adalert.js",document.getElementsByTagName("head")[0].appendChild(s);}();void(0);
+javascript:!function(){var s=document.createElement("script");s.src="https://www.asadcdn.com/adlib/extensions/adalert.js",document.getElementsByTagName("head")[0].appendChild(s);}();void(0);
 
 
 

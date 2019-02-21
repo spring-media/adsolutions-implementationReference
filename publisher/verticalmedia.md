@@ -31,9 +31,9 @@ In this documentation you find the placement details for your Websites.
 
 Please use the following JSs for the adLib: 
 
-- www.gruenderszene.de ```https://acdn.adnxs.com/as/1h/pages/gruenderszene.js```
-- www.ngin-food.com ```https://acdn.adnxs.com/as/1h/pages/ngin-food.js```
-- www.ngin-mobility.com ```https://acdn.adnxs.com/as/1h/pages/ngin-mobility.js```
+- www.gruenderszene.de ```https://www.asadcdn.com/adlib/pages/gruenderszene.js```
+- www.ngin-food.com ```https://www.asadcdn.com/adlib/pages/ngin-food.js```
+- www.ngin-mobility.com ```https://www.asadcdn.com/adlib/pages/ngin-mobility.js```
 
 
 ## Placements

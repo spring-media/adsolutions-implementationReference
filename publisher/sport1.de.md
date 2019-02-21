@@ -4,7 +4,7 @@
 
 ## AdLib
 
-Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages/sport1.js```
+Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/pages/sport1.js```
 
 ## pageNames (for non-apps)
 

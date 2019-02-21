@@ -230,7 +230,7 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 	hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding vor video
 	isArticle: true, // it shows us if the page is an article
 	pageName: "demo_story", // channel/article name from CMS
-       	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
+	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
 }
 ```
 
@@ -250,7 +250,7 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 
 # 6. AdLib
 
-`<script type="text/javascript" src="https://acdn.adnxs.com/as/1h/pages/mywebsite.js"></script>`
+`<script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/mywebsite.js"></script>`
 
 This `js` contains the whole Ad Library. Every website will get its own `js` from Axel Springer.
 
