@@ -16,10 +16,10 @@ The delivery of ads utilizes a "One Call" function, which have to be included in
 
 Please include the following script in the `<head>` of the website:  ```https://acdn.adnxs.com/as/1h/pages/newPublisher.js```.
 
-[Here](https://adtechnology.axelspringer.com/testads.html) do you get an AppNexus segment for test ads - so you can test you integration. On the same site you can disable the segment to see 'normal' ads.
+**Test Ads** - [Here](https://adtechnology.axelspringer.com/testads.html) do you get an AppNexus segment for test ads - so you can test you integration. On the same site you can disable the segment to see 'normal' ads.
 Please be sure that your browsers accepts 3th party cookies.
    
-[General Display Reference](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website) - here do you find a general overview for the whole ad integration process.
+**General Display Reference** - [Here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website) do you find a general overview for the whole ad integration process.
    
 ________________________________
    
