@@ -9,10 +9,10 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 ## Placements
 
- Desktop
+ **Desktop**
 
 | Placement Name|Appnexus|
-| ------------- | -----:|
+| ------------- | ----- |
 |Superbanner|superbanner|
 |Sky|sky|
 |Sky BTF|sky_btf|
@@ -21,7 +21,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 |Medium Rectangle|mrec|
 |Richmedia / Outstream|inpage|
 
- Mobile
+ **Mobile**
 
 
 | Placement Name|Appnexus|
@@ -69,7 +69,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 		
 		"billboard_btf": [{
 			"minWidth": 1,
-			"sizes": [[970,250],[800,250]]
+			"sizes": [[970,250],[800,250],[728,90]]
 		}],
      
 		"mrec": [{
