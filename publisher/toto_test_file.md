@@ -77,7 +77,7 @@ Include the following object in your <head>-Tag.
 adsSetup = {
 	view: "d", // has to fit the design of the page, please use m for mobile and d for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
-	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"],`
+	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"],
 	adSlotSizes: {
 	  	"superbanner": [{
 		  "minWidth": 1,
