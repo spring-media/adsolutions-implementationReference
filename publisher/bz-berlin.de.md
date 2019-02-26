@@ -11,15 +11,15 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
  Desktop
 
-| Placement Name|Legacy Format ID (Smart)|Appnexus|
-| ------------- |:-------------:| -----:|
-|Superbanner|3648|superbanner|
-|Sky|3650|sky|
-|Sky BTF|3650|sky_btf|
-|Billboard|5419|billboard|
-|Billboard BTF|5419|billboard_btf|
-|Medium Rectangle|4459|mrec|
-|Richmedia / Outstream|3651 / 18913|inpage|
+| Placement Name|Appnexus|
+| ------------- | -----:|
+|Superbanner|superbanner|
+|Sky|sky|
+|Sky BTF|sky_btf|
+|Billboard|billboard|
+|Billboard BTF|billboard_btf|
+|Medium Rectangle|mrec|
+|Richmedia / Outstream|inpage|
 
  Mobile
 
