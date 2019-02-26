@@ -1,12 +1,24 @@
 # New Publisher
 
 
-Changelog
+##Inhaltsverzeichnis##
+
+1. [-Changelog]()
+2. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#introduction)
+3. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#general)
+4. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#additional-informations-for-the-following-adssetup-object)
+5. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#additional-informations-for-the-following-adssetup-object)
+	5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
+	5.2 [adsSetup]()
+6. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
+	6.1 [-Placements]()
+	6.2 [-adsSetup]()
+7. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
+8. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
 
 
 
-Inhaltsverzeichnis
-
+## Changelog
 
 
 
