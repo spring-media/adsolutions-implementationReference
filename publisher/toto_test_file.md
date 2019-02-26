@@ -27,15 +27,15 @@ Content
    ### Additional informations for the following adsSetup object
    
       "Pagename" schema
-          Home Site --> "home_index"
-          Channel, e.g. sport --> "sport_index"
-          Sub-Channel e.g. soccer --> "sport.soccer_index"
-          Article e.g. soccer article --> "sport.soccer_story"
+         - Home Site --> "home_index"
+         - Channel, e.g. sport --> "sport_index"
+         - Sub-Channel e.g. soccer --> "sport.soccer_index"
+         - Article e.g. soccer article --> "sport.soccer_story"
 
       "Target": every editorial keyword or custom target
-         you can use stand alone keywords with semicolon ; separately
-         key/values are also supported. key=value1,value2;
-         please ensure to end the line with a semicolon
+        - you can use stand alone keywords with semicolon ; separately
+        - key/values are also supported. key=value1,value2;
+        - please ensure to end the line with a semicolon
           
 
 
@@ -60,9 +60,9 @@ Content
 
    Example for 3 Medium Rectangle btf
 
-   mrec_btf
-   mrec_btf_2
-   mrec_btf_3
+   - mrec_btf
+   - mrec_btf_2
+   - mrec_btf_3
    
    
    
