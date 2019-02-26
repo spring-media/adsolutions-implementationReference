@@ -1,9 +1,9 @@
 # New Publisher
 
 
-##Inhaltsverzeichnis##
+## Table of contents
 
-1. [-Changelog]()
+1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#changelog)
 2. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#introduction)
 3. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#general)
 4. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#additional-informations-for-the-following-adssetup-object)
@@ -20,6 +20,13 @@
 
 ## Changelog
 
+Date | Change
+------------ | -------------
+
+*Date: 26.02.2019*
+*Change: Updated table of contents*
+
+--------
 
 
 ## Introduction
