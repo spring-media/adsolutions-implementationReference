@@ -25,7 +25,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 
 | Placement Name|Appnexus|
-| ------------- |:-------------:| -----:|
+| ------------- | ----- |
 |Reminder|banner|
 |Content Ad|mrec|
 |Medium Rectangle|mrec_btf|
