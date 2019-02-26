@@ -46,7 +46,7 @@ ________________________________
 ### Placements
 
 | Placement Name|Appnexus|
-| ------------- | -----:|
+| ------------- | ----- |
 |Superbanner|superbanner|
 |Sky|sky|
 |Billboard|billboard|
@@ -58,7 +58,7 @@ ________________________________
 
 You can repeat the btf placements as much as you want. Please use the following schema:
 
-Example for 3 Medium Rectangle btf
+*Example for 3 Medium Rectangle btf*
 
 * mrec_btf
 * mrec_btf_2
@@ -75,55 +75,54 @@ Include the following object in your <head>-Tag.
 ```javascript
 <script type="text/javascript">
 adsSetup = {
-view: "d", // has to fit the design of the page, please use m for mobile and d for desktop
-partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
-adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"],`
-adSlotSizes: {
-	  "superbanner": [{
-	  "minWidth": 1,
-	  "sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
-	}],
+	view: "d", // has to fit the design of the page, please use m for mobile and d for desktop
+	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
+	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"],`
+	adSlotSizes: {
+	  	"superbanner": [{
+		  "minWidth": 1,
+		  "sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
+		}],
 
-	"sky": [{
-	  "minWidth": 1,
-	  "sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-	}],
+		"sky": [{
+		  "minWidth": 1,
+		  "sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
+		}],
 
-	"billboard": [{
-	  "minWidth": 1,
-	  "sizes": [[3,3]]
-	}],
+		"billboard": [{
+		  "minWidth": 1,
+		  "sizes": [[3,3]]
+		}],
 
-	"billboard_btf": [{
-	  "minWidth": 1,
-	  "sizes": [[3,3]]
-	}],
+		"billboard_btf": [{
+		  "minWidth": 1,
+		  "sizes": [[3,3]]
+		}],
 
-	"mrec": [{
-	  "minWidth": 1,
-	  "sizes": [[300,250],[300,600]]
-	}],
+		"mrec": [{
+		  "minWidth": 1,
+		  "sizes": [[300,250],[300,600]]
+		}],
 
-	"mrec_btf": [{
-	  "minWidth": 1,
-	  "sizes": [[300,250],[300,600]]
-	}],
+		"mrec_btf": [{
+		  "minWidth": 1,
+		  "sizes": [[300,250],[300,600]]
+		}],
 
-	"inpage": [{
-	  "minWidth": 1,
-	  "sizes": [[1,1],[640,360],[1000,300]]
-	}],
+		"inpage": [{
+		  "minWidth": 1,
+		  "sizes": [[1,1],[640,360],[1000,300]]
+		}],
+	},
 
-},
-
-/* page configuration */
-colorBg: true, // enable/disable coloring of the page-background
-bgClick: true, // enable/disable click on page-background
-stickySky: true, // enable/disable stickiness for skyscraper
-hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding for video
-isArticle: true, // it shows us if the page is an article
-pageName: "demo_story", // channel/article name from CMS
-target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
+	/* page configuration */
+	colorBg: true, // enable/disable coloring of the page-background
+	bgClick: true, // enable/disable click on page-background
+	stickySky: true, // enable/disable stickiness for skyscraper
+	hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding for video
+	isArticle: true, // it shows us if the page is an article
+	pageName: "demo_story", // channel/article name from CMS
+	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
 }
 
 
