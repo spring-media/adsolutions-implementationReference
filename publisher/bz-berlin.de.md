@@ -24,13 +24,13 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
  Mobile
 
 
-| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| Placement Name|Appnexus|
 | ------------- |:-------------:| -----:|
-|Reminder|12815 (3648)|banner|
-|Content Ad|5720 (5419)|mrec|
-|Medium Rectangle|4459|mrec_btf|
-|Footer Ad|5721 (3650)|mrec_btf_2|
-|Richmedia / Outstream|6419 (3651) / 29606 (18913)|inpage|
+|Reminder|banner|
+|Content Ad|mrec|
+|Medium Rectangle|mrec_btf|
+|Footer Ad|mrec_btf_2|
+|Richmedia / Outstream|inpage|
 
  [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
