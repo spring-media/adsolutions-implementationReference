@@ -15,7 +15,9 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 | ------------- |:-------------:| -----:|
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
+|Sky BTF|3650|sky_btf|
 |Billboard|5419|billboard|
+|Billboard BTF|5419|billboard_btf|
 |Medium Rectangle|4459|mrec|
 |Richmedia / Outstream|3651 / 18913|inpage|
 
@@ -34,7 +36,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
 # Desktop:
 
-`	adPlacements: ["superbanner","sky","billboard","mrec","inpage"],`
+`	adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec","inpage"],`
 
 # Mobile:
 
@@ -47,19 +49,26 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 	adSlotSizes: {
 		"superbanner": [{
 			"minWidth": 1,
-			"sizes": [[728,90],[728,600],[1000,600]]
+			"sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
 		}],
      
 		"sky": [{
 			"minWidth": 1,
 			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
 		}],
+		
+		"sky_btf": [{
+			"minWidth": 1,
+			"sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
+		}],
      
 		"billboard": [{
-			"minWidth": 799,
-			"sizes": [[800,250]]
-		},{
-			"minWidth": 969,
+			"minWidth": 1,
+			"sizes": [[3,3]]
+		}],
+		
+		"billboard_btf": [{
+			"minWidth": 1,
 			"sizes": [[970,250],[800,250]]
 		}],
      
