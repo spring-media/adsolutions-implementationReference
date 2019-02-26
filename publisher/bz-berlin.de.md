@@ -4,7 +4,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ## AdLib
 
-Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages/bz-berlin.js```
+Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/pages/bz-berlin.js```
 
 
 ## Placements
