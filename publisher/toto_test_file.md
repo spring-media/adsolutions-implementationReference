@@ -18,7 +18,7 @@
 
 
 
-## Changelog
+## 1. Changelog
 
 Date | Change
 ------------ | -------------
@@ -29,13 +29,13 @@ Date | Change
 --------
 
 
-## Introduction
+## 2. Introduction
 
 This document describes the necessary steps for integrating online advertisements on desktop and mobile websites for Axel Springer. 
 The delivery of ads utilizes a "One Call" function, which have to be included in the `<head>` part of the websites. This will receive the booked campaigns and will let them in the background for lately rendering. The Ad Placements are `<div>`'s which have to be placed in the wished position for the ad. All Advertisements can be managed via Appnexus.
 
 
-## General
+## 3. General
 
 Please include the following script in the `<head>` of the website:  ```https://acdn.adnxs.com/as/1h/pages/newPublisher.js```.
 
@@ -47,7 +47,7 @@ Please be sure that your browsers accepts 3th party cookies.
 ________________________________
    
    
-### Additional informations for the following adsSetup object
+## 4. Additional informations for the following adsSetup object
    
 * "Pagename" schema
 	* Home Site --> "home_index"
@@ -62,11 +62,11 @@ ________________________________
 
 
 
-## Desktop Integration
+## 5. Desktop Integration
 
    
    
-### Placements
+### 5.1 Placements
 
 | Placement Name|Appnexus|
 | ------------- | ----- |
@@ -89,16 +89,17 @@ You can repeat the btf placements as much as you want. Please use the following 
    
    
    
-Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website) for more information.
+Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website) and  [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement) for more information.
 
-### adsSetup
+
+### 5.2 adsSetup
 
 Include the following object in your <head>-Tag.
 
 ```javascript
 <script type="text/javascript">
 adsSetup = {
-	view: "d", // has to fit the design of the page, please use m for mobile and d for desktop
+	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
 	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"],
 	adSlotSizes: {
@@ -156,9 +157,9 @@ adsSetup = {
 
    
 
-## Mobile Integration
+## 6. Mobile Integration
 
-### Placements
+### 6.1 Placements
 
 | Placement Name|Appnexus|
 | ------------- | ----- |
@@ -168,7 +169,72 @@ adsSetup = {
 |Medium Rectangle 2|mrec_btf_2|
 |Footer Ad|mrec_btf_3|
 |Richmedia / Outstream|inpage|
-   
+
+
+Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website) and  [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement) for more information.
+
+
+
+### 6.2 adsSetup
+
+
+Include the following object in your <head>-Tag.
+
+```javascript
+<script type="text/javascript">
+adsSetup = {
+	view: "m", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
+	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
+	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"],
+	adSlotSizes: {
+		"banner": [{
+			"minWidth": 1,
+			"sizes": [[320,50],[320,75],[320,80]]
+		}],
+     
+		"mrec": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
+		}],
+
+		"mrec_btf": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
+		}],
+
+		"mrec_btf_2": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
+		}],
+		
+		"mrec_btf_3": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
+		}],		
+     
+		"inpage": [{
+			"minWidth": 1,
+			"sizes": [[1,1],[640,360],[1000,300]]
+		}],
+     
+	},
+
+	/* page configuration */
+	colorBg: true, // enable/disable coloring of the page-background
+	bgClick: true, // enable/disable click on page-background
+	stickySky: true, // enable/disable stickiness for skyscraper
+	hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding for video
+	isArticle: true, // it shows us if the page is an article
+	pageName: "demo_story", // channel/article name from CMS
+	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
+}
+
+
+</script>
+```
+
+
+
    
 ## Important Notes
 
