@@ -8,11 +8,11 @@
 3. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#general)
 4. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#additional-informations-for-the-following-adssetup-object)
 5. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#additional-informations-for-the-following-adssetup-object)
-	5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
-	5.2 [adsSetup]()
+     5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
+     5.2 [adsSetup]()
 6. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
-	6.1 [-Placements]()
-	6.2 [-adsSetup]()
+     6.1 [-Placements]()
+     6.2 [-adsSetup]()
 7. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
 8. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
 
@@ -239,7 +239,7 @@ adsSetup = {
 ### Important Notes
 
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
-- __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
+- __IMPORTANT__ Please place the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
 
 
