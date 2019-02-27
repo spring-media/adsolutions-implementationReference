@@ -22,9 +22,9 @@
 
 Date | Change
 ------------ | -------------
+*26.02.2019* | *Updated table of contents*
 
-*Date: 26.02.2019*
-*Change: Updated table of contents*
+
 
 --------
 
@@ -158,7 +158,16 @@ adsSetup = {
 
 ## Mobile Integration
 
-   
+### Placements
+
+| Placement Name|Appnexus|
+| ------------- | ----- |
+|Reminder|banner|
+|Content Ad|mrec|
+|Medium Rectangle|mrec_btf|
+|Medium Rectangle 2|mrec_btf_2|
+|Footer Ad|mrec_btf_3|
+|Richmedia / Outstream|inpage|
    
    
 ## Important Notes
