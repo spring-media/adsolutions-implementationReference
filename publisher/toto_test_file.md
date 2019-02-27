@@ -1,7 +1,7 @@
 # New Publisher
 
 
-## Table of contents
+### Table of contents
 
 1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#changelog)
 2. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#introduction)
@@ -18,7 +18,7 @@
 
 
 
-## 1. Changelog
+### 1. Changelog
 
 Date | Change
 ------------ | -------------
@@ -29,13 +29,13 @@ Date | Change
 --------
 
 
-## 2. Introduction
+### 2. Introduction
 
 This document describes the necessary steps for integrating online advertisements on desktop and mobile websites for Axel Springer. 
 The delivery of ads utilizes a "One Call" function, which have to be included in the `<head>` part of the websites. This will receive the booked campaigns and will let them in the background for lately rendering. The Ad Placements are `<div>`'s which have to be placed in the wished position for the ad. All Advertisements can be managed via Appnexus.
 
 
-## 3. General
+### 3. General
 
 Please include the following script in the `<head>` of the website:  ```https://acdn.adnxs.com/as/1h/pages/newPublisher.js```.
 
@@ -47,7 +47,7 @@ Please be sure that your browsers accepts 3th party cookies.
 ________________________________
    
    
-## 4. Additional informations for the following adsSetup object
+### 4. Additional informations for the following adsSetup object
    
 * "Pagename" schema
 	* Home Site --> "home_index"
@@ -62,7 +62,7 @@ ________________________________
 
 
 
-## 5. Desktop Integration
+# 5. Desktop Integration
 
    
    
@@ -157,7 +157,7 @@ adsSetup = {
 
    
 
-## 6. Mobile Integration
+# 6. Mobile Integration
 
 ### 6.1 Placements
 
@@ -236,11 +236,14 @@ adsSetup = {
 
 
    
-## Important Notes
+### Important Notes
+
+- For Intext Outstream and for Richmedia we just need one placement with Appnexus.
+- __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
 
 
-## Help
+### Help
 
 If you have some question don't hesitate to contact us:
 
