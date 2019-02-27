@@ -3,19 +3,19 @@
 
 ### Table of contents
 
-1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#changelog)
-2. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#introduction)
-3. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#general)
-4. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#additional-informations-for-the-following-adssetup-object)
-5. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#additional-informations-for-the-following-adssetup-object)
 
-5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
-5.2 [adsSetup]()
-6. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
-   6.1 [-Placements]()
-   6.2 [-adsSetup]()
-7. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
-8. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
+1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#changelog)
+1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#introduction)
+1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#general)
+1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#additional-informations-for-the-following-adssetup-object)
+1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#additional-informations-for-the-following-adssetup-object)
+   1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
+   1. 5.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#52-adssetup)
+1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
+   1. 6.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#61-placements)
+   1. 6.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#62-adssetup)
+1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
+1. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
 
 
 
@@ -23,7 +23,7 @@
 
 Date | Change
 ------------ | -------------
-*26.02.2019* | *Updated table of contents*
+*27.02.2019* | *initial commit with adsSetup object for mobile and desktop*
 
 
 
