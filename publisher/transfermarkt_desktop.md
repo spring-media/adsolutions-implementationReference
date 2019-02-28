@@ -110,7 +110,7 @@ adsSetup = {
 	adSlotSizes: {
 	  	"superbanner": [{
 		  "minWidth": 1,
-		  "sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
+		  "sizes": [[3x3]]
 		}],
 
 		"sky": [{
@@ -118,14 +118,19 @@ adsSetup = {
 		  "sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
 		}],
 
+		"sky_btf": [{
+		  "minWidth": 1,
+		  "sizes": [[160,600],[120,600],[300,250],[300,600],[500,1000],[1000,1000]]
+		}],
+
 		"billboard": [{
 		  "minWidth": 1,
-		  "sizes": [[3,3]]
+		  "sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
 		}],
 
 		"billboard_btf": [{
 		  "minWidth": 1,
-		  "sizes": [[3,3]]
+		  "sizes": [[961x250]]
 		}],
 
 		"mrec": [{
@@ -141,7 +146,7 @@ adsSetup = {
 		"inpage": [{
 		  "minWidth": 1,
 		  "sizes": [[1,1],[1000,300]]
-		}],
+		}]
 	},
 
 	/* page configuration */
@@ -160,7 +165,7 @@ adsSetup = {
 
 
 
-## Artikel | Profile | Live | Tipp (1x1, 1000x300, 640x360)
+## Artikel | Profile | Live | (1x1, 1000x300, 640x360)
 
 
 Include the following object in your <head>-Tag.
@@ -174,7 +179,7 @@ adsSetup = {
 	adSlotSizes: {
 	  	"superbanner": [{
 		  "minWidth": 1,
-		  "sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
+		  "sizes": [[3x3]]
 		}],
 
 		"sky": [{
@@ -182,14 +187,19 @@ adsSetup = {
 		  "sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
 		}],
 
+		"sky_btf": [{
+		  "minWidth": 1,
+		  "sizes": [[160,600],[120,600],[300,250],[300,600],[500,1000],[1000,1000]]
+		}],
+
 		"billboard": [{
 		  "minWidth": 1,
-		  "sizes": [[3,3]]
+		  "sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
 		}],
 
 		"billboard_btf": [{
 		  "minWidth": 1,
-		  "sizes": [[3,3]]
+		  "sizes": [[350x250],[800x250],[970x250],[728x90]]
 		}],
 
 		"mrec": [{
@@ -204,8 +214,8 @@ adsSetup = {
 
 		"inpage": [{
 		  "minWidth": 1,
-		  "sizes": [[1,1],[640,360],[1000,300]]
-		}],
+		  "sizes": [[1,1],[640x360],[1000,300]]
+		}]
 	},
 
 	/* page configuration */
@@ -221,6 +231,78 @@ adsSetup = {
 
 </script>
 ```
+
+
+## Tipp
+
+
+Include the following object in your <head>-Tag.
+
+
+```javascript
+<script type="text/javascript">
+adsSetup = {
+	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
+	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
+	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"],
+	adSlotSizes: {
+	  	"superbanner": [{
+		  "minWidth": 1,
+		  "sizes": [[3x3]]
+		}],
+
+		"sky": [{
+		  "minWidth": 1,
+		  "sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
+		}],
+
+		"sky_btf": [{
+		  "minWidth": 1,
+		  "sizes": [[160,600],[120,600],[300,250],[300,600],[500,1000],[1000,1000]]
+		}],
+
+		"billboard": [{
+		  "minWidth": 1,
+		  "sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
+		}],
+
+		"billboard_btf": [{
+		  "minWidth": 1,
+		  "sizes": [[350x250],[800x250],[970x250]]
+		}],
+
+		"mrec": [{
+		  "minWidth": 1,
+		  "sizes": [[300,250],[300,600]]
+		}],
+
+		"mrec_btf": [{
+		  "minWidth": 1,
+		  "sizes": [[300,250],[300,600]]
+		}],
+
+		"inpage": [{
+		  "minWidth": 1,
+		  "sizes": [[1,1],[640x360],[1000,300]]
+		}]
+	},
+
+	/* page configuration */
+	colorBg: true, // enable/disable coloring of the page-background
+	bgClick: true, // enable/disable click on page-background
+	stickySky: true, // enable/disable stickiness for skyscraper
+	hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding for video
+	isArticle: true, // it shows us if the page is an article
+	pageName: "demo_story", // channel/article name from CMS
+	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
+}
+
+
+</script>
+```
+
+
+
 
 
 
