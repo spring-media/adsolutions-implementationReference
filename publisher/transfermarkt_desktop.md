@@ -113,7 +113,7 @@ adsSetup = {
 	adSlotSizes: {
 	  	"superbanner": [{
 		  "minWidth": 1,
-		  "sizes": [[3x3]]
+		  "sizes": [[3,3]]
 		}],
 
 		"sky": [{
@@ -133,7 +133,7 @@ adsSetup = {
 
 		"billboard_btf": [{
 		  "minWidth": 1,
-		  "sizes": [[961x250]]
+		  "sizes": [[961,250]]
 		}],
 
 		"mrec": [{
@@ -182,7 +182,7 @@ adsSetup = {
 	adSlotSizes: {
 	  	"superbanner": [{
 		  "minWidth": 1,
-		  "sizes": [[3x3]]
+		  "sizes": [[3,3]]
 		}],
 
 		"sky": [{
@@ -202,7 +202,7 @@ adsSetup = {
 
 		"billboard_btf": [{
 		  "minWidth": 1,
-		  "sizes": [[300x250],[800x250],[970x250],[728x90]]
+		  "sizes": [[300,250],[800,250],[970,250],[728,90]]
 		}],
 
 		"mrec": [{
@@ -217,7 +217,7 @@ adsSetup = {
 
 		"inpage": [{
 		  "minWidth": 1,
-		  "sizes": [[1,1],[640x360],[1000,300]]
+		  "sizes": [[1,1],[640,360],[1000,300]]
 		}]
 	},
 
@@ -251,7 +251,7 @@ adsSetup = {
 	adSlotSizes: {
 	  	"superbanner": [{
 		  "minWidth": 1,
-		  "sizes": [[3x3]]
+		  "sizes": [[3,3]]
 		}],
 
 		"sky": [{
@@ -271,7 +271,7 @@ adsSetup = {
 
 		"billboard_btf": [{
 		  "minWidth": 1,
-		  "sizes": [[300x250],[800x250],[970x250]]
+		  "sizes": [[300,250],[800,250],[970,250]]
 		}],
 
 		"mrec": [{
@@ -286,7 +286,7 @@ adsSetup = {
 
 		"inpage": [{
 		  "minWidth": 1,
-		  "sizes": [[1,1],[640x360],[1000,300]]
+		  "sizes": [[1,1],[640,360],[1000,300]]
 		}]
 	},
 
@@ -323,7 +323,7 @@ adsSetup = {
 	adSlotSizes: {
 	  	"superbanner": [{
 		  "minWidth": 1,
-		  "sizes": [[3x3]]
+		  "sizes": [[3,3]]
 		}],
 
 		"sky": [{
@@ -390,7 +390,7 @@ adsSetup = {
 	adSlotSizes: {
 	  	"superbanner": [{
 		  "minWidth": 1,
-		  "sizes": [[3x3]]
+		  "sizes": [[3,3]]
 		}],
 
 		"sky": [{
@@ -449,7 +449,7 @@ adsSetup = {
 	adSlotSizes: {
 	  	"superbanner": [{
 		  "minWidth": 1,
-		  "sizes": [[3x3]]
+		  "sizes": [[3,3]]
 		}],
 
 		"sky": [{
@@ -518,7 +518,7 @@ adsSetup = {
 	adSlotSizes: {
 	  	"superbanner": [{
 		  "minWidth": 1,
-		  "sizes": [[3x3]]
+		  "sizes": [[3,3]]
 		}],
 
 		"sky": [{
