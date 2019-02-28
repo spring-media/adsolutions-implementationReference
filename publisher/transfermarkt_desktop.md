@@ -11,9 +11,7 @@
 1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#additional-informations-for-the-following-adssetup-object)
    1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#placements)
    1. 5.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#52-adssetup)
-1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#placements)
-   1. 6.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#61-placements)
-   1. 6.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#62-adssetup)
+implementationReference/blob/master/publisher/transfermarkt_desktop.md#62-adssetup)
 1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#placements)
 1. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#placements)
 
@@ -96,7 +94,7 @@ Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-imp
 
 
 
-## Home (1x1, 1000x300) 
+## Home
 
 
 Include the following object in your <head>-Tag.
@@ -165,7 +163,7 @@ adsSetup = {
 
 
 
-## Artikel | Profile | Live | (1x1, 1000x300, 640x360)
+## Artikel | Profile | Live
 
 
 Include the following object in your <head>-Tag.
@@ -306,7 +304,7 @@ adsSetup = {
 
 
 
-## Stat / Suche (1x1)
+## Stat / Suche
 
 
 Include the following object in your <head>-Tag.
@@ -373,7 +371,7 @@ adsSetup = {
 </script>
 ```
 
-## Bildergalerien (1x1)
+## Bildergalerien
 
 
 Include the following object in your <head>-Tag.
