@@ -5,9 +5,9 @@
 
 
 1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#1-changelog)
-1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#introduction)
-1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#general)
-1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#additional-informations-for-the-following-adssetup-object)
+1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#2-introduction)
+1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#3-general)
+1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#4-additional-informations-for-the-following-adssetup-object)
 1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#5-mobile-integration)
    1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#51-placements)
    1. 5.2 [Home](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#52-home)
@@ -15,8 +15,8 @@
    1. 5.4 [Profile | Live | Tipp](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#54-profile--live--tipp)
    1. 5.5 [Statistiken / Suche](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#55-statistiken--suche)
    1. 5.6 [Bildergalerien | Foren](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#56-bildergalerien--foren)
-1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#placements)
-1. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#placements)
+1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#6-important-notes)
+1. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#7-help)
 
 
 
