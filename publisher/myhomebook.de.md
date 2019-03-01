@@ -106,12 +106,12 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],
 
-		"mrec_2": [{
+		"mrec_btf_2": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],
 		
-		"mrec_3": [{
+		"mrec_btf_3": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],		
