@@ -4,12 +4,12 @@
 ### Table of contents
 
 
-1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#changelog)
-1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#introduction)
-1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#general)
-1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#additional-informations-for-the-following-adssetup-object)
-1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#additional-informations-for-the-following-adssetup-object)
-   1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#placements)
+1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#1-changelog)
+1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#introduction)
+1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#general)
+1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#additional-informations-for-the-following-adssetup-object)
+1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#5-mobile-integration)
+   1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_mobile.md#51-placements)
    1. 5.2 [Home](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#home)
    1. 5.3 [Artikel | Profile | Live](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#artikel--profile--live)
    1. 5.4 [Tipp](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#tipp)
@@ -75,10 +75,7 @@ ________________________________
 
 | Placement Name|Appnexus|
 | ------------- | ----- |
-|Superbanner|superbanner|
-|Sky|sky|
-|Billboard|billboard|
-|contentbar01|billboard_btf|
+|Banner|banner|
 |Medium Rectangle|mrec|
 |Medium Rectangle|mrec_btf|
 |Richmedia / Outstream|inpage|
@@ -99,7 +96,7 @@ Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-imp
 
 
 
-## Home
+## 5.2 Home
 
 
 Include the following object in your <head>-Tag.
@@ -148,7 +145,7 @@ adsSetup = {
 ```
 
 
-## Artikel 
+## 5.3 Artikel 
 
 
 Include the following object in your <head>-Tag.
@@ -197,7 +194,7 @@ adsSetup = {
 ```
 
 
-## Profile | Live | Tipp
+## 5.4 Profile | Live | Tipp
 
 
 Include the following object in your <head>-Tag.
@@ -246,7 +243,7 @@ adsSetup = {
 ```
 
 
-## Statistiken / Suche
+## 5.5 Statistiken / Suche
 
 
 Include the following object in your <head>-Tag.
@@ -294,7 +291,7 @@ adsSetup = {
 </script>
 ```
 
-## Bildergalerien | Foren
+## 5.6 Bildergalerien | Foren
 
 
 Include the following object in your <head>-Tag.
@@ -339,14 +336,14 @@ adsSetup = {
 
 
    
-### Important Notes
+### 6. Important Notes
 
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
 - __IMPORTANT__ Please place the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
 
 
-### Help
+### 7. Help
 
 If you have some question don't hesitate to contact us:
 
