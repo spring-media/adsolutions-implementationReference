@@ -68,7 +68,7 @@ ________________________________
 
 
 
-# 5. Desktop Integration
+# 5. Mobile Integration
 
 
 ### 5.1 Placements
@@ -94,7 +94,7 @@ You can repeat the btf placements as much as you want. Please use the following 
    
    
    
-Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website) and  [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement) for more information.
+Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website) and [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement) for more information.
 
 
 
@@ -109,11 +109,11 @@ Include the following object in your <head>-Tag.
 adsSetup = {
 	view: "m", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
-	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
+	adPlacements: ["banner","mrec_btf","mrec_btf_2","mrec_btf_3","mrec_btf_4","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
 	adSlotSizes: {
 		"banner": [{
 			"minWidth": 1,
-			"sizes": [[320,50],[320,75],[320,80]]
+			"sizes": [[320,50],[320,75],[320,80],[320,160],[300,150]]
 		}],
      
 		"mrec": [{
@@ -123,7 +123,7 @@ adsSetup = {
 
 		"mrec_btf": [{
 			"minWidth": 1,
-			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300],[300,150],[300,600],[1000,300],[320,480]]
 		}],
      
 		"inpage": [{
@@ -148,8 +148,7 @@ adsSetup = {
 ```
 
 
-
-## Artikel | Profile | Live
+## Artikel 
 
 
 Include the following object in your <head>-Tag.
@@ -157,49 +156,30 @@ Include the following object in your <head>-Tag.
 ```javascript
 <script type="text/javascript">
 adsSetup = {
-	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
+	view: "m", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
-	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"],  // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
+	adPlacements: ["banner","mrec_btf","mrec_btf_2","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
 	adSlotSizes: {
-	  	"superbanner": [{
-		  "minWidth": 1,
-		  "sizes": [[3,3]]
+		"banner": [{
+			"minWidth": 1,
+			"sizes": [[320,50],[320,75],[320,80],[320,160],[300,150]]
 		}],
-
-		"sky": [{
-		  "minWidth": 1,
-		  "sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
-
-		"sky_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[160,600],[120,600],[300,250],[300,600],[500,1000],[1000,1000]]
-		}],
-
-		"billboard": [{
-		  "minWidth": 1,
-		  "sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
-		}],
-
-		"billboard_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250],[800,250],[970,250],[728,90]]
-		}],
-
+     
 		"mrec": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250],[300,600]]
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],
 
 		"mrec_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250],[300,600]]
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300],[300,150],[300,600],[1000,300],[320,480]]
 		}],
-
+     
 		"inpage": [{
-		  "minWidth": 1,
-		  "sizes": [[1,1],[640,360],[1000,300]]
+			"minWidth": 1,
+			"sizes": [[1,1],[640,360]]
 		}]
+     
 	},
 
 	/* page configuration */
@@ -217,58 +197,38 @@ adsSetup = {
 ```
 
 
-## Tipp
+## Profile | Live | Tipp
 
 
 Include the following object in your <head>-Tag.
 
-
 ```javascript
 <script type="text/javascript">
 adsSetup = {
-	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
+	view: "m", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
-	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
+	adPlacements: ["banner","mrec_btf","mrec_btf_2","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
 	adSlotSizes: {
-	  	"superbanner": [{
-		  "minWidth": 1,
-		  "sizes": [[3,3]]
+		"banner": [{
+			"minWidth": 1,
+			"sizes": [[320,50],[320,75],[320,80],[320,160],[300,150]]
 		}],
-
-		"sky": [{
-		  "minWidth": 1,
-		  "sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
-
-		"sky_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[160,600],[120,600],[300,250],[300,600],[500,1000],[1000,1000]]
-		}],
-
-		"billboard": [{
-		  "minWidth": 1,
-		  "sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
-		}],
-
-		"billboard_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250],[800,250],[970,250]]
-		}],
-
+     
 		"mrec": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250],[300,600]]
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],
 
 		"mrec_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250],[300,600]]
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300],[300,150],[300,600],[1000,300],[320,480]]
 		}],
-
+     
 		"inpage": [{
-		  "minWidth": 1,
-		  "sizes": [[1,1],[640,360],[1000,300]]
+			"minWidth": 1,
+			"sizes": [[1,1],[640,360],[1000,300]]
 		}]
+     
 	},
 
 	/* page configuration */
@@ -286,11 +246,7 @@ adsSetup = {
 ```
 
 
-
-
-
-
-## Stat / Suche
+## Statistiken / Suche
 
 
 Include the following object in your <head>-Tag.
@@ -298,49 +254,30 @@ Include the following object in your <head>-Tag.
 ```javascript
 <script type="text/javascript">
 adsSetup = {
-	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
+	view: "m", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
-	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
+	adPlacements: ["banner","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
 	adSlotSizes: {
-	  	"superbanner": [{
-		  "minWidth": 1,
-		  "sizes": [[3,3]]
+		"banner": [{
+			"minWidth": 1,
+			"sizes": [[320,50],[320,75],[320,80],[320,160],[300,150]]
 		}],
-
-		"sky": [{
-		  "minWidth": 1,
-		  "sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
-
-		"sky_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[160,600],[120,600],[300,250],[300,600],[500,1000],[1000,1000]]
-		}],
-
-		"billboard": [{
-		  "minWidth": 1,
-		  "sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
-		}],
-
-		"billboard_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[728,90],[300,250],[800,250],[970,250]]
-		}],
-
+     
 		"mrec": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250],[300,600]]
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],
 
 		"mrec_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250],[300,600]]
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300],[300,150],[300,600],[1000,300],[320,480]]
 		}],
-
+     
 		"inpage": [{
-		  "minWidth": 1,
-		  "sizes": [[1,1]]
+			"minWidth": 1,
+			"sizes": [[1,1],[640,360],[1000,300]]
 		}]
+     
 	},
 
 	/* page configuration */
@@ -357,7 +294,7 @@ adsSetup = {
 </script>
 ```
 
-## Bildergalerien
+## Bildergalerien | Foren
 
 
 Include the following object in your <head>-Tag.
@@ -365,39 +302,25 @@ Include the following object in your <head>-Tag.
 ```javascript
 <script type="text/javascript">
 adsSetup = {
-	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
+	view: "m", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
-	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
+	adPlacements: ["banner","mrec_btf","mrec_btf_2"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
 	adSlotSizes: {
-	  	"superbanner": [{
-		  "minWidth": 1,
-		  "sizes": [[3,3]]
+		"banner": [{
+			"minWidth": 1,
+			"sizes": [[320,50],[320,75],[320,80],[320,160],[300,150]]
 		}],
-
-		"sky": [{
-		  "minWidth": 1,
-		  "sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
-
-		"billboard_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[728,90],[300,250],[800,250],[970,250]]
-		}],
-
+     
 		"mrec": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250]]
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300]]
 		}],
 
 		"mrec_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250]]
-		}],
-
-		"inpage": [{
-		  "minWidth": 1,
-		  "sizes": [[1,1]]
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300],[300,150],[300,600],[1000,300],[320,480]]
 		}]
+     
 	},
 
 	/* page configuration */
@@ -413,148 +336,6 @@ adsSetup = {
 
 </script>
 ```
-
-
-
-## Foren (Übersichtsseiten)
-
-
-Include the following object in your <head>-Tag.
-
-```javascript
-<script type="text/javascript">
-adsSetup = {
-	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
-	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
-	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
-	adSlotSizes: {
-	  	"superbanner": [{
-		  "minWidth": 1,
-		  "sizes": [[3,3]]
-		}],
-
-		"sky": [{
-		  "minWidth": 1,
-		  "sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
-
-		"sky_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[160,600],[120,600],[300,250],[300,600],[500,1000],[1000,1000]]
-		}],
-
-		"billboard": [{
-		  "minWidth": 1,
-		  "sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
-		}],
-
-		"billboard_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[728,90],[300,250],[800,250],[970,250]]
-		}],
-
-		"mrec": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250],[300,600]]
-		}],
-
-		"mrec_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250],[300,600]]
-		}],
-
-		"inpage": [{
-		  "minWidth": 1,
-		  "sizes": [[1,1],[640,360],[1000,300]]
-		}]
-	},
-
-	/* page configuration */
-	colorBg: true, // enable/disable coloring of the page-background
-	bgClick: true, // enable/disable click on page-background
-	stickySky: true, // enable/disable stickiness for skyscraper
-	hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding for video
-	isArticle: true, // it shows us if the page is an article
-	pageName: "demo_story", // channel/article name from CMS
-	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
-}
-
-
-</script>
-```
-
-
-
-## Foren (Detailseiten)
-
-
-Include the following object in your <head>-Tag.
-
-```javascript
-<script type="text/javascript">
-adsSetup = {
-	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
-	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
-	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
-	adSlotSizes: {
-	  	"superbanner": [{
-		  "minWidth": 1,
-		  "sizes": [[3,3]]
-		}],
-
-		"sky": [{
-		  "minWidth": 1,
-		  "sizes": [[160,600],[120,600],[300,600],[500,1000],[1000,1000]]
-		}],
-
-		"sky_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[160,600],[120,600],[300,250],[300,600],[500,1000],[1000,1000]]
-		}],
-
-		"billboard": [{
-		  "minWidth": 1,
-		  "sizes": [[728,90],[728,600],[1000,600],[970,250],[800,250]]
-		}],
-
-		"billboard_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[728,90],[300,250],[800,250],[970,250]]
-		}],
-
-		"mrec": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250],[300,600]]
-		}],
-
-		"mrec_btf": [{
-		  "minWidth": 1,
-		  "sizes": [[300,250],[300,600]]
-		}],
-
-		"inpage": [{
-		  "minWidth": 1,
-		  "sizes": [[1,1],[5,5],[640,360],[1000,300]]
-		}]
-	},
-
-	/* page configuration */
-	colorBg: true, // enable/disable coloring of the page-background
-	bgClick: true, // enable/disable click on page-background
-	stickySky: true, // enable/disable stickiness for skyscraper
-	hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding for video
-	isArticle: true, // it shows us if the page is an article
-	pageName: "demo_story", // channel/article name from CMS
-	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
-}
-
-
-</script>
-```
-
-
-
-
 
 
    
