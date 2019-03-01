@@ -77,6 +77,7 @@ ________________________________
 | ------------- | ----- |
 |Superbanner|superbanner|
 |Sky|sky|
+|Sky btf|sky_btf|
 |Billboard|billboard|
 |contentbar01|billboard_btf|
 |Medium Rectangle|mrec|
