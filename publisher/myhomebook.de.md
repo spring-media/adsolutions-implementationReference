@@ -82,7 +82,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
-		}],
+		}]
      
 	},
 ```
@@ -119,7 +119,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
-		}],
+		}]
      
 	},
 ```
