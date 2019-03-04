@@ -1,4 +1,4 @@
-# Transfermarkt.de - Mobile (mew)
+# Transfermarkt.de - App
 
 
 ### Table of contents
