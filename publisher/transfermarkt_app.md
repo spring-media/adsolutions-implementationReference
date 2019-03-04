@@ -12,7 +12,7 @@
    1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_app.md#51-placements)
    1. 5.2 [Home](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_app.md#52-home)
    1. 5.3 [Artikel](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_app.md#53-artikel)
-   1. 5.4 [Profile | Live](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_app.md#54-profile--live--tipp)
+   1. 5.4 [Profile | Live | MeinVerein | Navi-Start](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_app.md#54-profile--live--meinverein--navi-start)
    1. 5.5 [Statistiken / Suche](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_app.md#55-statistiken--suche)
    1. 5.6 [MeinVerein](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_app.md#56-meinverein)
 1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_app.md#6-important-notes)
