@@ -4,7 +4,7 @@ This small javascript is meant to be saved as bookmark so you can run it by clic
 It will load a javascript file that checks the placements on the page and sum them up in a small box to the top left corner.
 
 The code is written in plain javascript so each browser on each device will accept it,
-and theirfore it also works on mobile devices or tablets.
+and therefore it also works on mobile devices or tablets.
 
 ##### Please don't modify this code and use it "as is".
 ```
