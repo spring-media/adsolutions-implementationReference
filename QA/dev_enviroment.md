@@ -2,7 +2,7 @@
 
 In order to use our Dev environment you should only redirect the AdLib request **from** the global Appnexus CDN **to** the Ad Solutions development server.
 
-From `https://acdn.adnxs.com/as/*` / `https://www.asadcdn.com/*`
+From `https://acdn.adnxs.com/as/*` / `https://www.asadcdn.com/adlib/*`
 
 --> to `https://adtechnology.axelspringer.com/dev/$1`
 
