@@ -14,7 +14,7 @@ We recommend to use the Chrome browser Plugin [Redirector](https://chrome.google
 
 ![Settings for Redirector](https://github.com/spring-media/adsolutions-implementationReference/blob/master/QA/dev_redirector.png?raw=true)
 
-**You can also use Charles Proxy as alternative.**
+**You can also use Charles Proxy, Wireshark or whatever you like most as alternative.**
 
 If you have some question don't hesitate to contact us:
 
