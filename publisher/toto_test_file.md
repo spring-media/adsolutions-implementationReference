@@ -137,7 +137,7 @@ adsSetup = {
 		"inpage": [{
 		  "minWidth": 1,
 		  "sizes": [[1,1],[640,360],[1000,300]]
-		}],
+		}]
 	},
 
 	/* page configuration */
@@ -216,7 +216,7 @@ adsSetup = {
 		"inpage": [{
 			"minWidth": 1,
 			"sizes": [[1,1],[640,360],[1000,300]]
-		}],
+		}]
      
 	},
 
