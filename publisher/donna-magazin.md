@@ -2,11 +2,11 @@
 
 ### Table of contents
 
-1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#changelog)
-1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#introduction)
-1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#general)
-1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#additional-informations-for-the-following-adssetup-object)
-1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#additional-informations-for-the-following-adssetup-object)
+1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#1-changelog)
+1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#2-introduction)
+1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#3-general)
+1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#4-additional-informations-for-the-following-adssetup-object)
+1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#5-additional-informations-for-the-following-adssetup-object)
     1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#placements)
     1. 5.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#52-adssetup)
 1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#placements)
