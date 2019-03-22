@@ -9,11 +9,11 @@
 1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#5-additional-informations-for-the-following-adssetup-object)
     1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#placements)
     1. 5.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#52-adssetup)
-1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#placements)
+1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#5-mobile-integrationplacements)
     1. 6.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#61-placements)
     1. 6.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#62-adssetup)
-1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#placements)
-1. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#placements)
+1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#7-important-notes)
+1. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#8-help)
 
 
 ### 1. Changelog
