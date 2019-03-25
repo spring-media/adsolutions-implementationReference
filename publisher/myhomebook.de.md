@@ -134,14 +134,13 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 If you have some question don't hesitate to contact us:
 
 
-__Timo Nolte__
+__Gertrud Kolb__
  
   Head of AdSolutions
   Spring
 
-  Tel: +49 30 2591 78009
-  Mobile: +49 151 22334646 
-  timo.nolte@axelspringer.de
+  Tel: +49 30 2591 72504
+  gertrud.kolb@spring-media.de
 
 
 __Carlos Bracho__

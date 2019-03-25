@@ -2,7 +2,7 @@
 
 In order to use our Beta environment you should only redirect the AdLib request **from** the global Appnexus CDN **to** the Ad Solutions development server.
 
-From `https://acdn.adnxs.com/as/*` / `https://www.asadcdn.com/adlib/*`
+From `https://www.asadcdn.com/adlib/*`
 
 --> to `https://adtechnology.axelspringer.com/beta/$1`
 
@@ -19,14 +19,13 @@ We recommend to use the Chrome browser Plugin [Redirector](https://chrome.google
 If you have some question don't hesitate to contact us:
 
 
-__Timo Nolte__
+__Gertrud Kolb__
  
   Head of AdSolutions
   Corporate Digital Platforms
 
-  Tel: +49 30 2591 78009
-  Mobile: +49 151 22334646 
-  timo.nolte@axelspringer.de
+  Tel: +49 30 2591 72504
+  gertrud.kolb@spring-media.de
 
 
 __Carlos Bracho__
