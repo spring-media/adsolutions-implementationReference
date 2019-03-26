@@ -20,7 +20,8 @@
 
 Date | Change
 ------------ | -------------
-*26.03.2019* | *initial commit with adsSetup object for mobile and desktop*
+*22.03.2019* | *initial commit with adsSetup object for mobile and desktop*
+*26.03.2019* | *updated file cause of missing mobile sizes*
 
 
 --------
