@@ -156,8 +156,6 @@ adsSetup = {
 
 
 
-
-
 # 6. Mobile Integration
 
 ### 6.1 Placements
@@ -170,6 +168,14 @@ adsSetup = {
 |Medium Rectangle 2|mrec_btf_2|
 |Footer Ad|mrec_btf_3|
 |Richmedia / Outstream|inpage|
+
+You can repeat the btf placements as much as you want. Please use the following schema:
+
+*Example for 3 Medium Rectangle btf*
+
+* mrec_btf
+* mrec_btf_2
+* mrec_btf_3
 
 
 
