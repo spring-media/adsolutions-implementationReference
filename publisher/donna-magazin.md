@@ -156,7 +156,10 @@ adsSetup = {
 
 
 
-MOBILE_ACTIVE = true# 6. Mobile Integration
+MOBILE_ACTIVE = true
+
+
+# 6. Mobile Integration
 
 ### 6.1 Placements
 
