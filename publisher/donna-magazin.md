@@ -5,11 +5,11 @@
 1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#1-changelog)
 1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#2-introduction)
 1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#3-general)
-1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#4-additional-informations-for-the-following-adssetup-object)
-1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#5-additional-informations-for-the-following-adssetup-object)
-    1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#placements)
+1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md4-#additional-informations-for-the-following-adssetup-object)
+1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#5-desktop-integration)
+    1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#51-placements)
     1. 5.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#52-adssetup)
-1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#5-mobile-integrationplacements)
+1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#6-mobile-integration)
     1. 6.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#61-placements)
     1. 6.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#62-adssetup)
 1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#7-important-notes)
@@ -20,7 +20,7 @@
 
 Date | Change
 ------------ | -------------
-*22.03.2019* | *initial commit with adsSetup object for mobile and desktop*
+*26.03.2019* | *initial commit with adsSetup object for mobile and desktop*
 
 
 --------
@@ -94,16 +94,16 @@ Include the following object in your <head>-Tag.
 adsSetup = {
     view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
     partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
-    adPlacements: ["superbanner", "superbanner_btf", "sky", "billboard", "billboard_btf", "mrec", "mrec_btf"],
+    adPlacements: ["superbanner", "superbanner_btf", "sky", "sky_btf", "billboard", "billboard_btf", "mrec", "mrec_btf"],
     adSlotSizes: {
         "superbanner": [{
            "minWidth": 1,
-           "sizes": [[970,250], [800,250], [1000,600], [728,600], [728,90]]
+           "sizes": [[728,90], [728,600], [1000,600], [970,250], [800,250]]
         }],
 
         "superbanner_btf": [{
            "minWidth": 1,
-           "sizes": [[970,250], [800,250], [728,90], [728,600], [1000,600]]
+           "sizes": [[728,90], [728,600], [1000,600], [970,250], [800,250]]
         }],
 
         "sky": [{
@@ -111,9 +111,14 @@ adsSetup = {
            "sizes": [[160,600], [160,600], [300,600], [500,1000], [1000,1000]]
         }],
 
+        "sky_btf": [{
+           "minWidth": 1,
+           "sizes": [[160,600], [120,600]]
+        }],
+
         "billboard": [{
            "minWidth": 1,
-           "sizes": [[970,250], [800,250], [970,250], [728,90]]
+           "sizes": [[970,250], [800,250], [728,90]]
         }],
 
         "billboard_btf": [{
@@ -180,7 +185,25 @@ adsSetup = {
     view: "m", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
     partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
     adPlacements: ["banner", "mrec", "mrec_btf"],
-undefined    /* page configuration */
+    adSlotSizes: {
+        "banner": [{
+           "minWidth": 1,
+           "sizes": [[320,50], [320,75], [320,80]]
+        }],
+
+        "mrec": [{
+           "minWidth": 1,
+           "sizes": [[320,250], [320,50], [320,75], [320,160], [300,300]]
+        }],
+
+        "mrec_btf": [{
+           "minWidth": 1,
+           "sizes": [[320,250], [320,50], [320,75], [320,160], [300,300]]
+        }],
+
+    },
+
+    /* page configuration */
     colorBg: true, // enable/disable coloring of the page-background
     bgClick: true, // enable/disable click on page-background
     stickySky: true, // enable/disable stickiness for skyscraper
@@ -199,7 +222,7 @@ undefined    /* page configuration */
 
 ### Important Notes
 
-- For Intext Outstream and for Richmedia we just need one placement with Appnexus.
+- For Intext Outstream and Richmedia we just need one placement with Appnexus.
 - __IMPORTANT__ Please place the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
 
