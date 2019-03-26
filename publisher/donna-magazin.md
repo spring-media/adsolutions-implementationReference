@@ -22,6 +22,7 @@ Date | Change
 ------------ | -------------
 *22.03.2019* | *initial commit with adsSetup object for mobile and desktop*
 *26.03.2019* | *updated file cause of missing mobile sizes*
+*26.03.2019* | *updated path for pageset file*
 
 
 --------
@@ -34,7 +35,7 @@ The delivery of ads utilizes a "One Call" function, which have to be included in
 
 ### 3. General
 
-Please include the following script in the `<head>` of the website:  ```https://acdn.adnxs.com/as/1h/pages/newPublisher.js```.
+Please include the following script in the `<head>` of the website:  ```https://www.asadcdn.com/adlib/pages/donna-magazin.js```.
 
 **Test Ads** - [Here](https://adtechnology.axelspringer.com/testads.html) do you get an AppNexus segment for test ads - so you can test you integration. On the same site you can disable the segment to see 'normal' ads.Please be sure that your browsers accepts 3th party cookies.
 
