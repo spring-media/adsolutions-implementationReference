@@ -156,7 +156,6 @@ adsSetup = {
 
 
 
-MOBILE_ACTIVE = true
 
 
 # 6. Mobile Integration
