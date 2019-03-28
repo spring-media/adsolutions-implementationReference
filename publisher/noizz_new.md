@@ -1,4 +1,4 @@
-# noizz
+# Noizz
 
 ### Table of contents
 
