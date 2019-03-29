@@ -6,21 +6,22 @@ It is written threeway integrational so it can be used for popups, friendly ifra
 ```
 <script type="text/javascript">
 var displaySizes = [[300,250],[320,50]]; // please refer to briefing what sizes to set
-var pageName = "spiele.partner1"; // please refer to briefing - maybe optional
+var pageName = ""; // please refer to briefing - maybe optional
 var slot = "mrec"; // containerId for display ad - please refer to briefing
 var vwidth = ""; // optional, the static width of the videoplayer used for videoadcall
 var vheight = ""; // optional, the static height of the videoplayer used for videoadcall
 
-var renderAd = function(adCalls) {
+var propagateAdUrls = function(msg) {
+	console.log(msg.datail);
     // you can add your render method or a call to it here and remove the rest
     // or add a div#${slot} to your html and call:
-    renderAdFrame(adCalls.display);
-}
+    renderAdFrame(msg.detail.display);
+};
 
 // if you do not support IE <= 9 you may use the second line only
 (window.addEventListener) ? 
-    document.addEventListener("adInfo", function(msg){renderAd(msg);}, false) 
-    : document.attachEvent("onadInfo", function(msg){renderAd(msg);});
+	window.addEventListener("adInfo", function(msg){propagateAdUrls(msg);}, false) 
+	: window.attachEvent("onadInfo", function(msg){propagateAdUrls(msg);});
 </script>
 <script type="text/javascript" src="https://www.asadcdn.com/adlib/extensions/corsFrameAdCalls.js"></script>
 ```
