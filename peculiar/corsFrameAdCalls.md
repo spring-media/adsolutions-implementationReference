@@ -28,7 +28,7 @@ var propagateAdUrls = function(msg) {
 
 Example of the given object passed within the event:
 
-![corsFrameAdCalls](https://github.com/spring-media/adsolutions-implementationReference/assets/corsFrameAdCalls.png "corsFrameAdCalls")
+![corsFrameAdCalls](https://github.com/spring-media/adsolutions-implementationReference/blob/master/assets/corsFrameAdCalls.PNG "corsFrameAdCalls")
 
 ## Contact
 
