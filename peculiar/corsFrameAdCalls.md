@@ -13,7 +13,6 @@ var vwidth = ""; // optional, the static width of the videoplayer used for video
 var vheight = ""; // optional, the static height of the videoplayer used for videoadcall
 
 var propagateAdUrls = function(msg) {
-	console.log(msg.datail);
     // you can add your render method or a call to it here and remove the rest
     // or add a div#${slot} to your html and call:
     renderAdFrame(msg.detail.display);
@@ -26,6 +25,10 @@ var propagateAdUrls = function(msg) {
 </script>
 <script type="text/javascript" src="https://www.asadcdn.com/adlib/extensions/corsFrameAdCalls.js"></script>
 ```
+
+Example of the given object passed within the event:
+
+![corsFrameAdCalls](https://github.com/spring-media/adsolutions-implementationReference/assets/corsFrameAdCalls.png "corsFrameAdCalls")
 
 ## Contact
 
