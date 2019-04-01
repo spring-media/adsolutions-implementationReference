@@ -6,7 +6,8 @@ It is written threeway integrational so it can be used for popups, friendly ifra
 ```
 <script type="text/javascript">
 var displaySizes = [[300,250],[320,50]]; // please refer to briefing what sizes to set
-var pageName = ""; // please refer to briefing - maybe optional
+var partnerName = ""; // e.g. "bild.de", please refer to briefing - maybe optional
+var pageName = ""; // e.g. "spiele.partner1", please refer to briefing - maybe optional
 var slot = "mrec"; // containerId for display ad - please refer to briefing
 var vwidth = ""; // optional, the static width of the videoplayer used for videoadcall
 var vheight = ""; // optional, the static height of the videoplayer used for videoadcall
