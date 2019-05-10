@@ -23,6 +23,6 @@ make sure it gets loaded after adSSetup is defined
     document.body.appendChild(p);
 })();
 </script>
-<noscript><img style='display:none;' src='https://bt.mediaimpact.de/s.php?b=2' /></noscript>
+<noscript><img style='display:none;' src='https://bt.mediaimpact.de/s.png?b=2' /></noscript>
 <!-- End Blocktrack-Integration -->
 ```
