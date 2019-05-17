@@ -12,9 +12,9 @@ In this documentation you find the placement details for your Website.  Please f
 var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -31,9 +31,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "160x600&promo_sizes=120x600,300x600", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -50,9 +50,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "728x90", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -69,9 +69,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -100,9 +100,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -119,9 +119,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "160x600&promo_sizes=120x600,300x600", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -138,9 +138,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "728x90", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -157,9 +157,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -178,9 +178,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -197,9 +197,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "160x600&promo_sizes=120x600,300x600", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -216,9 +216,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "728x90", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -235,9 +235,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -256,9 +256,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -275,9 +275,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "160x600&promo_sizes=120x600,300x600", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -294,9 +294,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "728x90", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -313,9 +313,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -334,9 +334,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -353,9 +353,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "160x600&promo_sizes=120x600,300x600", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -372,9 +372,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "728x90", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -391,9 +391,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -412,9 +412,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -431,9 +431,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "160x600&promo_sizes=120x600,300x600", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -450,9 +450,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "728x90", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
@@ -469,9 +469,9 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
 lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
 filteredLvlArray = lvlArray.filter(function (el) {
-	return el != null;
+	return el !== "";
 });
-for (var i = filteredLvlArray.length-1; i > 0; i--) {
+for (var i = filteredLvlArray.length-1; i >= 0; i--) {
 	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
 }
 
