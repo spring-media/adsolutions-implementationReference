@@ -8,7 +8,7 @@ In this documentation you find the placement details for your Website.
 
 ```html
 <!-- BEGIN JS TAG - publisher < - Natgeo-->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=nationalgeographic.de-desktop-home-large_index-billboard&size=970x250&promo_sizes=800x250&psa=0&promo_alignment=[center]&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=nationalgeographic.de-desktop-home-large_index-billboard&size=970x250&promo_sizes=800x250&psa=0&promo_alignment=[center]&gdpr=0&gdpr_consent=[CONSENT_STRING]&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -16,7 +16,7 @@ In this documentation you find the placement details for your Website.
 
 ```html
 <!-- BEGIN JS TAG - publisher < - Natgeo-->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=nationalgeographic.de-desktop-home-large_index-billboard_btf&size=970x250&promo_sizes=800x250&psa=0&promo_alignment=[center]&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=nationalgeographic.de-desktop-home-large_index-billboard_btf&size=970x250&promo_sizes=800x250&psa=0&promo_alignment=[center]&gdpr=0&gdpr_consent=[CONSENT_STRING]&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -24,7 +24,7 @@ In this documentation you find the placement details for your Website.
 
 ```html
 <!-- BEGIN JS TAG - publisher < - Natgeo-->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=nationalgeographic.de-desktop-home-large_index-mrec&size=300x250&promo_sizes=300x600&psa=0&promo_alignment=[center]&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=nationalgeographic.de-desktop-home-large_index-mrec&size=300x250&promo_sizes=300x600&psa=0&promo_alignment=[center]&gdpr=0&gdpr_consent=[CONSENT_STRING]&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -32,7 +32,7 @@ In this documentation you find the placement details for your Website.
 
 ```html
 <!-- BEGIN JS TAG - publisher < - Natgeo-->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=nationalgeographic.de-desktop-home-large_index-mrec_btf&size=300x250&promo_sizes=300x600&psa=0&promo_alignment=[center]&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=nationalgeographic.de-desktop-home-large_index-mrec_btf&size=300x250&promo_sizes=300x600&psa=0&promo_alignment=[center]&gdpr=0&gdpr_consent=[CONSENT_STRING]&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -42,7 +42,7 @@ In this documentation you find the placement details for your Website.
 
 ```html
 <!-- BEGIN JS TAG - publisher < - Natgeo-->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=nationalgeographic.de-mew-home-large_index-banner&size=300x250&promo_sizes=320x50,320x75,320x160&psa=0&promo_alignment=[center]&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=nationalgeographic.de-mew-home-large_index-banner&size=300x250&promo_sizes=320x50,320x75,320x160&psa=0&promo_alignment=[center]&gdpr=0&gdpr_consent=[CONSENT_STRING]&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -50,7 +50,7 @@ In this documentation you find the placement details for your Website.
 
 ```html
 <!-- BEGIN JS TAG - publisher < - Natgeo-->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=nationalgeographic.de-mew-home-large_index-mrec&size=300x250&promo_sizes=320x50,320x75,320x160&psa=0&promo_alignment=[center]&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=nationalgeographic.de-mew-home-large_index-mrec&size=300x250&promo_sizes=320x50,320x75,320x160&psa=0&promo_alignment=[center]&gdpr=0&gdpr_consent=[CONSENT_STRING]&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
