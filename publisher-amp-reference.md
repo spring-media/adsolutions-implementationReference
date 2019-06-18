@@ -41,7 +41,7 @@
 ```
 ### Teads
 
-A. Hardcoding method
+Hardcoding method
 
 As we are fully integrated with Google AMP, the Teads AMP tag has the following format when hardcoded:
 
@@ -53,11 +53,12 @@ As we are fully integrated with Google AMP, the Teads AMP tag has the following 
 
 The only parameter to update is the data-pid = PAGE_ID field.
 
-AMP Script Parameters
-• width & height = format size – FIXED
-• type = "teads" = AMP ID – FIXED
-• data-pid = PAGE ID (PID) – MODIFIABLE
-• layout = "responsive" = Responsive Template – FIXED
+AMP Script Parameters:
+
+- width & height = format size – FIXED
+- type = "teads" = AMP ID – FIXED
+- data-pid = PAGE ID (PID) – MODIFIABLE
+- layout = "responsive" = Responsive Template – FIXED
 
 In order to center the player in landscape mode, add the following CSS parameter to the AMP CSS
 container (amp-custom):
