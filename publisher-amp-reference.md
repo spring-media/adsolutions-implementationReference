@@ -39,38 +39,45 @@
         }'
 ></amp-ad>
 ```
-### Teads
-
-Hardcoding method
-
-As we are fully integrated with Google AMP, the Teads AMP tag has the following format when hardcoded:
-
-```html
-<amp-ad width=300 height=1 noloading type="teads" data-pid="PAGE_ID" layout="responsive"> 
-        <div placeholder></div> 
-</amp-ad>
+### AMP Story ads
+For AMP Stories the amp-ad will be replaced by an amp-story-auto-ads wrapper.
+The parameters will be still defined the same just in a different way, e.g. for connected ads:
 ```
-
-The only parameter to update is the data-pid = PAGE_ID field.
-
-AMP Script Parameters:
-
-- width & height = format size – FIXED
-- type = "teads" = AMP ID – FIXED
-- data-pid = PAGE ID (PID) – MODIFIABLE
-- layout = "responsive" = Responsive Template – FIXED
-
-In order to center the player in landscape mode, add the following CSS parameter to the AMP CSS
-container (amp-custom):
-amp-ad { margin: auto }
-
-AMP Tag location
-One of the limits within an AMP environment is the effective sandboxing of all iFrames. This means we are
-unable to dynamically select the best location for our player and it is up to you, as a publisher, to insert the
-<amp-ad> element in the correct location on the page where the inRead player should be initialized.
-
-(Excerpt from the teads manual)
-        
+<amp-story-auto-ads>
+<script type="application/json">
+    {
+        "ad-attributes": {
+            "type": "appnexus",
+            "width": "300",
+            "height": "250",
+            "data-target": "mrec",
+            "json": {
+                "pageOpts": {
+                    "member": 7823
+                },
+                "adUnits": [{
+                    "disablePsa": true,
+                    "invCode": "mywebsite.de-amp-ressort_story-mrec",
+                    "sizes": [[300, 250]],
+                    "keywords": {
+                        "misc": ["rock", "pop"]
+                    },
+                    "targetId": "mrec"
+                },{
+                    "disablePsa": true,
+                    "invCode": "mywebsite.de-amp-ressort_story-mrec",
+                    "sizes": [[300, 250]],
+                    "keywords": {
+                        "misc": ["rock", "pop"]
+                    },
+                    "targetId": "mrec_2"
+                }]
+            }
+        }
+    }
+</script>
+</amp-story-auto-ads>
+```
 
 ### Notes
 - We're using the regular integration of appnexus full md found [here](https://github.com/ampproject/amphtml/blob/master/ads/appnexus.md)
@@ -94,11 +101,19 @@ unable to dynamically select the best location for our player and it is up to yo
 If you have some question don't hesitate to contact us:
 
 
+__Gertrud Kolb__
+ 
+  Head of AdSolutions
+  Corporate Digital Platforms
+
+  Tel: +49 30 2591 72504
+  gertrud.kolb@spring-media.de
+
 
 __Carlos Bracho__
  
-  Head of Ad Technology
-  SPRING Axel Springer Digital News Media GmbH & Co. KG 
+  Senior Ad Technology Lead 
+  Corporate Digital Platforms
   
   Tel: +49 30 2591 76784
   Mobile: +49 151 44619807 
