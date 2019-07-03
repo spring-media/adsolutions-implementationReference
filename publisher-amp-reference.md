@@ -78,6 +78,38 @@ The parameters will be still defined the same just in a different way, e.g. for 
 </script>
 </amp-story-auto-ads>
 ```
+### Teads
+
+Hardcoding method
+
+As we are fully integrated with Google AMP, the Teads AMP tag has the following format when hardcoded:
+
+```html
+<amp-ad width=300 height=1 noloading type="teads" data-pid="PAGE_ID" layout="responsive"> 
+        <div placeholder></div> 
+</amp-ad>
+```
+
+The only parameter to update is the data-pid = PAGE_ID field.
+
+AMP Script Parameters:
+
+- width & height = format size – FIXED
+- type = "teads" = AMP ID – FIXED
+- data-pid = PAGE ID (PID) – MODIFIABLE
+- layout = "responsive" = Responsive Template – FIXED
+
+In order to center the player in landscape mode, add the following CSS parameter to the AMP CSS
+container (amp-custom):
+amp-ad { margin: auto }
+
+AMP Tag location
+One of the limits within an AMP environment is the effective sandboxing of all iFrames. This means we are
+unable to dynamically select the best location for our player and it is up to you, as a publisher, to insert the
+<amp-ad> element in the correct location on the page where the inRead player should be initialized.
+
+(Excerpt from the teads manual)
+
 
 ### Notes
 - We're using the regular integration of appnexus full md found [here](https://github.com/ampproject/amphtml/blob/master/ads/appnexus.md)
