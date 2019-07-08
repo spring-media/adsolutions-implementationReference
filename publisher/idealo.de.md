@@ -7,76 +7,32 @@ In this documentation you find the placement details for your Website.  Please f
 ### Mrec
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-mrec&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Sky
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "160x600&promo_sizes=120x600,300x600", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-sky&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Superbanner
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "728x90", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-superbanner&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-superbanner&size=728x90&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Mrec Mobile
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-mew-rest-mrec&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-mew-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -95,76 +51,32 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 ### Mrec
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.at-desktop-rest-mrec&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.at-desktop-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Sky
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "160x600&promo_sizes=120x600,300x600", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.at-desktop-rest-sky&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.at-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Superbanner
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "728x90", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.at-desktop-rest-superbanner&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.at-desktop-rest-superbanner&size=728x90&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Mrec Mobile
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.at-mew-rest-mrec&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.at-mew-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -173,76 +85,32 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 ### Mrec
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.es-desktop-rest-mrec&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.es-desktop-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Sky
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "160x600&promo_sizes=120x600,300x600", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.es-desktop-rest-sky&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.es-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Superbanner
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "728x90", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.es-desktop-rest-superbanner&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.es-desktop-rest-superbanner&size=728x90&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Mrec Mobile
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.es-mew-rest-mrec&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.es-mew-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -251,76 +119,32 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 ### Mrec
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.fr-desktop-rest-mrec&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.fr-desktop-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Sky
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "160x600&promo_sizes=120x600,300x600", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.fr-desktop-rest-sky&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.fr-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Superbanner
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "728x90", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.fr-desktop-rest-superbanner&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.fr-desktop-rest-superbanner&size=728x90&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Mrec Mobile
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.fr-mew-rest-mrec&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.fr-mew-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -329,76 +153,32 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 ### Mrec
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.it-desktop-rest-mrec&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.it-desktop-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Sky
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "160x600&promo_sizes=120x600,300x600", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.it-desktop-rest-sky&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.it-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Superbanner
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "728x90", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.it-desktop-rest-superbanner&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.it-desktop-rest-superbanner&size=728x90&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Mrec Mobile
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.it-mew-rest-mrec&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.it-mew-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -407,76 +187,32 @@ document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=ideal
 ### Mrec
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.uk-desktop-rest-mrec&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.uk-desktop-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Sky
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "160x600&promo_sizes=120x600,300x600", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.uk-desktop-rest-sky&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.uk-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Superbanner
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "728x90", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.uk-desktop-rest-superbanner&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.uk-desktop-rest-superbanner&size=728x90&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
 ### Mrec Mobile
 
 ```html
-<!-- BEGIN JS TAG - publisher - DO NOT MODIFY -->
-<script>
-var size = "300x250", lvlString = "kw_lvl1=100,%%PATTERN:lvl1%%&", l = 2, filteredLvlArray, lvlArray;
-lvlArray = ['%%PATTERN:lvl1%%','%%PATTERN:lvl2%%','%%PATTERN:lvl3%%','%%PATTERN:lvl4%%','%%PATTERN:lvl5%%'];
-filteredLvlArray = lvlArray.filter(function (el) {
-	return el !== "";
-});
-for (var i = filteredLvlArray.length-1; i >= 0; i--) {
-	lvlString += "kw_lvl" + (l++) + "=" + filteredLvlArray[i] + "&";
-}
-
-document.write('<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.uk-mew-rest-mrec&size=' + size + '&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&' + lvlString + 'kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"><\/SCRIPT>');
-</script>
+<!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.uk-mew-rest-mrec&size=300x250&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
