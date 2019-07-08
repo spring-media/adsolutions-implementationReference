@@ -4,7 +4,7 @@ In order to use our Beta environment you should only redirect the AdLib request 
 
 From `https://www.asadcdn.com/adlib/*`
 
---> to `https://adtechnology.axelspringer.com/beta/$1`
+--> to `https://www.asadcdn.com/adlib/beta/$1`
 
 ## How to redirect the requests?
 
