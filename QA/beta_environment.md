@@ -19,19 +19,10 @@ We recommend to use the Chrome browser Plugin [Redirector](https://chrome.google
 If you have some question don't hesitate to contact us:
 
 
-__Gertrud Kolb__
- 
-  Head of AdSolutions
-  Corporate Digital Platforms
-
-  Tel: +49 30 2591 72504
-  gertrud.kolb@spring-media.de
-
-
 __Carlos Bracho__
  
-  Senior Ad Technology Lead 
-  Corporate Digital Platforms
+  Head of Ad Technology
+  SPRING
   
   Tel: +49 30 2591 76784
   Mobile: +49 151 44619807 
