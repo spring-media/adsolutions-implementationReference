@@ -12,7 +12,7 @@ We recommend to use the Chrome browser Plugin [Redirector](https://chrome.google
 
 ### Settings for Redirector:
 
-![Settings for Redirector](https://github.com/spring-media/adsolutions-implementationReference/blob/master/QA/dev_redirector.png?raw=true)
+![Settings for Redirector](https://github.com/spring-media/adsolutions-implementationReference/blob/master/assets/dev_redirector.png?raw=true)
 
 **You can also use Charles Proxy, Wireshark or whatever you like most as alternative.**
 
