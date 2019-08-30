@@ -115,6 +115,9 @@ Example for 3 Medium Rectangle btf
 
 # 4. Define the sizes for every ad placement:
 
+### IMPORTANT
+Please add the size `9x9` to every placement cleared for programmatic.
+
 ## Desktop:
 
 ```
