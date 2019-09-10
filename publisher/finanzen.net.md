@@ -147,7 +147,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 	- contentbar02
 	
 - For Intext Outstream and for Richmedia we just need one placement with Appnexus.
-- __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
+- __IMPORTANT__ Please place the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
 ## Help
 

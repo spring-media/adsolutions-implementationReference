@@ -37,10 +37,24 @@
                 "targetId": "mrec_2"
             }]
         }'
+        rtc-config='{
+            "vendors": {
+                "criteo": {
+                    "ZONE_ID": "%PROVIDED BY MediaImpact%", 
+                    "LINE_ITEM_RANGES": "0..10:0.01;10..25:0.05;25..50:0.10;50..100:0.25",
+                    "PUBLISHER_SUB_ID":"testid"
+                }
+            },
+            "timeoutMillis": 1000
+        }'
 ></amp-ad>
 ```
-### AMP Story ads
+### AMP Story ads (not supported yet)
 For AMP Stories the amp-ad will be replaced by an amp-story-auto-ads wrapper.
+Also please make sure your page loads this component:
+```
+<script async custom-element="amp-story-auto-ads" src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.js"></script>
+```
 The parameters will be still defined the same just in a different way, e.g. for connected ads:
 ```
 <amp-story-auto-ads>
