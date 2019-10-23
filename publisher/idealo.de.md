@@ -16,7 +16,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ```html
 <!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-rest-sky&size=160x600&promo_sizes=120x600,160x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -42,7 +42,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ```html
 <!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-fluege-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_rdest=%%PATTERN:rdest%%&kw_rdestSt=%%PATTERN:rdestSt%%&kw_ordestCon=%%PATTERN:rdestCon%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.de-desktop-fluege-sky&size=160x600&promo_sizes=120x600,160x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_rdest=%%PATTERN:rdest%%&kw_rdestSt=%%PATTERN:rdestSt%%&kw_ordestCon=%%PATTERN:rdestCon%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -60,7 +60,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ```html
 <!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.at-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.at-desktop-rest-sky&size=160x600&promo_sizes=120x600,160x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -94,7 +94,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ```html
 <!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.es-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.es-desktop-rest-sky&size=160x600&promo_sizes=120x600,160x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -128,7 +128,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ```html
 <!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.fr-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.fr-desktop-rest-sky&size=160x600&promo_sizes=120x600,160x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -162,7 +162,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ```html
 <!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.it-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.it-desktop-rest-sky&size=160x600&promo_sizes=120x600,160x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
@@ -196,7 +196,7 @@ In this documentation you find the placement details for your Website.  Please f
 
 ```html
 <!-- BEGIN JS TAG - publisher < - DO NOT MODIFY -->
-<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.uk-desktop-rest-sky&size=160x600&promo_sizes=120x600,300x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
+<SCRIPT SRC="https://ib.adnxs.com/ttj?member=7823&inv_code=idealo.uk-desktop-rest-sky&size=160x600&promo_sizes=120x600,160x600&pubclickenc=%%CLICK_URL_ESC%%&promo_alignment=[center]&psa=0&kw_lvl1=100&kw_lvl2=%%PATTERN:lvl2%%&kw_lvl3=%%PATTERN:lvl3%%&kw_lvl4=%%PATTERN:lvl4%%&kw_lvl5=%%PATTERN:lvl5%%&kw_lvl6=%%PATTERN:lvl6%%&kw_man=%%PATTERN:MAN%%&cb=%%CACHEBUSTER%%" TYPE="text/javascript"></SCRIPT>
 <!-- END TAG -->
 ```
 
