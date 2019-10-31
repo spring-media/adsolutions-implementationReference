@@ -8,7 +8,8 @@ make sure it gets loaded after adSSetup is defined
 <!-- Start Blocktrack-Integration -->
 <script type='text/javascript'>
 (function(){
-    var f = (adSSetup.view === 'd') ? 's' : 'm';
+    var view = window.adSSetup ? adSSetup.view : ((location.host.match(/^m\.|^wap\.|^mobil.*\./i) || (window.screen && screen.availWidth && (screen.availWidth <= 800))) ? 'm' : 'd');
+    var f = (view === 'd') ? 's' : 'm';
     var x, p = document.createElement('img');
     p.style.display = 'none';
     p.onerror = function() {
