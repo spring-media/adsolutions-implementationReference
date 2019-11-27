@@ -1,5 +1,43 @@
-# Integration - Appnexus Accelerated Mobile Pages
+# Implementing AMP springAds Integration
 
+The springAds setup differs a lot from any other AMP ads setup and is orientated by the regular display setup using adSSetup object for defining the environment and ads to be called.
+
+Said that, first you will have to integrate a director amp-ad tag, declaring your ads and targets on page:
+
+```html
+<amp-ad width="0" height="0"
+    type="springAds"
+    data-adssetup='{
+        "view": "amp",
+        "partners": true,
+        "adPlacements": ["banner","mrec"],
+        "adSlotSizes": {
+            "banner": [{
+              "minWidth": 1,
+              "sizes": [[320, 50], [320, 160]]
+            }],
+            "mrec": [{
+              "minWidth": 1,
+              "sizes": [[300, 250], [300, 300], [250, 250], [320, 160], [300, 150], [320, 50], [320, 75], [320, 80], [320, 100], [300, 100], [300, 50], [300, 75]]
+            }]
+        },
+        "pageName": "demo_story",
+        "publisher": "adtechnology.axelspringer.com",
+        "target": "singleAds;multiAds;you;me;team=adtech,MIT;"
+    }'>
+</amp-ad>
+```
+As in normal web the next thing you will need are adslot, so fitting the adPlacements of the adslot you will have to implement these amp-ad-tags:
+
+```html
+[...content...]
+<amp-ad width="320" height="50" type="springAds" data-adslot="banner"></amp-ad>
+[...content...]
+<amp-ad width="300" height="250" type="springAds" data-adslot="mrec"></amp-ad>
+[...content...]
+```
+
+# Alternativ appnexus integration
 
 ## Basic single ad
 ```html
