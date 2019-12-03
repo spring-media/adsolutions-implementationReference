@@ -37,7 +37,7 @@ As in normal web the next thing you will need are adslot, so fitting the adPlace
 [...content...]
 ```
 
-### AMP Story ads (work in progess - available soon)
+## AMP Story ads (work in progess - available soon)
 For AMP Stories the amp-ad will be replaced by an amp-story-auto-ads wrapper.
 Also please make sure your page loads this component:
 ```
