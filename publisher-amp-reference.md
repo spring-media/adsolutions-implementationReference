@@ -37,6 +37,26 @@ As in normal web the next thing you will need are adslot, so fitting the adPlace
 [...content...]
 ```
 
+### AMP Story ads (work in progess - available soon)
+For AMP Stories the amp-ad will be replaced by an amp-story-auto-ads wrapper.
+Also please make sure your page loads this component:
+```
+<script async custom-element="amp-story-auto-ads" src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.js"></script>
+```
+The parameters will be still defined the same just in a different way, e.g.:
+```
+<amp-story-auto-ads>
+<script type="application/json">
+    {
+        "ad-attributes": {
+            "type": "springAds",
+            "data-adslot": "stories"
+        }
+    }
+</script>
+</amp-story-auto-ads>
+```
+
 # Alternativ appnexus integration
 
 ## Basic single ad
@@ -86,49 +106,6 @@ As in normal web the next thing you will need are adslot, so fitting the adPlace
             "timeoutMillis": 1000
         }'
 ></amp-ad>
-```
-### AMP Story ads (not supported yet)
-For AMP Stories the amp-ad will be replaced by an amp-story-auto-ads wrapper.
-Also please make sure your page loads this component:
-```
-<script async custom-element="amp-story-auto-ads" src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.js"></script>
-```
-The parameters will be still defined the same just in a different way, e.g. for connected ads:
-```
-<amp-story-auto-ads>
-<script type="application/json">
-    {
-        "ad-attributes": {
-            "type": "appnexus",
-            "width": "300",
-            "height": "250",
-            "data-target": "mrec",
-            "json": {
-                "pageOpts": {
-                    "member": 7823
-                },
-                "adUnits": [{
-                    "disablePsa": true,
-                    "invCode": "mywebsite.de-amp-ressort_story-mrec",
-                    "sizes": [[300, 250]],
-                    "keywords": {
-                        "misc": ["rock", "pop"]
-                    },
-                    "targetId": "mrec"
-                },{
-                    "disablePsa": true,
-                    "invCode": "mywebsite.de-amp-ressort_story-mrec",
-                    "sizes": [[300, 250]],
-                    "keywords": {
-                        "misc": ["rock", "pop"]
-                    },
-                    "targetId": "mrec_2"
-                }]
-            }
-        }
-    }
-</script>
-</amp-story-auto-ads>
 ```
 ### Teads
 
