@@ -5,7 +5,7 @@ The springAds setup differs a lot from any other AMP ads setup and is orientated
 Said that, first you will have to integrate a director amp-ad tag, declaring your ads and targets on page:
 
 ```html
-<amp-ad width="0" height="0"
+<amp-ad height="fluid"
     type="springAds"
     data-adssetup='{
         "view": "amp",
@@ -31,9 +31,11 @@ As in normal web the next thing you will need are adslot, so fitting the adPlace
 
 ```html
 [...content...]
+<-- static banner for first viewport that is not resizeable -->
 <amp-ad width="320" height="50" type="springAds" data-adslot="banner"></amp-ad>
 [...content...]
-<amp-ad width="300" height="250" type="springAds" data-adslot="mrec"></amp-ad>
+<-- dynamic banner for after first viewport that are allowed to be resized by AMP -->
+<amp-ad height="fluid" type="springAds" data-adslot="mrec"></amp-ad>
 [...content...]
 ```
 
