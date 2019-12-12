@@ -35,7 +35,7 @@ As in normal web the next thing you will need are adslot, so fitting the adPlace
 <amp-ad width="320" height="50" type="springAds" data-adslot="banner"></amp-ad>
 [...content...]
 <-- dynamic banner for after first viewport that are allowed to be resized by AMP -->
-<amp-ad height="fluid" type="springAds" data-adslot="mrec"></amp-ad>
+<amp-ad width="100vw" height="fluid" type="springAds" data-adslot="mrec"></amp-ad>
 [...content...]
 ```
 
