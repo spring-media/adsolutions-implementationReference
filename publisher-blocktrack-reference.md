@@ -11,7 +11,7 @@ make sure it gets loaded after adSSetup is defined
     var view = window.adSSetup ? adSSetup.view : ((location.host.match(/^m\.|^wap\.|^mobil.*\./i) || (window.screen && screen.availWidth && (screen.availWidth <= 800))) ? 'm' : 'd');
     var f = (view === 'd') ? 's' : 'm';
     var x, p = document.createElement('img');
-    p.style.display = 'none';
+    p.style.cssText = 'display:none;visibility:hidden;position:absolute;left:-99999px;top:-99999px;';
     p.onerror = function() {
         x = document.createElement('img').src = 'https://www.asadcdn.com/bt/' + f + '.png?b=1';
     };
