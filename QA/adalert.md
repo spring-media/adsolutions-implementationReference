@@ -1,9 +1,9 @@
 ## Bookmark Tool/JS-Code to submit aderrors
 
-This small javascript is meant to be saved as bookmark so you can run it by click.
-It will load a javascript file that checks the placements on the page and sum them up in a small box to the top left corner.
+This small javascript is meant to be saved as bookmark so you can run it by click.  
+It will load a javascript file that checks the placements on the page and sum them up in a small box to the top left corner.  
 
-The code is written in plain javascript so each browser on each device will accept it,
+The code is written in plain javascript so each browser on each device will accept it,  
 and therefore it also works on mobile devices or tablets.
 
 ##### Please don't modify this code and use it "as is".
@@ -17,7 +17,14 @@ javascript:!function(){var s=document.createElement("script");s.src="https://www
 
 javascript:!function(){var s=document.createElement("script");s.src="https://www.asadcdn.com/adlib/extensions/adalert.js",document.getElementsByTagName("head")[0].appendChild(s);}();void(0);
 
+### For adding the adalert to your mobile bookmarks
 
+Hold this link: [Bookmarklet](javascript:!function(){var s=document.createElement("script");s.src="https://www.asadcdn.com/adlib/extensions/adalert.js",document.getElementsByTagName("head")[0].appendChild(s);}();void(0);
+) (keep your finger on it, until the options appear).  
+Choose the second option: Copy Link-URL.  
+Open your browsers favorites menue and add a new fav inserting the url you just copied.
+
+Now you can use this favorite just like on desktop devices.
 
 #### Definitions
 
