@@ -74,6 +74,9 @@ In the following you will find an overview of the necessary components which mus
 `	partners: true,`
 
 # 3. Define the ad placements for the website
+Please make sure that you only include placements you will add an adslot (div#adPlacementID) for the url the user has called
+Also please ensure you add the elements mainly in order they will appear in the website, 
+because the adserver will fill the first elements of each size with the must valueable campaigns.
 
 ## Desktop:
 
