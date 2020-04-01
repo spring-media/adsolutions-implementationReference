@@ -136,7 +136,7 @@ Please add the size `9x9` to every placement cleared for programmatic.
 		}],
      
 		"billboard": [{
-			"minWidth": 799,
+			"minWidth": 1,
 			"sizes": [[800,250]]
 		},{
 			"minWidth": 969,
