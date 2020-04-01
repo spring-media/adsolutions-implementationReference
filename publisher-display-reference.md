@@ -53,7 +53,7 @@
 ## Introduction
 
 This document describes the necessary steps for integrating online advertisements on desktop and mobile websites for Axel Springer. 
-The delivery of ads utilizes a "One Call" function, which have to be included in the `<head>` part of the websites. This will receive the booked campaigns and will let them in the background for lately rendering. The Ad Placements are `<div>`'s which have to be placed in the wished position for the ad. All Advertisements can be managed via Appnexus.
+The delivery of ads utilizes a "One Call" function, which have to be included in the `<head>` part of the websites. This will receive the booked campaigns and will let them in the background for lately rendering. The Ad Placements are `<div>`'s which have to be placed in the wished position for the ad. All Advertisements can be managed via Xandr.
 
 ## Overview
 
@@ -408,7 +408,7 @@ Size | Creative | IAB | Preview
 ### Please don't try to test ads on Localhost. Ads will be not delivered on localhost.
 
 ### Anti - Blacklisting Chrome Plugin
-Appnexus blocks clients or ip-address that make too many ad requests on a determined placement or in a too short time interval. For it is strongly recommended that before you start testing, to change the browser headers.
+Xandr blocks clients or ip-address that make too many ad requests on a determined placement or in a too short time interval. For it is strongly recommended that before you start testing, to change the browser headers.
 
 #### We recomend to use the browser plugin modheaders:
 https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=de

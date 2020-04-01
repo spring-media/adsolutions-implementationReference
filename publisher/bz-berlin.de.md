@@ -11,7 +11,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
  **Desktop**
 
-| Placement Name|Appnexus|
+| Placement Name|Xandr|
 | ------------- | ----- |
 |Superbanner|superbanner|
 |Sky|sky|
@@ -24,7 +24,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
  **Mobile**
 
 
-| Placement Name|Appnexus|
+| Placement Name|Xandr|
 | ------------- | ----- |
 |Reminder|banner|
 |Content Ad|mrec|
@@ -119,7 +119,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
 ## Important notes
 
-- For Intext Outstream and for Richmedia we just need one placement with Appnexus.
+- For Intext Outstream and for Richmedia we just need one placement with Xandr.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
 ## Help

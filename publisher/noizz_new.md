@@ -28,14 +28,14 @@ Date | Change
 ### 2. Introduction
 
 This document describes the necessary steps for integrating online advertisements on desktop and mobile websites for Axel Springer.
-The delivery of ads utilizes a "One Call" function, which have to be included in the `<head>` part of the websites. This will receive the booked campaigns and will let them in the background for lately rendering. The Ad Placements are `<div>`'s which have to be placed in the wished position for the ad. All Advertisements can be managed via Appnexus.
+The delivery of ads utilizes a "One Call" function, which have to be included in the `<head>` part of the websites. This will receive the booked campaigns and will let them in the background for lately rendering. The Ad Placements are `<div>`'s which have to be placed in the wished position for the ad. All Advertisements can be managed via Xandr.
 
 
 ### 3. General
 
 Please include the following script in the `<head>` of the website:  ```https://www.asadcdn.com/adlib/pages/noizz.js```.
 
-**Test Ads** - [Here](https://adtechnology.axelspringer.com/testads.html) do you get an AppNexus segment for test ads - so you can test you integration. On the same site you can disable the segment to see 'normal' ads.Please be sure that your browsers accepts 3th party cookies.
+**Test Ads** - [Here](https://adtechnology.axelspringer.com/testads.html) do you get an Xandr segment for test ads - so you can test you integration. On the same site you can disable the segment to see 'normal' ads.Please be sure that your browsers accepts 3th party cookies.
 
 **General Display Reference** - [Here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website) do you find a general overview for the whole ad integration process.
 
@@ -61,7 +61,7 @@ ________________________________
 
 ### 5.1 Placements
 
-| Placement Name|Appnexus|
+| Placement Name|Xandr|
 | ------------- | ----- |
 |Superbanner|superbanner|
 |Sky|sky|
@@ -154,7 +154,7 @@ MOBILE_ACTIVE = true# 6. Mobile Integration
 
 ### 6.1 Placements
 
-| Placement Name|Appnexus|
+| Placement Name|Xandr|
 | ------------- | ----- |
 |Reminder|banner|
 |Content Ad|mrec|
@@ -227,7 +227,7 @@ adsSetup = {
 
 ### Important Notes
 
-- For Intext Outstream and for Richmedia we just need one placement with Appnexus.
+- For Intext Outstream and for Richmedia we just need one placement with Xandr.
 - __IMPORTANT__ Please place the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
 

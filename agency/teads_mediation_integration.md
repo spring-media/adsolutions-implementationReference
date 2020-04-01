@@ -1,4 +1,4 @@
-## Appnexus TEADS Mediation
+## Xandr TEADS Mediation
 
 To make TEADS Outstream work within the mediation mechanism we have to do some manual things, because TEADS has to leave the frame of the mediation.
 Because of that we have to catch up the callback from TEADS and propagate this information to the mediation frame to invoke the passback when necessary.
@@ -90,4 +90,4 @@ This Tag will deliver this script hosted on TEADS CDN that uses the defined prop
 })(window, document, document.createElement('script'));
 ```
 
-Inside the passbackCall method we have to use to _tt_position to inject the appnexus noad.ja into the mediation frame so AST will trigger the passback.
+Inside the passbackCall method we have to use to _tt_position to inject the Xandr noad.ja into the mediation frame so AST will trigger the passback.

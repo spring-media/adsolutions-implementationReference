@@ -1,6 +1,6 @@
 # Facebook InstantArticles
 
-The following URI has to be implemented once per adslot. The parameters variies per slot and defines the adrequest to AppNexus:
+The following URI has to be implemented once per adslot. The parameters variies per slot and defines the adrequest to Xandr:
 
 ```html
 https://acdn.adnxs.com/as/1h/IA/fb_ia.html?member=7823&pGroup=bild.de-IA-ros

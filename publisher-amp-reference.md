@@ -59,12 +59,12 @@ The parameters will be still defined the same just in a different way, e.g.:
 </amp-story-auto-ads>
 ```
 
-# Alternativ appnexus integration
+# Alternativ Xandr integration
 
 ## Basic single ad
 ```html
 <amp-ad width=300 height=250
-        type="appnexus"
+        type="Xandr"
         data-member="7823"
         data-code="mywebsite.de-amp-ressort_story-mrec"
 ></amp-ad>
@@ -73,7 +73,7 @@ The parameters will be still defined the same just in a different way, e.g.:
 ## connected ads
 ```html
 <amp-ad width=300 height=250
-        type="appnexus"
+        type="Xandr"
         data-target="mrec"
         json='{
             "pageOpts": {
@@ -143,12 +143,12 @@ unable to dynamically select the best location for our player and it is up to yo
 
 
 ### Notes
-- We're using the regular integration of appnexus full md found [here](https://github.com/ampproject/amphtml/blob/master/ads/appnexus.md)
+- We're using the regular integration of Xandr full md found [here](https://github.com/ampproject/amphtml/blob/master/ads/Xandr.md)
 - The standard size for Ads on AMP ist 300x250 (mrec), if you need extra sizes please contact us.
 - data-target is the placement name. e.g. for Medium Rectangle should be "mrec" 
 - data-code / JSON:
     - member is a static value, please don't change it 
-    - Please don't forget to send us a fallback ad in order to avoid white spaces on you AMP Site. If you don't have any fallback ad please change disablePsa="true" to disablePsa="false", after doing it you will get fallback ads from Appnexus.
+    - Please don't forget to send us a fallback ad in order to avoid white spaces on you AMP Site. If you don't have any fallback ad please change disablePsa="true" to disablePsa="false", after doing it you will get fallback ads from Xandr.
     - invCode is a combination of the following information:
         - Website --> mywebsite.de
         - amp --> it is the platform, please don't change it
