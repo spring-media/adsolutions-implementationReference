@@ -28,7 +28,7 @@ Please implement the following script in the header of your page application
                 }]
             },
             "pageName": "coworking",
-            "target": "country=germany;
+            "target": `country=germany;
                        city=berlin;
                        company=wework;
                        title=Display WeWork SonyCenter;
@@ -46,7 +46,7 @@ Please implement the following script in the header of your page application
                        long=13.371533116173417;
                        orientation=vertical;
                        height=1080;
-                       width=1920;"
+                       width=1920;`
         }
     </script>
 ```
