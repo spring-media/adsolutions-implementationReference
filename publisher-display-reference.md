@@ -235,7 +235,7 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 	hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding vor video
 	isArticle: true, // it shows us if the page is an article
 	pageName: "demo_story", // channel/article name from CMS
-	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
+	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
 	iabTax: "IAB2,IAB2-1,1,32"
 }
 ```
