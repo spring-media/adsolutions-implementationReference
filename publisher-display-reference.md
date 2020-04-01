@@ -242,7 +242,7 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 
 
 
-**_We recommend the following schema for pageName:_**
+**_If you will be administrated by MediaImpact we recommend the following schema for pageName:_**
 - Home Site --> "home_index"
 - Channel, e.g. sport --> "sport_index"
 - Sub-Channel e.g. soccer --> "sport.soccer_index"
