@@ -234,7 +234,7 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 	bgClick: true, // enable/disable click on page-background
 	hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding vor video
 	isArticle: true, // it shows us if the page is an article
-	pageName: "demo_story", // channel/article name from CMS
+	pageName: "demo_story", // channel/article name from CMS, may not contain slashes (/)
 	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
 	iabTax: "IAB2,IAB2-1,1,32"
 }
