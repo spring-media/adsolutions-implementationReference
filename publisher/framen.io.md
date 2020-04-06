@@ -83,7 +83,7 @@ Please implement the following script in the header of your page application
 Please add the following script immediate after the adSSetup
 
 ```html
-<script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/framen.js"></script>
+<script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/framen_dooh.js"></script>
 ```
 
 This `js` contains the whole Ad Library. Every website will get its own `js` from Axel Springer.
@@ -102,6 +102,19 @@ Please put the following `div` on the page, where the  ad will be showed
 
 ```html
 <div id="slotted"></div>
+```
+
+### making use of responded ads
+After the adcall is finished we will echo the result to the HTML by triggering an event:
+```
+    document.addEventListener("adInfo", function (adInfo) {
+        let adSlot = adInfo.detail; // store the information per placement for later rendering
+    });
+```
+
+To render an ad please trigger a "renderAd" event, e.g.:
+```
+    document.dispatchEvent(new CustomEvent("renderAd", {"detail": `${adSlot.id}`})) // use stored information for placement
 ```
 
 
