@@ -108,7 +108,7 @@ Please put the following `div` on the page, where the  ad will be showed
 After the adcall is finished we will echo the result to the HTML by triggering an event:
 ```
     document.addEventListener("adInfo", function (adInfo) {
-        let adSlot = adInfo.detail; // store the information per placement for later rendering
+        let adSlot = adInfo.detail; // make sure to store the information per placement for later rendering
     });
 ```
 
