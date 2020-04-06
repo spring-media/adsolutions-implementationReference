@@ -33,9 +33,9 @@ Said that, first you will have to integrate a director amp-ad tag, declaring you
 ```
 As in normal web the next thing you will need are adslot, so fitting the adPlacements of the adslot you will have to implement these amp-ad-tags:
 
-** IMPORTANT: 
+__IMPORTANT:__
 
-Unlike regular web _btf will not dealed as sightloader seperatly since amp already only renders ads when next to the viewport **
+_Unlike regular web \_btf will not dealed as sightloader seperatly since amp already only renders ads when next to the viewport_
 
 
 ```html
