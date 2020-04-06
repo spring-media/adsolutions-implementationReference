@@ -10,13 +10,17 @@ Said that, first you will have to integrate a director amp-ad tag, declaring you
     data-adssetup='{
         "view": "amp",
         "partners": true,
-        "adPlacements": ["banner","mrec"],
+        "adPlacements": ["banner","mrec","mrec_btf","mrec_btf_2"],
         "adSlotSizes": {
             "banner": [{
               "minWidth": 1,
-              "sizes": [[320, 50], [320, 160]]
+              "sizes": [[320, 50]] // in this example banner is the first slot directly in view and therefore only allows one size because it will not be resized by AMP
             }],
             "mrec": [{
+              "minWidth": 1,
+              "sizes": [[300, 250], [300, 300], [250, 250], [320, 160], [300, 150], [320, 50], [320, 75], [320, 80], [320, 100], [300, 100], [300, 50], [300, 75]]
+            }],
+            "mrec_btf": [{
               "minWidth": 1,
               "sizes": [[300, 250], [300, 300], [250, 250], [320, 160], [300, 150], [320, 50], [320, 75], [320, 80], [320, 100], [300, 100], [300, 50], [300, 75]]
             }]
@@ -29,6 +33,11 @@ Said that, first you will have to integrate a director amp-ad tag, declaring you
 ```
 As in normal web the next thing you will need are adslot, so fitting the adPlacements of the adslot you will have to implement these amp-ad-tags:
 
+** IMPORTANT: 
+
+Unlike regular web _btf will not dealed as sightloader seperatly since amp already only renders ads when next to the viewport **
+
+
 ```html
 [...content...]
 <-- static banner for first viewport that is not resizeable -->
@@ -37,7 +46,24 @@ As in normal web the next thing you will need are adslot, so fitting the adPlace
 <-- dynamic banner for after first viewport that are allowed to be resized by AMP -->
 <amp-ad width="100vw" height="fluid" type="springAds" data-adslot="mrec"></amp-ad>
 [...content...]
+<-- dynamic banner for after first viewport that are allowed to be resized by AMP -->
+<amp-ad width="100vw" height="fluid" type="springAds" data-adslot="mrec_btf"></amp-ad>
+[...content...]
+<-- dynamic banner for after first viewport that are allowed to be resized by AMP -->
+<amp-ad width="100vw" height="fluid" type="springAds" data-adslot="mrec_btf_2"></amp-ad>
+[...content...]
 ```
+
+## ads not in adSSetup / infinite scrolling
+To inject an adslot you do not know it will surely be inserted into the article on pageload like for infinite scrolling pages you can just ad a new adslot. 
+This is meant to trigger auctions and a single adload, so loading will take longer than for elements declared in adSSetup and they cannot be excluded by other campaigns on the same page impression anymore.
+
+```
+<-- dynamic banner for after first viewport that are allowed to be resized by AMP -->
+<amp-ad width="100vw" height="fluid" type="springAds" data-adslot="mrec_btf_123"></amp-ad>
+[...content...]
+```
+
 
 ## AMP Story ads (work in progess - available soon)
 For AMP Stories the amp-ad will be replaced by an amp-story-auto-ads wrapper.
