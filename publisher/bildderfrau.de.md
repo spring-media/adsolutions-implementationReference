@@ -17,7 +17,7 @@ Auf ROS werden die Billboard Sizes über das Superbanner-Placement gecallt. Bill
 
  Desktop
 
-| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| Placement Name|Legacy Format ID (Smart)|Xandr|
 | ------------- |:-------------:| -----:|
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
@@ -29,7 +29,7 @@ Auf ROS werden die Billboard Sizes über das Superbanner-Placement gecallt. Bill
  Mobile
 
 
-| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| Placement Name|Legacy Format ID (Smart)|Xandr|
 | ------------- |:-------------:| -----:|
 |Reminder|12815 (3648)|banner|
 |Content Ad|5720 (5419)|mrec|
@@ -129,7 +129,7 @@ Auf ROS werden die Billboard Sizes über das Superbanner-Placement gecallt. Bill
 # AMP
 ```
 <amp-ad width=320 height=50
-        type="appnexus"
+        type="Xandr"
         data-target="banner"
         json='{
    "pageOpts":{
@@ -170,7 +170,7 @@ Auf ROS werden die Billboard Sizes über das Superbanner-Placement gecallt. Bill
 
 
 <amp-ad width=300 height=250
-        type="appnexus"
+        type="Xandr"
         data-target="mrec"
         json='{
    "pageOpts":{
@@ -219,7 +219,7 @@ Please ad the following JS
 ```
 <amp-sticky-ad layout="nodisplay">
 <amp-ad width=320 height=50
-        type="appnexus"
+        type="Xandr"
         data-target="banner_sticky"
         json='{
    "pageOpts":{
@@ -262,7 +262,7 @@ Please ad the following JS
 ```
 ## Important notes
 
-- For Intext Outstream and for Richmedia we just need one placement with Appnexus.
+- For Intext Outstream and for Richmedia we just need one placement with Xandr.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
 ## Help

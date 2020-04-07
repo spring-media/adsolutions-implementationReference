@@ -1,6 +1,6 @@
 # de.motorsport.com
 
-In this documentation you find the placement details for your Website.  Please find an test-site on the following link:    [Appnexus test site](https://adtechnology.mediaimpact.de/test-appnexus/)
+In this documentation you find the placement details for your Website.  Please find an test-site on the following link:    [Xandr test site](https://adtechnology.mediaimpact.de/test-Xandr/)
 
 ## AdLib
 
@@ -11,7 +11,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
 
  Desktop
 
-| Placement Name|Appnexus|
+| Placement Name|Xandr|
 | ------------- | ----- |
 |Superbanner|superbanner|
 |Sky|sky|
@@ -27,7 +27,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
  Mobile
 
 
-| Placement Name|Appnexus|
+| Placement Name|Xandr|
 | ------------- | ----- |
 |Reminder|banner|
 |Content Ad|mrec|
@@ -40,7 +40,7 @@ Please use the following JS for the adLib: ```https://acdn.adnxs.com/as/1h/pages
  AMP
 
 
-| Placement Name|Appnexus|
+| Placement Name|Xandr|
 | ------------- | ----- |
 |Reminder|banner|
 |Content Ad|mrec|
@@ -216,7 +216,7 @@ For AMP-Integration follow the guides on [publisher-amp-reference](https://githu
 ## connected ads
 ```html
 <amp-ad width=300 height=250
-        type="appnexus"
+        type="Xandr"
         data-target="mrec"
         json='{
             "pageOpts": {
@@ -249,7 +249,7 @@ Under [amp-sticky-ad](https://www.ampproject.org/docs/reference/components/amp-s
 
 ## Important notes
 
-- For Intext Outstream and for Richmedia we just need one placement with Appnexus.
+- For Intext Outstream and for Richmedia we just need one placement with Xandr.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 - You can repeat the btf placements as much as you want. Please use the following schema:
 ```

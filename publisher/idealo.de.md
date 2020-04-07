@@ -1,6 +1,6 @@
 # idealo.de
 
-In this documentation you find the placement details for your Website.  Please find an test-site on the following link:    [Appnexus test site](https://www.idealo.de/preisvergleich/ProductCategory/23232.html)
+In this documentation you find the placement details for your Website.  Please find an test-site on the following link:    [Xandr test site](https://www.idealo.de/preisvergleich/ProductCategory/23232.html)
 
 ## Placements für idealo.de
 

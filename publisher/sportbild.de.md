@@ -13,7 +13,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
 # Standard Placements
 
-| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| Placement Name|Legacy Format ID (Smart)|Xandr|
 | ------------- |:-------------:| -----:|
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
@@ -25,7 +25,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
 # Special Placements
 
-| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| Placement Name|Legacy Format ID (Smart)|Xandr|
 | ------------- |:-------------:| -----:|
 |contentbar01|3937|billboard_btf|
 |contentbar02|8443|billboard_btf_2|
@@ -33,7 +33,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
 # Special Sport Placements
 
-| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| Placement Name|Legacy Format ID (Smart)|Xandr|
 | ------------- |:-------------:| -----:|
 |wettpartner_ergebnisModul|22150|wettpartner_ergebnisModul|
 |wettpartner_livekalender_ankuendigung|33910|wettpartner_livekalender_ankuendigung|
@@ -45,7 +45,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
 # Standard Placements
 
-| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| Placement Name|Legacy Format ID (Smart)|Xandr|
 | ------------- |:-------------:| -----:|
 |Reminder|12815 (3648)|banner|
 |Content Ad|5720 (5419)|mrec|
@@ -55,7 +55,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
 # Special Sport Placements
 
-| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| Placement Name|Legacy Format ID (Smart)|Xandr|
 | ------------- |:-------------:| -----:|
 |wettpartner_ergebnisModul|22150|wettpartner_ergebnisModul|
 |wettpartner_livekalender_ankuendigung_mobil|33911|wettpartner_livekalender_ankuendigung|
@@ -156,7 +156,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
 ## Important notes
 
-- For Intext Outstream and for Richmedia we just need one placement with Appnexus.
+- For Intext Outstream and for Richmedia we just need one placement with Xandr.
 - __IMPORTANT__ Please palace the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
 ## Help

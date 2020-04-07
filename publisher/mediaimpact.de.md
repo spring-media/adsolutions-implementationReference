@@ -11,7 +11,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
  Desktop
 
-| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| Placement Name|Legacy Format ID (Smart)|Xandr|
 | ------------- |:-------------:| -----:|
 |Superbanner|3648|superbanner|
 |Sky|3650|sky|
@@ -22,7 +22,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
  Mobile
 
 
-| Placement Name|Legacy Format ID (Smart)|Appnexus|
+| Placement Name|Legacy Format ID (Smart)|Xandr|
 | ------------- |:-------------:| -----:|
 |Reminder|12815 (3648)|banner|
 |Content Ad|5720 (5419)|mrec|

@@ -163,7 +163,7 @@ Please use the following JSs for the adLib:
 
 ```html
 <amp-ad width=300 height=250
-        type="appnexus"
+        type="Xandr"
         data-member="7823"
         data-code="ngin-mobility-amp-ros-mrec"
 ></amp-ad>
@@ -173,7 +173,7 @@ Please use the following JSs for the adLib:
 
 ```html
 <amp-ad width=300 height=250
-        type="appnexus"
+        type="Xandr"
         data-member="7823"
         data-code="ngin-food-amp-ros-mrec"
 ></amp-ad>

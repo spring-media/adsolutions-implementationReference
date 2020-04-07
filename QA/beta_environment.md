@@ -1,6 +1,6 @@
 # Using the Beta environment for display Ads
 
-In order to use our Beta environment you should only redirect the AdLib request **from** the global Appnexus CDN **to** the Ad Solutions development server.
+In order to use our Beta environment you should only redirect the AdLib request **from** the global Xandr CDN **to** the Ad Solutions development server.
 
 From `https://www.asadcdn.com/adlib/*`
 

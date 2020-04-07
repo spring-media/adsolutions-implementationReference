@@ -13,7 +13,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 ### Desktop
 #### Startseite
 
-| Placement Name|Appnexus|
+| Placement Name|Xandr|
 | ------------- | -----:|
 |menuad right|menuad|
 |menuad left|menuad2|
@@ -79,7 +79,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
 #### Channels
 
-| Placement Name|Appnexus|
+| Placement Name|Xandr|
 | ------------- | -----:|
 |menuad right|menuad|
 |menuad left|menuad2|
@@ -142,7 +142,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
 #### Artikel
 
-| Placement Name|Appnexus|
+| Placement Name|Xandr|
 | ------------- | -----:|
 |menuad right|menuad|
 |menuad left|menuad2|
@@ -213,7 +213,7 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 ### Mobile
 
 
-| Placement Name|Appnexus|
+| Placement Name|Xandr|
 | ------------- | -----:|
 |Reminder|banner|
 |Content Ad|mrec|
