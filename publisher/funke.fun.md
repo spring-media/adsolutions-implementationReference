@@ -68,7 +68,7 @@ ________________________________
 |Superbanner|superbanner|
 |Sky|sky|
 |Billboard|billboard|
-|contentbar01|billboard_btf|
+|Billboard_btf|billboard_btf|
 |Medium Rectangle|mrec|
 |Medium Rectangle|mrec_btf|
 |Richmedia / Outstream|inpage|
@@ -89,6 +89,8 @@ Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-imp
 
 ### 4.2 adsSetup
 
+#### 4.2.2 adsSetup for /gewinnspiele
+
 Include the following object in your <head>-Tag.
 
 ```javascript
@@ -96,33 +98,56 @@ Include the following object in your <head>-Tag.
 adsSetup = {
     view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
     partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
-    adPlacements: ["superbanner", "superbanner_btf", "billboard", "billboard_btf", "mrec"],
+    adPlacements: ["billboard", "mrec"],
     adSlotSizes: {
-        "superbanner": [{
-           "minWidth": 1,
-           "sizes": [[728,90], [728,600], [3,3], [1000,600], [728,90], [1000,600], [3,3], [728,600]]
-        }],
-
-        "superbanner_btf": [{
-           "minWidth": 1,
-           "sizes": [[728,90], [728,600], [3,3], [1000,600], [728,90], [1000,600], [1000,600], [3,3], [1000,600], [728,600]]
-        }],
-
         "billboard": [{
            "minWidth": 1,
-           "sizes": [[970,250], [800,250], [3,3], [728,600], [1000,600]]
+           "sizes": [[970,250], [800,250], [3,3], [728,600], [728,90], [1000,600]]
         }],
-
-        "billboard_btf": [{
-           "minWidth": 1,
-           "sizes": [[970,250], [800,250], [3,3], [3,3]]
-        }],
-
         "mrec": [{
            "minWidth": 1,
            "sizes": [[300,250]]
         }],
+    },
 
+    /* page configuration */
+    colorBg: true, // enable/disable coloring of the page-background
+    bgClick: true, // enable/disable click on page-background
+    stickySky: true, // enable/disable stickiness for skyscraper
+    hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding for video
+    isArticle: true, // it shows us if the page is an article
+    pageName: "demo_story", // channel/article name from CMS
+    target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
+}
+
+
+</script>
+```
+
+
+#### 4.2.2 adsSetup for /gewinnspiele/detail and /gewinnspiele/spiel
+
+Include the following object in your <head>-Tag.
+
+```javascript
+<script type="text/javascript">
+adsSetup = {
+    view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
+    partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
+    adPlacements: ["billboard", "mrec", "sky"],
+    adSlotSizes: {
+        "billboard": [{
+           "minWidth": 1,
+           "sizes": [[970,250], [800,250], [3,3], [728,600], [728,90], [1000,600]]
+        }],
+        "mrec": [{
+           "minWidth": 1,
+           "sizes": [[300,250], [320,150], [320,100], [320,50], [320,75], [320,160], [320,250], [300,300]]
+        }],
+        "sky": [{
+           "minWidth": 1,
+           "sizes": [[160,600], [120,600], [300,600], [500,1000], [1000,1000]]
+        }]
     },
 
     /* page configuration */
@@ -141,7 +166,6 @@ adsSetup = {
 
 
 
-
 # 5. Mobile Integration
 
 ### 5.1 Placements
@@ -149,10 +173,9 @@ adsSetup = {
 | Placement Name|Appnexus|
 | ------------- | ----- |
 |Reminder|banner|
-|Content Ad|mrec|
-|Medium Rectangle|mrec_btf|
-|Medium Rectangle 2|mrec_btf_2|
-|Footer Ad|mrec_btf_3|
+|Medium Rectangle|mrec|
+|Medium Rectangle 2|mrec_btf|
+|Medium Rectangle 3|mrec_btf_2|
 |Richmedia / Outstream|inpage|
 
 
@@ -174,6 +197,8 @@ Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-imp
 ### 5.2 adsSetup
 
 
+#### 5.2.1 adsSetup for /gewinnspiele
+
 Include the following object in your <head>-Tag.
 
 ```javascript
@@ -185,17 +210,17 @@ adsSetup = {
     adSlotSizes: {
         "banner": [{
            "minWidth": 1,
-           "sizes": [[320,50], [320,75], [320,80], [320,75], [320,80], [320,50], [320,50], [320,75], [320,80]]
+           "sizes": [[320,50], [320,75], [320,80], [320,100], [320,250]]
         }],
 
         "mrec": [{
            "minWidth": 1,
-           "sizes": [[300,250], [320,50], [320,75], [320,80], [320,160], [320,160], [300,300], [320,160], [300,300], [320,160], [320,80], [320,75], [320,50], [300,250], [300,250]]
+           "sizes": [[300,250]]
         }],
 
         "mrec_btf": [{
            "minWidth": 1,
-           "sizes": [[300,250], [300,250]]
+           "sizes": [[300,250]]
         }],
 
     },
@@ -214,9 +239,50 @@ adsSetup = {
 </script>
 ```
 
+
+#### 5.2.2 adsSetup for /gewinnspiele/detail and /gewinnspiele/spiel
+
+
+
+Include the following object in your <head>-Tag.
+
+```javascript
+<script type="text/javascript">
+adsSetup = {
+    view: "m", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
+    partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
+    adPlacements: ["banner", "mrec", "mrec_btf"],
+    adSlotSizes: {
+        "banner": [{
+           "minWidth": 1,
+           "sizes": [[320,50], [320,75], [320,80], [320,100], [320,250]]
+        }],
+
+        "mrec": [{
+           "minWidth": 1,
+           "sizes": [[300,250], [320,150], [320,100], [320,50], [320,75], [320,160], [320,250], [300,300]]
+        }]
+    },
+
+    /* page configuration */
+    colorBg: true, // enable/disable coloring of the page-background
+    bgClick: true, // enable/disable click on page-background
+    stickySky: true, // enable/disable stickiness for skyscraper
+    hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding for video
+    isArticle: true, // it shows us if the page is an article
+    pageName: "demo_story", // channel/article name from CMS
+    target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
+}
+
+
+</script>
+```
+
+
+ 
+
 ## Important notes
 
-- A Contentbar01 is on the website but it is not being used. Please remove it.
 - For Intext Outstream and for Richmedia we just need one placement with Xandr.
 - __IMPORTANT__ Please place the "inpage" placement in the required position for InText. Take care that we need the whole website wide for it.
 
