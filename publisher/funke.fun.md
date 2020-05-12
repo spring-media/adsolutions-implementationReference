@@ -17,9 +17,13 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#4-desktop-integration)
     1. 4.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#41-placements)
     1. 4.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#42-adssetup)
+        1. 4.2.1 adsSetup for /gewinnspiele
+        1. 4.2.2 adsSetup for /gewinnspiele/detail and /gewinnspiele/spiel 
 1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#5-mobile-integration)
     1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#51-placements)
     1. 5.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#52-adssetup)
+        1. 5.2.1 adsSetup for /gewinnspiele
+        1. 5.2.2 adsSetup for /gewinnspiele/detail and /gewinnspiele/spiel 
 1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#6-important-notes)
 1. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#7-help)
 
