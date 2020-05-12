@@ -95,7 +95,7 @@ Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-imp
 
 #### 4.2.2 adsSetup for /gewinnspiele
 
-Include the following object in your <head>-Tag.
+Include the following object in your head-Tag.
 
 ```javascript
 <script type="text/javascript">
@@ -131,7 +131,7 @@ adsSetup = {
 
 #### 4.2.2 adsSetup for /gewinnspiele/detail and /gewinnspiele/spiel
 
-Include the following object in your <head>-Tag.
+Include the following object in your head-Tag.
 
 ```javascript
 <script type="text/javascript">
@@ -203,7 +203,7 @@ Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-imp
 
 #### 5.2.1 adsSetup for /gewinnspiele
 
-Include the following object in your <head>-Tag.
+Include the following object in your head-Tag.
 
 ```javascript
 <script type="text/javascript">
@@ -248,7 +248,7 @@ adsSetup = {
 
 
 
-Include the following object in your <head>-Tag.
+Include the following object in your head-Tag.
 
 ```javascript
 <script type="text/javascript">
