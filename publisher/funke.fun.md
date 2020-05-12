@@ -11,17 +11,17 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
 ### Table of contents
 
-1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#2-introduction)
-1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#3-general)
-1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md4-#additional-informations-for-the-following-adssetup-object)
-1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#5-desktop-integration)
+1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#1-introduction)
+1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#2-general)
+1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#3-additional-informations-for-the-following-adssetup-object)
+1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#4-desktop-integration)
+    1. 4.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#41-placements)
+    1. 4.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#42-adssetup)
+1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#5-mobile-integration)
     1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#51-placements)
     1. 5.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#52-adssetup)
-1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#6-mobile-integration)
-    1. 6.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#61-placements)
-    1. 6.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#62-adssetup)
-1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#7-important-notes)
-1. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#8-help)
+1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#6-important-notes)
+1. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#7-help)
 
 
 
