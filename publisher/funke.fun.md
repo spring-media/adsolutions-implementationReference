@@ -39,7 +39,7 @@ The delivery of ads utilizes a "One Call" function, which have to be included in
 
 ### 2. General
 
-Please include the following script in the `<head>` of the website:  ```https://www.asadcdn.com/adlib/pages/Funke.fun.js```.
+Please include the following script in the `<head>` of the website:  ```https://www.asadcdn.com/adlib/pages/funkefun.js```.
 
 **Test Ads** - [Here](https://adtechnology.axelspringer.com/testads.html) do you get an AppNexus segment for test ads - so you can test you integration. On the same site you can disable the segment to see 'normal' ads. Please be sure that your browsers accepts 3th party cookies.
 
