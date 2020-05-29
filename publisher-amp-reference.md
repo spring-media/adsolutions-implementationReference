@@ -90,7 +90,7 @@ The parameters will be still defined the same just in a different way, e.g.:
 ## Basic single ad
 ```html
 <amp-ad width=300 height=250
-        type="Xandr"
+        type="appnexus"
         data-member="7823"
         data-code="mywebsite.de-amp-ressort_story-mrec"
 ></amp-ad>
@@ -99,7 +99,7 @@ The parameters will be still defined the same just in a different way, e.g.:
 ## connected ads
 ```html
 <amp-ad width=300 height=250
-        type="Xandr"
+        type="appnexus"
         data-target="mrec"
         json='{
             "pageOpts": {
