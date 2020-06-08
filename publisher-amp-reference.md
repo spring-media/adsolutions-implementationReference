@@ -5,7 +5,7 @@ The springAds setup differs a lot from any other AMP ads setup and is orientated
 Said that, first you will have to integrate a director amp-ad tag, declaring your ads and targets on page:
 
 ```html
-<amp-ad height="fluid"
+<amp-ad height="1"
     type="springAds"
     data-adssetup='{
         "view": "amp",
@@ -44,13 +44,13 @@ _Unlike regular web \_btf will not dealed as sightloader seperatly since amp alr
 <amp-ad width="320" height="50" type="springAds" data-adslot="banner"></amp-ad>
 [...content...]
 <-- dynamic banner for after first viewport that are allowed to be resized by AMP -->
-<amp-ad width="100vw" height="fluid" type="springAds" data-adslot="mrec"></amp-ad>
+<amp-ad width="100vw" layout="fluid" type="springAds" data-adslot="mrec"></amp-ad>
 [...content...]
 <-- dynamic banner for after first viewport that are allowed to be resized by AMP -->
-<amp-ad width="100vw" height="fluid" type="springAds" data-adslot="mrec_btf"></amp-ad>
+<amp-ad width="100vw" layout="fluid" type="springAds" data-adslot="mrec_btf"></amp-ad>
 [...content...]
 <-- dynamic banner for after first viewport that are allowed to be resized by AMP -->
-<amp-ad width="100vw" height="fluid" type="springAds" data-adslot="mrec_btf_2"></amp-ad>
+<amp-ad width="100vw" layout="fluid" type="springAds" data-adslot="mrec_btf_2"></amp-ad>
 [...content...]
 ```
 
