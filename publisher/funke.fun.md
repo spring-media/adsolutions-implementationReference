@@ -13,17 +13,17 @@ Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/page
 
 1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#1-introduction)
 1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#2-general)
-1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#3-additional-informations-for-the-following-adssetup-object)
+1. [Additional informations for the following adSSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#3-additional-informations-for-the-following-adssetup-object)
 1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#4-desktop-integration)
     1. 4.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#41-placements)
-    1. 4.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#42-adssetup)
-        1. 4.2.1 adsSetup for /gewinnspiele
-        1. 4.2.2 adsSetup for /gewinnspiele/detail and /gewinnspiele/spiel 
+    1. 4.2 [adSSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#42-adssetup)
+        1. 4.2.1 adSSetup for /gewinnspiele
+        1. 4.2.2 adSSetup for /gewinnspiele/detail and /gewinnspiele/spiel 
 1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#5-mobile-integration)
     1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#51-placements)
-    1. 5.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#52-adssetup)
-        1. 5.2.1 adsSetup for /gewinnspiele
-        1. 5.2.2 adsSetup for /gewinnspiele/detail and /gewinnspiele/spiel 
+    1. 5.2 [adSSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#52-adssetup)
+        1. 5.2.1 adSSetup for /gewinnspiele
+        1. 5.2.2 adSSetup for /gewinnspiele/detail and /gewinnspiele/spiel 
 1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#6-important-notes)
 1. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/funke.fun.md#7-help)
 
@@ -47,7 +47,7 @@ Please include the following script in the `<head>` of the website:  ```https://
 
 ________________________________
 
-### 3. Additional informations for the following adsSetup object
+### 3. Additional informations for the following adSSetup object
 
 * "Pagename" schema
     * Home Site --> "home_index"
@@ -91,15 +91,15 @@ You can repeat the btf placements as much as you want. Please use the following 
 Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website) and  [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement) for more information.
 
 
-### 4.2 adsSetup
+### 4.2 adSSetup
 
-#### 4.2.2 adsSetup for /gewinnspiele
+#### 4.2.2 adSSetup for /gewinnspiele
 
 Include the following object in your head-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
     view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
     partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
     adPlacements: ["billboard", "mrec"],
@@ -129,13 +129,13 @@ adsSetup = {
 ```
 
 
-#### 4.2.2 adsSetup for /gewinnspiele/detail and /gewinnspiele/spiel
+#### 4.2.2 adSSetup for /gewinnspiele/detail and /gewinnspiele/spiel
 
 Include the following object in your head-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
     view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
     partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
     adPlacements: ["billboard", "mrec", "sky"],
@@ -198,16 +198,16 @@ Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-imp
 
 
 
-### 5.2 adsSetup
+### 5.2 adSSetup
 
 
-#### 5.2.1 adsSetup for /gewinnspiele
+#### 5.2.1 adSSetup for /gewinnspiele
 
 Include the following object in your head-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
     view: "m", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
     partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
     adPlacements: ["banner", "mrec", "mrec_btf"],
@@ -244,7 +244,7 @@ adsSetup = {
 ```
 
 
-#### 5.2.2 adsSetup for /gewinnspiele/detail and /gewinnspiele/spiel
+#### 5.2.2 adSSetup for /gewinnspiele/detail and /gewinnspiele/spiel
 
 
 
@@ -252,7 +252,7 @@ Include the following object in your head-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
     view: "m", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
     partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
     adPlacements: ["banner", "mrec", "mrec_btf"],

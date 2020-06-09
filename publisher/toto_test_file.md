@@ -7,13 +7,13 @@
 1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#changelog)
 1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#introduction)
 1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#general)
-1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#additional-informations-for-the-following-adssetup-object)
+1. [Additional informations for the following adSSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#additional-informations-for-the-following-adssetup-object)
 1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#additional-informations-for-the-following-adssetup-object)
    1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
-   1. 5.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#52-adssetup)
+   1. 5.2 [adSSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#52-adssetup)
 1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
    1. 6.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#61-placements)
-   1. 6.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#62-adssetup)
+   1. 6.2 [adSSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#62-adssetup)
 1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
 1. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/toto_test_file.md#placements)
 
@@ -23,7 +23,7 @@
 
 Date | Change
 ------------ | -------------
-*27.02.2019* | *initial commit with adsSetup object for mobile and desktop*
+*27.02.2019* | *initial commit with adSSetup object for mobile and desktop*
 
 
 
@@ -48,7 +48,7 @@ Please be sure that your browsers accepts 3th party cookies.
 ________________________________
    
    
-### 4. Additional informations for the following adsSetup object
+### 4. Additional informations for the following adSSetup object
    
 * "Pagename" schema
 	* Home Site --> "home_index"
@@ -93,13 +93,13 @@ You can repeat the btf placements as much as you want. Please use the following 
 Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website) and  [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement) for more information.
 
 
-### 5.2 adsSetup
+### 5.2 adSSetup
 
 Include the following object in your <head>-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
 	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
 	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"],
@@ -176,14 +176,14 @@ Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-imp
 
 
 
-### 6.2 adsSetup
+### 6.2 adSSetup
 
 
 Include the following object in your <head>-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
 	view: "m", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
 	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"],

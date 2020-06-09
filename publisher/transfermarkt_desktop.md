@@ -7,7 +7,7 @@
 1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#1-changelog)
 1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#2-introduction)
 1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#3-general)
-1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#4-additional-informations-for-the-following-adssetup-object)
+1. [Additional informations for the following adSSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#4-additional-informations-for-the-following-adssetup-object)
 1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#5-general-integration)
    1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#placements)
    1. 5.2 [Home](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/transfermarkt_desktop.md#home)
@@ -26,7 +26,7 @@
 
 Date | Change
 ------------ | -------------
-*27.02.2019* | *initial commit with adsSetup object for mobile and desktop*
+*27.02.2019* | *initial commit with adSSetup object for mobile and desktop*
 
 
 
@@ -51,7 +51,7 @@ Please be sure that your browsers accepts 3th party cookies.
 ________________________________
    
    
-### 4. Additional informations for the following adsSetup object
+### 4. Additional informations for the following adSSetup object
    
 * "Pagename" schema
 	* Home Site --> "home_index"
@@ -107,7 +107,7 @@ Include the following object in your <head>-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
 	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
 	adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
@@ -176,7 +176,7 @@ Include the following object in your <head>-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
 	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
 	adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
@@ -245,7 +245,7 @@ Include the following object in your <head>-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
 	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
 	adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
@@ -317,7 +317,7 @@ Include the following object in your <head>-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
 	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
 	adPlacements: ["superbanner","sky","sky_btf","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
@@ -384,7 +384,7 @@ Include the following object in your <head>-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
 	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
 	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
@@ -443,7 +443,7 @@ Include the following object in your <head>-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
 	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
 	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here
@@ -512,7 +512,7 @@ Include the following object in your <head>-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
 	view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
 	partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
 	adPlacements: ["superbanner","sky","billboard","billboard_btf","mrec","mrec_btf","inpage"], // Every Ad (mrec_btf_2 - n / billboard_btf_2 - n / sky_btf_2 - n) on the page must be listed here

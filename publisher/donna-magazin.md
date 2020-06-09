@@ -5,13 +5,13 @@
 1. [Changelog](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#1-changelog)
 1. [Introduction](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#2-introduction)
 1. [General](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#3-general)
-1. [Additional informations for the following adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md4-#additional-informations-for-the-following-adssetup-object)
+1. [Additional informations for the following adSSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md4-#additional-informations-for-the-following-adssetup-object)
 1. [Desktop Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#5-desktop-integration)
     1. 5.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#51-placements)
-    1. 5.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#52-adssetup)
+    1. 5.2 [adSSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#52-adssetup)
 1. [Mobile Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#6-mobile-integration)
     1. 6.1 [Placements](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#61-placements)
-    1. 6.2 [adsSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#62-adssetup)
+    1. 6.2 [adSSetup](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#62-adssetup)
 1. [Important Notes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#7-important-notes)
 1. [Help](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/donna-magazin.md#8-help)
 
@@ -20,7 +20,7 @@
 
 Date | Change
 ------------ | -------------
-*22.03.2019* | *initial commit with adsSetup object for mobile and desktop*
+*22.03.2019* | *initial commit with adSSetup object for mobile and desktop*
 *26.03.2019* | *updated file cause of missing mobile sizes*
 *26.03.2019* | *updated path for pageset file*
 
@@ -43,7 +43,7 @@ Please include the following script in the `<head>` of the website:  ```https://
 
 ________________________________
 
-### 4. Additional informations for the following adsSetup object
+### 4. Additional informations for the following adSSetup object
 
 * "Pagename" schema
     * Home Site --> "home_index"
@@ -87,13 +87,13 @@ You can repeat the btf placements as much as you want. Please use the following 
 Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website) and  [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement) for more information.
 
 
-### 5.2 adsSetup
+### 5.2 adSSetup
 
 Include the following object in your <head>-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
     view: "d", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
     partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
     adPlacements: ["superbanner", "superbanner_btf", "sky", "sky_btf", "billboard", "billboard_btf", "mrec", "mrec_btf"],
@@ -184,14 +184,14 @@ Take a look on [Placement Codes](https://github.com/spring-media/adsolutions-imp
 
 
 
-### 6.2 adsSetup
+### 6.2 adSSetup
 
 
 Include the following object in your <head>-Tag.
 
 ```javascript
 <script type="text/javascript">
-adsSetup = {
+adSSetup = {
     view: "m", // has to fit the design of the page, please use 'm' for mobile and 'd' for desktop
     partners: true, //Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only the max out the revenue
     adPlacements: ["banner", "mrec", "mrec_btf"],
