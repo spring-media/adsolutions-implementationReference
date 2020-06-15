@@ -38,8 +38,8 @@ Please implement the following script in the header of your page application
                        zipCode=10785;
                        price=500;
                        audiencesize=1000;
-                       precontentcategorie=food;
-                       postcontentcategorie=office;
+                       precontentcategorie=bild_food;
+                       postcontentcategorie=welt_office;
                        tags=green,fun,collaboration;
                        id=ee4e441e-9669-4937-93bb-be018092316d;
                        lat=52.5114566;
