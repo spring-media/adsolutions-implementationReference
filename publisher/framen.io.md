@@ -35,7 +35,6 @@ Please implement the following script in the header of your page application
                        address=Kemperplatz 1 Mitte 10785 Berlin;
                        zipcode=10785;
                        categories=office,coworking;
-                       zipCode=10785;
                        price=500;
                        audiencesize=1000;
                        contentsource=bild;
