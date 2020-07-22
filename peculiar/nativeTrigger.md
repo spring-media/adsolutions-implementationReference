@@ -11,7 +11,7 @@ additional information he can use for rendering on his side as e.g. there will b
 For regular toplevel integration this is done the same as described here:
 [LoadHandler Reference](../publisher-loadHandler-reference.md)
 
-###Some of the information transmitted and useable in coordination to the marketer would be:
+### Some of the information transmitted and useable in coordination to the marketer would be:
 
 Property | Type 
 --- | --- 
@@ -28,7 +28,7 @@ but it will be counted as an impression in the adserver and provides a pixel for
 The admanagement still has the possibility to book campaigns for their adverstisers
 while the publisher/party may map the ids or other selectors to his renderer.
 
-###A siutable situation would be:
+### A siutable situation would be:
 
 The marketer books a campaign for advertiserA (1234) und advertiserB (5678).
 When the adcall is done and advertiserA gets delivered the adserver counts an impression for him.
