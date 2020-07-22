@@ -28,7 +28,7 @@ but it will be counted as an impression in the adserver and provides a pixel for
 The admanagement still has the possibility to book campaigns for their adverstisers
 while the publisher/party may map the ids or other selectors to his renderer.
 
-### A siutable situation would be:
+### A suitable situation would be:
 
 The marketer books a campaign for advertiserA (1234) und advertiserB (5678).
 When the adcall is done and advertiserA gets delivered the adserver counts an impression for him.
