@@ -45,6 +45,9 @@ Nationalmannschafts-Spiele
 
 
 ### <Code\>
+The most implementations will need a special instruction to be set up that should be closely coordinated 
+with your adtechnology department. This includes the definition of the used adslot and supported data. 
+
 The following code will show an adaptable loadHandler implementation using an example adslot "inpage_2":
 
 ```
@@ -101,13 +104,13 @@ don't hesitate to contact us:
 
 __Carlos Bracho__
  
-  Head of Ad Technology
-  SPRING
+  Head of Ad Technology  
+  SPRING  
   
-  Tel: +49 30 2591 76784
-  Mobile: +49 151 44619807 
+  Tel: +49 30 2591 76784  
+  Mobile: +49 151 44619807  
   carlos.bracho@axelspringer.de
 
-__Ad Technology Team__
+__Ad Technology Team__  
   adtechnology@axelspringer.de
   
