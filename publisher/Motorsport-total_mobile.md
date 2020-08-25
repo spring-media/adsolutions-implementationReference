@@ -48,7 +48,7 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
 
 ## 4. Define the sizes for every ad placement:
 
-### IMPORTANT
+### Important
 Please add the size `9x9` to every placement where programmatic should be able to run. 
 Please contact the Programmatic Team if you have questions about the Programmatic Size.
 
