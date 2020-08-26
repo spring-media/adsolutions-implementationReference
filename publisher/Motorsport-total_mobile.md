@@ -2,10 +2,6 @@
 
 In this documentation you find the placement details for your Website.  
 
-## AdLib
-
-Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/pages/motorsporttotal.js```
-
 
 
 ## Ad Integration
@@ -48,9 +44,8 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
 
 ## 4. Define the sizes for every ad placement:
 
-### Important
-Please add the size `9x9` to every placement where programmatic should be able to run. 
-Please contact the Programmatic Team if you have questions about the Programmatic Size.
+
+### Sizes for _index-Pages
 
 ```
 	adSlotSizes: {
@@ -83,6 +78,38 @@ Please contact the Programmatic Team if you have questions about the Programmati
 ```
 
 
+### Sizes for _story-Pages
+
+```
+	adSlotSizes: {
+		"banner": [{
+			"minWidth": 1,
+			"sizes": [[320,50],[320,75],[320,80],[320,160],[9,9]]
+		}],
+    
+		"banner2": [{
+			"minWidth": 1,
+			"sizes": [[4,4]]
+		}],
+     
+		"mrec": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300],[640,360],[300,150],[1000,300],[9,9]]
+		}],
+     
+		"mrec_btf": [{
+			"minWidth": 1,
+			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300],[300,150],[9,9]]
+		}]
+     
+	},
+```
+
+### Note
+Please add the size `9x9` to every placement where programmatic should be able to run. 
+Please contact the Programmatic Team if you have questions about the Programmatic Size.
+
+
 ## 5. Page Configuration
 
 
@@ -96,6 +123,7 @@ Please contact the Programmatic Team if you have questions about the Programmati
 	iabTax: "IAB2,IAB2-1,1,32"
 }
 
+</script>
 ```
 
 ### Notes
@@ -107,6 +135,16 @@ Please contact the Programmatic Team if you have questions about the Programmati
   - you can use standalone keywords with semicolon `;` separately
   - key/values are also supported. `key=value1,value2;`
   - please ensure to end the line with a semicolon
+
+
+
+# 6. AdLib
+
+`<script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/motorsporttotal.js"></script>`
+
+This `js` contains the whole Ad Library.
+
+`</head>`
 
 
 
