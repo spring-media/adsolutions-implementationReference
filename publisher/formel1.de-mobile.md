@@ -56,7 +56,7 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
     
 		"banner2": [{
 			"minWidth": 1,
-			"sizes": [[4,4]]
+			"sizes": [[4,4],[320,50],[320,75],[320,80],[300,75]]
 		}],
      
 		"mrec": [{
@@ -94,7 +94,7 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
     
 		"banner2": [{
 			"minWidth": 1,
-			"sizes": [[4,4]]
+			"sizes": [[4,4],[320,50],[320,75],[320,80],[300,75]]
 		}],
      
 		"mrec": [{
