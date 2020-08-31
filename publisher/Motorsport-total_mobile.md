@@ -1,4 +1,4 @@
-# motorsport-total.com - mobile Ad AdsSetup
+# motorsport-total.com - mobile AdSSetup
 
 In this documentation you find the placement details for your Website.  
 
@@ -28,7 +28,7 @@ Also please ensure you add the elements mainly in order they will appear in the 
 because the adserver will fill the first elements of each size with the must valueable campaigns.
 
 
-`	adPlacements: ["banner","banner2","mrec","mrec_btf","inpage"],`
+`	adPlacements: ["banner","banner2","mrec","mrec_btf","banner_sticky","inpage"],`
 
 
 __You can repeat the _btf placements as much as you want. Please use the following schema:__
@@ -68,6 +68,11 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
 			"minWidth": 1,
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300],[300,75],[300,150],[1000,300],[9,9]]
 		}],
+		
+		"banner_sticky": [{
+			"minWidth": 1,
+			"sizes": [[320,50]]
+		}]
      
 		"inpage": [{
 			"minWidth": 1,
@@ -100,6 +105,11 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
 		"mrec_btf": [{
 			"minWidth": 1,
 			"sizes": [[300,250],[320,50],[320,75],[320,160],[300,300],[300,150],[9,9]]
+		}],
+		
+		"banner_sticky": [{
+			"minWidth": 1,
+			"sizes": [[320,50]]
 		}]
      
 	},
