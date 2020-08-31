@@ -71,7 +71,7 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
 		
 		"banner_sticky": [{
 			"minWidth": 1,
-			"sizes": [[320,50],[320,75]]
+			"sizes": [[320,50]]
 		}]
      
 		"inpage": [{
@@ -109,7 +109,7 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
 		
 		"banner_sticky": [{
 			"minWidth": 1,
-			"sizes": [[320,50],[320,75]]
+			"sizes": [[320,50]]
 		}]
      
 	},
