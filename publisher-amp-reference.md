@@ -14,7 +14,7 @@ Said that, first you will have to integrate a director amp-ad tag, declaring you
         "adSlotSizes": {
             "banner": [{
               "minWidth": 1,
-              "sizes": [[320, 50]] // in this example banner is the first slot directly in view and therefore only allows one size because it will not be resized by AMP
+              "sizes": [[320, 50], [9, 9]] // in this example banner is the first slot directly in view and therefore only allows one size (and 9x9 to enable programmatic) because it will not be resized by AMP
             }],
             "mrec": [{
               "minWidth": 1,
