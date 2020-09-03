@@ -14,7 +14,7 @@ In the example we will check if there are sizes already and add those we miss:
         ]);
     } else {
         adSSetup.adSlotSizes["mrec_btf_2"] = [{
-            minWidth: 1
+            minWidth: 1,
             sizes: [
                 [300, 250],
                 [427, 23]
