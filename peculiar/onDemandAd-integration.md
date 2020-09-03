@@ -60,7 +60,7 @@ This example shows an cross-browser solution to do so for the adslot div#mrec_bt
         ev = document.createEvent('CustomEvent');
         ev.initCustomEvent('renderAd', true, true, {'detail': 'mrec_btf_2'});
     }
-    window.dispatchEvent(ev);
+    document.dispatchEvent(ev);
 </script>
 ```
 
