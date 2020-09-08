@@ -69,10 +69,10 @@ and if it is we will invoke an own method to handle the response:
 ```
 <script>
 window.addEventListener("adInfo", function(adSlot) {
-    var adResponse = event.detail;
+    var adResponse = adSlot.detail;
     if (adResponse.tempName === "heimspiel") {
-        // start rendering quotes for advertiser to div with id matching adSlot.contId
-        _hs.renderQuotes(adResponse.advertiserName, adSlot.contId);
+        // start rendering quotes for advertiser to div with id matching adResponse.contId
+        _hs.renderQuotes(adResponse.advertiserName, adResponse.contId);
     }
 });
 </script>
