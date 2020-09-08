@@ -7,16 +7,14 @@ In the example we will check if there are sizes already and add those we miss:
 
 ```
 <script>
-    if (adSSetup.adSlotSizes["mrec_btf_2"]) {
-        adSSetup.adSlotSizes["mrec_btf_2"][0].sizes.concat([
-            [300, 250],
+    if (adSSetup.adSlotSizes["betad_2"]) {
+        adSSetup.adSlotSizes["betad_2"][0].sizes.concat([
             [427, 23]
         ]);
     } else {
-        adSSetup.adSlotSizes["mrec_btf_2"] = [{
+        adSSetup.adSlotSizes["betad_2"] = [{
             minWidth: 1,
             sizes: [
-                [300, 250],
                 [427, 23]
             ]
         }]
@@ -43,22 +41,22 @@ so we need a node for each adplacement to process.
 This example shows a node for direct integration into the HTML, but you may also append it by javascript.
 It uses a wrapper node element that may be styled (your space), please not use CSS directly on the adslot itself (our space):
 ```
-<div id="mrec_btf_2_wrapper" class="mrec_btf_Wrapper" style="float:right">
-    <div id="mrec_btf_2></div>
+<div id="betad_2_wrapper" class="betad_Wrapper" style="float:right">
+    <div id="betad_2" data-target="contest=bundesliga;"></div>
 </div>
 ```
 
 ### Part 4 - request an ad
 Since we now have set all preparations we will order an ad one per adslot.
-This example shows an cross-browser solution to do so for the adslot div#mrec_btf_2:
+This example shows an cross-browser solution to do so for the adslot div#betad_2:
 ```
 <script>
     var ev;
     try {
-        ev = new CustomEvent('renderAd', {'detail': 'mrec_btf_2'});
+        ev = new CustomEvent('renderAd', {'detail': 'betad_2'});
     }catch(err){
         ev = document.createEvent('CustomEvent');
-        ev.initCustomEvent('renderAd', true, true, {'detail': 'mrec_btf_2'});
+        ev.initCustomEvent('renderAd', true, true, {'detail': 'betad_2'});
     }
     document.dispatchEvent(ev);
 </script>
