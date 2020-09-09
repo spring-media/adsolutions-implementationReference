@@ -47,7 +47,7 @@ Display | Wallpaper  | 728x600 | 2 | superbanner
 Display | welt EW ImageTeaser  | 300x150 | 1 | mrec, teaser
 Display | welt EW nativeTeaser  | 300x150 | 1 | mrec, teaser
 Display | welt EW TextTeaser  | 300x150 | 1 | mrec, teaser
-Display | weltTeaser |  | 1 | mrec, teaser
+Display | weltTeaser | 300x150 | 1 | mrec, teaser
 
 ## Help
 
