@@ -77,3 +77,20 @@ window.addEventListener("adInfo", function(adSlot) {
 });
 </script>
 ```
+
+## Help
+
+If you have some question don't hesitate to contact us:
+
+
+__Carlos Bracho__
+ 
+  Senior Ad Technology Lead 
+  Corporate Digital Platforms
+  
+  Tel: +49 30 2591 76784
+  Mobile: +49 151 44619807 
+  carlos.bracho@axelspringer.de
+
+__Ad Technology Team__
+  adtechnology@axelspringer.de
