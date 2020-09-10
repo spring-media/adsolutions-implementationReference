@@ -23,8 +23,8 @@ Display | FloorAd  | 5x5 | 1 | inpage
 Display | FloorAdMobile  | 5x5 | 1 | inpage
 Display | GalleryAd  |  | 4 | banner
 Display | Heimspiel  | 427x23 | 0 | betad
-Display | Interscroller  | 1000x300 | -2 | inpage, mrec
-Display | Layer  | 5x5 | -2 | inpage
+Display | Interscroller  | 1000x300 | 1-2 | inpage, mrec
+Display | Layer  | 5x5 | 1-2 | inpage
 Display | Mobile ROP Textlink |  | 1 | mrec, teaser
 Display | Mobile Swiping Downer  |  | 4 | banner
 Display | MobileTakeOver S  | 5x5 | 2 | inpage
@@ -39,7 +39,7 @@ Display | SwipeAd  |  | 2 | banner2
 Display | Takeover |  | 1 | all
 Display | TickerAd | 1x1 | 1 | inpage
 Display | TwoFace |  | 1 | superbanner
-Display | Underscroller  | 1000x300 | -2 | inpage, mrec
+Display | Underscroller  | 1000x300 | 1-2 | inpage, mrec
 Display | Understitial | 1000x300 | 1 | inpage, mrec
 Display | VideoBackground |  | 1 | superbanner
 Display | Videowall  |  | 3 | superbanner
