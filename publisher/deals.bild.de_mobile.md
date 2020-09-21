@@ -25,7 +25,7 @@ Set view: "m" for mobile or "d" for desktop viewport.
 
 ## 3. Define Placements for your site
 
-Please make sure that you only include placements you will add an adslot (div#adPlacementID) for the url the user has called
+Please make sure that you only include placements you will add an adslot (div#adPlacementID) for the url the user has called.
 Also please ensure you add the elements mainly in order they will appear in the website, 
 because the adserver will fill the first elements of each size with the must valueable campaigns.
 
@@ -105,11 +105,11 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
 
 
 ```
-  colorBg: true, // enable/disable coloring of the page-background
-	bgClick: true, // enable/disable click on page-background
-	hasVideoPlayer: true, // enable/disable partnerscripts like headerbiding for video
-	isArticle: true, // it shows us if the page is an article
-	pageName: "demo_story", // channel/article name from CMS, may not contain slashes (/)
+        colorBg: true,             // enable/disable coloring of the page-background
+	bgClick: true,             // enable/disable click on page-background
+	hasVideoPlayer: true,      // enable/disable partnerscripts like headerbiding for video
+	isArticle: true,           // it shows us if the page is an article
+	pageName: "demo_story",    // channel/article name from CMS, may not contain slashes (/)
 	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
 	iabTax: "IAB2,IAB2-1,1,32"
 }
@@ -135,7 +135,6 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
 
 This `js` contains the whole Ad Library.
 
-`</head>`
 
 
 
