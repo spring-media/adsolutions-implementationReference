@@ -33,7 +33,10 @@ because the adserver will fill the first elements of each size with the must val
 `	adPlacements: ["a-teaser","mrec","dealsad","inpage"],`
 
 
-__You can repeat the _btf placements as much as you want. Please use the following schema:__
+### Notes
+
+If you have infinite scrolling on a site, you can repeat _btf placements as much as you want. Keep in mind that an initial _btf placement needs to be defined like a normal placement in `AdPlacements` and `adSlotSizes`. In addition the initial _btf placement needs to exist in the ad server, too. 
+Each incremented element is (if itself is not defined in adSSetup) a copy of the original _btf placement. Please use the following schema:
 
 Example for 3 Medium Rectangle btf
 
