@@ -45,6 +45,8 @@ Example for 3 Medium Rectangle btf
 - mrec_btf_2
 - mrec_btf_3
 
+For a deeper explanation please take a look into this documentation about our [onDemandAd-Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/peculiar/onDemandAd-integration.md).
+
 More info on [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement) and [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
 
 
