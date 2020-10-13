@@ -50,7 +50,7 @@ Special Tag | Platform | Scenario | More information
 galleryad | AMP (for now) | adtag specific for image galleries on amp, to support own sizes | will maybe available in future for another platforms
 survey | all | special placement on bild.de for... surveys? | -------------
 menuad & menuad2 | desktop | special tags for myself.de, to serve small ads in the right and left corner of the navigation bar  | -------------
-teaser | mew & desktop | ------------- | is able to infinite scrolling
+teaser | mew & desktop | is used in most cases for publisher owned ads but can do fallbacks, too | is able to infinite scrolling
 betad | all | special tag for bet ads intergation on bild.de | -------------
 multilink | desktop & mew | ad container contains multiple links, on autobild | -------------
 dealsad | ----- | special tag for deals.bild.de - native like ad for advertised deals | -------------
