@@ -11,7 +11,7 @@
   * sky_btf
   * mrec
   * mrec_btf
-  * inpage" 
+  * inpage 
   
 * __Mobile Web (mew)__
   * banner
@@ -47,9 +47,9 @@
 
 Special Tag | Platform | Scenario | More information
 ------------ | ------------- | ------------- | -------------
-gallery_ad | AMP (for now) | adtag specific for image galleries on amp, to support own sizes | will maybe available in future for another platforms
+galleryad | AMP (for now) | adtag specific for image galleries on amp, to support own sizes | will maybe available in future for another platforms
 survey | all | special placement on bild.de for... surveys? | -------------
-menued & menuad2 | desktop | special tags for myself.de, to serve small ads in the right and left corner of the navigation bar  | -------------
+menuad & menuad2 | desktop | special tags for myself.de, to serve small ads in the right and left corner of the navigation bar  | -------------
 teaser | mew & desktop | ------------- | is able to infinite scrolling
 betad | all | special tag for bet ads intergation on bild.de | -------------
 multilink | desktop & mew | ad container contains multiple links, on autobild | -------------
