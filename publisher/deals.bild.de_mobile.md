@@ -64,7 +64,7 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
     
 		"dealsad": [{
 			"minWidth": 1,
-			"sizes": [[320,50],[320,75],[320,160]]
+			"sizes": [[427,23]]
 		}],
      
 		"inpage": [{
@@ -86,7 +86,7 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
     
 		"dealsad": [{
 			"minWidth": 1,
-			"sizes": [[320,50],[320,75],[320,160]]
+			"sizes": [[427,23]]
 		}]
      
 	},
@@ -99,7 +99,7 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
 	adSlotSizes: {
 		"dealsad": [{
 			"minWidth": 1,
-			"sizes": [[320,50],[320,75],[320,160]]
+			"sizes": [[427,23]]
 		}]
      
 	},
