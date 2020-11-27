@@ -8,14 +8,18 @@ In the example we will check if there are sizes already and add those we miss:
 ```
 <script>
     if (adSSetup.adSlotSizes["betad_2"]) {
-        adSSetup.adSlotSizes["betad_2"][0].sizes.concat([
-            [427, 23]
+        adSSetup.adSlotSizes["betad_2"][0].sizes = adSSetup.adSlotSizes["betad_2"][0].sizes.concat([
+            [427, 23],
+            [300, 150],
+            [300, 250]
         ]);
     } else {
         adSSetup.adSlotSizes["betad_2"] = [{
             minWidth: 1,
             sizes: [
-                [427, 23]
+                [427, 23],
+                [300, 150],
+                [300, 250]
             ]
         }]
     }
