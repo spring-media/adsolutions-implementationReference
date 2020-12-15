@@ -27,7 +27,7 @@ Please implement the following script in the header of your page application
                     "sizes": [[300, 250], [300, 300], [250, 250], [320, 160], [300, 150], [320, 50], [320, 75], [320, 80], [320, 100], [300, 100], [300, 50], [300, 75]]
                 }]
             },
-            "pageName": "coworking",
+            "pageName": "content_welt",
             "target": `country=germany;
                        city=berlin;
                        company=wework;
@@ -57,7 +57,11 @@ Please implement the following script in the header of your page application
 - adPlacements: It controls the type of placements in the app. For Framen.io we have two kind of placemens, please use at least one placement type:
     - fullscreen: for fullscreen ads and fullscreen video ads. Please use the Size [16, 9] for diagonal screens and [9, 16] for vertical aligned screens.
     - slotted: For IAB Display Ads, please use IAB Sizes: [[300, 250], [300, 300], [250, 250], [320, 160], [300, 150], [320, 50], [320, 75], [320, 80], [320, 100], [300, 100], [300, 50], [300, 75]]
-- pageName: please use the main category, they must be static! Please provide us the exactly main category list.
+- pageName: please use the main category, they must be static! Please choose one of the following terms:
+    - lizenzcontent_buli
+    - no_content
+    - content_bild
+    - content_welt
 - target: this is used for the targeting:
     - country
     - city
