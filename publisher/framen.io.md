@@ -58,10 +58,10 @@ Please implement the following script in the header of your page application
     - fullscreen: for fullscreen ads and fullscreen video ads. Please use the Size [16, 9] for diagonal screens and [9, 16] for vertical aligned screens.
     - slotted: For IAB Display Ads, please use IAB Sizes: [[300, 250], [300, 300], [250, 250], [320, 160], [300, 150], [320, 50], [320, 75], [320, 80], [320, 100], [300, 100], [300, 50], [300, 75]]
 - pageName: please use the main category, they must be static! Please choose one of the following terms:
-    - lizenzcontent_buli
-    - no_content
-    - content_bild
-    - content_welt
+    - lizenzcontent_buli – Sold ads will be integrated into the content of Bundesliga.
+    - no_content – Sold ads won’t  be integrated into Axel Springer content and will be displayed standalone without content focus.
+    - content_bild – Sold ads will be integrated into BILD content.
+    - content_welt – Sold ads will be integrated into WELT content.
 - target: this is used for the targeting:
     - country
     - city
