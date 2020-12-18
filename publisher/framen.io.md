@@ -36,7 +36,8 @@ Please implement the following script in the header of your page application
                        zipcode=10785;
                        categories=office,coworking;
                        price=500;
-                       audiencesize=1000;
+                       impmultiplier=4;
+                       peopleperday=1000;
                        contentsource=bild;
                        precontentcategorie=food;
                        postcontentcategorie=office;
