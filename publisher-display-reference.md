@@ -227,7 +227,25 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 *mrec* | `[300,250]` | `[320,50]` | `[320,75]` | `[320,80]` | `[320,160]` | `[300,300]`
 *inpage* | `[1,1]` | `[640,360]` | `[1000,300]` |  |  | 
 
-# 5. Page configuration
+# 5. placeholder settings
+
+```
+	placeholder: {
+		disablePlaceholders: false,			// optional, set to true to disable placeholder logic from adlib
+		default: {					// define your standards either defaults will be used
+			"border-color": "#FFFFFF",
+			"background-color": "#FFFFFF",
+			"admarkPosition": "bottom right",	// options: "hidden", "top/bottom", "left/center/right" 
+			"color": "",
+			"font-size": "",
+			"font-family": ""
+		},
+		mrec: {						// define default overides for specific adslot 
+			"bgColor": "#FCBFFF"
+		}
+	}
+```
+# 6. Page configuration
 
 ```
 	colorBg: true, // enable/disable coloring of the page-background
@@ -254,7 +272,7 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 
 `</script>`
 
-# 6. AdLib
+# 7. AdLib
 
 `<script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/mywebsite.js"></script>`
 
