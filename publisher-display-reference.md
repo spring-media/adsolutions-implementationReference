@@ -233,12 +233,12 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 	placeholder: {
 		disablePlaceholders: false,			// optional, set to true to disable placeholder logic from adlib
 		default: {					// define your standards either defaults will be used
-			"border-color": "#FFFFFF",
-			"background-color": "#FFFFFF",
+			"border-color": "#EEEDE8",
+			"background-color": "#F9F9F7",
 			"admarkPosition": "bottom right",	// options: "hidden", "top/bottom", "left/center/right" 
-			"color": "",
-			"font-size": "",
-			"font-family": ""
+			"color": "#BCBCBC",
+			"font-size": "12px",
+			"font-family": "Tahoma"
 		},
 		mrec: {						// define default overides for specific adslot 
 			"bgColor": "#FCBFFF"
