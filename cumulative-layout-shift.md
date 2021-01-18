@@ -26,7 +26,7 @@ There is a [new part](https://github.com/spring-media/adsolutions-implementation
 
 
 
-# Example
+## Example
 
 
 ```
@@ -48,7 +48,7 @@ placeholder: {
 ```
 
 
-# In Detail
+## In Detail
 
 ### Disable Placeholders
 
@@ -79,7 +79,7 @@ default: {
 *If you need a cls placeholder without an admark, you can hide it with the option "admarkPosition":"hidden".*
 
 
-## Optional: Customize individual slots
+### Optional: Customize individual slots
 
 *In case you need to configure a specific slot separately, you can create another object with the name of the respective slot next to the "default" object. In this object you can then insert the properties from the "default" object that you would like to overwrite with your own values.*
 
@@ -108,8 +108,29 @@ placeholder: {
 ```
 
 
-# Sample of an updated adSSetup object
+
+## Sample of an updated adSSetup object
 
 Here you can see the syntax for an updated adSSetup object sample. 
 
 ![](/assets/sample_cls_adssetup.png)
+
+
+
+
+# Here's what else you may need to keep in mind as a publisher
+
+- Be sure that your inpage container is at the end of your page to prevent big CLS placeholders at the front of your page
+- Besides ads, other factors can also influence the CLS. Besides larger elements such as images and videos, factors like asynchronously loaded fonts should also be considered
+
+
+# How to test
+
+At first you should set a cookie to receive our development version of the adlib. Go to https://adtechnology.axelspringer.com/beta.php, choose "Development (Beta)" and click "set branch". Now you should see the new cls placeholder on our pages.
+
+## Further resources
+
+- **https://web.dev/cls/**: An article by google, explaining what the cls is about
+- **https://web.dev/vitals/**: A guide to identify problems concerning user experience
+- **[Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/)**: A tool to get important metrics and tips how to fix problems on your page
+- **[Lighthouse](https://developers.google.com/web/tools/lighthouse/)**: Another automated tool to run audits about performance, seo, ux, ...
