@@ -1,13 +1,13 @@
 # What Is the Cumulative Layout Shift?
 
 Google announced a new metric for its search engine ranking named Cumulative Layout Shift (CLS). We need to be complient with that, since it can effect our SEO ranking enormously.
-The big requirement is that the websites must have a visual stability while rendering
+The big requirement is that the websites must have a visual stability while rendering.
 
-The CLS is an unexpected shifting of web page elements while the page is rendering. 
+The CLS is an unexpected shifting of web page elements (often but not only while the page is rendering). 
 
 ![](layout-instability.gif)
 
-Besides advertising, this concerns factors like videos, images and in general content which is loaded asynchronously.
+Besides advertising, this concerns factors like videos, images and in general content which is loaded asynchronously. 
 
 
 # What we have done so far?
@@ -122,6 +122,10 @@ Here you can see the syntax for an updated adSSetup object sample.
 
 - Be sure that your inpage container is at the end of your page to prevent big CLS placeholders at the front of your page
 - Besides ads, other factors can also influence the CLS. Besides larger elements such as images and videos, factors like asynchronously loaded fonts should also be considered
+- Check if there is dynamically injected content or content which is waiting for a network response before updating the DOM
+- CLS only counts shifts visible in the viewport. If something moves below the fold and the user does not see it, a shift won’t affect CLS 
+- Intentional layout shifts won't affect CLS, since the measurement stops for 500ms after every user interaction within the site
+
 
 
 # How to test
