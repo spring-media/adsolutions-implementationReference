@@ -54,7 +54,7 @@ placeholder: {
 
 `disablePlaceholders: false`
 
-*You can set this parameter true on pages, were no CLS placeholder should be visible, such as special sponsorships and so on.*
+*You can set this parameter true on pages, were no CLS placeholder should be visible, such as special sponsorships or the home.*
 
 ### Default placeholder styling & admark positioning
 
