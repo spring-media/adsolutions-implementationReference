@@ -1,3 +1,21 @@
+**Table of Contents**  
+
+- [What Is the Cumulative Layout Shift?](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#what-is-the-cumulative-layout-shift)
+- [What we have done so far?](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#what-we-have-done-so-far)
+- [What adjustments are required?](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#what-adjustments-are-required)
+	- [Example](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#example)
+	- [In Detail](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#in-detail)
+		- [Disable Placeholders](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#disable-placeholders)
+		- [Default placeholder styling & admark positioning](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#default-placeholder-styling--admark-positioning)
+		- [Optional: Customize individual slots](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#optional-customize-individual-slots)
+	- [Sample of an updated adSSetup object](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#sample-of-an-updated-adssetup-object)
+- [Here's what else you may need to keep in mind as a publisher](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#heres-what-else-you-may-need-to-keep-in-mind-as-a-publisher)
+- [How to test](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#how-to-test)
+	- [Further resources](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#further-resources)
+
+
+
+
 # What Is the Cumulative Layout Shift?
 
 Google announced a new metric for its search engine ranking named Cumulative Layout Shift (CLS). We need to be complient with that, since it can effect our SEO ranking enormously.
