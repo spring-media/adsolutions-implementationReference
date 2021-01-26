@@ -148,7 +148,7 @@ Here you can see the syntax for an updated adSSetup object sample.
 
 # How to test
 
-At first you should set a cookie to receive our development version of the adlib. Go to https://adtechnology.axelspringer.com/beta.php, choose "Development (Beta)" and click "set branch". Now you should see the new cls placeholder on our pages.
+At first you should set a cookie to receive our development version of the adlib. Go to https://adtechnology.axelspringer.com/beta.php, choose "Alpha (Alpha)" and click "set branch". Now you should see the new cls placeholder on our pages.
 
 ## Further resources
 
