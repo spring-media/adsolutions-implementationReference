@@ -54,7 +54,7 @@ placeholder: {
       "border-color": "#EEEDE8",
       "background-color": "#F9F9F7",
       "admarkPosition": "bottom right",
-      “color": "#BCBCBC",
+      "color": "#BCBCBC",
       "font-size": "12px",
       "font-family": "Tahoma"
    },
@@ -81,7 +81,7 @@ default: {
    "border-color": "#EEEDE8",
    "background-color": "#F9F9F7",
    "admarkPosition": "bottom right",
-   “color": "#BCBCBC",
+   "color": "#BCBCBC",
    "font-size": "12px",
    "font-family": "Tahoma"
 },
