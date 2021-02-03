@@ -59,7 +59,7 @@ placeholder: {
       "font-family": "Tahoma"
    },
    mrec: { 
-      "bgColor": "#FCBFFF"
+      "background-color": "#FCBFFF"
    }
 }
 
@@ -118,7 +118,7 @@ placeholder: {
    },
    billboard: {
       "color": "#ffffff",
-      "background": "#00bfff",
+      "background-color": "#00bfff",
       "border-color": "#ff0000"
    },
 },
