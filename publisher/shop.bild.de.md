@@ -68,7 +68,31 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
 	},
 ```
 
-## 5. Page Configuration
+## 5. CLS Placeholder
+
+Please include the following placeholder object in your adSSetup. This will preload adslot containers to prevent a content layout shift which will be a new SEO metric from Google. You can take a look into [our documentation about the cumulative layout shift](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) (CLS) to get a deeper explanation on the topic.
+
+You need to declare the default object to get working placeholders on your site. You can set valid css attributes to customize all your placeholders at once and in case you need to style some placeholders differently, you can do so by adding these slots after the default object. Its css attributes will overwrite the default values.
+
+```
+	placeholder: {
+		disablePlaceholders: false,
+		default: {	
+			"border-color": "#EEEDE8",
+			"background-color": "#F9F9F7",
+			"admarkPosition": "bottom right",
+			"color": "#BCBCBC",
+			"font-size": "12px",
+			"font-family": "Tahoma"
+		},
+		mrec: { 
+			"background-color": "#FCBFFF"
+		}
+	}
+```
+
+
+## 6. Page Configuration
 
 ```
 	colorBg: true,             // enable/disable coloring of the page-background
@@ -92,11 +116,12 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
   - key/values are also supported. `key=value1,value2;`
   - please ensure to end the line with a semicolon
 
-# 6. AdLib
+# 7. AdLib
 
 `<script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/shop.bild.de.js"></script>`
 
-This `js` contains the whole Ad Library.
+This `js` contains the whole Ad Library. Please include it in the header of your site and do not load it asynchronously.
+Our adlib is heavily optimized and will initially only load a small set of functions that are absolutely necessary from the beginning. The remaining functions are loaded on demand.
 
 ## Help
 
