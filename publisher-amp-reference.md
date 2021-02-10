@@ -54,6 +54,18 @@ _Unlike regular web \_btf will not dealed as sightloader seperatly since amp alr
 [...content...]
 ```
 
+##  using amp-ads with a cmp
+
+Since amp only provides a tcf string and not an accessible tcf object we are right now limited 
+to render only when the user gives full consent. Therefore right now we only may call ads if the
+user gave full consent. To achief this pleas add the attribute ```data-block-on-consent="_till_accepted"```
+
+The adtag then will look like this one:
+```
+<amp-ad width="100vw" layout="fluid" type="springAds" data-adslot="mrec" data-block-on-consent="_till_accepted"></amp-ad>
+```
+
+
 ## ads not in adSSetup / infinite scrolling
 To inject an adslot you do not know it will surely be inserted into the article on pageload like for infinite scrolling pages you can just ad a new adslot. 
 This is meant to trigger auctions and a single adload, so loading will take longer than for elements declared in adSSetup and they cannot be excluded by other campaigns on the same page impression anymore.
