@@ -2,9 +2,8 @@
 
 
 ## Use Case
-In some cases it makes sense from an accounting point of view to separate the delivery into multiple Xandr seats. 
-You may want to use multiple Xandr seats to deliver direct and programmatic ads on one site and deliver publisher-owned fallback ads on the other site. 
 
+These specs describe how to enable the use of two Xandr Seats (Media Impact and Welt) on a single publisher. This allows exclusive Advertisings to be set for publisher collaborations and deals.
 
 ## Technical Setup
 
