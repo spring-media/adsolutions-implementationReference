@@ -41,9 +41,17 @@ Very like the normal ad integration you will need an adslot container where the 
 </div>
 ```
 
+```diff
+- Please make sure that the adslot will not be styled or get any css classes from your site, 
+- since this could break either the creative or/and the template behaviour! 
+```
 
-Please make sure that the adslot will not be styled or get any css classes from your site, since this could break either the creative or/and the template behaviour! 
-If you need to style the container (for example with paddings / borders etc.) use a wrapper around the slot and set classes on this instead.
+```diff
+! If you need to style the container (for example with paddings / borders etc.) 
+! use a wrapper around the slot and set classes on this instead.
+```
+
+
 
 
 ## Help
