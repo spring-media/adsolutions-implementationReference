@@ -3,7 +3,7 @@
 
 ## Use Case
 In some cases it makes sense from an accounting point of view to separate the delivery into multiple Xandr seats. 
-You may want to use multiple Xandr seats to deliver direct and programmatic ads on one site and deliver eigenwerbung as fallback ads. 
+You may want to use multiple Xandr seats to deliver direct and programmatic ads on one site and deliver publisher-owned fallback ads on the other site. 
 
 
 ## Technical Setup
