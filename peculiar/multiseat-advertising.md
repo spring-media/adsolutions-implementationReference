@@ -46,5 +46,10 @@ Please make sure that the adslot will not be styled or get any css classes from 
 If you need to style the container (for example with paddings / borders etc.) use a wrapper around the slot and set classes on this instead.
 
 
+## Help
 
+If you have some question don't hesitate to contact us:
+
+__Ad Technology Team__
+  adtechnology@axelspringer.de
 
