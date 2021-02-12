@@ -51,6 +51,10 @@ Very like the normal ad integration you will need an adslot container where the 
 ```
 
 
+### Sample for adSSetup Syntax
+
+![](../assets/multiseat-advertising-sample.png)
+
 
 
 ## Help
@@ -62,72 +66,3 @@ __Ad Technology Team__
 
 
 
-
-
-```
-adSSetup = {
-	view: "d",
-	partners: true,`
-	adPlacements: ["superbanner", "billboard", "sky", "mrec", "mrec_btf"],
-	adSlotSizes: {
-		"superbanner": [{
-			"minWidth": 1,
-			"sizes": [[728,90],[800,250],[970,250]]
-		}],
-		"billboard": [{
-			"minWidth": 1,
-			"sizes": [[800,250],[970,250]]
-		}],
-		"sky": [{
-			"minWidth": 1,
-			"sizes": [[160,600],[120,600],[300,600]]
-		}],
-		"mrec": [{
-			"minWidth": 1,
-			"sizes": [[300,250]]
-		}],
-		"mrec_btf": [{
-			"minWidth": 1,
-			"sizes": [[300,250]]
-		}],
-	},
-
-
-	placeholder: {
-		disablePlaceholders: false,
-		default: {	
-			"border-color": "#EEEDE8",
-			"background-color": "#F9F9F7",
-			"admarkPosition": "bottom right",
-			"color": "#BCBCBC",
-			"font-size": "12px",
-			"font-family": "Tahoma"
-		},
-		mrec: { 
-			"background-color": "#FCBFFF"
-		}
-	}
-	
-	pub: {
-	   "memberId": "7791",     // the xandr member id of the external seat
-	   "publisherId": 1951525, // the publisher id of the mirrored publisher in external seat
-	   "adPlacements": ["billboard_btf"], 
-	   "adSlotSizes": {
-	      "billboard_btf": [{
-	         "minWidth": 1,
-	         "sizes": [[800,250],[970,250]]
-	      }]
-	   },
-	}
-	
-	colorBg: true,             // enable/disable coloring of the page-background
-	bgClick: true,             // enable/disable click on page-background
-	hasVideoPlayer: true,      // enable/disable partnerscripts like headerbiding for video
-	isArticle: true,           // it shows us if the page is an article
-	pageName: "demo_story",    // channel/article name from CMS, may not contain slashes (/)
-	target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
-	iabTax: "IAB2,IAB2-1,1,32"
-}
-
-
-```
