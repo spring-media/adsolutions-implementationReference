@@ -11,13 +11,32 @@ The video ad call starts with a static url part which is always the same:
 | Parameter        | Value           | Note  |
 | ------------- |:-------------| :-----|
 |    &inv_code=    |    [insert placement name here]      |    *list of placements provided by MI, usually ending in -preroll/-midroll/-postroll*      |
-|    &vplaybackmethod=    |     [3=Click-to-play]     |     *fixed value*     |
+|    &vplaybackmethod=    |     3     |     *fixed value; 3=Click-to-play*     |
 |    &kw_vidContentId=    |     [unique video ID]     |     *can be used to target specific content video, or exclude ads for specific video; leave empty if value can't be passed*     |
 |    &kw_misc=    |     [additional keywords that can be used for targeting]     |     *leave empty if there are none; note: AdLib interceptor is adding additional values, see below*     |
 |    &vwidth=    |    [player width in px]      |          |
 |    &vheight=    |    [player height in px]      |          |
 |    &kw_vduration=    |     [duration content video in seconds]     |     *leave empty if value can't be passed*     |
 |    &referrer=    |     [encoded URL where the ad will be rendered]     |          |
+
+
+## New GDPR Parameters
+
+| Parameter        | Value           | Note  |
+| ------------- |:-------------| :-----|
+|    &gdpr=     |         |        |
+|    &gdpr_consent=     |         |        |
+|    &kw_gdpr_applies=     |         |        |
+|    &kw_gdpr_p1=     |         |        |
+|    &kw_gdpr_p2=     |         |        |
+|    &kw_gdpr_p3=     |         |        |
+|    &kw_gdpr_p4=     |         |        |
+|    &kw_gdpr_p5=     |         |        |
+|    &kw_gdpr_p6=     |         |        |
+|    &kw_gdpr_p7=     |         |        |
+|    &kw_gdpr_p8=     |         |        |
+|    &kw_gdpr_p9=     |         |        |
+|    &kw_gdpr_p10=     |         |        |
 
 
  
