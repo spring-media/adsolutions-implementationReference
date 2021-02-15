@@ -14,13 +14,16 @@ The video ad call starts with a static url part which is always the same:
 |    &vplaybackmethod=    |     3     |     *fixed value; 3=Click-to-play*     |
 |    &kw_vidContentId=    |     [unique video ID]     |     *can be used to target specific content video, or exclude ads for specific video; leave empty if value can't be passed*     |
 |    &kw_misc=    |     [additional keywords that can be used for targeting]     |     *leave empty if there are none; note: AdLib interceptor is adding additional values, see below*     |
-|    &vwidth=    |    [player width in px]      |          |
-|    &vheight=    |    [player height in px]      |          |
+|    &vwidth=    |    [player width in px]      |     *leave empty if value can't be passed; don't pass zero*     |
+|    &vheight=    |    [player height in px]      |     *leave empty if value can't be passed; don't pass zero*     |
 |    &kw_vduration=    |     [duration content video in seconds]     |     *leave empty if value can't be passed*     |
 |    &referrer=    |     [encoded URL where the ad will be rendered]     |          |
 
 
 ## New GDPR Parameters
+
+Note: Parameters and values are added automatically by AdLib Interceptor for Desktop and MEW.
+For Apps, AMP and ConnectedTV video requests please consult AdTechnology.
 
 | Parameter        | Value           | Note  |
 | ------------- |:-------------| :-----|
