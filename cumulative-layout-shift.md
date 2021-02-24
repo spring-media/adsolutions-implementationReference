@@ -146,6 +146,15 @@ Here you can see the syntax for an updated adSSetup object sample.
 
 
 
+# Working on your own solution?
+
+If you're working on your own solution to handle CLS placeholder, there are two points to consider:
+
+1. To disable the placeholder features of the adlib, you need to include the placeholder-object in your adSSetup and set `disablePlaceholders: false` as described above. Otherwise, if no placeholder object is defined in your adSSetup, our adlib may return default values and sets placeholder on its own.
+2. If you can't or want include the placeholder object to disable its functions, you need to contact adtechnology@axelspringer.com. We can disable the placeholder feature **globally** for publishers. However, remember that in this case we can no longer bring placeholders to your entire page via our adlib.
+
+
+
 # How to test
 
 At first you should set a cookie to receive our development version of the adlib. Go to https://adtechnology.axelspringer.com/beta.php, choose "Alpha (Alpha)" and click "set branch". Now you should see the new cls placeholder on our pages.
