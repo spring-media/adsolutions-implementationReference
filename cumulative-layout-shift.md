@@ -167,3 +167,14 @@ At first you should set a cookie to receive our development version of the adlib
 - **https://web.dev/vitals/**: A guide to identify problems concerning user experience
 - **[Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/)**: A tool to get important metrics and tips how to fix problems on your page
 - **[Lighthouse](https://developers.google.com/web/tools/lighthouse/)**: Another automated tool to run audits about performance, seo, ux, ...
+
+
+
+## Help
+
+If you have some question don't hesitate to contact us:
+
+__Ad Technology Team__
+  adtechnology@axelspringer.de
+
+
