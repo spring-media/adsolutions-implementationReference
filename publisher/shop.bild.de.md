@@ -88,7 +88,7 @@ You need to declare the default object to get working placeholders on your site.
 		mrec: { 
 			"background-color": "#FCBFFF"
 		}
-	}
+	},
 ```
 
 
@@ -118,7 +118,7 @@ You need to declare the default object to get working placeholders on your site.
 
 # 7. AdLib
 
-`<script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/shop.bild.de.js"></script>`
+`<script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/bildshop.js"></script>`
 
 This `js` contains the whole Ad Library. Please include it in the header of your site and do not load it asynchronously.
 Our adlib is heavily optimized and will initially only load a small set of functions that are absolutely necessary from the beginning. The remaining functions are loaded on demand.
