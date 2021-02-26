@@ -10,6 +10,7 @@
 		- [Optional: Customize individual slots](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#optional-customize-individual-slots)
 	- [Sample of an updated adSSetup object](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#sample-of-an-updated-adssetup-object)
 - [Here's what else you may need to keep in mind as a publisher](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#heres-what-else-you-may-need-to-keep-in-mind-as-a-publisher)
+- [Working on your own solution?](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#working-on-your-own-solution)
 - [How to test](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#how-to-test)
 	- [Further resources](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#further-resources)
 
@@ -153,6 +154,7 @@ If you're working on your own solution to handle CLS placeholder, there are two 
 1. To disable the placeholder features of the adlib, you need to include the placeholder-object in your adSSetup and set `disablePlaceholders: false` as described above. Otherwise, if no placeholder object is defined in your adSSetup, our adlib may return default values and sets placeholder on its own.
 2. If you can't or want include the placeholder object to disable its functions, you need to contact adtechnology@axelspringer.com. We can disable the placeholder feature **globally** for publishers. However, remember that in this case we can no longer bring placeholders to your entire page via our adlib.
 
+If you create the placeholder on your own and wonder about the necessary height of the placeholder, you can simply take a look at the adSSetup object. There you will find the ordered sizes for the respective ads. Take the largest size to build a CLS compliant placeholder.
 
 
 # How to test
