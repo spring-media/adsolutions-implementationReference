@@ -56,15 +56,26 @@ _Unlike regular web \_btf will not dealed as sightloader seperatly since amp alr
 
 ##  using amp-ads with a cmp
 
-Since amp only provides a tcf string and not an accessible tcf object we are right now limited 
-to render only when the user gives full consent. Therefore right now we only may call ads if the
-user gave full consent. To achief this pleas add the attribute ```data-block-on-consent="_till_accepted"```
+After an exhausting conversation with amp we got them provide a minimal TCData Object to the ad-frames.
+You may follow the issue on [github](https://github.com/ampproject/amphtml/issues/30385).
+
+AMP will now inject an __tcfapiLocator iframe but only if the cmp settings intends that.
+So please make sure, your cmp settings lists the following line:
+
+```
+{
+    ...
+    exposesTcfApi: true,
+    ...
+}
+```
 
 The adtag then will look like this one:
 ```
-<amp-ad width="100vw" layout="fluid" type="springAds" data-adslot="mrec" data-block-on-consent="_till_accepted"></amp-ad>
+<amp-ad width="100vw" layout="fluid" type="springAds" data-adslot="mrec" data-block-on-consent="_till_responded"></amp-ad>
 ```
 
+The tcString then will automatically be passed to all relevant technologies the adlib will use or request.
 
 ## ads not in adSSetup / infinite scrolling
 To inject an adslot you do not know it will surely be inserted into the article on pageload like for infinite scrolling pages you can just ad a new adslot. 
