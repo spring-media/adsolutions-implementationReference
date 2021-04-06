@@ -70,6 +70,15 @@ So please make sure, your cmp settings lists the following line:
 }
 ```
 
+The adlib adssetup tag then will look like this one:
+```
+<amp-ad height="1"
+    type="springAds"
+    data-adssetup='{...}'
+    data-block-on-consent="_till_responded">
+</amp-ad>
+```
+
 The adtag then will look like this one:
 ```
 <amp-ad width="100vw" layout="fluid" type="springAds" data-adslot="mrec" data-block-on-consent="_till_responded"></amp-ad>
