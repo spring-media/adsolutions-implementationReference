@@ -1,8 +1,6 @@
-# Musiktitel.md
-
 # AdSSetup Documentation for Musikexpress, RollingStone & Metal-Hammer
 
-In this documentation you find the placement details for your website.
+In this documentation you find instructions on how to use the AdSSetup object to configure the ad delivery for your website.
 
 ## Ad Integration
 
