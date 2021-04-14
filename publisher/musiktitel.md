@@ -126,7 +126,7 @@ placeholder: {
   - key/values are also supported. `key=value1,value2;`
   - please ensure to end the line with a semicolon
 
-# 7. AdLib
+## 7. AdLib
 
 `<script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/musikexpress.js"></script>`
 
