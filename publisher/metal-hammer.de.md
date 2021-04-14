@@ -2,6 +2,12 @@
 
 In this documentation you find the placement details for your Website.  
 
+
+
+**Important**
+This documentation is outdated. Please have a look into [Musiktitel](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/musiktitel.md) instead.
+
+
 ## AdLib
 
 Please use the following JS for the adLib: ```https://www.asadcdn.com/adlib/pages/metalhammer.js```
