@@ -1,6 +1,11 @@
 # musikexpress.de
 
-In this documentation you find the placement details for your Website.  
+In this documentation you find the placement details for your Website.
+
+
+**Important**
+This documentation is outdated. Please have a look into [Musiktitel](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/musiktitel.md) instead.
+
 
 ## AdLib
 
