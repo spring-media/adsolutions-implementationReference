@@ -35,6 +35,7 @@ Example for 3 Medium Rectangle btf
 - mrec_btf
 - mrec_btf_2
 - mrec_btf_3
+
 For a deeper explanation please take a look into this documentation about our [onDemandAd-Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/peculiar/onDemandAd-integration.md).
 
 More info on [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement) and [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
@@ -80,7 +81,30 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
 	},
 ```
 
-## 5. Page Configuration
+## 5. CLS Placeholder Configuration
+
+Please have a look into [this document](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) for a complete overview on how to use the placeholder object and all posible settings.
+
+
+```
+placeholder: {
+   disablePlaceholders: false,
+   default: {	
+      "border-color": "#EEEDE8",
+      "background-color": "#F9F9F7",
+      "admarkPosition": "bottom right",
+      "color": "#BCBCBC",
+      "font-size": "12px",
+      "font-family": "Tahoma"
+   },
+   mrec: { 
+      "background-color": "#FCBFFF"
+   }
+}
+
+```
+
+## 6. Page Configuration
 
 ```
 	colorBg: true,             // enable/disable coloring of the page-background
@@ -104,9 +128,9 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
   - key/values are also supported. `key=value1,value2;`
   - please ensure to end the line with a semicolon
 
-# 6. AdLib
+# 7. AdLib
 
-`<script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/Musiktitel.md.js"></script>`
+`<script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/musikexpress.js"></script>`
 
 This `js` contains the whole Ad Library.
 
