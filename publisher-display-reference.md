@@ -281,7 +281,7 @@ This `js` contains the whole Ad Library. Every website will get its own `js` fro
 `</head>`
 
 
- Ad Placements in the `<body>` of the website:
+Ad Placements in the `<body>` of the website:
 
 ```
 <div id="${adPlacement}"></div>
@@ -293,9 +293,12 @@ This `div` has to be wrapped in an own container, has to be free of Styles/CSS a
 
 __Superbanner__
 
-`<div id="superbannerWrapper" class="container"><div id="superbanner"></div></div>`
+```
+<div id="superbannerWrapper" class="container">
+    <div id="superbanner"></div>
+</div>
+```
 
-`</body>`
 
 ## Ad Placements Overview
 
