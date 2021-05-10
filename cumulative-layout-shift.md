@@ -89,6 +89,7 @@ default: {
 
 ```
 
+
 *With these parameters you can control the css styling of the placeholder. "admarkPosition" handles the position, where the admark will be rendered - possible inputs are:*
 
 
@@ -96,6 +97,17 @@ default: {
 
 
 *If you need a cls placeholder without an admark, you can hide it with the option `"admarkPosition":"hidden"`.*
+
+
+### Hide Borders
+
+We support the Red-green-blue-alpha (RGBA) model for our placeholders.
+RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity of the color.
+
+So with that you can (*for example*) set the border-color to be fully transparent / hidden:
+
+`"border-color": "rgba(0,0,0,0)"`
+
 
 
 ### Optional: Customize individual slots
