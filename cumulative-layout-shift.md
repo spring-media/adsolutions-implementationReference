@@ -7,6 +7,7 @@
 	- [In Detail](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#in-detail)
 		- [Disable Placeholders](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#disable-placeholders)
 		- [Default placeholder styling & admark positioning](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#default-placeholder-styling--admark-positioning)
+		- [Hide Borders](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#hide-borders)
 		- [Optional: Customize individual slots](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#optional-customize-individual-slots)
 	- [Sample of an updated adSSetup object](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#sample-of-an-updated-adssetup-object)
 - [Here's what else you may need to keep in mind as a publisher](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#heres-what-else-you-may-need-to-keep-in-mind-as-a-publisher)
