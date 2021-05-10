@@ -95,7 +95,7 @@ default: {
 ![](/assets/admarkPosition.png)
 
 
-*If you need a cls placeholder without an admark, you can hide it with the option "admarkPosition":"hidden".*
+*If you need a cls placeholder without an admark, you can hide it with the option `"admarkPosition":"hidden"`.*
 
 
 ### Optional: Customize individual slots
