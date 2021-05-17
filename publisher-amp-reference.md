@@ -26,8 +26,8 @@ Said that, first you will have to integrate a director amp-ad tag, declaring you
             }]
         },
         "pageName": "demo_story",
-        "publisher": "adtechnology.axelspringer.com",
-        "target": "singleAds;multiAds;you;me;team=adtech,MIT;"
+        "publisher": "adtechnology.axelspringer.com", // given by your marketer, normally the domainname
+        "target": "singleAds;multiAds;you;me;team=adtech,MIT;" // these are syntax demo values only, not for production usage
     }'>
 </amp-ad>
 ```
