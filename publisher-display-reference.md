@@ -269,6 +269,7 @@ Placement | Size 1 | Size 2 | Size 3 | Size 4  | Size 5  |  Size 6
 - you can use stand alone keywords with semicolon `;` separately
 - key/values are also supported. `key=value1,value2;`
 - please ensure to end the line with a semicolon
+- with iabTax you can classify your content - have a look into [this IAB standard](https://iabtechlab.com/standards/content-taxonomy/) for more info
 
 `</script>`
 
