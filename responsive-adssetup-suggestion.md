@@ -6,7 +6,7 @@ If you have a responsive site and you're wondering how to best combine the ad in
 
 
 ## Possible AdSSetup
-The AdSSetup is the configuration for our Adlib. Here you control (_besides general settings like the [CLS placeholder](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md)_) the ordering of ads and which formats should be delivered on the page.
+The AdSSetup is the configuration for our Adlib. Here you control (_besides general settings like the [CLS placeholder](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md)_) which ads and formats are ordered from the adserver.
 
 ### Preconfiguration
 The idea is that the page width is checked with Javascript before the adSSetup is defined and a choice is made between different presets for mobile / tablet / desktop.
