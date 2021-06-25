@@ -103,7 +103,7 @@ Here we now use our prepared configuration to put together the AdSSetup based on
 adSSetup = {
 
   adPlacements: Ads[view].adPlacements,
-  adSlotSizes: Ads[view].adSlotSizes
+  adSlotSizes: Ads[view].adSlotSizes,
 
   view: view,
   partners: true,
@@ -131,7 +131,7 @@ adSSetup = {
 
 
 
-## MinWidth - reacting to different page dimensions
+### MinWidth - reacting to different page dimensions
 With the "minWidth" attribute you can place an order depending on the page width. Using the billboard example - if the page is wider than 969px, the second array is used. If it is less wide, the first array will be used.
 
 ```
