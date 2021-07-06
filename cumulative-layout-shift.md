@@ -150,6 +150,19 @@ Here you can see the syntax for an updated adSSetup object sample.
 
 
 
+## Note: placeholders are inactive on desktop homes for now
+
+You may wonder why there are no placeholders active on the Desktop Homes, even though you have implemented the object correctly.
+After a long discussion the decision was made that the placeholders on the desktop homes of the publishers are switched off for now.
+
+The background to this is that Google has only gone live with the Core Web Vitals on mobile and has delayed the go-live for desktop. In addition, the impact on SEO traffic is expected to be lower there.
+
+As soon as something changes or there are other news from Google, we will re-evaluate the situation.
+
+
+
+
+
 # Here's what else you may need to keep in mind as a publisher
 
 - Be sure that your inpage container is at the end of your page to prevent big CLS placeholders at the front of your page
