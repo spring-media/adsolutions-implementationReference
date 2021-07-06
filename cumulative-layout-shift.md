@@ -50,7 +50,7 @@ There is a [new part](https://github.com/spring-media/adsolutions-implementation
 ## Example
 
 
-```
+```javascript
 placeholder: {
    disablePlaceholders: false,
    default: {	
@@ -79,7 +79,7 @@ placeholder: {
 
 ### Default placeholder styling & admark positioning
 
-```
+```javascript
 default: {	
    "border-color": "#EEEDE8",
    "background-color": "#F9F9F7",
@@ -117,7 +117,7 @@ So with that you can (*for example*) set the border-color to be fully transparen
 *In case you need to configure a specific slot separately, you can create another object with the name of the respective slot next to the "default" object. In this object you can then insert the properties from the "default" object that you would like to overwrite with your own values.*
 
 
-```
+```javascript
 placeholder: {
    default: {	
       "border-color": "#EEEDE8",
