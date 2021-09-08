@@ -77,6 +77,9 @@ placeholder: {
 
 *You can set this parameter true on pages, were no CLS placeholder should be visible, such as special sponsorships or the home.*
 
+
+
+
 ### Default placeholder styling & admark positioning
 
 ```javascript
@@ -139,6 +142,29 @@ placeholder: {
 },
 
 ```
+
+### Disable placeholder on single adslots
+You can now disable single placeholders on your page. Just like adding a custom color to specific adslot, you're now able to set the attribute "disable: true".
+So this is how it would look like, if you wanted to disable the placeholder for your superbanner:
+
+```javascript
+placeholder: {
+   disablePlaceholders: false,
+   default: {	
+      "border-color": "#EEEDE8",
+      "background-color": "#F9F9F7",
+      "admarkPosition": "bottom right",
+      "color": "#BCBCBC",
+      "font-size": "12px",
+      "font-family": "Tahoma"
+   },
+   superbanner: { 
+      disable: true
+   }
+}
+
+```
+
 
 
 
