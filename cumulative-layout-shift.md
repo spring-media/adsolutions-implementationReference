@@ -14,7 +14,6 @@
 	- [Note: inactive placeholders on desktop home](#note-placeholders-are-inactive-on-desktop-homes-for-now)
 - [Here's what else you may need to keep in mind as a publisher](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#heres-what-else-you-may-need-to-keep-in-mind-as-a-publisher)
 - [Working on your own solution?](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#working-on-your-own-solution)
-- [How to test](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#how-to-test)
 	- [Further resources](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#further-resources)
 
 
@@ -211,9 +210,7 @@ If you're working on your own solution to handle CLS placeholder, there are two 
 If you create the placeholder on your own and wonder about the necessary height of the placeholder, you can simply take a look at the adSSetup object. There you will find the ordered sizes for the respective ads. Take the largest size to build a CLS compliant placeholder.
 
 
-# How to test
 
-At first you should set a cookie to receive our development version of the adlib. Go to https://adtechnology.axelspringer.com/beta.php, choose "Alpha (Alpha)" and click "set branch". Now you should see the new cls placeholder on our pages.
 
 ## Further resources
 
