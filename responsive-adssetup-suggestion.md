@@ -84,7 +84,7 @@ var Ads = {
     d: {
         adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","inpage"],   
         adSlotSizes: {
-            "mrec": AdSizes.mrec.n,
+            "mrec": AdSizes.mrec.d,
             "mrec_btf": AdSizes.mrec.d,
             "mrec_btf_2": AdSizes.mrec.d,
             "superbanner": [{
