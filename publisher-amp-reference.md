@@ -128,6 +128,12 @@ As we are fully integrated with Google AMP, the Teads AMP tag has the following 
         <div placeholder></div> 
 </amp-ad>
 ```
+##  when using a cmp
+```html
+<amp-ad width=300 height=1 noloading type="teads" data-pid="PAGE_ID" layout="responsive" data-block-on-consent="_till_responded"> 
+        <div placeholder></div> 
+</amp-ad>
+```
 
 The only parameter to update is the data-pid = PAGE_ID field.
 
