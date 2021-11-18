@@ -211,6 +211,22 @@ If you create the placeholder on your own and wonder about the necessary height 
 
 
 
+# What happens when you disable placeholders on your page?
+
+1. Google may punish your site by leading fewer SEO traffic to you when they discover layout shifts
+2. No stick to slot effects for bigger placeholders in the viewport
+3. No dynamic handling for the size of ready placeholders outside the viewport
+4. No dynamic handling for special formats
+
+
+**What does this mean?** 
+
+*When we have an ad response from the adserver for a specific adslot which is still outside of the viewport, we change it's height to match the delivered ad so there is no unnecessary whitespace*.
+
+*The same goes for some special formats like the Underscroller, we check if the booked size is smaller than the standard ad size and trim the unnecessary whitespace as well*.
+
+
+
 
 ## Further resources
 
