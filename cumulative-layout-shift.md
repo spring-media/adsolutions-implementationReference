@@ -14,6 +14,7 @@
 	- [Note: inactive placeholders on desktop home](#note-placeholders-are-inactive-on-desktop-homes-for-now)
 - [Here's what else you may need to keep in mind as a publisher](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#heres-what-else-you-may-need-to-keep-in-mind-as-a-publisher)
 - [Working on your own solution?](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#working-on-your-own-solution)
+- [What happens when you disable placeholders on your page?](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#what-happens-when-you-disable-placeholders-on-your-page)
 	- [Further resources](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#further-resources)
 
 
