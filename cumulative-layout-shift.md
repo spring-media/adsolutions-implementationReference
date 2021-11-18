@@ -14,7 +14,7 @@
 	- [Note: inactive placeholders on desktop home](#note-placeholders-are-inactive-on-desktop-homes-for-now)
 - [Here's what else you may need to keep in mind as a publisher](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#heres-what-else-you-may-need-to-keep-in-mind-as-a-publisher)
 - [Working on your own solution?](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#working-on-your-own-solution)
-- [What happens when you disable placeholders on your page?](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#what-happens-when-you-disable-placeholders-on-your-page)
+	- [What happens when you disable placeholders on your page?](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#what-happens-when-you-disable-placeholders-on-your-page)
 	- [Further resources](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md#further-resources)
 
 
@@ -212,7 +212,7 @@ If you create the placeholder on your own and wonder about the necessary height 
 
 
 
-# What happens when you disable placeholders on your page?
+## What happens when you disable placeholders on your page?
 
 1. Google may punish your site by leading fewer SEO traffic to you when they discover layout shifts
 2. No stick to slot effects for bigger placeholders in the viewport
