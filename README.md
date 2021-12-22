@@ -160,7 +160,7 @@ Since the AdSSetup is a very important part of the ad integration on your page, 
 <tbody>
   <tr>
     <td>view</td>
-    <td>decides if the current page is on mobile (m) or desktop (d) viewport</td>
+    <td>Decides if the current page is on mobile (m) or desktop (d) viewport</td>
 <td>
 
 `"d" | "m"`
@@ -171,7 +171,7 @@ Since the AdSSetup is a very important part of the ad integration on your page, 
     
   <tr>
     <td>partners</td>
-    <td>enable programmatic demand</td>
+    <td>Enable programmatic demand</td>
 <td>
 
 `true | false`
@@ -184,7 +184,7 @@ Since the AdSSetup is a very important part of the ad integration on your page, 
     <td>adPlacements</td>
 <td>
 
-List every ad that you order from the ad server. You can find a visual illustration for the adPlacements [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#ad-placements-overview)
+List every ad that you order from the ad server. You can find a visual illustration for the adPlacements [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#ad-placements-overview).
 
 </td>
 <td>
@@ -220,9 +220,14 @@ _desktop_
   </tr>
   <tr>
     <td>adSlotSizes</td>
-    <td>define the formats you like to have per ordered ad placement. <br>
+    <td>Specify the formats you like to have for each ad that you ordered in the 
 
-Read more about sizes [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#creative-sizes-reference)
+`adSSetup.adPlacements`
+
+
+ <br>
+
+Read more about sizes [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#creative-sizes-reference).
 
 </td>
 <td>
