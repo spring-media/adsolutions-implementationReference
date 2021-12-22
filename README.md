@@ -122,4 +122,7 @@ Make sure, that the adSSetup Object is ready, when the adlib is loaded, so that 
 ```
 
 
+And just like that, you already have a basic working ad integration on your page. If you would like to test the ad delivery, [here you can set a cookie](https://reports.asadcdn.com/testads.html) to receive some test ads via a test segment.
+
+_If you no longer want to receive the test ads, you can always remove the cookie via the 'Remove Testads' button on the same page._
 
