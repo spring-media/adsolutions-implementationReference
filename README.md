@@ -6,11 +6,11 @@ The goal of these documentations is to give you an idea on how the ad integratio
 
 ## Table of contents
 
- - [Basic setup]()
-    - [1. Include the AdLib]()
-    - [2. AdSSetup - provide the config for the ad delivery]()
-    - [3. Provide Ad Slots]()
- - [The AdSSetup - in detail]()
+ - [Basic setup](#basic-setup)
+    - [1. Include the AdLib](#1-include-the-adlib)
+    - [2. AdSSetup - provide the config for the ad delivery](#2-adssetup---provide-the-config-for-the-ad-delivery)
+    - [3. Provide Ad Slots](#3-provide-ad-slots)
+ - [The AdSSetup - in detail](#the-adssetup---in-detail)
    
 
 
@@ -186,6 +186,9 @@ Since the AdSSetup is a very important part of the ad integration on your page, 
 
 List every ad that you order from the ad server. You can find a visual illustration for the adPlacements [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#ad-placements-overview).
 
+**Important**: Please make sure, that you provide an adSlot for each placement, that you define here.
+
+
 </td>
 <td>
 
@@ -264,7 +267,7 @@ adSlotSizes: {
     <td>placeholders</td>
 <td>
 
-Our answer on Google's CLS. Learn more about that topic and the setup possibilities for the placeholder object [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md)
+Our answer on Google's CLS. Learn more about that topic and the setup possibilities for the placeholder object [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md).
 
 </td>
 <td>
