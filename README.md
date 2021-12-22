@@ -299,7 +299,11 @@ placeholder: {
   <tr>
     <td>bgClick</td>
     <td>Allow or deny the clickability of the background of the page controled by the ads</td>
-    <td>sample</td>
+<td>
+
+`true | false`
+
+</td>
     <td>yes</td>
   </tr>
   <tr>
