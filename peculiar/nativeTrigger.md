@@ -31,17 +31,17 @@ while the publisher/party may map the ids or other selectors to his renderer.
 ### A suitable situation would be:
 
 The marketer books a campaign for advertiserA (1234) und advertiserB (5678).
-When the adcall is done and advertiserA gets delivered the adserver counts an impression for him.
+When the adcall is done and advertiserA gets delivered, the adserver counts an impression for him.
 Also the integration sends the data as described, the rendering can happen.
 
-Because the marketers bookings have the same conditions the adserver also delivers 50/50 of both advertisers.
+Because the marketers bookings have the same conditions, the adserver also delivers 50/50 of both advertisers.
 If you change condition by adding key/value targeting, duration or else you may alter that.
-Using target may be useful for pages like "special" using the same group or separating sport events like:
+Using target might be useful for pages like "special" using the same group or separating sport events like:
                                 
-DFB-Pokal
-Champions League
-Europa League
-Nationalmannschafts-Spiele
+ - DFB-Pokal
+ - Champions League
+ - Europa League
+ - Nationalmannschafts-Spiele
 
 
 ### <Code\>
@@ -88,29 +88,20 @@ The following code shows a rudimental example to work with that environment as w
 
 ```html
 <script>
-var renderPartner = function(event){
-    if (window.hasAd) {
-        window.parent.publisherframework.renderPartner();
-    }
-};
+    var renderPartner = function(event){
+        if (window.hasAd) {
+            window.parent.publisherframework.renderPartner();
+        }
+    };
 
-document.write("<script src='https://ib.adnxs.com/ttj?member=7823&inv_code=welt.de-desktop-sonstiges_story-inpage&size=427x23'></script>");
-document.write("<script>renderBetPartner();</script>");
+    document.write("<script src='https://ib.adnxs.com/ttj?member=7823&inv_code=welt.de-desktop-sonstiges_story-inpage&size=427x23'></script>");
+    document.write("<script>renderBetPartner();</script>");
 </script>
 ```
 
-If this doesn't offer all the stuff needed for your integration or have some other hints or questions
+If this doesn't offer all the stuff needed for your integration or you have some other hints or questions
 don't hesitate to contact us:
 
-
-__Carlos Bracho__
- 
-  Head of Ad Technology  
-  SPRING  
-  
-  Tel: +49 30 2591 76784  
-  Mobile: +49 151 44619807  
-  carlos.bracho@axelspringer.de
 
 __Ad Technology Team__  
   adtechnology@axelspringer.de
