@@ -2,7 +2,7 @@
 This is an option to let a publisher or third party decide to render content based on the information of an adserver 
 (in this case a SPRING administrated Xandr seat) or also just count and get clickTags.
 
-Therefore the publisher will setup a dedicaed adslot like all the others but just include the size 427x23.
+Therefore the publisher will setup a dedicaded adslot like all the others but just include the size 427x23.
 The size 427x23 is vanity for "hasAd".
 
 When the adserver has finished loading the adlib will analyse the response and tell the publishers page 
