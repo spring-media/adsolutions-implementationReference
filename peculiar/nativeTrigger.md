@@ -50,7 +50,7 @@ with your adtechnology department. This includes the definition of the used adsl
 
 The following code will show an adaptable loadHandler implementation using an example adslot "inpage_2":
 
-```
+```html
 <script>
     window.addEventListener("adInfo", function(adSlot) {
         if (adSlot.detail.id === "inpage_2" && adSlot.detail.hasAd) {
@@ -69,7 +69,7 @@ The following code will show an adaptable loadHandler implementation using an ex
 If you do not provide an adslot directly within the regular adSSetup integration,
 this shows a way to do an onDemand adRequest:
 
-```
+```html
 <script>
     var hasAdDiv = document.createElement('div');
     hasAdDiv.id = "inpage_2"
@@ -86,7 +86,8 @@ stays there and does not harm the page/widget.
 
 The following code shows a rudimental example to work with that environment as well.
 
-```<script>
+```html
+<script>
 var renderPartner = function(event){
     if (window.hasAd) {
         window.parent.publisherframework.renderPartner();
