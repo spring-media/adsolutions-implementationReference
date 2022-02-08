@@ -3,7 +3,7 @@
 After receiving the response from the adserver our adlib analyses the result and communicates it through an event.
 To receive this information you just setup an eventListener to listen to `adInfo` Event.
 
-```
+```javascript
 window.addEventListener("adInfo", function(adSlot) {
     console.log(adSlot);
 });
