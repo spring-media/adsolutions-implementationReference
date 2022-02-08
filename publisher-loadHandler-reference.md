@@ -24,7 +24,7 @@ adSlot.detail.crea1.width | *string* | no | the real base-width of the first cre
 
 ## Usage
 
-```
+```javascript
 window.addEventListener("adInfo", function(adSlot) {
 	if (! adSlot.detail.hasAd) {
         document.getElementById(adSlot.detail.id).style.display = 'none';
