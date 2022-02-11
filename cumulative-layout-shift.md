@@ -27,7 +27,7 @@ The big requirement is that the websites must have a visual stability while rend
 
 The CLS is an unexpected shifting of web page elements (often but not only while the page is rendering). 
 
-![](layout-instability.gif)
+![](assets/layout-instability.gif)
 
 Besides advertising, this concerns factors like videos, images and in general content which is loaded asynchronously. 
 
