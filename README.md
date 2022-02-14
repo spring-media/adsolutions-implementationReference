@@ -42,7 +42,7 @@ Basically there are only three important steps to implement a basic ad integrati
 </html>
 ```
 
-**Important**: It is very important, that you do not load the adlib asynchronically! Otherwise this will lead to [cumulative layout shifts](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) and delay the headerbidding a lotf, which will cost your page real money in unrealised profits. 
+**Important**: It is very important, that you do not load the adlib asynchronically! Otherwise this will lead to [cumulative layout shifts](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) and delay the headerbidding a lot, which will cost your page real money in unrealised profits. 
 
 
 ## 2. AdSSetup - provide the config for the ad delivery
