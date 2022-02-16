@@ -19,7 +19,10 @@ In this document you will learn how to implement our adlib in your site to deliv
     - [1. Include the AdLib](#1-include-the-adlib)
     - [2. AdSSetup - provide the config for the ad delivery](#2-adssetup---provide-the-config-for-the-ad-delivery)
     - [3. Provide Ad Slots](#3-provide-ad-slots)
- - [Text](#url)
+ - [Publisher-specific integration](#publisher-specific-integration)
+    - [Setting together the adSSetup](#setting-together-the-adssetup)
+    - [Pagename Structure](#pagename-structure)
+ - [InApp Ad Integration](#inapp-ad-integration)
    
 
 
