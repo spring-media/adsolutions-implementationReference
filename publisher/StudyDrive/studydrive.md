@@ -149,3 +149,33 @@ _If you no longer want to receive the test ads, you can always remove the cookie
 
 
 ----------
+
+
+
+
+
+## Publisher-specific integration
+
+> The content above describes a sample integration, but every integration is different and has its own challenges.<br>
+> Below we will learn what particular challenges we have in this project and how we will solve them.
+
+
+
+### Setting together the adSSetup
+
+You can find an overview with explanation of all parameters for the adSSetup [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/general/adSSetup-in-detail.md).
+
+
+### Pagename structure
+
+You can have a look into [this document](https://github.com/spring-media/adsolutions-implementationReference/blob/master/general/pagename-structure.md), to get a basic understanding on how pagenames & keyword targetings work.
+
+
+
+
+
+## InApp Ad Integration
+
+`- coming soon -`
+
+
