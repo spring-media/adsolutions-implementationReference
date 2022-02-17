@@ -9,6 +9,19 @@
 **Table of contents**
 
  - [General](#general)
+ - [Steps to your InApp Xandr Integration](#steps-to-your-inapp-xandr-integration)
+      - [SDK Integration - iOS](#sdk-integration---ios)
+      - [SDK Integration - Android](#sdk-integration---android)
+      - [How to display ads](#how-to-display-ads)
+          - [Ad Call Parameters](#ad-call-parameters)
+          - [further resources - iOS](#further-resources---ios)
+          - [further resources - Android](#further-resources---android)
+      - [Optional: Video Advertising](#optional-video-advertising)
+ 
+
+
+
+
 
 <br>
 
