@@ -45,6 +45,16 @@ You can find the github repository of the xandr-ios-sdk [here](https://github.co
 
 ## SDK Integration - Android
 
+As well as for iOS there are different ways to integrate the Xandr SDK for Android. 
+Xandr provides here [a great documentation page](https://docs.xandr.com/bundle/mobile-sdk/page/android-sdk-integration-instructions.html), too.
+
+You can find the github repository of the xandr-android-sdk [here](https://github.com/appnexus/mobile-sdk-android).
+
+<br>
+
+
+
+
 
 
 <br>
