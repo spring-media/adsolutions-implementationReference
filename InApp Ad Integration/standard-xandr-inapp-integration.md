@@ -54,10 +54,38 @@ You can find the github repository of the xandr-android-sdk [here](https://githu
 
 
 
+## How to display ads
 
+For every Placement a "Bannerview" has to be implemented and requested.<br>
+Placements on a page are typically `"banner"` on top of the page, an `"mrec"` as next ad in the content and multiple `"mrec_btf"` in the following content.
+
+:grey_exclamation: _Please deactivate autorefresh of the ads_.
 
 
 <br>
+
+There are different parameters for the standard Xandr integration:
+
+
+| Parameter                | Description                                | Required |
+|--------------------------|--------------------------------------------|----------|
+| [placementName]          | You can use placementNames instead of ids.<br>The syntax is the following:<br><br>"publisherName_placementprefix-[position]"<br>The [position] then would be either "banner", "mrec" or "mrec_btf". | yes      |
+| [sizes]                  | **Banner Sizes**:<br>320x50 (primary size), 300x75, 320x75, 320x80, 320x100, 320x150, 320x160<br><br>**Mrec & Mrec_btf Sizes**:<br>300x250, 250x250, 300x300       | yes      |
+| [publisherId]            | The ID of your publisher in the Xandr Ad Server.<br>If you don't know this id, you can ask Ad Technology for help.                     | yes      |
+| [customKeyword "contId"] | The value would be the current position (e.g. "banner", "mrec" or "mrec_btf")<br><br>For the 2nd and nth mrec_btf, please use "mrec_btf_2", "mrec_btf_3", etc.                                       | yes      |
+| Custom Keywords          | Customkeywords can be attached as &kw_keywordname=value      | yes      |
+
+
+<br>
+
+:grey_exclamation: Quick note about sizes:
+> With sizes you can control which ad formats are ordered from the ad server.<br>
+> Sizes are often the same as the proportions of the creatives, But this is not a guarantee, since there are exceptions, especially on the web integrations.<br>
+> There are some sizes for special formats like Wallpapers and Double Sitebars. However, this is not relevant for the sizes in App - here the sizes are equal to the proportions of the Creatives.
+
+
+
+
 
 ## Optional: Video Advertising
 
