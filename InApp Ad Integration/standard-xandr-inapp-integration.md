@@ -110,9 +110,9 @@ Please have a look into the following documents provided by Xandr:
 
 | Document                 | Description                                | 
 |--------------------------|--------------------------------------------|
-| [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/show-banners-on-ios.html) | Describes how to request & render ads | 
-| [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/publisher-id-for-ios.html) | Describes how to handle the publisherId | 
-| [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/single-request-mode-for-ios.html) | Describes the use of customKeyword parameter| 
+| [show-banners-on-iOS](https://docs.xandr.com/bundle/mobile-sdk/page/show-banners-on-ios.html) | Describes how to request & render ads | 
+| [publisher-id-for-iOS](https://docs.xandr.com/bundle/mobile-sdk/page/publisher-id-for-ios.html) | Describes how to handle the publisherId | 
+| [single-request-mode-for-iOS](https://docs.xandr.com/bundle/mobile-sdk/page/single-request-mode-for-ios.html) | Describes the use of customKeyword parameter| 
 
 
 <br>
@@ -129,8 +129,8 @@ Please have a look into the following documents provided by Xandr:
 | Document                 | Description                                | 
 |--------------------------|--------------------------------------------|
 | [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/show-banners-on-android.html) | Describes how to request & render ads | 
-| [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/publisher-id-for-android.html) | Describes how to handle the publisherId | 
-| [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/single-request-mode-for-android.html) | Describes the use of customKeyword parameter| 
+| [publisher-id-for-android](https://docs.xandr.com/bundle/mobile-sdk/page/publisher-id-for-android.html) | Describes how to handle the publisherId | 
+| [single-request-mode-for-android](https://docs.xandr.com/bundle/mobile-sdk/page/single-request-mode-for-android.html) | Describes the use of customKeyword parameter| 
 
 
 
