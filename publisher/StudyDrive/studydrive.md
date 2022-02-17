@@ -182,3 +182,8 @@ You can have a look into [this document](https://github.com/spring-media/adsolut
 `- coming soon -`
 
 
+Parameters for Xandr Standard Integration:
+
+ - publisherID: `- coming soon -`
+ - placementName: Depending on the current pages
+     - 
