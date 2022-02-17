@@ -11,6 +11,7 @@ This document is still work in progress and not meant to be used yet!
 Welcome to your Ad Integration documentation! 
 In this document you will learn how to implement our adlib in your site to deliver ads with it.
 
+<br>
 
 
 ## Table of contents
@@ -22,15 +23,20 @@ In this document you will learn how to implement our adlib in your site to deliv
  - [Publisher-specific integration](#publisher-specific-integration)
     - [Setting together the adSSetup](#setting-together-the-adssetup)
     - [Pagename Structure](#pagename-structure)
+    - [Delivering Course Teaser](#delivering-course-teaser)
  - [InApp Ad Integration](#inapp-ad-integration)
    
 
+<br>
 
 
 # Basic setup
 
 
 Basically there are only three important steps to implement a basic ad integration:
+
+<br>
+
 
 ## 1. Include the AdLib
 
@@ -55,6 +61,8 @@ Basically there are only three important steps to implement a basic ad integrati
 ```
 
 **Important**: It is very important, that you do not load the adlib asynchronically! Otherwise this will lead to [cumulative layout shifts](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) and delay the headerbidding a lot, which will cost your page real money in unrealised profits. 
+
+<br>
 
 
 ## 2. AdSSetup - provide the config for the ad delivery
@@ -98,6 +106,8 @@ Basically there are only three important steps to implement a basic ad integrati
 ```
 
 Make sure, that the adSSetup Object is ready, when the adlib is loaded, so that we can use your configuration to make the call to the ad server.
+
+<br>
 
 
 ## 3. Provide Ad Slots
@@ -153,37 +163,53 @@ _If you no longer want to receive the test ads, you can always remove the cookie
 
 ----------
 
+<br>
 
 
 
-
-## Publisher-specific integration
+# Publisher-specific integration
 
 > The content above describes a sample integration, but every integration is different and has its own challenges.<br>
 > Below we will learn what particular challenges we have in this project and how we will solve them.
 
+<br>
 
 
-### Setting together the adSSetup
+## Setting together the adSSetup
 
 You can find an overview with explanation of all parameters for the adSSetup [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/general/adSSetup-in-detail.md).
 
+<br>
 
-### Pagename structure
+
+## Pagename structure
 
 You can have a look into [this document](https://github.com/spring-media/adsolutions-implementationReference/blob/master/general/pagename-structure.md), to get a basic understanding on how pagenames & keyword targetings work.
 
 
+<br>
 
 
-
-## InApp Ad Integration
+## Delivering Course Teaser
 
 `- coming soon -`
+
+<br>
+
+
+# InApp Ad Integration
+
+`- coming soon -`
+
+Have a look into our [standard Xandr InApp Ad Integration Guide](https://github.com/spring-media/adsolutions-implementationReference/blob/master/InApp%20Ad%20Integration/standard-xandr-inapp-integration.md)
+
+<br>
 
 
 Parameters for Xandr Standard Integration:
 
  - publisherID: `- coming soon -`
+
  - placementName: Depending on the current pages
-     - 
+
+
