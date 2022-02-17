@@ -37,10 +37,33 @@ But other than on webpages, you have to handle ad requests and rendering on your
 You can skip this module, unless you have video content in your app, where you would like to show `preroll-`, `midroll-` or `postroll ads`.
 
 
-### Requirements
+<br>
+
+### Requirements: VAST
 
 You need a video player that is able to process VAST urls.
 
-> VAST stands for "Digital Video Ad Serving Template"
-> You can read more about this standard on the [IAB Techlab](https://iabtechlab.com/standards/vast/)
+> VAST stands for "Digital Video Ad Serving Template".<br>
+> You can read more about this standard on the [IAB Techlab](https://iabtechlab.com/standards/vast/).
+
+This is what a VAST url looks like:
+
+`https://ib.adnxs.com/ptv?member=7823&size=1x1&publisher=[publisherId]&inv_code=[placementName]&vplaybackmethod=3&vwidth=[playerwidth]&vheight=[playerheight] &appid=[appid]&gdpr=[gdpr_applies]&gdpr_consent=[gdpr consent string from CMP]`
+
+
+<br>
+
+**Overview of VAST parameters**
+
+| Parameter                      | Description                                                                                                         | Required |
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------|----------|
+| [placementName]                | The name for the current ad slot, the ad is rendered in                                                             | yes      |
+| [appid]                        |                                                                                                                     | yes      |
+| [publisherId]                  | The ID of your publisher in the Xandr Ad Server. <br>If you don't know this id, you can ask Ad Technology for help. | yes      |
+| [gdpr_applies]                 |                                                                                                                     | yes      |
+| [gdpr consent string from CMP] |                                                                                                                     | yes      |
+| Custom Keywords                | Customkeywords can be attached as &kw_keywordname=value                                                             | no       |
+
+
+
 
