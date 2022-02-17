@@ -32,7 +32,24 @@ But other than on webpages, you have to handle ad requests and rendering on your
 
 # Steps to your InApp Xandr Integration
 
-## Video Advertising
+
+## SDK Integration - iOS
+
+Depending on your used package manager, there are different ways to integrate the Xandr SDK.
+On [this Xandr documentation page](https://docs.xandr.com/bundle/mobile-sdk/page/ios-sdk-migration-and-integration.html) you can find detailed instructions on how to accomplish the integration.
+
+You can find the github repository of the xandr-ios-sdk [here](https://github.com/appnexus/mobile-sdk-ios).
+
+<br>
+
+
+## SDK Integration - Android
+
+
+
+<br>
+
+## Optional: Video Advertising
 
 You can skip this module, unless you have video content in your app, where you would like to show `preroll-`, `midroll-` or `postroll ads`.
 
