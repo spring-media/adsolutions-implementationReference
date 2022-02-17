@@ -1,7 +1,6 @@
 # Standard Xandr InApp Ad Integration
 
-:grey_exclamation: **Hint**
-> Before you start the integration...<br>
+:grey_exclamation: **Before you start the integration...**
 > Since the Ad Integration for Apps is a lot more complex as for web pages, it might be a good idea to evaluate whether the potential advertising revenue justifies the high effort.<br>
 > For example: With 10.000 impressions per month, the ad integration is probably not worth the time invested.
 
@@ -64,6 +63,8 @@ Placements on a page are typically `"banner"` on top of the page, an `"mrec"` as
 
 <br>
 
+### Ad Call Parameters
+
 There are different parameters for the standard Xandr integration:
 
 
@@ -84,6 +85,43 @@ There are different parameters for the standard Xandr integration:
 > There are some sizes for special formats like Wallpapers and Double Sitebars. However, this is not relevant for the sizes in App - here the sizes are equal to the proportions of the Creatives.
 
 
+<br>
+
+
+
+### Further resources - iOS
+
+
+Please have a look into the following documents provided by Xandr:
+
+
+| Document                 | Description                                | 
+|--------------------------|--------------------------------------------|
+| [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/show-banners-on-ios.html) | Describes how to request & render ads | 
+| [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/publisher-id-for-ios.html) | Describes how to handle the publisherId | 
+| [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/single-request-mode-for-ios.html) | Describes the use of customKeyword parameter| 
+
+
+<br>
+
+
+
+
+### Further resources - Android
+
+
+Please have a look into the following documents provided by Xandr:
+
+
+| Document                 | Description                                | 
+|--------------------------|--------------------------------------------|
+| [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/show-banners-on-android.html) | Describes how to request & render ads | 
+| [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/publisher-id-for-android.html) | Describes how to handle the publisherId | 
+| [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/single-request-mode-for-android.html) | Describes the use of customKeyword parameter| 
+
+
+
+<br>
 
 
 
