@@ -87,7 +87,7 @@ There are different parameters for the standard Xandr integration:
 | [sizes]                  | **Banner Sizes**:<br>320x50 (primary size), 300x75, 320x75, 320x80, 320x100, 320x150, 320x160<br><br>**Mrec & Mrec_btf Sizes**:<br>300x250, 250x250, 300x300       | yes      |
 | [publisherId]            | The ID of your publisher in the Xandr Ad Server.<br>If you don't know this id, you can ask Ad Technology for help.                     | yes      |
 | [customKeyword "contId"] | The value would be the current position (e.g. "banner", "mrec" or "mrec_btf")<br><br>For the 2nd and nth mrec_btf, please use "mrec_btf_2", "mrec_btf_3", etc.                                       | yes      |
-| Custom Keywords          | Customkeywords can be attached as &kw_keywordname=value      | yes      |
+| Custom Keywords          | You can find more infos on how to use custom keywords<br>via the urls below under "Further resources -iOS/Android"      | yes      |
 
 
 <br>
