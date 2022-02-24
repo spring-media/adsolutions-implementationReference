@@ -27,6 +27,9 @@ In this document you will learn how to implement our adlib in your site to deliv
     - [Ads with infinite scrolling](#ads-with-infinite-scrolling)
  - [InApp Ad Integration](#inapp-ad-integration)
  - [QA and testing](#qa-and-testing)
+    - [Testads](#testads)
+    - [Forced Ad Formats](#forced-ad-formats)
+    - [Human detection](#human-detection)
    
 
 <br>
@@ -218,7 +221,8 @@ We strongly recommend using a fallback, in case some users are visiting your pag
 
 `- coming soon -`
 
-The "btf" placements in the Browser are loaded with lazy loading. Those ads will be rendered only when the placement is 100px under the viewport.
+The "btf" placements in the Browser are loaded with lazy loading.<br>
+Those ads will be rendered only when the placement is 100px under the viewport.
 
 
 <br>
@@ -265,4 +269,5 @@ It can happen, that the adserver does not deliver ads, when the user emulates de
 In general the detection tries to find non human or potential malicious requests (e.g. making adcalls from localhost, making many requests within the same second, uncommon request headers, ...).
 
 <br>
+
 
