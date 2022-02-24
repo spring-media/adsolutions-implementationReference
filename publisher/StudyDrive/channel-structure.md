@@ -12,3 +12,55 @@ This document is still work in progress and not meant to be used yet!
 
 
 You can have a look into [this document](https://github.com/spring-media/adsolutions-implementationReference/blob/master/general/pagename-structure.md), to get a basic understanding on how pagenames & keyword targetings work.
+
+
+## Desktop
+
+| Pagename          | Placements | Sizes |
+|-------------------|------------|-------|
+| newsfeed          |            |       |
+| groups            |            |       |
+| course            |            |       |
+| documents_index   |            |       |
+| documents_page    |            |       |
+| flashcards_index  |            |       |
+| flashcards_page   |            |       |
+| company_profile   |            |       |
+| user_profile      |            |       |
+| user_profile_edit |            |       |
+| notifications     |            |       |
+
+
+## Mobile Web 
+
+| Pagename          | Placements | Sizes |
+|-------------------|------------|-------|
+| newsfeed          |            |       |
+| groups            |            |       |
+| course            |            |       |
+| documents_index   |            |       |
+| documents_page    |            |       |
+| flashcards_index  |            |       |
+| flashcards_page   |            |       |
+| company_profile   |            |       |
+| user_profile      |            |       |
+| user_profile_edit |            |       |
+| notifications     |            |       |
+
+
+## Android & iOS Apps
+
+| Pagename          | Placements | Sizes |
+|-------------------|------------|-------|
+| newsfeed          |            |       |
+| groups            |            |       |
+| course            |            |       |
+| documents_index   |            |       |
+| documents_page    |            |       |
+| flashcards_index  |            |       |
+| flashcards_page   |            |       |
+| company_profile   |            |       |
+| user_profile      |            |       |
+| user_profile_edit |            |       |
+| notifications     |            |       |
+
