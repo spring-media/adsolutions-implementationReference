@@ -24,7 +24,9 @@ In this document you will learn how to implement our adlib in your site to deliv
     - [Setting together the adSSetup](#setting-together-the-adssetup)
     - [Pagename Structure](#pagename-structure)
     - [Delivering Course Teaser](#delivering-course-teaser)
+    - [Ads with infinite scrolling](#ads-with-infinite-scrolling)
  - [InApp Ad Integration](#inapp-ad-integration)
+ - [QA and testing](#qa-and-testing)
    
 
 <br>
@@ -186,30 +188,81 @@ You can find an overview with explanation of all parameters for the adSSetup [he
 
 You can have a look into [this document](https://github.com/spring-media/adsolutions-implementationReference/blob/master/general/pagename-structure.md), to get a basic understanding on how pagenames & keyword targetings work.
 
+Currently, the discussed pagenames are as following:
+
+ - newsfeed
+ - groups
+ - course
+ - documents_index
+ - documents_page
+ - flashcards_index
+ - flashcards_page
+ - company_profile
+ - user_profile
+ - user_profile_edit
+ - notifications
 
 <br>
 
 
 ## Delivering Course Teaser
 
+The course teasers will be delivered using a native JSON feed with the special size `427x23`. How this works, is described [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/peculiar/nativeTrigger.md).
+
+We strongly recommend using a fallback, in case some users are visiting your pages with an adblocker.
+
+<br>
+
+
+## Ads with infinite scrolling
+
 `- coming soon -`
+
+The "btf" placements in the Browser are loaded with lazy loading. Those ads will be rendered only when the placement is 100px under the viewport.
+
 
 <br>
 
 
 # InApp Ad Integration
 
-`- coming soon -`
+For an in-depth documentation, please have a look into our [standard Xandr InApp Ad Integration Guide](https://github.com/spring-media/adsolutions-implementationReference/blob/master/InApp%20Ad%20Integration/standard-xandr-inapp-integration.md). 
 
-Have a look into our [standard Xandr InApp Ad Integration Guide](https://github.com/spring-media/adsolutions-implementationReference/blob/master/InApp%20Ad%20Integration/standard-xandr-inapp-integration.md)
+<br>
+
+Please use the publisherID "`- has to be created -`" for your inApp ad calls. 
+
+
+
+
+# QA and testing
+
+**Important**: Please don't try to test ads on Localhost. Ads will be not delivered on localhost.
+
+
+
+## Testads
+
+If you would like to test the ad delivery, you can set a special cookie here: https://reports.asadcdn.com/testads.html to receive some test ads via a test segment.
+<br>
+
+> _If you no longer want to receive the test ads, you can always remove the cookie via the 'Remove Testads' button on the same page._
 
 <br>
 
 
-Parameters for Xandr Standard Integration:
+## Forced Ad Formats
 
- - publisherID: `- coming soon -`
+If you like to test pages with one specific forced ad format, please contact us - we can create special preview urls for certain ads, which do exactly that.
 
- - placementName: Depending on the current pages
+<br>
 
+
+## Human detection
+
+It can happen, that the adserver does not deliver ads, when the user emulates devices in the browser.
+
+In general the detection tries to find non human or potential malicious requests (e.g. making adcalls from localhost, making many requests within the same second, uncommon request headers, ...).
+
+<br>
 
