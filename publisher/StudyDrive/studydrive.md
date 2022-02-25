@@ -21,7 +21,7 @@ In this document you will learn how to implement our adlib in your site to deliv
     - [2. AdSSetup - provide the config for the ad delivery](#2-adssetup---provide-the-config-for-the-ad-delivery)
     - [3. Provide Ad Slots](#3-provide-ad-slots)
  - [Publisher-specific integration](#publisher-specific-integration)
-    - [Setting together the adSSetup](#setting-together-the-adssetup)
+    - [The adSSetup - parameters and what to keep in mind](#the-adssetup---parameters-and-what-to-keep-in-mind)
     - [Pagename Structure](#pagename-structure)
     - [Delivering Course Teaser](#delivering-course-teaser)
     - [Ads with infinite scrolling](#ads-with-infinite-scrolling)
@@ -180,9 +180,13 @@ _If you no longer want to receive the test ads, you can always remove the cookie
 <br>
 
 
-## Setting together the adSSetup
+## The adSSetup - parameters and what to keep in mind
 
-You can find an overview with explanation of all parameters for the adSSetup [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/general/adSSetup-in-detail.md).
+You can find a detailed overview with explanation of all parameters for the adSSetup [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/general/adSSetup-in-detail.md).
+
+<br>
+
+**Important**: Be sure that you only order placements in the adSSetup.adPlacements, for which you know that you have a matching ad slot on your page, where the delivered ad can be rendered in.
 
 <br>
 
@@ -213,7 +217,8 @@ For an overview of our recommended placements and associated sizes, please have 
 
 ## Delivering Course Teaser
 
-The course teasers will be delivered using a native JSON feed with the special size `427x23`. How this works, is described [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/peculiar/nativeTrigger.md).
+The course teasers will be delivered using a native JSON feed with the special size `427x23`. How this works, is described [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/peculiar/nativeTrigger.md).<br>
+Basically, we deliver a JSON feed for these native ads for the specific `427,23` size. When these ads are implemented on your page, you need to set an EventListener on our **adInfo** event and react to the hasAd property for this specific contId.
 
 We strongly recommend using a fallback, in case some users are visiting your pages with an adblocker.
 
@@ -222,7 +227,10 @@ We strongly recommend using a fallback, in case some users are visiting your pag
 
 ## Ads with infinite scrolling
 
-`- coming soon -`
+`- work-in-progress -`
+
+If you have sections on your page with very long content, your can use a dynamic set of btf _(= "below the fold")_ placements.
+When you see that the user is scrolling near the next possible adSlot, you can create a new ad slot in your page e.g. "mrec_btf_2" and then request a new ad for this new included placement.<br><br>
 
 The "btf" placements in the Browser are loaded with lazy loading.<br>
 Those ads will be rendered only when the placement is 100px under the viewport.
