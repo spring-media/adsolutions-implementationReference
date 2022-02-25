@@ -46,7 +46,7 @@ You can have a look into [this document](https://github.com/spring-media/adsolut
 | feed_ad <br>_Native Feed Ad_  | `[427,23]` |
 | feed_ad_btf, feed_ad_btf_2.   | `[427,23]` |
 | sky           | `[160,600],[120,600],[300,600]` |
-| mrec          | `[300,250]`           |
+| mrec          | `[300,250],[300,600]`           |
 | mrec_btf      | `[300,250]`           |
 
 
