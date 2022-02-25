@@ -207,6 +207,9 @@ Currently, the discussed pagenames are as following:
 
 <br>
 
+For an overview of our recommended placements and associated sizes, please have a look into [this document](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/StudyDrive/channel-structure.md).
+
+<br>
 
 ## Delivering Course Teaser
 
@@ -234,8 +237,8 @@ For an in-depth documentation, please have a look into our [standard Xandr InApp
 
 <br>
 
-Please use the publisherID "`- has to be created -`" for your inApp ad calls. 
-
+Please use the publisherID "`- pending -`" for your inApp ad calls. 
+For an overview of our recommended placements and associated sizes, please have a look into [this table](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/StudyDrive/channel-structure.md#android--ios-apps).
 
 <br>
 
