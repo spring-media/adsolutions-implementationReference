@@ -234,7 +234,9 @@ When you see that the user is scrolling near the next possible adSlot, you can c
 
 The "btf" placements in the Browser are loaded with lazy loading.<br>
 Those ads will be rendered only when the placement is 100px under the viewport.
+<br>
 
+You can read our guide for [on-demand-ads](https://github.com/spring-media/adsolutions-implementationReference/blob/master/peculiar/onDemandAd-integration.md) for more in-depth info about the required actions.
 
 <br>
 
