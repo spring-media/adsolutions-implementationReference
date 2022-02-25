@@ -42,6 +42,7 @@ You can have a look into [this document](https://github.com/spring-media/adsolut
 |---------------|-----------------------|
 | billboard     | `[970,250],[800,250]` |
 | billboard_btf<br>_Optional: for longer pages_ | `[970,250],[800,250]` |
+| course_ad<br>_On course pages_ | `[427,23]` |
 | feed_ad <br>_Native Feed Ad_  | `[427,23]` |
 | feed_ad_btf, feed_ad_btf_2.   | `[427,23]` |
 | sky           | `[160,600],[120,600],[300,600]` |
@@ -58,6 +59,7 @@ You can have a look into [this document](https://github.com/spring-media/adsolut
 | banner        | `[320,50],[320,75],[320,80]` |
 | mrec          | `[300,250]`                  |
 | mrec_btf      | `[300,250]`                  |
+| course_ad<br>_On course pages_ | `[427,23]` |
 | feed_ad <br>_Native Feed Ad_  | `[427,23]`   |
 | feed_ad_btf, feed_ad_btf_2, feed_ad_btf_3  | `[427,23]` |
 
