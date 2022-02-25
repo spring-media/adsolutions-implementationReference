@@ -237,7 +237,7 @@ For an in-depth documentation, please have a look into our [standard Xandr InApp
 Please use the publisherID "`- has to be created -`" for your inApp ad calls. 
 
 
-
+<br>
 
 # QA and testing
 
