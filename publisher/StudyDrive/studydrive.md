@@ -247,7 +247,7 @@ For an in-depth documentation, please have a look into our [standard Xandr InApp
 
 <br>
 
-Please use the publisherID "`- pending -`" for your inApp ad calls. 
+Please use the publisherID "`- pending -`" for your inApp ad calls.<br>
 For an overview of our recommended placements and associated sizes, please have a look into [this table](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/StudyDrive/channel-structure.md#android--ios-apps).
 
 <br>
