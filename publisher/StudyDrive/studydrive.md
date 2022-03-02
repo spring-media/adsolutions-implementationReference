@@ -24,7 +24,7 @@ In this document you will learn how to implement our adlib in your site to deliv
     - [The adSSetup - parameters and what to keep in mind](#the-adssetup---parameters-and-what-to-keep-in-mind)
     - [Pagename Structure](#pagename-structure)
     - [Delivering Course Teaser](#delivering-course-teaser)
-    - [Request ads on demand](##request-ads-on-demand)
+    - [Request ads on demand](#request-ads-on-demand)
     - [Connection to Power BI](#connection-to-power-bi)
  - [InApp Ad Integration](#inapp-ad-integration)
  - [QA and testing](#qa-and-testing)
@@ -253,6 +253,8 @@ You can find the documentation of the Xandr API here: https://docs.xandr.com/bun
 
 
 <br>
+
+
 
 -----
 
