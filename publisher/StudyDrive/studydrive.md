@@ -193,6 +193,13 @@ You can find a detailed overview with explanation of all parameters for the adSS
 
 <br>
 
+**BlockTrack Tag Integration**
+
+Please include the BlockTrack Tag at the end of the page and make sure it gets loaded after adSSetup is defined.
+You can find the code to inlcude [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-blocktrack-reference.md).
+
+<br>
+
 
 ## Pagename structure
 
