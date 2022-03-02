@@ -56,9 +56,9 @@ You can have a look into [this document](https://github.com/spring-media/adsolut
 
 | Placements<br>_(adSSetup.adPlacements)_ | Sizes<br>_(adSSetup.adSlotSizes)_ |
 |---------------|------------------------------|
-| banner        | `[320,50],[320,75],[320,80]` |
-| mrec          | `[300,250]`                  |
-| mrec_btf      | `[300,250]`                  |
+| banner        | `[320,50],[300,75],[320,75],[320,80],[320,100],[320,150],[320,160]` |
+| mrec          | `[300,250],[300,300]`                  |
+| mrec_btf      | `[300,250],[300,300]`                  |
 | course_ad<br>_On course pages_ | `[427,23]` |
 | feed_ad <br>_Native Feed Ad_  | `[427,23]`   |
 | feed_ad_btf, feed_ad_btf_2, feed_ad_btf_3  | `[427,23]` |
