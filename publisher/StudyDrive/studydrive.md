@@ -24,7 +24,8 @@ In this document you will learn how to implement our adlib in your site to deliv
     - [The adSSetup - parameters and what to keep in mind](#the-adssetup---parameters-and-what-to-keep-in-mind)
     - [Pagename Structure](#pagename-structure)
     - [Delivering Course Teaser](#delivering-course-teaser)
-    - [Ads with infinite scrolling](#ads-with-infinite-scrolling)
+    - [Request ads on demand](##request-ads-on-demand)
+    - [Connection to Power BI](#connection-to-power-bi)
  - [InApp Ad Integration](#inapp-ad-integration)
  - [QA and testing](#qa-and-testing)
     - [Testads](#testads)
@@ -34,6 +35,8 @@ In this document you will learn how to implement our adlib in your site to deliv
 
 <br>
 
+
+-----
 
 # Basic setup
 
@@ -166,10 +169,10 @@ And just like that, you already have a basic working ad integration on your page
 _If you no longer want to receive the test ads, you can always remove the cookie via the 'Remove Testads' button on the same page._
 
 
-----------
-
 <br>
 
+
+-----
 
 
 # Publisher-specific integration
@@ -215,6 +218,8 @@ For an overview of our recommended placements and associated sizes, please have 
 
 <br>
 
+
+
 ## Delivering Course Teaser
 
 The course teasers will be delivered using a native JSON feed with the special size `427x23`. How this works, is described [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/peculiar/nativeTrigger.md).<br>
@@ -225,9 +230,8 @@ We strongly recommend using a fallback, in case some users are visiting your pag
 <br>
 
 
-## Ads with infinite scrolling
 
-`- work-in-progress -`
+## Request ads on demand
 
 If you have sections on your page with very long content, your can use a dynamic set of btf _(= "below the fold")_ placements.
 When you see that the user is scrolling near the next possible adSlot, you can create a new ad slot in your page e.g. "mrec_btf_2" and then request a new ad for this new included placement.<br><br>
@@ -241,6 +245,18 @@ You can read our guide for [on-demand-ads](https://github.com/spring-media/adsol
 <br>
 
 
+
+## Connection to Power BI
+
+Currently we're not aware of a plugin-type direct connection between Xandr reports and Power BI. However, since Xandr has a powerful API, you can build this connection on your own and therefore meet all requirements you have in your specific use cases.<br>
+You can find the documentation of the Xandr API here: https://docs.xandr.com/bundle/xandr-api/page/welcome.html
+
+
+<br>
+
+-----
+
+
 # InApp Ad Integration
 
 For an in-depth documentation, please have a look into our [standard Xandr InApp Ad Integration Guide](https://github.com/spring-media/adsolutions-implementationReference/blob/master/InApp%20Ad%20Integration/standard-xandr-inapp-integration.md). 
@@ -251,6 +267,9 @@ Please use the publisherID "`- pending -`" for your inApp ad calls.<br>
 For an overview of our recommended placements and associated sizes, please have a look into [this table](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/StudyDrive/channel-structure.md#android--ios-apps).
 
 <br>
+
+-----
+
 
 # QA and testing
 
