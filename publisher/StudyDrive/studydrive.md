@@ -61,12 +61,8 @@ Basically there are only three important steps to implement a basic ad integrati
 </html>
 ```
 
-**Important**: It is very important, that you do not load the adlib asynchronically! Otherwise this will lead to [cumulative layout shifts](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) and delay the headerbidding a lot, which will cost your page real money in unrealised profits. 
+**Important**: It is very important, that you **do not** load the adlib asynchronically! Otherwise this will lead to [cumulative layout shifts](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) and delay the headerbidding a lot, which will cost your page real money in unrealised profits. 
 
-<br>
-
-**Pending**: 
-> Your specific adlib - the `studydrive.js` is now to be created and configured by us. This process takes some time and we will inform you and update this documentation here with the real path to the script, when it is ready.
 
 <br>
 
