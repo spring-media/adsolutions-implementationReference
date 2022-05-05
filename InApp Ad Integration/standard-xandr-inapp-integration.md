@@ -30,10 +30,8 @@
 
 # General
 
-**Intro**
-
-> The InApp Ad Integration is very modular - depending on which features you wish to include.<br>
-> This document will discuss the standard xandr integration with the minimal setup requirements.
+The InApp Ad Integration is very modular - depending on which features you wish to include.<br>
+This document will discuss the standard xandr integration with the minimal setup requirements.
 
 Most of the ad integration has to be done by the app developer, since we can't provide an environment in apps, where the setup can be easily configured.
 
@@ -86,7 +84,7 @@ There are different parameters for the standard Xandr integration:
 
 | Parameter                | Description                                | Required |
 |--------------------------|--------------------------------------------|----------|
-| [placementName]          | You can use placementNames instead of ids.<br>The syntax is the following:<br><br>"publisherName_placementprefix-[position]"<br>The [position] then would be either "banner", "mrec" or "mrec_btf". | yes      |
+| [placementName]          | You can use placementNames instead of ids.<br>The syntax is the following:<br><br>"[publisherName]-[platform]-[pagename]-[position]"<br>The [position] then would be either "banner", "mrec" or "mrec_btf".<br><br>An example could look like this: `bild.de-ios_phone-news_index-mrec` | yes      |
 | [sizes]                  | **Banner Sizes**:<br>320x50 (primary size), 300x75, 320x75, 320x80, 320x100, 320x150, 320x160<br><br>**Mrec & Mrec_btf Sizes**:<br>300x250, 250x250, 300x300       | yes      |
 | [publisherId]            | The ID of your publisher in the Xandr Ad Server.<br>If you don't know this id, you can ask Ad Technology for help.                     | yes      |
 | [customKeyword "contId"] | The value would be the current position (e.g. "banner", "mrec" or "mrec_btf")<br><br>For the 2nd and nth mrec_btf, please use "mrec_btf_2", "mrec_btf_3", etc.                                       | yes      |
@@ -142,7 +140,7 @@ Please have a look into the following documents provided by Xandr:
 ## IDFA & AAID
 
 
-> The IDFA _(= Identifier for Advertisers)_ on iOS & AAID _(= Google Advertising ID)_ on Android are device identifiers, which allow advertisers to track data to deliver customized advertising.
+The IDFA _(= Identifier for Advertisers)_ on iOS & AAID _(= Google Advertising ID)_ on Android are device identifiers, which allow advertisers to track data to deliver customized advertising.
 
 You can get them natively from the operating system (OS) of each device.<br>
 
