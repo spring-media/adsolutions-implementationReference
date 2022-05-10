@@ -265,8 +265,10 @@ You can find the documentation of the Xandr API here: https://docs.xandr.com/bun
 For an in-depth documentation, please have a look into our [standard Xandr InApp Ad Integration Guide](https://github.com/spring-media/adsolutions-implementationReference/blob/master/InApp%20Ad%20Integration/standard-xandr-inapp-integration.md). 
 
 <br>
-
 Please use the publisherID  "<code>2064676</code>"  for your inApp ad calls.<br>
+The memberId for your Xandr seat is "<code>13513</code>"<br>
+<br>
+
 For an overview of our recommended placements and associated sizes, please have a look into [this table](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher/StudyDrive/channel-structure.md#android--ios-apps).
 
 <br>
