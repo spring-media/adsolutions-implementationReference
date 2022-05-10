@@ -84,7 +84,7 @@ There are different parameters for the standard Xandr integration:
 
 | Parameter                | Description                                | Required |
 |--------------------------|--------------------------------------------|----------|
-| [placementName]          | You can use placementNames instead of ids.<br>The syntax is the following:<br><br>"[publisherName]-[platform]-[pagename]-[position]"<br>The [position] then would be either "banner", "mrec" or "mrec_btf".<br><br>An example could look like this: `inventoryCode = bild.de-ios_phone-news_index-mrec` | yes      |
+| [placementName]<br>(inventoryCode)          | You can use placementNames instead of ids.<br>The syntax is the following:<br><br>"[publisherName]-[platform]-[pagename]-[position]"<br>The [position] then would be either "banner", "mrec" or "mrec_btf".<br><br>An example could look like this: `inventoryCode = bild.de-ios_phone-news_index-mrec` | yes      |
 | [sizes]                  | **Banner Sizes**:<br>320x50 (primary size), 300x75, 320x75, 320x80, 320x100, 320x150, 320x160<br><br>**Mrec & Mrec_btf Sizes**:<br>300x250, 250x250, 300x300       | yes      |
 | [publisherId]            | The ID of your publisher in the Xandr Ad Server. The publisherId is important for the adServer to deliver fallback ads in case the placement name is unknown.<br><br>If you don't know this id, you can ask Ad Technology for help.                     | yes      |
 | [memberId]            | The ID of your Xandr seat. <br><br>If you don't know this id, you can ask Ad Technology for help.                     | yes      |
