@@ -271,7 +271,7 @@ adSlotSizes: {
 
 Overwrites adlib gaia defaults. Every property defined here will overwride the matching property defaulted by the adlib. (optional)
 </td>
-<td>
+<td style="overflow-x: scroll;">
 
 ```javascript
 gaiaSetup: {
@@ -313,9 +313,17 @@ gaiaSetup: {
     ".module-liveticker"
   ],
   "wrapperCSS": "margin: 0 0 20px 0;",
-  "markerCSS": ".gaiaWrapper:after {content: 'Anzeige'; font-size: .75rem; display: block; text-align: center; text-transform: uppercase; color: #999; line-height: 2rem;}",
+  "markerCSS": ".gaiaWrapper:after {
+      content: 'Anzeige'; font-size: .75rem; display: block; text-align: center; 
+      text-transform: uppercase; color: #999; line-height: 2rem;
+   }",
   "wrapperCSSmew": "margin: 0 0 15px 0;",
-  "markerCSSmew": ".gaiaWrapper:before {display: block; content: 'Anzeige'; letter-spacing: normal; font-family: ffmark,Helvetica Neue,Helvetica,Arial,sans-serif; font-style: normal; font-weight: 200; font-size: 12px; line-height: 16px; display: block; color: #787878; text-align: right;}"
+  "markerCSSmew": ".gaiaWrapper:before {
+      display: block; content: 'Anzeige'; letter-spacing: normal; 
+      font-family: ffmark,Helvetica Neue,Helvetica,Arial,sans-serif; 
+      font-style: normal; font-weight: 200; font-size: 12px; 
+      line-height: 16px; display: block; color: #787878; text-align: right;
+   }"
 }
 ```
 
