@@ -121,6 +121,77 @@ adSlotSizes: {
 </td>
     <td>yes</td>
   </tr>
+  
+
+  <tr>
+    <td>gaiaSetup</td>
+<td>
+
+Overwrites adlib gaia defaults. Every property defined here will overwride the matching property defaulted by the adlib. (optional)
+
+</td>
+  
+<td>
+
+```javascript
+gaiaSetup: {
+  "startCount": 10,
+  "fitSizeToSlot": true,
+  "sizes": {
+      "m": [[300, 50], [320, 50], [300, 75], [320, 75], [300, 80], [320, 80], [300, 150], [320, 150]],
+      "d": [[970, 250], [800, 250], [300, 250]]
+   },         
+  "matchTagsBefore": [
+    "</h2>"
+  ],
+  "matchTagsAfter": [
+    "</div>",
+    "</p>"
+  ],
+  "ads": [
+    "teaser",
+    "regteaser",
+    "liveticker-ad"
+  ],
+  "resetBy": [
+    "sas_.*",
+    "ANZEIGE"
+  ],
+  "except": [
+    "<h3>Lesen Sie auch</h3>",
+    "video",
+    "<img",
+    "embed",
+    "iframe"
+  ],
+  "article": [
+    "main[role='main']",
+    ".hs-liveticker"
+  ],
+  "textWrapper": [
+    "article",
+    ".module-liveticker"
+  ],
+  "wrapperCSS": "margin: 0 0 20px 0;",
+  "markerCSS": ".gaiaWrapper:after {
+      content: 'Anzeige'; font-size: .75rem; display: block; text-align: center; 
+      text-transform: uppercase; color: #999; line-height: 2rem;
+   }",
+  "wrapperCSSmew": "margin: 0 0 15px 0;",
+  "markerCSSmew": ".gaiaWrapper:before {
+      display: block; content: 'Anzeige'; letter-spacing: normal; 
+      font-family: ffmark,Helvetica Neue,Helvetica,Arial,sans-serif; 
+      font-style: normal; font-weight: 200; font-size: 12px; 
+      line-height: 16px; display: block; color: #787878; text-align: right;
+   }"
+}
+```
+</td>
+    <td>yes</td>
+  </tr>
+  
+  
+  
   <tr>
     <td>placeholders</td>
 <td>
