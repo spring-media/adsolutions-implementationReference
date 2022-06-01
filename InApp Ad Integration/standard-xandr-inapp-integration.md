@@ -115,7 +115,7 @@ Please have a look into the following documents provided by Xandr:
 | [show-banners-on-iOS](https://docs.xandr.com/bundle/mobile-sdk/page/show-banners-on-ios.html) | Describes how to request & render ads | 
 | [publisher-id-for-iOS](https://docs.xandr.com/bundle/mobile-sdk/page/publisher-id-for-ios.html) | Describes how to handle the publisherId | 
 | [single-request-mode-for-iOS](https://docs.xandr.com/bundle/mobile-sdk/page/single-request-mode-for-ios.html) | Describes the use of customKeyword parameter| 
-
+| [Pass custom keywords on iOS](https://docs.xandr.com/bundle/mobile-sdk/page/pass-custom-keywords-on-ios.html) | Explains how to use the addCustomKeywordWithKey function, <br>to add custom keywords on iOS |
 
 <br>
 
@@ -133,6 +133,7 @@ Please have a look into the following documents provided by Xandr:
 | [show-banners-on-android](https://docs.xandr.com/bundle/mobile-sdk/page/show-banners-on-android.html) | Describes how to request & render ads | 
 | [publisher-id-for-android](https://docs.xandr.com/bundle/mobile-sdk/page/publisher-id-for-android.html) | Describes how to handle the publisherId | 
 | [single-request-mode-for-android](https://docs.xandr.com/bundle/mobile-sdk/page/single-request-mode-for-android.html) | Describes the use of customKeyword parameter| 
+| [Pass custom keywords on Android](https://docs.xandr.com/bundle/mobile-sdk/page/pass-custom-keywords-on-android.html) | Explains how to use the addCustomKeywordWithKey function, <br>to add custom keywords on Android |
 
 
 
