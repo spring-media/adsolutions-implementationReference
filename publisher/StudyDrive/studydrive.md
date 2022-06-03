@@ -16,7 +16,7 @@ In this document you will learn how to implement our adlib in your site to deliv
  - [Publisher-specific integration](#publisher-specific-integration)
     - [The adSSetup - parameters and what to keep in mind](#the-adssetup---parameters-and-what-to-keep-in-mind)
     - [Pagename Structure](#pagename-structure)
-    - [Delivering Course Teaser (native)](#delivering-course-teaser)
+    - [Delivering Course Teaser (native)](#delivering-course-teaser-native)
     - [Request ads on demand](#request-ads-on-demand)
     - [Connection to Power BI](#connection-to-power-bi)
  - [InApp Ad Integration](#inapp-ad-integration)
