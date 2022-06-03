@@ -16,12 +16,13 @@ In this document you will learn how to implement our adlib in your site to deliv
  - [Publisher-specific integration](#publisher-specific-integration)
     - [The adSSetup - parameters and what to keep in mind](#the-adssetup---parameters-and-what-to-keep-in-mind)
     - [Pagename Structure](#pagename-structure)
-    - [Delivering Course Teaser](#delivering-course-teaser)
+    - [Delivering Course Teaser (native)](#delivering-course-teaser)
     - [Request ads on demand](#request-ads-on-demand)
     - [Connection to Power BI](#connection-to-power-bi)
  - [InApp Ad Integration](#inapp-ad-integration)
  - [QA and testing](#qa-and-testing)
     - [Testads](#testads)
+    - [Ad Alert](#adalert)
     - [Forced Ad Formats](#forced-ad-formats)
     - [Human detection](#human-detection)
    
@@ -221,7 +222,7 @@ For an overview of our recommended placements and associated sizes, please have 
 
 
 
-## Delivering Course Teaser
+## Delivering Course Teaser (native)
 
 The course teasers will be delivered using a native JSON feed with the special size `427x23`. How this works, is described [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/peculiar/nativeTrigger.md).<br>
 Basically, we deliver a JSON feed for these native ads for the specific `427,23` size. When these ads are implemented on your page, you need to set an EventListener on our **adInfo** event and react to the hasAd property for this specific contId.
@@ -293,6 +294,16 @@ If you would like to test the ad delivery, you can set a special cookie here: ht
 
 <br>
 
+
+## AdAlert
+
+By writing "adalert" into the page where the adlib is integrated, you can trigger a debugging feature, that shows you additional information regarding page related settings (such as CMP settings, keywords, pagename, etc.) and delivered ads (creative id's, ...).
+Please make sure, that the page content is in focus (a simple click in the page's background helps, if its not working on the first time) while writing "adalert".
+
+You can find more information on the adalert here: <br>
+https://github.com/spring-media/adsolutions-implementationReference/blob/master/QA/adalert.md
+
+<br>
 
 ## Forced Ad Formats
 
