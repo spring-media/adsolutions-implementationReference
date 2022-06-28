@@ -49,7 +49,7 @@ But other than on webpages, you have to handle ad requests and rendering on your
 ## SDK Integration - iOS
 
 Depending on your used package manager, there are different ways to integrate the Xandr SDK.
-On [this Xandr documentation page](https://docs.xandr.com/bundle/mobile-sdk/page/sdk-integration.html) you can find detailed instructions on how to accomplish the integration.
+On [this Xandr documentation page]([https://docs.xandr.com/bundle/mobile-sdk/page/sdk-integration.html](https://docs.xandr.com/bundle/mobile-sdk/page/ios-sdk-integration-instructions.html)) you can find detailed instructions on how to accomplish the integration.
 
 You can find the github repository of the xandr-ios-sdk [here](https://github.com/appnexus/mobile-sdk-ios).
 
