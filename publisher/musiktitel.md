@@ -14,7 +14,9 @@ Set view: "m" for mobile or "d" for desktop viewport.
 
 `adSSetup = {view: "d",`
 
-## 2. Switch for the 3th party scripts. We strictly recommend to set it as "false" only on pages for directsales campaign only to max out the revenue
+## 2. Switch for the 3th party scripts
+
+We strictly recommend to set it as "false" only on pages for directsales campaign only to max out the revenue.
 
 `	partners: true,`
 
