@@ -13,12 +13,10 @@ In this document you will learn how to implement our adlib in your site to deliv
     - [1. Include the AdLib](#1-include-the-adlib)
     - [2. AdSSetup - provide the config for the ad delivery](#2-adssetup---provide-the-config-for-the-ad-delivery)
     - [3. Provide Ad Slots](#3-provide-ad-slots)
- - [Publisher-specific integration](#publisher-specific-integration)
-    - [The adSSetup - parameters and what to keep in mind](#the-adssetup---parameters-and-what-to-keep-in-mind)
-    - [Pagename Structure](#pagename-structure)
  - [QA and testing](#qa-and-testing)
     - [Testads](#testads)
     - [Human detection](#human-detection)
+ - [Help](#help)
    
 
 <br>
@@ -205,5 +203,18 @@ It can happen, that the adserver does not deliver ads, when the user emulates de
 In general the detection tries to find non human or potential malicious requests (e.g. making adcalls from localhost, making many requests within the same second, uncommon request headers, ...).
 
 <br>
+
+
+-----
+
+
+# Help
+
+If something is unclear or you have any questions, you can contact us via email:
+
+
+__Ad Technology Team__
+adtechnology@axelspringer.de
+
 
 
