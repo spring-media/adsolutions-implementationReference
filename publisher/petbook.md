@@ -43,7 +43,7 @@ Basically there are only three important steps to implement a basic ad integrati
 <html>
     <head>
         <title>Your great website</title>
-+       <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/studydrive.js"></script>
++       <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/petbook.js"></script>
     </head>
     <body>
 
