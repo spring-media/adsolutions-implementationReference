@@ -12,15 +12,15 @@ In the given argument you will receive all information gathered to the actual ad
 
 The most important information though will be this:
 
-Property | Type | Always available? | Used for
---- | --- | --- |--- 
-adSlot.detail.id | *string* | yes | the adSlot container id e.g. `superbanner`, `billboard_btf` ...
-adSlot.detail.hasAd | *boolean* | yes | let's you know if there is an ad.
-adSlot.detail.hasMarker | *boolean* | no | let's you know if the ad brings its own marker.
-adSlot.detail.placementSize | *string* | no | the size of the adplacement the winning bid is booked to
+Property | Type | Always available?           | Used for
+--- | --- |-----------------------------|--- 
+adSlot.detail.id | *string* | yes                         | the adSlot container id e.g. `superbanner`, `billboard_btf` ...
+adSlot.detail.hasAd | *boolean* | yes                         | let's you know if there is an ad.
+adSlot.detail.hasMarker | *boolean* | no                          | let's you know if the ad brings its own marker.
+adSlot.detail.placementSize | *string* | yes                         | the size of the adplacement the winning bid is booked to
 adSlot.detail.tempName | *string* | empty when `hasAd` is false | identifies the adformat, e.g. videowall, fireplace, oneTag etc.
-adSlot.detail.crea1.height | *string* | no | the real base-height of the first creative of the adformat
-adSlot.detail.crea1.width | *string* | no | the real base-width of the first creative of the adformat
+adSlot.detail.crea1.height | *string* | yes                         | the real base-height of the first creative of the adformat
+adSlot.detail.crea1.width | *string* | yes                         | the real base-width of the first creative of the adformat
 
 ## Usage
 
