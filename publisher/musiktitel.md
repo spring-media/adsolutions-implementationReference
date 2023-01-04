@@ -38,7 +38,7 @@ Example for 3 Medium Rectangle btf
 
 For a deeper explanation please take a look into this documentation about our [onDemandAd-Integration](https://github.com/spring-media/adsolutions-implementationReference/blob/master/peculiar/onDemandAd-integration.md).
 
-More info on [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement) and [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website)
+More info on [Placement Sizes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#4-define-the-sizes-for-every-ad-placement) and [Placement Codes](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#3-define-the-ad-placements-for-the-website).
 
 ## 4. Define the sizes for every ad placement:
 
@@ -80,6 +80,10 @@ More info on [Placement Sizes](https://github.com/spring-media/adsolutions-imple
 		}],
 	},
 ```
+
+You can find more infos on possible creative sizes in our [creative sizes reference](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#creative-sizes-reference).
+
+
 
 ## 5. CLS Placeholder Configuration
 
