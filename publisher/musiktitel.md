@@ -136,7 +136,28 @@ placeholder: {
 
 `<script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/musikexpress.js"></script>`
 
-This `js` contains the whole Ad Library.
+This `js` contains the whole Ad Library. 
+**Important: Please do not load the library asynchronically or via a tag manager!** <br>
+We cannot guarantee that the ad integration will continue to work properly and cannot provide support in this case.
+
+
+## 8. Special Use Cases
+
+### Ads in image galleries
+
+It makes sense to reload ads in image galleries on a user interaction _(when the user loads the next image, etc.)_.
+You can use our reloadAds Event to manually trigger a reload on one or more ads. Find out more about the integration [in our documentation](https://github.com/spring-media/adsolutions-implementationReference/blob/master/peculiar/reload-ads-event.md).
+
+
+### Responsive AdSSetup
+
+If you are using the AdLib on a full responsive webpage, we recommend taking a look at the following document:<br>
+[Responsive AdSSetup Suggestion](https://github.com/spring-media/adsolutions-implementationReference/blob/master/responsive-adssetup-suggestion.md)
+<br><br>
+It provides some suggestions on how to setup the adSSetup dynamically for multiple viewports.
+
+
+
 
 ## Help
 
