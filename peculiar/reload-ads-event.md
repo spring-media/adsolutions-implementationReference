@@ -8,6 +8,10 @@ By dispatching the event "reloadAds", you will reload all visible ads inside the
 This is how it could look as an ES5 cross browser example:
 
 
+## Reload all visible adSlots
+
+With this snippet you will reload all visible adSlots in the current viewport
+
 
 ```html
 <script>
@@ -23,9 +27,26 @@ This is how it could look as an ES5 cross browser example:
 ```
 
 
+## Reload only one specific adSlot
+
+If you only want to reload one specific adSlot, you can specify it in the `'detail'` parameter:
+
+```html
+<script>
+    var ev;
+    try {
+        ev = new CustomEvent('renderAd', {'detail': 'mrec_btf_2'});
+    }catch(err){
+        ev = document.createEvent('CustomEvent');
+        ev.initCustomEvent('renderAd', true, true, {'detail': 'mrec_btf_2'});
+    }
+    document.dispatchEvent(ev);
+</script>
+```
+
 
 ## Help
 If you have any questions or problem don't hesitate to contact us:
 
-__Ad Technology Team__
+__Ad Technology Team__<br>
   adtechnology@axelspringer.de
