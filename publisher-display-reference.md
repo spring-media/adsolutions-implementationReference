@@ -309,7 +309,7 @@ __Superbanner__
 
 `<div id="superbanner"></div>`
 
-![superbanner](https://bracho.xyz/adtech/img/superbanner.png "superbanner")
+![superbanner](assets/superbanner.png "superbanner")
 
 This placement should be positioned at the top of the web page. Wallpapers and fireplaces are also delivered via this placement. [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
@@ -319,7 +319,7 @@ This placement should be positioned at the top of the web page. Wallpapers and f
 
 `<div id="sky"></div>`
 
-![sky](https://bracho.xyz/adtech/img/sky.png "sky")
+![sky](assets/sky.png "sky")
 
 This placement is to be positioned on the left side of the website content. Sitebars, dynamic sitebars, and double-dinamic sitebars are also delivered via this placement. [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
@@ -329,7 +329,7 @@ This placement is to be positioned on the left side of the website content. Site
 
 `<div id="billboard"></div>`
 
-![billboard](https://bracho.xyz/adtech/img/billboard.png "billboard")
+![billboard](assets/billboard.png "billboard")
 
 This placement is to be placed directly under the navigation or under the first teaser of the website. [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
@@ -339,7 +339,7 @@ This placement is to be placed directly under the navigation or under the first 
 
 `<div id="mrec"></div>`
 
-![mrec](https://bracho.xyz/adtech/img/mrec.png "mrec")
+![mrec](assets/mrec.png "mrec")
 
 We recommend to place the first Mrec above the fold (ATF). [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
@@ -349,7 +349,7 @@ We recommend to place the first Mrec above the fold (ATF). [These sizes must be 
 
 `<div id="inpage"></div>`
 
-![inpage](https://bracho.xyz/adtech/img/inpage.png "inpage")
+![inpage](assets/inpage.png "inpage")
 
 Interstitials, Understitials, and InText-Outstream Advertising Materials are delivered through the inpage Placement. This placement is to be placed in the position requested by the publisher for InText- Outstream ads. [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
@@ -361,7 +361,7 @@ Interstitials, Understitials, and InText-Outstream Advertising Materials are del
 
 `<div id="banner"></div>`
 
-![banner](https://bracho.xyz/adtech/img/mobil_banner.png "banner")
+![banner](assets/mobil_banner.png "banner")
 
 This placement should be positioned at the top of the web page.  [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
@@ -371,7 +371,7 @@ This placement should be positioned at the top of the web page.  [These sizes mu
 
 `<div id="mrec"></div>`
 
-![mrec](https://bracho.xyz/adtech/img/mobil_mrec.png "mrec")
+![mrec](assets/mobil_mrec.png "mrec")
 
 We recommend to place the first Mrec above the fold (ATF). [These sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
@@ -381,7 +381,7 @@ We recommend to place the first Mrec above the fold (ATF). [These sizes must be 
 
 `<div id="inpage"></div>`
 
-![inpage](https://bracho.xyz/adtech/img/mobil_inpage.png "inpage")
+![inpage](assets/mobil_inpage.png "inpage")
 
 Interstitials, Understitials, and InText-Outstream Advertising Materials are delivered through the inpage Placement. This placement is to be placed in the position requested by the publisher for InText- Outstream ads. [This sizes must be used](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md#for-desktop-1).
 
@@ -391,7 +391,7 @@ Interstitials, Understitials, and InText-Outstream Advertising Materials are del
 
 `<div id="mrec"></div>`
 
-![mrec_btf](https://bracho.xyz/adtech/img/mobil_mrec-btf.png "mrec_btf")
+![mrec_btf](assets/mobil_mrec-btf.png "mrec_btf")
 
 This placement can be placed multiple times on a page. We stron recommend to place one mrec_btf after 3 blocks of text. 
 **_Please use the following schema_**
@@ -410,19 +410,19 @@ Each Size belongs to a certain creative. For standard creatives we use the IAB s
 
 Size | Creative | IAB | Preview
 --- | --- | --- | ---
-*728,90* | Superbanner/Leaderboard | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![superbanner](https://www.mediaimpact.de/img/259938729_8679ac04a5.png) 
-*728,600* | Wallpaper | NO | ![wallpaper](https://www.mediaimpact.de/img/259939288_8f18a8ab42.png)
-*1000,600* | Fireplace | NO | ![fireplace](https://www.mediaimpact.de/img/259936043_5720a66922.png)
-*120,600 / 160,600* | Skyscraper/Wide Skyscraper | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![sky](https://www.mediaimpact.de/img/259938354_61b8de7b87.png)
-*500,1000* | Sitebar / Dynamic Sitebar | NO | ![sitebar](https://www.mediaimpact.de/img/259938311_668a6ffc7f.jpg) 
-*1000,1000* | Double Dynamic Sitebar | NO | ![ddsitebar](https://www.mediaimpact.de/img/259935976_a7ceba51e1.jpg)
-*970,250 / 800,250* | Billboard | [YES](https://www.iab.com/guidelines/display-rising-stars-ad-units/) | ![billboard](https://www.mediaimpact.de/img/260414472_afb6b266ac.png)
-*320,50* | Mobile Banner 6:1 | [YES](https://www.iab.com/wp-content/uploads/2015/11/IAB_Display_Mobile_Creative_Guidelines_HTML5_2015.pdf) | ![banner](https://www.mediaimpact.de/img/255769308_93e7985278.png)
-*320,75 / 320,160* | Mobile Banner 4:1, 2:1 | NO | ![banner](https://www.mediaimpact.de/img/259935346_91d7ad6f6a.png)
-*300,300* | Premium Content Ad / 1:1 | NO | ![banner](https://bracho.xyz/adtech/img/1zu1.png)
-*1,1* | Interstitial / Layer | NO | ![layer](https://www.mediaimpact.de/img/259936587_91132c38f0.png)
-*640,360* | InText Outstream | NO | ![intext](https://www.mediaimpact.de/img/247697695_eb888aae1f.png)
-*1000,300* | Understitial | NO | ![understitial](https://www.mediaimpact.de/img/241655065_2d46473d2d.png)
+*728,90* | Superbanner/Leaderboard | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![superbanner](https://www.mediaimpact.de/data/uploads/2018/08/superbanner.png) 
+*728,600* | Wallpaper | NO | ![wallpaper](https://www.mediaimpact.de/data/uploads/2018/08/Wallpaper-Desktop-621x350.png)
+*1000,600* | Fireplace | NO | ![fireplace](https://www.mediaimpact.de/data/uploads/2018/09/Fireplace-Desktop-621x350.png)
+*120,600 / 160,600* | Skyscraper/Wide Skyscraper | [YES](https://www.iab.com/guidelines/universal-ad-package/) | ![sky](https://www.mediaimpact.de/data/uploads/2018/08/skyscraper.png)
+*500,1000* | Sitebar / Dynamic Sitebar | NO | ![sitebar](https://www.mediaimpact.de/data/uploads/2018/08/sitebar-1.png) 
+*1000,1000* | Double Dynamic Sitebar | NO | ![ddsitebar](https://www.mediaimpact.de/data/uploads/2018/08/double-dynamic-sitebar-300x169.png)
+*970,250 / 800,250* | Billboard | [YES](https://www.iab.com/guidelines/display-rising-stars-ad-units/) | ![billboard](https://www.mediaimpact.de/data/uploads/2018/08/billboard-300x169.png)
+*320,50* | Mobile Banner 6:1 | [YES](https://www.iab.com/wp-content/uploads/2015/11/IAB_Display_Mobile_Creative_Guidelines_HTML5_2015.pdf) | ![banner](https://www.mediaimpact.de/data/uploads/2018/08/mobile-app-content-ad-thumb-130x100.png)
+*320,75 / 320,160* | Mobile Banner 4:1, 2:1 | NO | ![banner](https://www.mediaimpact.de/data/uploads/2018/08/mobile-content-ad-300x169.png)
+*300,300* | Premium Content Ad / 1:1 | NO | ![banner](assets/1zu1.png)
+*1,1* | Interstitial / Layer | NO | ![layer](https://www.mediaimpact.de/data/uploads/2019/03/mobile_halfpage_ad-621x350.png)
+*640,360* | InText Outstream | NO | ![intext](https://www.mediaimpact.de/data/uploads/2022/01/bigstage_teaser-130x100.png)
+*1000,300* | Understitial | NO | ![understitial](https://www.mediaimpact.de/data/uploads/2018/08/mobile-understitial-300x169.png)
 
 ## QA and Testing
 
@@ -451,4 +451,4 @@ If your website hast special placement f.e. Teaser, multilinks, etc., please con
 ## Special Features
 ### Lazy Loading
 The "btf" placements in the Browser are loaded with lazy loading. Those ads will be rendered only if the placement 100px under the viewport
-![Lazyloading](https://bracho.xyz/adtech/img/lazyloading.png "Lazy Loading")
+![Lazyloading](assets/lazyloading.png "Lazy Loading")
