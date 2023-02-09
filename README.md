@@ -344,11 +344,15 @@ placeholder: {
     disablePlaceholders: false,
     default: {	
         "border-color": "#EEEDE8",
+        "border": "5px dotted blue", // optional, replaces border-color
         "background-color": "#F9F9F7",
+        "after": "{content: 'ADVERTISMENT'}", // optional, replace "ANZEIGE" by your own CSS
+        "before": "{...}}", // optional
         "admarkPosition": "bottom right",
         "color": "#BCBCBC",
         "font-size": "12px",
-        "font-family": "Tahoma"
+        "font-family": "Tahoma",
+        "clickUrl": "https://adtechnology.axelspringer.com" // optional
     },
     mrec: { 
         "background-color": "#FCBFFF"

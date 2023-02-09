@@ -54,16 +54,20 @@ There is a [new part](https://github.com/spring-media/adsolutions-implementation
 ```javascript
 placeholder: {
    disablePlaceholders: false,
-   default: {	
-      "border-color": "#EEEDE8",
-      "background-color": "#F9F9F7",
-      "admarkPosition": "bottom right",
-      "color": "#BCBCBC",
-      "font-size": "12px",
-      "font-family": "Tahoma"
-   },
-   mrec: { 
-      "background-color": "#FCBFFF"
+   default: {
+		"border-color": "#EEEDE8",
+		"border": "5px dotted blue", // optional, replaces border-color
+		"background-color": "#F9F9F7",
+		"after": "{content: 'ADVERTISMENT'}", // optional, replace "ANZEIGE" by your own CSS
+		"before": "{...}", // optional
+		"admarkPosition": "bottom right",
+		"color": "#BCBCBC",
+		"font-size": "12px",
+		"font-family": "Tahoma",
+		"clickUrl": "https://adtechnology.axelspringer.com" // optional
+	},
+	mrec: {
+       "background-color": "#FCBFFF"
    }
 }
 
@@ -85,12 +89,16 @@ placeholder: {
 
 ```javascript
 default: {	
-   "border-color": "#EEEDE8",
-   "background-color": "#F9F9F7",
-   "admarkPosition": "bottom right",
-   "color": "#BCBCBC",
-   "font-size": "12px",
-   "font-family": "Tahoma"
+	"border-color": "#EEEDE8",
+	"border": "5px dotted blue", // optional, replaces border-color
+	"background-color": "#F9F9F7",
+	"after": "{content: 'ADVERTISMENT'}", // optional, replace "ANZEIGE" by your own CSS
+	"before": "{...}", // optional
+	"admarkPosition": "bottom right",
+	"color": "#BCBCBC",
+	"font-size": "12px",
+	"font-family": "Tahoma",
+	"clickUrl": "https://adtechnology.axelspringer.com" // optional
 },
 
 ```
@@ -123,23 +131,25 @@ So with that you can (*for example*) set the border-color to be fully transparen
 
 ```javascript
 placeholder: {
-   default: {	
-      "border-color": "#EEEDE8",
-      "background-color": "#F9F9F7",
-      "admarkPosition": "bottom right",
-      "color": "#BCBCBC",
-      "font-size": "12px",
-      "font-family": "Tahoma"
-   },
-   mrec: {
-      "color": "#333333",
-      "admarkPosition": "center center"
-   },
-   billboard: {
-      "color": "#ffffff",
-      "background-color": "#00bfff",
-      "border-color": "#ff0000"
-   },
+	default: {	
+		"border-color": "#EEEDE8",
+		"background-color": "#F9F9F7",
+		"admarkPosition": "bottom right",
+		"color": "#BCBCBC",
+		"font-size": "12px",
+		"font-family": "Tahoma"
+	},
+	mrec: {
+		"color": "#333333", 
+		"admarkPosition": "center center",
+		"clickUrl": "https://adtechnology.axelspringer.com"
+	},
+	billboard: {
+		"color": "#ffffff",
+		"background-color": "#00bfff",
+		"border-color": "#ff0000",
+		"before": "{...}"
+	},
 },
 
 ```
@@ -150,18 +160,22 @@ So this is how it would look like, if you wanted to disable the placeholder for 
 
 ```javascript
 placeholder: {
-   disablePlaceholders: false,
-   default: {	
-      "border-color": "#EEEDE8",
-      "background-color": "#F9F9F7",
-      "admarkPosition": "bottom right",
-      "color": "#BCBCBC",
-      "font-size": "12px",
-      "font-family": "Tahoma"
-   },
-   superbanner: { 
-      disable: true
-   }
+	disablePlaceholders: false,
+	default: {	
+		"border-color": "#EEEDE8",
+		"border": "5px dotted blue", // optional, replaces border-color
+		"background-color": "#F9F9F7",
+		"after": "{content: 'ADVERTISMENT'}", // optional, replace "ANZEIGE" by your own CSS
+		"before": "{...}}", // optional
+		"admarkPosition": "bottom right",
+		"color": "#BCBCBC",
+		"font-size": "12px",
+		"font-family": "Tahoma",
+		"clickUrl": "https://adtechnology.axelspringer.com" // optional
+	},
+	superbanner: { 
+		disable: true
+	}
 }
 
 ```
