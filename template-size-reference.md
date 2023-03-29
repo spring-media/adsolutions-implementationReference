@@ -8,9 +8,9 @@ but is used for it normally.
 adType | Format-/Template Name    | technical size | request sizes | numberOfBanners | regular slot(s)
 --- |--------------------------|----------------| -- | --- | --- 
 Display | 1:1                      | 300x300        |  | 1 | mrec, teaser
-Display | 2:1                      | 320x160        | 320x160<br/>300x150 | 1 | mrec, teaser
-Display | 4:1                      | 320x75         | 320x80<br/>300x80<br/>320x75<br/>300x75 | 1 | mrec, teaser
-Display | 6:1                      | 320x50         | 320x50<br/>300x50<br/> | 1 | mrec, teaser
+Display | 2:1                      | 320x160        | 320x160<br/>300x150 | 1 | banner, mrec, teaser
+Display | 4:1                      | 320x75         | 320x80<br/>300x80<br/>320x75<br/>300x75 | 1 | banner, mrec, teaser
+Display | 6:1                      | 320x50         | 320x50<br/>300x50<br/> | 1 | banner, mrec, teaser
 Display | aubiTeaser               |                |  | 1 | mrec, teaser
 Display | Autobild MenueAd         | 4x4            |  | 1 | menuead
 Display | Autobild Mobile NativeAd |                |  | 1 | mrec, teaser
