@@ -178,15 +178,137 @@ _If you no longer want to receive the test ads, you can always remove the cookie
 
 ## 4. Video Setup
 
- - 
+🚧 This section is still under construction 🚧
 
 
+<br>
 <br>
 
 
 ## 5. Request Ads on demand / Infinite Scrolling
 
- - 
+> This section shows you how to call ads on demand for infinite scrolling.
+
+<br>
+
+
+### Requesting multiple mrec_btf placements
+
+Per default our \_btf placements are always copies of the initial \_btf placement in the adSSetup. <br>
+_(if needed, you can specify for example mrec_btf_8 in the adSSetup with other sizes if you need to use different sizes on one specific \_btf placement)_
+<br><br>
+You can repeat the btf placements as much as you want. Please use the following schema:
+
+**Example for 3 Medium Rectangle btf**
+
+ - mrec_btf
+ - mrec_btf_2
+ - mrec_btf_3
+
+
+<br>
+
+### Check if ad sizes are defined
+
+The ad-lib respects the sizes defined in the adSSetup until the ad-calls are called. In order to ensure that sizes for the actual ad-request are properly set, you may redefine them whenever necessary.<br>
+For instance, in the following example, we'll check if all sizes have already been included and add any missing dimensions:
+
+
+```html
+<script>
+    if (adSSetup.adSlotSizes["mrec_btf_2"]) {
+        adSSetup.adSlotSizes["mrec_btf_2"][0].sizes = adSSetup.adSlotSizes["mrec_btf_2"][0].sizes.concat([
+            [300, 250], 
+            [300, 300], 
+            [320, 480], 
+            [300, 600]
+        ]);
+    } else {
+        adSSetup.adSlotSizes["mrec_btf_2"] = [{
+            minWidth: 1,
+            sizes: [
+                [300, 250], 
+                [300, 300], 
+                [320, 480], 
+                [300, 600]
+            ]
+        }]
+    }
+</script>
+```
+
+<br>
+
+### Register an Event Listener to Receive Information from Ad-lib per Ad Slot
+
+The adlib enables you to retrieve useful information for each ad slot via the "adInfo" event listener. This event may provide some data points that you can then react to, or in some cases explicitly not react to.
+
+You can set the event listener like in the following example:
+
+```html
+<script>
+window.addEventListener("adInfo", function(adSlot) {
+    console.log(adSlot);
+});
+</script>
+```
+
+<br>
+
+### Add an ad slot to receive the adserver response
+The adservers framework works with the HTML attribute id to render its codes,
+so we need a node for each adplacement to process.
+This example shows a node for direct integration into the HTML, but you may also append it by javascript.
+It uses a wrapper node element that may be styled (your space), please not use CSS directly on the adslot itself (our space):
+
+```html
+<div id="mrec_btf_2_wrapper" class="mrec_btf_Wrapper" style="float:right">
+    <div id="mrec_btf_2"></div>
+</div>
+```
+
+For further information on this feature please have a look into our [adInfo reference](../publisher-loadHandler-reference.md).
+
+
+<br>
+
+
+### Request an ad
+Since we now have set all preparations we will order an ad one per adslot.
+This example shows an cross-browser solution to do so for the adslot div#betad_2:
+
+```html
+<script>
+    var ev;
+    try {
+        ev = new CustomEvent('renderAd', {'detail': 'mrec_btf_2'});
+    }catch(err){
+        ev = document.createEvent('CustomEvent');
+        ev.initCustomEvent('renderAd', true, true, {'detail': 'mrec_btf_2'});
+    }
+    document.dispatchEvent(ev);
+</script>
+```
+
+
+<br>
+
+### Decide what to do with the ad Info
+The adlib will now start an ad-request and after it finished, every listener will be informed.
+If needed, you can now act on the info of the adResponse. This might be interesting for handling ad-markers. _(Some mobile templates bring an own ad marker with the ad response)_ 
+
+```html
+<script>
+window.addEventListener("adInfo", function(adSlot) {
+    var adResponse = adSlot.detail;
+    if (adResponse.hasMarker == true) {
+        // the ad comes with its own ad marker -
+        // you can now hide the publisher ad marker
+    }
+});
+</script>
+```
+
 
 <br>
 
