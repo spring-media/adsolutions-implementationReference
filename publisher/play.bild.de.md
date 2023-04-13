@@ -184,9 +184,7 @@ _If you no longer want to receive the test ads, you can always remove the cookie
 
 ## 4. Video Setup
 
-🚧 This section is still under construction 🚧
-
-This section explains the parameters for Xandr Video Requests.
+This section explains the parameters for Xandr Video Preroll Requests.
 The video ad call starts with a static url part which is always the same: 
  
 `https://ib.adnxs.com/ptv?member=7823&size=1x1&publisher=1000494`
@@ -198,19 +196,13 @@ The video ad call starts with a static url part which is always the same:
 | ------------- |:-------------| :-----|
 |    &inv_code=    |    [insert placement name here]      |    *list of placements provided by MI;  for now use static value bild.de-mew-play_video-preroll only*      |
 |    &vplaybackmethod=    |     3     |     *fixed value; 3=Click-to-play*     |
-|    &kw_vidBildAdlevel=    |     [so-called adlevel]     |     *you should get value from Bild feed, e.g. unterhaltung or politik*     |
+|    &kw_vidBildAdlevel=    |     [so-called adlevel]     |     *you should get value from Bild feed, e.g. unterhaltung or politik etc*     |
 |    &kw_misc=    |     [so-called taxonomie]     |     *you should get values from Bild feed, e.g. fischer_helene,schlager,tournee*     |
 |    &vwidth=    |    [player width in px]      |     *leave empty if value can't be passed; don't pass zero*     |
 |    &vheight=    |    [player height in px]      |     *leave empty if value can't be passed; don't pass zero*     |
 |    &kw_vduration=    |     [duration content video in seconds]     |     *you should get values from Bild feed; leave empty if you don't have value*     |
 |    &referrer=    |     [encoded URL where the ad will be rendered]     |  *e.g. https%3A%2F%2Fplay.bild.de%2F*        |
-
-
-## GDPR Consent Parameters
-
-| Parameter        | Value           | Note  |
-| ------------- |:-------------| :-----|
-|    &gdpr=     |    1     |   *1 = yes = GDPR applies*     |
+|    &gdpr=     |    1     |   *GDPR status; 1 = yes = GDPR applies*     |
 |    &gdpr_consent=     |    [GDPR Consent String]      |        |
 
 
