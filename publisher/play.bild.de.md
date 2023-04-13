@@ -181,7 +181,6 @@ _If you no longer want to receive the test ads, you can always remove the cookie
 
 
 
-
 ## 4. Video Setup
 
 This section explains the parameters for Xandr Video Preroll Requests.
@@ -209,7 +208,6 @@ The video ad call starts with a static url part which is always the same:
 ## Example
 [https://ib.adnxs.com/ptv?member=7823&inv_code=bild.de-desktop-regio_video-preroll&vplaybackmethod=3&kw_vidContentId=70136844&kw_misc=Hannover_regional,Coronavirus,Neuwagen&vwidth=993&vheight=1117&kw_vduration=74&referrer=https%3A%2F%2Fwww.bild.de%2Fvideo%2Fclip%2Fhannover-regional%2Fneuwagen-dicht-an-dicht-keine-fahrzeugauslieferung-wegen-corona-70136844.bild.html](https://ib.adnxs.com/ptv?member=7823&size=1x1&publisher=1000494&inv_code=bild.de-mew-play_video-preroll&&vplaybackmethod=3&kw_vidBildAdlevel=unterhaltung&kw_misc=fischer_helene,schlager,tournee&vwidth=1024&vheight=576&kw_vduration=132&referrer=https%3A%2F%2Fplay.bild.de%2F&gdpr=1&gdpr_consent=CPpzHMAPpzHMAFZABCENC-CgAP_AAAAAAAYgIcpZ_D7VbWFC-f59aPsgOYxXVMCSAuQCCACAA2ABgAKQcDwCkmAaNESgBgACGQAAoRJBIAIEDAEECUAAYAAEAAGgAAAEhAAIIABAgBEAAAIYAAoCAAAAAACIwAAREAAAmRgYA8LmGEBAxAAQIAAQgAABAAAAAgMAAAAIAAIAAAAAAAgAAAAAAAIAAAEgkCoABYAFQAMgAcAA8ACAAGQANAAeQBDAEUAJgATwAqgBvADmAH4AQgAhgBEACWAFKALcAYYA9oB-AH6ARwAkwBKQC5gGKANwAcQBIgCdgFDgKRAXmAwYBk4DggHjgQ5CAC4AHAAeABsAEgAPwCDgE0AOqAlYBTYDIQG0BoBYAXABDAD8AIKASYA6oCRAE7AKRAZOAzwMACAOoApsRAIAEMAPwAkwB1QEiAJ2AUiAycQABABIKgDABDACYAFwAjgC8wGeCgAQBBQDqjIAoAQwAmAEcAXmAzwYACALEAdUdAzAAWABUADIAHAAQAAyABoADwAH0AQwBFACYAE8AKsAXABdADEAG8AOYAfgBDACIAEsAKMAUoAsQBbgDDAGiAPaAfgB-gEWgI4AjoBJgCUgFiALmAYoA3ABxADqAIvASIAnYBQ4C8wF9AMGAZOAywBqoDxwIcjgC0ADgAPAAuACQAHIAPwAoADNAILAQcBCACIgE0AL0AYEA14B0gDqgJWAU2ArsBkIDJgG0EICgACwAMgBDACYAFUALgAYgA3gClAFiARwAlIBcwDFAHUASIAycBngDVQHjkAAgAzQCCgFiAOqSgNAALAAyABwAHgARAAmABVAC4AGIAQwAiABRgClAFuAPwAjgBcwDFAG4AOoAi8BIgC8wGTgMsAZ4SADgAXAByAM0Ag4BrwDqgJWKQKAAFgAVAAyABwAEAAMgAaAA8gCGAIoATAAngBSACqAGIAOYAfgBDACIAFGAKUAWIAtwBowD8AP0Ai0BHAEdAJSAXMAxQBuAEXgJEATsAocBeYC-gGTgMsAZ4A8coAPAAuACQAHIAPwA2gDNAIOAWIAuoBrwDqgKbAV2AyYBwQA.YAAAAAAAAAAA)
 
-<br>
 <br>
 
 
