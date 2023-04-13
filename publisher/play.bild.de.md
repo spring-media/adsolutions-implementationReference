@@ -91,7 +91,7 @@ Basically there are only three important steps to implement a basic ad integrati
 +                bgClick: false,
 +                hasVideoPlayer: true,
 +                isArticle: true,
-+                pageName: "demo_story",
++                pageName: "play_index",
 +                target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
 +                iabTax: "IAB2,IAB2-1,1,32"
 +            }
@@ -149,7 +149,7 @@ You can find a detailed overview with explanation of all parameters for the adSS
                 bgClick: false,
                 hasVideoPlayer: true,
                 isArticle: true,
-                pageName: "demo_story",
+                pageName: "play_index",
                 target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
                 iabTax: "IAB2,IAB2-1,1,32"
             }
