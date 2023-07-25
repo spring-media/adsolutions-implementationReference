@@ -46,13 +46,15 @@ Basically there are only three important steps to implement a basic ad integrati
 > Our AdLib is the heart of the ad delivery. There are many features and processes, that are done by the adlib and of course, you need to include the script on your page to get a working ad delivery.
 > During the onboarding process we provide you a tailor-made version for your page that takes many different settings and special requirements of the site into account.
 
+<br>
+
 
 ```diff
 
 <html>
     <head>
         <title>Your great website</title>
-+       <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/website.js"></script>
++       <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/adtechnology.axelspringer.js"></script>
     </head>
     <body>
 
@@ -64,6 +66,15 @@ Basically there are only three important steps to implement a basic ad integrati
 ```
 
 **Important**: It is very important, that you **do not** load the adlib asynchronically! Otherwise this will lead to [cumulative layout shifts](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) and delay the headerbidding a lot, which will cost your page real money in unrealised profits. 
+
+<br>
+
+
+#### 🚧 Work in progress 🚧 
+
+
+> We will use **https://www.asadcdn.com/adlib/pages/adtechnology.axelspringer.js** for now until we now the final domains and create a specified adlib for every page.
+> As soon as we can inspect the html structure of the pages, we will look for some specific selectors which are important for placing our ads on the page. While we are working with the **adtechnology.axelspringer.js**, it can happen that rendered ads are not proberly centered, since these specific selectors are missing in the setup.
 
 
 <br>
@@ -98,7 +109,7 @@ Basically there are only three important steps to implement a basic ad integrati
 +            }
 +        </script>
         
-        <script type="text/javascript" src="cdn/pages/website.js"></script>
+        <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/adtechnology.axelspringer.js"></script>
     </head>
     <body>
 
@@ -123,8 +134,58 @@ You can find a detailed overview with explanation of all parameters for the adSS
 
 
 
+### AdSSetup.adSlotSizes - Desktop
+
+Please use these sizes for your ad integration on desktop viewports for now:
+
+```javascript
+
+adSSetup = {
+    ...
+    "adPlacements": ["superbanner", "sky"],
+    "adSlotSizes": { 
+        "superbanner": [{
+            "minWidth": 1,
+            "sizes": [[728, 90], [728, 600], [1000, 600]]
+        }], 
+        "sky": [{
+            "minWidth": 1,
+            "sizes": [[160, 600], [120, 600], [300, 600], [500, 1000], [1000, 1000]]
+        }]
+    }
+    ...
+}
+
+```
+
 
 <br>
+
+
+
+### AdSSetup.adSlotSizes - Mobile
+
+Please use these sizes for your ad integration on mobile viewports for now:
+
+```javascript
+
+adSSetup = {
+    ...
+    "adPlacements": ["mrec"],
+    "adSlotSizes": { 
+        "mrec": [{
+            "minWidth": 1,
+            "sizes": [[320,160], [320,75], [320,50], [300,300], [300,250]]
+        }]
+    }
+    ...
+}
+
+```
+
+
+<br>
+
 
 
 ## 3. Provide Ad Slots
@@ -157,7 +218,7 @@ You can find a detailed overview with explanation of all parameters for the adSS
             }
         </script>
         
-        <script type="text/javascript" src="cdn/pages/website.js"></script>
+        <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/adtechnology.axelspringer.js"></script>
     </head>
     <body>
 
