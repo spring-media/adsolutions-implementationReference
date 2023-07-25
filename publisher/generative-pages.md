@@ -76,14 +76,14 @@ Basically there are only three important steps to implement a basic ad integrati
 +            adSSetup = {
 +                view: "d",
 +                partners: true,
-+                adPlacements: ["superbanner", "sky", "billboard", "mrec", "mrec_btf", "mrec_btf_2", "mrec_btf_3", "inpage"],
++                adPlacements: ["superbanner", "sky"],
 +                adSlotSizes: { ... },
 +                placeholder: { ... },
 +                colorBg: true,
 +                bgClick: true,
-+                hasVideoPlayer: true,
++                hasVideoPlayer: false,
 +                isArticle: true,
-+                pageName: "demo_story",
++                pageName: "news_story",
 +                target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
 +                iabTax: "IAB2,IAB2-1,1,32"
 +            }
@@ -141,9 +141,9 @@ You can find a detailed overview with explanation of all parameters for the adSS
                 placeholder: { ... },
                 colorBg: true,
                 bgClick: true,
-                hasVideoPlayer: true,
+                hasVideoPlayer: false,
                 isArticle: true,
-                pageName: "demo_story",
+                pageName: "news_story",
                 target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
                 iabTax: "IAB2,IAB2-1,1,32"
             }
@@ -155,8 +155,8 @@ You can find a detailed overview with explanation of all parameters for the adSS
 
       <div class="your-content">...</div>
       
-+     <div id="billboardWrapper">
-+         <div id="billboard"></div>
++     <div id="superbannerWrapper">
++         <div id="superbanner"></div>
 +     </div>
 
       <div class="your-content">...</div>
