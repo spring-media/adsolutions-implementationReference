@@ -9,9 +9,12 @@ In this document you will learn how to implement our adlib in your site to deliv
 
 ## Table of contents
 
+ - [Strategy](#strategy)
  - [Basic setup](#basic-setup)
     - [1. Include the AdLib](#1-include-the-adlib)
     - [2. AdSSetup - provide the config for the ad delivery](#2-adssetup---provide-the-config-for-the-ad-delivery)
+        - [AdSSetup.adSlotSizes - Desktop](#adssetupadslotsizes---desktop) 
+        - [AdSSetup.adSlotSizes - Mobile](#adssetupadslotsizes---mobile) 
     - [3. Provide Ad Slots](#3-provide-ad-slots)
  - [QA and testing](#qa-and-testing)
     - [Testads](#testads)
@@ -73,7 +76,7 @@ Basically there are only three important steps to implement a basic ad integrati
 #### 🚧 Work in progress 🚧 
 
 
-> We will use **https://www.asadcdn.com/adlib/pages/adtechnology.axelspringer.js** for now until we now the final domains and create a specified adlib for every page.
+> We will use our **adtechnology.axelspringer.js** for now until we now the final domains and create a specified adlib for every page.
 > As soon as we can inspect the html structure of the pages, we will look for some specific selectors which are important for placing our ads on the page. While we are working with the **adtechnology.axelspringer.js**, it can happen that rendered ads are not proberly centered, since these specific selectors are missing in the setup.
 
 
@@ -152,7 +155,7 @@ adSSetup = {
             "minWidth": 1,
             "sizes": [[160, 600], [120, 600], [300, 600], [500, 1000], [1000, 1000]]
         }]
-    }
+    },
     ...
 }
 
@@ -206,7 +209,6 @@ adSSetup = {
                 partners: true,
                 adPlacements: ["superbanner", "sky"],
                 adSlotSizes: { ... },
-                gaiaSetup: { ... },
                 placeholder: { ... },
                 colorBg: true,
                 bgClick: true,
