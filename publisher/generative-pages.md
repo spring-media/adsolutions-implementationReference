@@ -24,6 +24,15 @@ In this document you will learn how to implement our adlib in your site to deliv
 
 -----
 
+
+# Strategy
+
+To make the ad integration on these pages as easy as possible, we will only implement the adslots Superbanner & Sky (on desktop viewport) and the first Mrec after the first teaser image (on mobile viewport).
+The following ad slots in the content will be delivered via Gaia. Gaia is our solution to place adslots dynamically in the content based on some predefined rules.
+Gaia will handle everything from placing the additional adslots in the content as well as the ad requests and rendering.
+
+
+
 # Basic setup
 
 
@@ -43,7 +52,7 @@ Basically there are only three important steps to implement a basic ad integrati
 <html>
     <head>
         <title>Your great website</title>
-+       <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/petbook.js"></script>
++       <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/website.js"></script>
     </head>
     <body>
 
@@ -111,7 +120,6 @@ You can find a detailed overview with explanation of all parameters for the adSS
 
 
 <br>
-
 
 
 
