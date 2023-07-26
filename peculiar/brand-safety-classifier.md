@@ -6,6 +6,19 @@ Please call the API when a new article is (re-) published, or edited.
 <br>
 
 
+## Table of Contents
+
+ - [POST Request](#post-request)
+ - [Response](#response)
+ - [Apply response to adSSetup config](#apply-response-to-adssetup-config)
+ - [Important Notes](#important-notes)
+ - [Help](#help)
+
+
+
+<br>
+<br>
+
 
 ## POST Request
 
@@ -56,21 +69,6 @@ We expect a json object in the following format:
 
 
 
-<br><br>
-
-
-
-## Important Notes
-
-
-> :warning: Warning!
-> ----------------
-> Please do **NOT** call the API in a migration scenario,
-> where the content of the articles is not changed.
-> Every classification costs us money and we can not guarantee,
-> that the API will work stable in case of thousands of requests at the same time.
-
-
 
 <br><br>
 
@@ -92,7 +90,34 @@ If there are multiple matching categories, you can separate them by a semicolon.
 
 
 
+<br><br>
 
+
+
+## Important Notes
+
+
+> :warning: Warning!
+> ----------------
+> Please do **NOT** call the API in a migration scenario,
+> where the content of the articles is not changed.
+> Every classification costs us money and we can not guarantee,
+> that the API will work stable in case of thousands of requests at the same time.
+
+
+
+
+
+-----
+
+
+# Help
+
+If something is unclear or you have any questions, you can contact us via email:
+
+
+__Ad Technology Team__
+adtechnology@axelspringer.de
 
 
 
