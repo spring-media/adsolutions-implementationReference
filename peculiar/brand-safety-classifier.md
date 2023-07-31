@@ -29,7 +29,8 @@ We expect a json object in the following format:
 ```json
 {
     "title": "10 reasons why your dog is eating grass",
-    "content": "The content shouldn't include widgets or html nodes, but only plain text as string."
+    "content": "The content shouldn't include widgets or html nodes, but only plain text as string.",
+    "publisher": "publisher.de"
 }
 ```
 
