@@ -107,12 +107,13 @@ If there are multiple matching categories, you can separate them by a semicolon.
 
 
 
+<br><br>
 
 
------
 
 
-# Help
+
+## Help
 
 If something is unclear or you have any questions, you can contact us via email:
 
@@ -121,5 +122,8 @@ __Ad Technology Team__
 adtechnology@axelspringer.de
 
 
+
+
+<br>
 
 
