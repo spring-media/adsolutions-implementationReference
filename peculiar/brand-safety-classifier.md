@@ -86,6 +86,15 @@ for (var match of classification.matches) {
 }
 ```
 
+<br>
+
+When included, the adSSetup should look something like this:
+
+```javascript
+  adSSetup.target = `bs_crime=high;bs_ssis=medium;`;
+```
+
+
 Please make sure, that you do not overwrite the adSSetup.target object, but add the values (since the target object can be quite full with a lot of relevant targeting information).
 If there are multiple matching categories, you can separate them by a semicolon.
 
