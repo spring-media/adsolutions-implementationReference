@@ -91,7 +91,7 @@ for (var match of classification.matches) {
 When included, the adSSetup should look something like this:
 
 ```javascript
-  adSSetup.target = `bs_crime=high;bs_death=medium;`;
+  adSSetup.target = "bs_crime=high;bs_death=medium;";
 ```
 
 
