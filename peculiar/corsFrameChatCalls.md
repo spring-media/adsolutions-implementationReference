@@ -30,5 +30,5 @@ ASCDP.chatAds.startChat(conversationId);
 ## Contact
 
 __Team AdTechnology__
-  [adtechnology@axelspringer.de](mailto:adtechnology@axelspringer.de)
+  [adtechnology@axelspringer.com](mailto:adtechnology@axelspringer.com)
 
