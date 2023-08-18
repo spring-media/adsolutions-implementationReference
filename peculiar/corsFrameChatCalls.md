@@ -8,12 +8,12 @@ This code is meant to do everything to include ads into a chat conversation. To 
   appid: '123456789ABCDE',
   adUnitId: '1234',
   propertyId: '5678',
-  market: 'de-de',
-  domBaseId: "chatAd",
   endpoint: 'https://bing-ads-proxy.melonbits.com/bing-ads/api/v1/ads/chat',
-  products: ['TextAds', 'ProductAds'],
-  dynamicSlots: false,
-  answersForSlot: 3
+  market: 'de-de', // country and language the chat is running in
+  domBaseId: "chatAd", // id of the dom element where the ad should be placed
+  products: ['TextAds', 'ProductAds'], // products to be requested
+  dynamicSlots: false, // use true for 1 ad per viewport
+  answersForSlot: 3 // count of answers before ad when not using dynamicSlots
 }
 </script>
 <script type="text/javascript" src="https://www.asadcdn.com/adlib/extensions/corsFrameChatCalls.js"></script>
