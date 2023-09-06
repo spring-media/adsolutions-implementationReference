@@ -1,7 +1,7 @@
 # AdTech Brand Safety Classifier
 
 This is your implementation guide for our Brand Safety Classifier.
-Please call the API when a new article is (re-) published, or edited.
+Please call the API when a new article is (re-) published.
 
 <br>
 
@@ -11,6 +11,7 @@ Please call the API when a new article is (re-) published, or edited.
  - [POST Request](#post-request)
  - [Response](#response)
  - [Apply response to adSSetup config](#apply-response-to-adssetup-config)
+ - [Request Frequency](#request-frequency)
  - [Important Notes](#important-notes)
  - [Help](#help)
 
@@ -97,6 +98,16 @@ When included, the adSSetup should look something like this:
 
 Please make sure, that you do not overwrite the adSSetup.target object, but add the values (since the target object can be quite full with a lot of relevant targeting information).
 If there are multiple matching categories, you can separate them by a semicolon.
+
+
+
+<br><br>
+
+## Request Frequency
+
+A short note about the frequency of requests related to a single article.
+Please do not send requests on little editorial changes on the articles as this process is connected to costs. 
+It should be enough to only send the initial published article content for the classification, since the general context or brand safety is unlikely to be affected by minor updates to the article's wording.
 
 
 
