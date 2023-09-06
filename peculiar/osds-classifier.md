@@ -8,6 +8,11 @@ Please call the API when a new article is (re-) published.
 
 ## Table of Contents
 
+ - [POST Request](#post-request)
+ - [Response](#response)
+ - [Authentification](#authentification)
+ - [Important Notes](#important-notes)
+ - [Help](#help)
 
 
 
@@ -98,6 +103,22 @@ https://github.com/spring-media/adsolutions-osds-demo/
 
 
 <br>
+<br>
+
+
+
+
+## Help
+
+If something is unclear or you have any questions, you can contact us via email:
+
+
+__Ad Technology Team__
+adtechnology@axelspringer.de
+
+
+
+
 <br>
 
 
