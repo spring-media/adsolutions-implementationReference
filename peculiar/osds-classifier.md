@@ -90,6 +90,49 @@ https://github.com/spring-media/adsolutions-osds-demo/
 
 
 
+## How to handle the output
+
+Since there is no Adlib in apps, the process to handle the classifier output is a bit different between web and app.
+
+
+### 💻 Output for web 
+
+The adlib will take care of analysing and structuring the data and as well will pass 
+it to the adcalls. Publishers only have to provide the data via the adSSetup
+inside an optional ```iabtax``` property:
+
+```javascript
+adSSetup.iabtax = {
+    "Medical Health: 286":0.5452159,
+    "Health Insurance: 399":0.9983974,
+    "Personal Finance: 391":0.93517065,
+    "Insurance: 398":0.99965286,
+    "Business and Finance: 52":0.43605074
+}
+```
+
+<br>
+
+### 📱 Output for apps 
+
+Since there is no Adlib in apps, the process is a bit different here.<br>
+For the apps, the publishers have to cover what the adlib is doing on the web.<br>
+This means, that values below 0.5 have to be removed, as well as the non numeric characters<br>
+from the keys needs to be stripped out to pass the data as customKeywords for the AdCalls:
+
+```javascript
+bannerview.addCustomKeywords("iabtax","286")
+bannerview.addCustomKeywords("iabtax","391")
+bannerview.addCustomKeywords("iabtax","398")
+bannerview.addCustomKeywords("iabtax","399")
+```
+
+
+
+<br>
+<br>
+
+
 
 ## Important Notes
 
