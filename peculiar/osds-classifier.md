@@ -11,6 +11,9 @@ Please call the API when a new article is (re-) published.
  - [POST Request](#post-request)
  - [Response](#response)
  - [Authentification](#authentification)
+ - [How to handle the output](#how-to-handle-the-output)
+   - [Output for Web](#-output-for-web)
+   - [Output for Apps](#-output-for-apps)
  - [Important Notes](#important-notes)
  - [Help](#help)
 
