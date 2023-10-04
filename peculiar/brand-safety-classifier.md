@@ -45,27 +45,25 @@ We expect a json object in the following format:
 
 ```json
 {
-  "status": "OK",
-  "classification": {
-    "matches": {
-      "matches": [
-        {
-          "category": "Crime & Harmful Acts to Individuals and Society and Human Right Violations",
-          "keyValueTarget": {
-            "key": "bs_crime",
-            "value": "high"
-          }
-        },
-        {
-          "category": "Death, Injury, or Military Conflict",
-          "keyValueTarget": {
-            "key": "bs_death",
-            "value": "medium"
-          }
-        }
-      ]
+    "status": "OK",
+    "classification": {
+        "matches": [
+            {
+                "category": "Crime & Harmful Acts to Individuals and Society and Human Right Violations",
+                "keyValueTarget": {
+                    "key": "bs_crime",
+                    "value": "high"
+                }
+            },
+            {
+                "category": "Death, Injury, or Military Conflict",
+                "keyValueTarget": {
+                    "key": "bs_death",
+                    "value": "medium"
+                }
+            }
+        ]
     }
-  }
 }
 ```
 
