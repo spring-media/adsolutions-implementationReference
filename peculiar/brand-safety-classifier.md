@@ -29,7 +29,8 @@ Publishers can simply add a request that gets the related keywords for a given a
 
 In the ideal case, the service is called only once when a new article is published. Keep in mind, that you should not add this request into the time critical publishing pipeline - but simply let the request run in parallel. It is okay if the article is going live without these keywords. When the response from this API is ready, you can just enrich the article with these keywords.
 
-
+<br>
+<br>
 
 ## POST Request
 
