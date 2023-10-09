@@ -1,13 +1,14 @@
 # AdTech Brand Safety Classifier
 
 This is your implementation guide for our Brand Safety Classifier.
-Please call the API when a new article is (re-) published.
+Please call the API when a new article is published.
 
 <br>
 
 
 ## Table of Contents
 
+ - [What is the Brand Safety Classifier?](#what-is-the-brand-safety-classifier)
  - [POST Request](#post-request)
  - [Response](#response)
  - [Apply response to adSSetup config](#apply-response-to-adssetup-config)
@@ -19,6 +20,15 @@ Please call the API when a new article is (re-) published.
 
 <br>
 <br>
+
+
+## What is the Brand Safety Classifier?
+
+Our Brand Safety Classification API is a non critical service, that will enable our marketers to create better brand safe products for advertisers.
+Publishers can simply add a request that gets the related keywords for a given article and save these keywords in the CMS, so that these can later be used for targeting in the adSSetup object.
+
+In the ideal case, the service is called only once when a new article is published. Keep in mind, that you should not add this request into the time critical publishing pipeline - but simply let the request run in parallel. It is okay if the article is going live without these keywords. When the response from this API is ready, you can just enrich the article with these keywords.
+
 
 
 ## POST Request
