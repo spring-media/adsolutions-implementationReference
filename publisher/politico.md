@@ -1,8 +1,8 @@
 
 # Politico.com - Ad Lib Integration Guide
 
-Welcome to your Ad Lib Integration documentation! 
-In this document you will learn how to implement our adlib in your site to deliver ads with it.
+_Welcome to your Ad Lib Integration documentation! <br>
+In this document you will learn how to implement our adlib in your site to deliver ads with it._
 
 <br>
 
