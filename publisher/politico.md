@@ -107,20 +107,12 @@ Basically there are only three important steps to implement a basic ad integrati
 <br>
 
 
-#### 🚧 Work in progress 🚧 
-
-
-> We will use our **adtechnology.axelspringer.js** for now until we now the final domains and create a specified adlib for every page.
-> As soon as we can inspect the html structure of the pages, we will look for some specific selectors which are important for placing our ads on the page. While we are working with the **adtechnology.axelspringer.js**, it can happen that rendered ads are not proberly centered, since these specific selectors are missing in the setup.
-
-
-<br>
 
 
 ## 2. AdSSetup - provide the config for the ad delivery
 
 > Think of this part like a shopping cart - in the AdSSetup object, you define various settings. For example, you have to 'order' the type of Ads, you want to see on your page, like Mrecs, Billboards and Superbanners.
-> But there are also some features, you can control via the AdSSetup object, like the appearance of the placeholders. 
+> Additionally, there are also some features you can control via the AdSSetup object. For example the appearance of the ad placeholders, or applied keywords. 
 
 
 ```diff
@@ -146,7 +138,7 @@ Basically there are only three important steps to implement a basic ad integrati
 +            }
 +        </script>
         
-        <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/adtechnology.axelspringer.js"></script>
+        <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/politico.js"></script>
     </head>
     <body>
 
@@ -254,7 +246,7 @@ adSSetup = {
             }
         </script>
         
-        <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/adtechnology.axelspringer.js"></script>
+        <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/politico.js"></script>
     </head>
     <body>
 
@@ -282,7 +274,7 @@ _If you no longer want to receive the test ads, you can always remove the cookie
 
 # QA and testing
 
-**Important**: Please don't try to test ads on Localhost. Ads will be not delivered on localhost.
+**Important**: Please don't try to test ads on Localhost. Ads will not be delivered on localhost.
 
 
 
@@ -300,9 +292,9 @@ If you would like to test the ad delivery, you can set a special cookie here: ht
 
 ## Human detection
 
-It can happen, that the adserver does not deliver ads, when the user emulates devices in the browser.
+It can happen that the ad server does not deliver any ads if the user emulates devices in the browser.
 
-In general the detection tries to find non human or potential malicious requests (e.g. making adcalls from localhost, making many requests within the same second, uncommon request headers, ...).
+In general the detection tries to find non human or potential malicious requests _(e.g. making adcalls from localhost, making many requests within the same second, uncommon request headers, ...)_.
 
 <br>
 
@@ -312,7 +304,7 @@ In general the detection tries to find non human or potential malicious requests
 
 # Help
 
-If something is unclear or you have any questions, you can contact us via email:
+If something is unclear or you have any questions, feel free to contact us via email:
 
 
 __Ad Technology Team__
