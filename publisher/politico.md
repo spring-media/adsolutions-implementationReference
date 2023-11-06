@@ -43,13 +43,13 @@ Gaia will handle everything from placing the additional adslots in the content a
 
 To make things easier for both of us, we will start with a mapping of the current ad slot namings.
 
-| Politico Slot | Standard Banner - Desktop | Standard Banner - Mobile | Notes          |
-|---------------|---------------------------|--------------------------|----------------|
-|     pol-01     |     Superbanner     |     Banner     |          |
-|     pol-02     |     Mrec (Halfpage Ad)     |          |          |
-|     pol-03     |     Mrec     |          |     _only on index pages_     |
-|     pol-03-101     |        -        |     Mrec_btf_n (1:1) / Outstream / Teads?    |           |
-|     pol-05     |     Mrec_btf     |     Mrec     |          |
+| Politico Slot | Standard Banner - Desktop | Standard Banner - Mobile | Notes |
+|---------------|---------------------------|--------------------------|-------|
+|     pol-01     |     Superbanner          |     Banner               |       |
+|     pol-02     |     Mrec (Halfpage Ad)   |                          |       |
+|     pol-03     |     Mrec                 |                          |     _only on index pages_     |
+|     pol-03-101 |     -                    |     Mrec_btf_n (1:1) / Outstream / Teads?    |           |
+|     pol-05     |     Mrec_btf             |     Mrec                 |       |
 |     pol-06     |     Sky_btf     |     Mrec_btf_n     |     _seems to be only on index pages_     |
 |     pol-vp-201     |     Billboard     |     Mrec_btf_n     |          |
 |     pol-vp-202     |     Billboard_btf     |     Mrec_btf_n     |          |
@@ -91,7 +91,7 @@ Basically there are only three important steps to implement a basic ad integrati
 <html>
     <head>
         <title>Your great website</title>
-+       <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/adtechnology.axelspringer.js"></script>
++       <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/politico.js"></script>
     </head>
     <body>
 
@@ -163,23 +163,40 @@ You can find a detailed overview with explanation of all parameters for the adSS
 
 
 
-### AdSSetup.adSlotSizes - Desktop
+### AdSSetup.adSlotSizes - Standard Naming Conventions (recommended)
 
-Please use these sizes for your ad integration on desktop viewports for now:
+This is how the ad slots definition in the adSSetup object would look like, using our standard naming conventions:
 
 ```javascript
 
 adSSetup = {
     ...
-    "adPlacements": ["superbanner", "sky"],
+    "view": "d",
+    "adPlacements": ["superbanner", "billboard", "mrec", "billboard_btf", "mrec_btf", "sky_btf"],
     "adSlotSizes": { 
         "superbanner": [{
             "minWidth": 1,
-            "sizes": [[728, 90], [728, 600], [1000, 600]]
-        }], 
-        "sky": [{
+            "sizes": [[728, 90]]
+        }],
+        "billboard": [{
             "minWidth": 1,
-            "sizes": [[160, 600], [120, 600], [300, 600], [500, 1000], [1000, 1000]]
+            "sizes": [[800, 250],[970, 250]]
+        }],
+        "mrec": [{
+            "minWidth": 1,
+            "sizes": [[300, 250],[300, 300]]
+        }],
+        "billboard_btf": [{
+            "minWidth": 1,
+            "sizes": [[800, 250],[970, 250]]
+        }],
+        "mrec_btf": [{
+            "minWidth": 1,
+            "sizes": [[300, 250],[300, 300]]
+        }],
+        "sky_btf": [{
+            "minWidth": 1,
+            "sizes": [[160, 600], [120, 600], [300, 600], [300, 1050]]
         }]
     },
     ...
@@ -192,19 +209,40 @@ adSSetup = {
 
 
 
-### AdSSetup.adSlotSizes - Mobile
+### AdSSetup.adSlotSizes - Politico Naming Conventions
 
-Please use these sizes for your ad integration on mobile viewports for now:
+This is how the ad slots definition in the adSSetup object would look like, using the politico naming conventions:
 
 ```javascript
 
 adSSetup = {
     ...
-    "adPlacements": ["mrec"],
+    "view": "d",
+    "adPlacements": ["pol-01", "pol-vp-201", "pol-02", "pol-vp-202", "pol-05", "pol-06"],
     "adSlotSizes": { 
-        "mrec": [{
+        "pol-01": [{
             "minWidth": 1,
-            "sizes": [[320,160], [320,75], [320,50], [300,300], [300,250]]
+            "sizes": [[728, 90]]
+        }],
+        "pol-vp-201": [{
+            "minWidth": 1,
+            "sizes": [[800, 250],[970, 250]]
+        }],
+        "pol-02": [{
+            "minWidth": 1,
+            "sizes": [[300, 250],[300, 300]]
+        }],
+        "pol-vp-202": [{
+            "minWidth": 1,
+            "sizes": [[800, 250],[970, 250]]
+        }],
+        "pol-05": [{
+            "minWidth": 1,
+            "sizes": [[300, 250],[300, 300]]
+        }],
+        "pol-06": [{
+            "minWidth": 1,
+            "sizes": [[160, 600], [120, 600], [300, 600], [300, 1050]]
         }]
     }
     ...
