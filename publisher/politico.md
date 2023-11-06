@@ -10,6 +10,9 @@ In this document you will learn how to implement our adlib in your site to deliv
 ## Table of contents
 
  - [Strategy](#strategy)
+    - [Naming Conventions](#naming-conventions)
+    - [Dynamic ad slot placement](#dynamic-ad-slot-placement)
+    - [Lazy loaded ads on demand](#lazy-loaded-ads-on-demand)
  - [Slot Translation Mapping](#slot-translation-mapping)
  - [Basic setup](#basic-setup)
     - [1. Include the AdLib](#1-include-the-adlib)
@@ -31,9 +34,30 @@ In this document you will learn how to implement our adlib in your site to deliv
 
 # Strategy
 
-To make the ad integration on these pages as easy as possible, we will only implement the adslots Superbanner & Sky (on desktop viewport) and the first Mrec after the first teaser image (on mobile viewport).
-The following ad slots in the content will be delivered via Gaia. Gaia is our solution to place adslots dynamically in the content based on some predefined rules.
+## Naming conventions
+
+Currently, Politico uses ad slot names like "pol-01", "pol-vp-201", "pol-04-small-101", etc.<br>
+To make things easier, we would suggest changing the naming conventions of the ad slots to our standard _(there is a mapping table below)_. As the number of defined ad slots will change and the ad slot placement logic might be better to understand. Additionally, as some formats are the same on desktop as well as on mobile or in apps, it would be easier to use the same names & settings.
+
+Basically it is possible to integrate the Adlib and use the current naming conventions - however, this will make things more difficult in the long run.
+
+<br>
+
+## Dynamic ad slot placement
+
+To make the migration as easy as possible, we suggest placing our standard ad slots _(superbanner, mrec, billboard, sky & the lazy loaded versions of these ads: mrec_btf, billboard_btf, sky_btf)_ on the page _(depending on the page type)_. <br>
+We would then handle the dynamic placement of lazy loaded ad slots via **Gaia**. <br><br>
+Gaia is our solution to place adslots dynamically in the content based on some predefined rules.<br>
 Gaia will handle everything from placing the additional adslots in the content as well as the ad requests and rendering.
+
+<br>
+
+## Lazy loaded ads on demand
+
+As mentioned above, we have a feature that works with special lazy loading placements (like the mrec_**btf** or the billboard_**btf**).<br>
+Our sightloader feature copies the settings of the first defined **_btf** ad slot and then uses these settings to create additional ad slots with these settings.<br><br> 
+For example: mrec_btf, mrec_btf_2, mrec_btf_3, ...
+
 
 
 <br>
