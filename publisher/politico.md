@@ -10,6 +10,7 @@ In this document you will learn how to implement our adlib in your site to deliv
 ## Table of contents
 
  - [Strategy](#strategy)
+ - [Slot Translation Mapping](#slot-translation-mapping)
  - [Basic setup](#basic-setup)
     - [1. Include the AdLib](#1-include-the-adlib)
     - [2. AdSSetup - provide the config for the ad delivery](#2-adssetup---provide-the-config-for-the-ad-delivery)
@@ -34,6 +35,39 @@ To make the ad integration on these pages as easy as possible, we will only impl
 The following ad slots in the content will be delivered via Gaia. Gaia is our solution to place adslots dynamically in the content based on some predefined rules.
 Gaia will handle everything from placing the additional adslots in the content as well as the ad requests and rendering.
 
+
+<br>
+
+
+# Slot Translation Mapping
+
+To make things easier for both of us, we will start with a mapping of the current ad slot namings.
+
+| Politico Slot | Standard Banner - Desktop | Standard Banner - Mobile | Notes          |
+|---------------|---------------------------|--------------------------|----------------|
+|     pol-01     |     Superbanner     |     Banner     |          |
+|     pol-02     |     Mrec (Halfpage Ad)     |          |          |
+|     pol-03     |     Mrec     |          |     _only on index pages_     |
+|     pol-03-101     |        -        |     Mrec_btf_n (1:1) / Outstream / Teads?    |           |
+|     pol-05     |     Mrec_btf     |     Mrec     |          |
+|     pol-06     |     Sky_btf     |     Mrec_btf_n     |     _seems to be only on index pages_     |
+|     pol-vp-201     |     Billboard     |     Mrec_btf_n     |          |
+|     pol-vp-202     |     Billboard_btf     |     Mrec_btf_n     |          |
+|     pol-vp-203     |     Billboard_btf_2     |          |          |
+|     pol-vp-204     |     Billboard_btf_3     |          |          |
+|     pol-vp-205     |     Billboard_btf_4     |          |          |
+|     pol-vp-206     |     Billboard_btf_5     |          |          |
+|     pol-04-small-101     |     Mrec_btf_2     |          |          |
+|     pol-04-small-102     |     -     |     Mrec_btf_n     |          |
+|     pol-07-small-102     |     Mrec_btf_3     |          |          |
+|     pol-07-small-103     |     Mrec_btf_4     |          |          |
+|     pol-07-small-104     |     Mrec_btf_5     |          |          |
+|     pol-07-small-105     |     Mrec_btf_6     |          |          |
+|     pol-native-11     |     teaser     |     teaser     |     _mostly direct sold ads (JSON native?)_      |
+|     pol-native-12     |     teaser_2     |     teaser_2     |     _teaser slots are excluded from btf/clone logic_      | 
+
+
+<br>
 
 
 # Basic setup
