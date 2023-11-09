@@ -50,24 +50,24 @@ To make things easier for both of us, we will start with a mapping of the curren
 
 | Politico Slot | Standard Banner - Desktop | Standard Banner - Mobile | Notes |
 |---------------|---------------------------|--------------------------|-------|
-|     pol-01     |     Superbanner          |     Banner               |       |
-|     pol-02     |     Mrec (Halfpage Ad)   |                          |       |
-|     pol-03     |     Mrec                 |                          |     _only on index pages_     |
-|     pol-03-101 |     -                    |     Mrec_btf_n (1:1) / Outstream / Teads?    |           |
-|     pol-05     |     Mrec_btf             |     Mrec                 |       |
-|     pol-06     |     Sky_btf     |     Mrec_btf_n     |     _seems to be only on index pages_     |
-|     pol-vp-201     |     Billboard     |     Mrec_btf_n     |          |
-|     pol-vp-202     |     Billboard_btf     |     Mrec_btf_n     |          |
-|     pol-vp-203     |     Billboard_btf_2     |          |          |
-|     pol-vp-204     |     Billboard_btf_3     |          |          |
-|     pol-vp-205     |     Billboard_btf_4     |          |          |
-|     pol-vp-206     |     Billboard_btf_5     |          |          |
-|     pol-04-small-101     |     Mrec_btf_2     |          |          |
-|     pol-04-small-102     |     -     |     Mrec_btf_n     |          |
-|     pol-07-small-102     |     Mrec_btf_3     |          |          |
-|     pol-07-small-103     |     Mrec_btf_4     |          |          |
-|     pol-07-small-104     |     Mrec_btf_5     |          |          |
-|     pol-07-small-105     |     Mrec_btf_6     |          |          |
+|     pol-01     |     superbanner          |     banner               |       |
+|     pol-02     |     mrec (Halfpage Ad)   |                          |       |
+|     pol-03     |     mrec                 |                          |     _only on index pages_     |
+|     pol-03-101 |     -                    |     mrec_btf_n     |     _special formats like 1:1 / Outstream / Teads_      |
+|     pol-05     |     mrec_btf             |     mrec                 |       |
+|     pol-06     |     sky_btf     |     mrec_btf_n     |     _seems to be only on index pages_     |
+|     pol-vp-201     |     billboard     |     mrec_btf_n     |          |
+|     pol-vp-202     |     billboard_btf     |     mrec_btf_n     |          |
+|     pol-vp-203     |     billboard_btf_2     |          |          |
+|     pol-vp-204     |     billboard_btf_3     |          |          |
+|     pol-vp-205     |     billboard_btf_4     |          |          |
+|     pol-vp-206     |     billboard_btf_5     |          |          |
+|     pol-04-small-101     |     mrec_btf_2     |          |          |
+|     pol-04-small-102     |     -     |     mrec_btf_n     |          |
+|     pol-07-small-102     |     mrec_btf_3     |          |          |
+|     pol-07-small-103     |     mrec_btf_4     |          |          |
+|     pol-07-small-104     |     mrec_btf_5     |          |          |
+|     pol-07-small-105     |     mrec_btf_6     |          |          |
 |     pol-native-11     |     teaser     |     teaser     |     _mostly direct sold ads (JSON native?)_      |
 |     pol-native-12     |     teaser_2     |     teaser_2     |     _teaser slots are excluded from btf/clone logic_      | 
 
