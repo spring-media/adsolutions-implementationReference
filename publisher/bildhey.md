@@ -85,7 +85,7 @@ Basically there are only three important steps to implement a basic ad integrati
 +            adSSetup = {
 +                view: "d",
 +                partners: true,
-+                adPlacements: ["superbanner", "sky"],
++                adPlacements: ["superbanner", "sky", "mrec", "billboard", "mrec_btf", "billboard_btf"],
 +                adSlotSizes: { ... },
 +                placeholder: { ... },
 +                colorBg: true,
@@ -125,13 +125,13 @@ You can find a detailed overview with explanation of all parameters for the adSS
 
 ### AdSSetup.adSlotSizes - Desktop
 
-Please use these sizes for your ad integration on desktop viewports for now:
+Define the ad formats for your desktop viewport like this:
 
 ```javascript
 
 adSSetup = {
     ...
-    "adPlacements": ["superbanner", "sky"],
+    "adPlacements": ["superbanner", "sky", "mrec", "billboard", "mrec_btf", "billboard_btf"],
     "adSlotSizes": { 
         "superbanner": [{
             "minWidth": 1,
@@ -140,6 +140,22 @@ adSSetup = {
         "sky": [{
             "minWidth": 1,
             "sizes": [[160, 600], [120, 600], [300, 600], [500, 1000], [1000, 1000]]
+        }],
+        "mrec": [{
+            "minWidth": 1,
+            "sizes": [[300, 250]]
+        }], 
+        "billboard": [{
+            "minWidth": 1,
+            "sizes": [[300, 250], [800, 250], [970, 250]]
+        }],
+        "mrec_btf": [{
+            "minWidth": 1,
+            "sizes": [[300, 250]]
+        }], 
+        "billboard_btf": [{
+            "minWidth": 1,
+            "sizes": [[300, 250], [800, 250], [970, 250]]
         }]
     },
     ...
@@ -154,7 +170,7 @@ adSSetup = {
 
 ### AdSSetup.adSlotSizes - Mobile
 
-Please use these sizes for your ad integration on mobile viewports for now:
+Define the ad formats for your mobile setup:
 
 ```javascript
 
@@ -193,7 +209,7 @@ adSSetup = {
             adSSetup = {
                 view: "d",
                 partners: true,
-                adPlacements: ["superbanner", "sky"],
+                adPlacements: ["superbanner", "sky", "mrec", "billboard", "mrec_btf", "billboard_btf"],
                 adSlotSizes: { ... },
                 placeholder: { ... },
                 colorBg: true,
