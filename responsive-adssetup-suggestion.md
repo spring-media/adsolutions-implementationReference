@@ -10,7 +10,6 @@ If you have a responsive site and you're wondering how to best combine the ad in
 - [1. Possible AdSSetup](#1-possible-adssetup)
    - [1.1 Preconfiguration](#11-preconfiguration)
    - [1.2 Putting the AdSetup together](#12-putting-the-adsetup-together)
-   - [1.3 MinWidth - reacting to different page dimensions](#13-minwidth---reacting-to-different-page-dimensions)
 - [2. Dealing with dynamic adslots](#2-dealing-with-dynamic-adslots)
    - [2.1 Changing adSlot id's directly in the markup](#21-changing-adslot-ids-directly-in-the-markup)
    - [2.2 Do not change adSlots asynchronously](#22-do-not-change-adslots-asynchronously)
