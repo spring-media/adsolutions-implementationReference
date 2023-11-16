@@ -4,6 +4,7 @@ If you have a responsive site and you're wondering how to best combine the ad in
 **Important**: These are only general ideas and suggestions. Since each site is different, these are not necessarily the most efficient solutions.
 
 
+<br>
 
 #### Table of Contents 
 - [1. Possible AdSSetup](#1-possible-adssetup)
@@ -16,14 +17,23 @@ If you have a responsive site and you're wondering how to best combine the ad in
 - [3. Important Notes](#3-important-notes)
 
 
+<br>
+
 ---
+
+<br>
 
 
 # 1. Possible AdSSetup
 The AdSSetup is the configuration for our Adlib. Here you control (_besides general settings like the [CLS placeholder](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md)_) which ads and formats are ordered from the adserver.
 
+<br>
+
 ## 1.1 Preconfiguration
 The idea is that the page width is checked with Javascript before the adSSetup is defined and a choice is made between different presets for mobile / tablet / desktop.
+
+
+<br>
 
 The code could look something like this:
 
@@ -38,6 +48,7 @@ if (windowWidth > 900) {
 }
 ```
 
+<br>
 
 The Mrec is included on desktop as well as mobile. Since the possible sizes may differ here, we can predefine them as follows if needed:
 
@@ -58,6 +69,27 @@ var AdSizes = {
 ```
 
 
+<br>
+
+
+**Reacting to different page dimensions**
+With the "minWidth" attribute you can place an order depending on the page width. Using the billboard example - if the page is wider than 969px, the second array is used. If it is less wide, the first array will be used. 
+
+```javascript
+var billboardSizes = [{
+    "minWidth": 1,
+    "sizes": [[9,9],[800,250]]
+},{
+    "minWidth": 969,
+    "sizes": [[9,9],[800,250],[970,250]]
+}];
+```
+
+> With this feature, you can define multiple layout scenarios that support different ad formats depending on the available width.
+
+
+<br>
+<br>
 
 Then we define adPlacements and adSlotSizes for the different views:
 
@@ -95,10 +127,7 @@ var Ads = {
                 "minWidth": 1,
                 "sizes": [[9,9],[160,600],[120,600],[300,600]]
             }],
-            "billboard": [{
-                "minWidth": 1,
-                "sizes": [[9,9],[800,250]]
-            }],
+            "billboard": billboardSizes, // See how we use this variable to refer to different sizes, depending on the pageWidth
             "inpage": [{
                 "minWidth": 1,
                 "sizes": [[1,1],[640,360],[1000,300]]
@@ -108,6 +137,7 @@ var Ads = {
 }
 ```
 
+<br>
 
 ## 1.2 Putting the AdSetup together
 Here we now use our prepared configuration to put together the AdSSetup based on the page width.
@@ -145,22 +175,9 @@ adSSetup = {
 
 
 
-## 1.3 MinWidth - reacting to different page dimensions
-With the "minWidth" attribute you can place an order depending on the page width. Using the billboard example - if the page is wider than 969px, the second array is used. If it is less wide, the first array will be used.
-
-```javascript
-var billboardSizes = [{
-    "minWidth": 1,
-    "sizes": [[9,9],[800,250]]
-},{
-    "minWidth": 969,
-    "sizes": [[9,9],[800,250],[970,250]]
-}];
-```
-
-
 ---
 
+<br>
 
 # 2. Dealing with dynamic adslots
 While handling HTML containers depending on variables is relatively easy with frameworks like Angular or React compared to vanilla JavaScript.
@@ -168,6 +185,7 @@ Nonetheless, there are some ways to set the markup dynamically even with vanilla
 
 At this point, we would like to present one possible solution.  
 
+<br>
 
 ## 2.1 Changing adSlot id's directly in the markup
 
@@ -178,6 +196,9 @@ A possible solution would be to first give the AdSlots a placeholder id and rewr
 <div id="adSlot1"></div>
 <div id="adSlot2"></div>
 ```
+
+
+<br>
 
 This way you would define another object in the header of the page that contains all AdSlots that should be rendered on the page depending on the viewport.
 
@@ -193,6 +214,8 @@ This way you would define another object in the header of the page that contains
 
 However, this object would be different from the previously defined `Ads[view].adPlacements` in this approach, because this time we would also define empty AdSlots that don't get an id depending on the viewport.
 
+<br>
+
 This table should help to illustrate the idea:
 
 
@@ -207,6 +230,9 @@ This table should help to illustrate the idea:
 _As you can see, the Sky in this example does not get a mobile counterpart because the AdSlot for the mobile viewport does not have a suitable position._
 
 
+
+<br>
+
 Now we would add a script tag after each placeholder AdSlot container to set the id depending on the viewport.
 
 ```html
@@ -219,14 +245,19 @@ Now we would add a script tag after each placeholder AdSlot container to set the
 ```
 
 
+<br>
+
 ## 2.2 Do not change adSlots asynchronously 
 
 Please make sure that adSlots are not reloaded from third party modules or changed asynchronously. 
 Otherwise this can lead not only to [CLS](https://web.dev/cls/) but also to ad delivery problems.
 
 
+<br>
+
 ---
 
+<br>
 
 # 3. Important Notes
 - All adSSetup configurations are needed in the header of the page, before the adlib is loaded. 
@@ -234,6 +265,8 @@ Otherwise this can lead not only to [CLS](https://web.dev/cls/) but also to ad d
 - **Important**: Please do not load the adlib async!
 - For more informations about the adSSetup and its settings, please have a look into our [general documentation](https://github.com/spring-media/adsolutions-implementationReference/blob/master/publisher-display-reference.md).
 
+
+<br>
 
 ## Help
 If you have any questions or problem don't hesitate to contact us:
