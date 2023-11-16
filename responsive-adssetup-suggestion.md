@@ -13,7 +13,8 @@ If you have a responsive site and you're wondering how to best combine the ad in
 - [2. Dealing with dynamic adslots](#2-dealing-with-dynamic-adslots)
    - [2.1 Changing adSlot id's directly in the markup](#21-changing-adslot-ids-directly-in-the-markup)
    - [2.2 Do not change adSlots asynchronously](#22-do-not-change-adslots-asynchronously)
-- [3. Important Notes](#3-important-notes)
+- [3. Full Code Example](#3-full-code-example)
+- [4. Important Notes](#4-important-notes)
 
 
 <br>
@@ -258,7 +259,175 @@ Otherwise this can lead not only to [CLS](https://web.dev/cls/) but also to ad d
 
 <br>
 
-# 3. Important Notes
+
+# 3. Full Code Example
+
+To make things easier, here is a full code example for you to play around with:
+
+
+```html
+<html>
+    <head>
+
+        <script src="path/to/adlib.js"></script>
+        <script>
+
+            // The idea is that the page width is checked with Javascript before the adSSetup is defined 
+            // and a choice is made between different presets for mobile / tablet / desktop.
+            var windowWidth = window.innerWidth || window.document.documentElement.clientWidth || window.document.body.clientWidth;
+            var view = "m";
+            
+            if (windowWidth > 900) {
+                view = "d";
+            } else {
+                view = "m";
+            }
+
+
+            // The Mrec is included on desktop as well as mobile. 
+            // Since the possible sizes may differ here, we can predefine them as follows if needed:
+            var AdSizes = {
+                mrec: {
+                    m: [{
+                        "minWidth": 1,
+                        "sizes": [[9,9],[300,250],[320,50],[320,75],[320,160],[300,300]]
+                    }],
+                    d: [{
+                        "minWidth": 1,
+                        "sizes": [[9,9],[300,250],[320,160],[300,300]]
+                    }]
+                }
+            };
+
+
+            // Then we define adPlacements and adSlotSizes for the different views.
+            // See how we reference the different adSizes for the mrec defined above.
+            var Ads = {
+
+                m: {
+                    adPlacements: ["banner","mrec","mrec_btf","mrec_btf_2","inpage"],
+                    adSlotSizes: {
+                        "mrec": AdSizes.mrec.m,
+                        "mrec_btf": AdSizes.mrec.m,
+                        "mrec_btf_2": AdSizes.mrec.m,
+                        "banner": [{
+                            "minWidth": 1,
+                            "sizes": [[9,9],[320,50],[320,75],[320,80]]
+                        }],
+                        "inpage": [{
+                            "minWidth": 1,
+                            "sizes": [[1,1],[640,360]]
+                        }],
+                    }
+                },
+
+                d: {
+                    adPlacements: ["superbanner","sky","billboard","mrec","mrec_btf","mrec_btf_2","inpage"],   
+                    adSlotSizes: {
+                        "mrec": AdSizes.mrec.d,
+                        "mrec_btf": AdSizes.mrec.d,
+                        "mrec_btf_2": AdSizes.mrec.d,
+                        "superbanner": [{
+                            "minWidth": 1,
+                            "sizes": [[9,9],[728,90],[728,600],[1000,600]]
+                        }],
+                        "sky": [{
+                            "minWidth": 1,
+                            "sizes": [[9,9],[160,600],[120,600],[300,600]]
+                        }],
+                        "billboard": [{
+                            "minWidth": 1,
+                            "sizes": [[9,9],[800,250]]
+                        }],
+                        "inpage": [{
+                            "minWidth": 1,
+                            "sizes": [[1,1],[640,360],[1000,300]]
+                        }],
+                    }
+                },
+            };
+
+
+            // Here we now use our prepared configuration to put together the AdSSetup based on the page width.
+            adSSetup = {
+
+                adPlacements: Ads[view].adPlacements,
+                adSlotSizes: Ads[view].adSlotSizes,
+
+                view: view,
+                partners: true,
+                colorBg: false,
+                bgClick: true,
+                hasVideoPlayer: true,
+                isArticle: false,
+                pageName: "home_index",
+                target: "value1;value2;value3;key1=value1",
+                iabTax: "IAB2,IAB2-1,1,32",
+
+                placeholder: {
+                    disablePlaceholders: false,
+                    default: {
+                        "border-color": "rgba(0,0,0,0)",
+                        "background-color": "#eee",
+                        "admarkPosition": "bottom right",
+                        "color": "#999",
+                        "font-size": "12px",
+                        "font-family": "Tahoma"
+                    }
+                }
+            };
+
+
+        </script>
+        <script>
+            // A possible solution would be to first give the AdSlots a placeholder id and rewrite it after the viewport has been detected.
+            // This way you would define another object in the header of the page that contains all AdSlots that should be rendered on the page depending on the viewport.
+            var slotIds = {
+                d: ["superbanner", "sky", "billboard", "mrec", "inpage"],
+                m: ["banner", "", "mrec", "mrec_btf", "inpage"]
+            };
+            var slotIdIndex = 0;
+
+            // By including an empty string in the array above, we can skip the second slot on mobile.
+            document.getElementById("adSlot" + slotIdIndex).id = slotIds[adSSetup.view][slotIdIndex];
+            slotIdIndex++;
+
+        </script>
+
+    </head>
+    <body>
+
+        <div id="contentWrapper">
+
+            <h2>Headline</h2>
+
+            <p>Lorem ipsum...</p>
+
+            <div id="adSlot0"></div>
+
+            <p>Lorem ipsum...</p>
+
+            <div id="adSlot1"></div>
+
+            <p>Lorem ipsum...</p>
+
+            <div id="adSlot2"></div>
+
+        </div>
+
+
+    </body>
+</html>
+```
+
+
+<br>
+
+---
+
+<br>
+
+# 4. Important Notes
 - All adSSetup configurations are needed in the header of the page, before the adlib is loaded. 
 - The adlib needs also to be loaded in the header of the page
 - **Important**: Please do not load the adlib async!
