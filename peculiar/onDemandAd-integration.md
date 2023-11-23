@@ -1,5 +1,25 @@
 # manual for dynamically use adplacements
 
+Some circumstances may require to use adplacements dynamically, e.g. if you want to use an adplacement after changing or adding content.
+
+To do so you need to make sure you already defined the configuration for the new adplacement.
+If you're sure you did so you may just inject the adplacement into the DOM and tell the adlib:
+
+``` html
+// the wrapper can be styled as you like to, for floating the ad next to the content or whatever, but please do not style the adSlot directly
+<div id="billboard_btf_2_wrapper" class="billboard_Wrapper" style="float:right; width:300px;">
+    <div id="billboard_btf_2" data-target="pos=7"></div>
+    <script>
+        var ev = new CustomEvent('renderAd', {'detail': 'billboard_btf_2'});
+        document.dispatchEvent(ev);
+    </script>
+</div>
+```
+
+Otherwise you can follow this guide to setup everything for the adplacement dynamically.
+Everything here is written in plain javascript and wrapped into a script tag for demonstration,
+but you may also integrate this codes into your codebase at it fits best:
+
 ### Part 1 - make sure sizes are defined
 The adlib will respect the sizes that are set by the adSSetup right to the time the adcalls are invoked.
 So to ensure the sizes for the actual adrequest are set you may redefine it at all time.
@@ -7,14 +27,14 @@ In the example we will check if there are sizes already and add those we miss:
 
 ```html
 <script>
-    if (adSSetup.adSlotSizes["betad_2"]) {
-        adSSetup.adSlotSizes["betad_2"][0].sizes = adSSetup.adSlotSizes["betad_2"][0].sizes.concat([
+    if (adSSetup.adSlotSizes["billboard_btf_2"]) {
+        adSSetup.adSlotSizes["billboard_btf_2"][0].sizes = adSSetup.adSlotSizes["billboard_btf_2"][0].sizes.concat([
             [427, 23],
             [300, 150],
             [300, 250]
         ]);
     } else {
-        adSSetup.adSlotSizes["betad_2"] = [{
+        adSSetup.adSlotSizes["billboard_btf_2"] = [{
             minWidth: 1,
             sizes: [
                 [427, 23],
@@ -48,23 +68,23 @@ This example shows a node for direct integration into the HTML, but you may also
 It uses a wrapper node element that may be styled (your space), please not use CSS directly on the adslot itself (our space):
 
 ```html
-<div id="betad_2_wrapper" class="betad_Wrapper" style="float:right">
-    <div id="betad_2" data-target="contest=bundesliga;"></div>
+<div id="billboard_btf_2_wrapper" class="billboard_btf_2_Wrapper" style="float:right">
+    <div id="billboard_btf_2" data-target="contest=bundesliga;"></div>
 </div>
 ```
 
 ### Part 4 - request an ad
 Since we now have set all preparations we will order an ad one per adslot.
-This example shows an cross-browser solution to do so for the adslot div#betad_2:
+This example shows an cross-browser solution to do so for the adslot div#billboard_btf_2:
 
 ```html
 <script>
     var ev;
     try {
-        ev = new CustomEvent('renderAd', {'detail': 'betad_2'});
+        ev = new CustomEvent('renderAd', {'detail': 'billboard_btf_2'});
     }catch(err){
         ev = document.createEvent('CustomEvent');
-        ev.initCustomEvent('renderAd', true, true, {'detail': 'betad_2'});
+        ev.initCustomEvent('renderAd', true, true, {'detail': 'billboard_btf_2'});
     }
     document.dispatchEvent(ev);
 </script>
@@ -79,9 +99,9 @@ and if it is we will invoke an own method to handle the response:
 <script>
 window.addEventListener("adInfo", function(adSlot) {
     var adResponse = adSlot.detail;
-    if (adResponse.tempName === "heimspiel") {
-        // start rendering quotes for advertiser to div with id matching adResponse.contId
-        _hs.renderQuotes(adResponse.advertiserName, adResponse.contId);
+    if (adResponse.tempName === "wallpaper") {
+        // a wallpaper needs place to the right, so maybe one needs to bound the dimensions of the content
+        document.getElementById("content").style.width = "calc(100% - 300px)";
     }
 });
 </script>
