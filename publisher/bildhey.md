@@ -130,7 +130,7 @@ Define the ad formats for your desktop viewport like this:
 
 adSSetup = {
     ...
-    "adPlacements": ["superbanner", "sky", "mrec", "billboard", "mrec_btf", "billboard_btf"],
+    "adPlacements": ["superbanner", "sky"],
     "adSlotSizes": { 
         "superbanner": [{
             "minWidth": 1,
