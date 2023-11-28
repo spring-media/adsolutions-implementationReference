@@ -85,16 +85,15 @@ Basically there are only three important steps to implement a basic ad integrati
 +            adSSetup = {
 +                view: "d",
 +                partners: true,
-+                adPlacements: ["superbanner", "sky", "mrec", "billboard", "mrec_btf", "billboard_btf"],
++                adPlacements: ["superbanner", "sky"],
 +                adSlotSizes: { ... },
 +                placeholder: { ... },
 +                colorBg: true,
 +                bgClick: true,
 +                hasVideoPlayer: false,
 +                isArticle: true,
-+                pageName: "news_story",
-+                target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
-+                iabTax: "IAB2,IAB2-1,1,32"
++                pageName: "hey_story",
++                target: ""
 +            }
 +        </script>
         
@@ -135,27 +134,11 @@ adSSetup = {
     "adSlotSizes": { 
         "superbanner": [{
             "minWidth": 1,
-            "sizes": [[728, 90], [728, 600], [1000, 600]]
+            "sizes": [[800, 250], [970, 250], [728, 90], [728, 600], [1000, 600]]
         }], 
         "sky": [{
             "minWidth": 1,
             "sizes": [[160, 600], [120, 600], [300, 600], [500, 1000], [1000, 1000]]
-        }],
-        "mrec": [{
-            "minWidth": 1,
-            "sizes": [[300, 250]]
-        }], 
-        "billboard": [{
-            "minWidth": 1,
-            "sizes": [[300, 250], [800, 250], [970, 250]]
-        }],
-        "mrec_btf": [{
-            "minWidth": 1,
-            "sizes": [[300, 250]]
-        }], 
-        "billboard_btf": [{
-            "minWidth": 1,
-            "sizes": [[300, 250], [800, 250], [970, 250]]
         }]
     },
     ...
@@ -209,16 +192,15 @@ adSSetup = {
             adSSetup = {
                 view: "d",
                 partners: true,
-                adPlacements: ["superbanner", "sky", "mrec", "billboard", "mrec_btf", "billboard_btf"],
+                adPlacements: ["superbanner", "sky"],
                 adSlotSizes: { ... },
                 placeholder: { ... },
                 colorBg: true,
                 bgClick: true,
                 hasVideoPlayer: false,
                 isArticle: true,
-                pageName: "news_story",
-                target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
-                iabTax: "IAB2,IAB2-1,1,32"
+                pageName: "hey_story",
+                target: ""
             }
         </script>
         
