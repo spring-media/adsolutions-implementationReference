@@ -9,8 +9,13 @@ Please call the API when a new article is published.
 ## Table of Contents
 
  - [What is the Brand Safety Classifier?](#what-is-the-brand-safety-classifier)
+ - [Request Parameter](#request-parameter)
  - [POST Request](#post-request)
- - [Response](#response)
+ - [Response Formats](#response-formats)
+    - [Resonse with multiple brand-safety matches](#resonse-with-multiple-brand-safety-matches)
+    - [Response with no brand-safety match](#response-with-no-brand-safety-match)
+    - [Response with an error](#response-with-an-error)
+ - [Error Handling](#error-handling)
  - [Apply response to adSSetup config](#apply-response-to-adssetup-config)
  - [Request Frequency](#request-frequency)
  - [Important Notes](#important-notes)
@@ -29,12 +34,31 @@ Publishers can simply add a request that gets the related keywords for a given a
 
 In the ideal case, the service is called only once when a new article is published. Keep in mind, that you should not add this request into the time critical publishing pipeline - but simply let the request run in parallel. It is okay if the article is going live without these keywords. When the response from this API is ready, you can just enrich the article with these keywords.
 
+
+<br>
+<br>
+
+
+
+## Request Parameter
+
+Here's the requested information converted into a markdown table:
+
+| Parameter   | Type   | Description                   | Required |
+|-------------|--------|-------------------------------|----------|
+| title       | string | The title of the article      | true     |
+| content     | string | The content of the article    | true     |
+| publisher   | string | The publisher of the article  | true     |
+| article_id  | string | The ID of the article         | true     |
+
+
+
 <br>
 <br>
 
 ## POST Request
 
-Send your `POST` request to `https://verify.asadcdn.com/brand-safety-classifier`.
+Send your `POST` request to `https://classifier.prd.adtech.as-infra.de/brand-safety`.
 
 We expect a json object in the following format:
 
@@ -42,7 +66,8 @@ We expect a json object in the following format:
 {
     "title": "10 reasons why your dog is eating grass",
     "content": "The content shouldn't include widgets or html nodes, but only plain text as string.",
-    "publisher": "publisher.de"
+    "publisher": "publisher.de",
+    "article_id": "uniqueId123"
 }
 ```
 
@@ -52,7 +77,9 @@ We expect a json object in the following format:
 
 
 
-## Response
+## Response Formats
+
+### Resonse with multiple brand-safety matches
 
 ```json
 {
@@ -77,6 +104,54 @@ We expect a json object in the following format:
     }
 }
 ```
+
+<br>
+
+### Response with no brand-safety match
+
+```json
+{
+    "status": "OK",
+    "classification": {
+        "matches": [ ]
+    }
+}
+```
+
+<br>
+
+### Response with an error
+
+```json
+{
+	"status": 400,
+	"error": "Invalid Syntax",
+	"message": "Please check the syntax and parameters of your request."
+}
+```
+
+
+
+
+<br><br>
+
+
+## Error Handling
+
+This is an overview of the error codes you might see, along with suggestions on how to handle them.
+
+<br>
+
+
+| Status | Error               | Explanation                                            | Solution                                               |
+|--------|---------------------|--------------------------------------------------------|--------------------------------------------------------|
+| 429    | Rate Limit Error    | Too many requests                                      | Wait for some time before making new requests.         |
+| 400    | Invalid Syntax      | Please check the syntax and parameters of your request.| Verify the request syntax and parameters are correct.  |
+| 500    | Internal Server Error| An error occurred while processing the request.       | Try to send the request again. If you get this error frequently, please contact us via adtechnology@axelspringer.com |
+| 404    | Not Found           | The requested resource was not found.                  | Verify that you are sending your request to the correct endpoint.    |
+| 408    | Request Timeout     | The response from Azure was not finished in 30 seconds and timed out.  | As we are making requests to an Azure service, it is possible that these time out. <br>We have a timeout limit of 30 seconds - if you receive this error, just try to send the request again. |
+| 500    | Unknown Error       | An unknown error occurred.                             | Please contact us via adtechnology@axelspringer.com and try to send the request again. |
+
 
 
 
