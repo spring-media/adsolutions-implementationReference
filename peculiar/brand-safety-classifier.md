@@ -15,6 +15,7 @@ Please call the API when a new article is published.
     - [Resonse with multiple brand-safety matches](#resonse-with-multiple-brand-safety-matches)
     - [Response with no brand-safety match](#response-with-no-brand-safety-match)
     - [Response with an error](#response-with-an-error)
+ - [Caching Strategy](#caching-strategy)
  - [Error Handling](#error-handling)
  - [Apply response to adSSetup config](#apply-response-to-adssetup-config)
  - [Request Frequency](#request-frequency)
@@ -134,6 +135,22 @@ We expect a json object in the following format:
 
 
 <br><br>
+
+## Caching Strategy
+
+Currently we implemented a provisional caching system. 
+We plan to improve the functionality and its features in the future, but for now we have the following rules in place:
+
+ - The first time a new `article_id` is seen, the article contents will be classified by the AI service (which sometimes can take a few seconds) and is then stored in the cache.
+ - every following request with this `article_id` is checked, if the article title and/or contents have changed for more than 20%. If so, the article will be classified again and the cache will be updated.
+
+With this basic caching, we reduce response times as well as costs for the service. Also, since we will be running into the rate limits less frequently, we can ensure a more stable service.
+In the future, there will be an option to force a cache update on your own.
+
+
+
+<br><br>
+
 
 
 ## Error Handling
