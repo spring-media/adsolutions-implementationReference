@@ -162,7 +162,7 @@ This is an overview of the error codes you might see, along with suggestions on 
 
 | Status | Error               | Explanation                                            | Solution                                               |
 |--------|---------------------|--------------------------------------------------------|--------------------------------------------------------|
-| 429    | Rate Limit Error    | Too many requests                                      | Wait for some time before making new requests.         |
+| 429    | Rate Limit Error    | Too many requests                                      | Wait for some time before making new requests. Rate limits are calculated with token per minute - so it is hard to say a specific number of requests that can produce this error. However, with caching in place, this shouldn't happen very often. |
 | 400    | Invalid Syntax      | Please check the syntax and parameters of your request.| Verify the request syntax and parameters are correct.  |
 | 500    | Internal Server Error| An error occurred while processing the request.       | Try to send the request again. If you get this error frequently, please contact us via adtechnology@axelspringer.com |
 | 404    | Not Found           | The requested resource was not found.                  | Verify that you are sending your request to the correct endpoint.    |
