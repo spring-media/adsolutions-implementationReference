@@ -19,6 +19,7 @@ Please call the API when a new article is published.
  - [Error Handling](#error-handling)
  - [Apply response to adSSetup config](#apply-response-to-adssetup-config)
  - [Request Frequency](#request-frequency)
+ - [Xandr Keyword Overview](#xandr-keyword-overview)
  - [Important Notes](#important-notes)
  - [Help](#help)
 
@@ -210,6 +211,34 @@ A short note about the frequency of requests related to a single article.
 Please do not send requests on little editorial changes on the articles as this process is connected to costs. 
 It should be enough to only send the initial published article content for the classification, since the general context or brand safety is unlikely to be affected by minor updates to the article's wording.
 
+
+
+<br><br>
+
+
+
+
+
+## Xandr Keyword Overview
+
+Here's an overview of the brand safety keywords in Xandr. The possible values for each keyword are [`veryHigh`, `high`, `medium`, `low`]:
+
+
+| Xandr Keyword  | Brand Safety Category   |
+|----------------|-------------------------|
+| bs_adlt        | Adult & Explicit Sexual Content       |
+| bs_arms        | Arms & Ammunition                     |
+| bs_crime       | Crime & Harmful Acts to Individuals and Society and Human Right Violations  |
+| bs_death       | Death, Injury, or Military Conflict   |
+| bs_prcy        | Online Piracy                         |
+| bs_htsp        | Hate Speech & Acts of Aggression      |
+| bs_prof        | Obscenity and Profanity               |
+| bs_drug        | Illegal Drugs/Tobacco/E-Cigarettes/Vaping/Alcohol |
+| bs_spam        | Spam or Harmful Content               |
+| bs_terr        | Terrorism                             |
+| bs_ssis        | Sensitive Social Issues               |
+
+_Experience has shown that articles are mainly flagged with the categories_ `bs_crime` _and_ `bs_death`.
 
 
 <br><br>
