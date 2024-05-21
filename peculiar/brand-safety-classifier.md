@@ -221,7 +221,7 @@ It should be enough to only send the initial published article content for the c
 
 ## Xandr Keyword Overview
 
-Here's an overview of the brand safety keywords in Xandr. The possible values for each keyword are [`veryHigh`, `high`, `medium`, `low`]:
+Here's an overview of the brand safety keywords in Xandr. The possible values for each keyword are [`veryLow`, `low`, `medium`, `high`]:
 
 
 | Xandr Keyword  | Brand Safety Category   |
