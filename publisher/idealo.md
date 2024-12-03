@@ -118,8 +118,7 @@ Other modules are then loaded on demand. If you plan to integrate the adlib with
 +                hasVideoPlayer: false,
 +                isArticle: true,
 +                pageName: "news_story",
-+                target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
-+                iabTax: "IAB2,IAB2-1,1,32"
++                target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
 +            }
 +        </script>
         
@@ -238,8 +237,7 @@ adSSetup = {
                 hasVideoPlayer: false,
                 isArticle: true,
                 pageName: "news_story",
-                target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
-                iabTax: "IAB2,IAB2-1,1,32"
+                target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
             }
         </script>
         
