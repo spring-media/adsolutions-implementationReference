@@ -149,7 +149,8 @@ You can find a detailed overview with explanation of all parameters for the adSS
 
 ### AdSSetup.adSlotSizes - Desktop
 
-Please use these sizes for your ad integration on desktop viewports for now:
+Ad slot sizes define what ad formats are requested for each slot.
+This is a suggestion for the sizes for your ad integration on desktop viewports. You can change the requested sizes and slots as needed:
 
 ```javascript
 
@@ -186,7 +187,8 @@ adSSetup = {
 
 ### AdSSetup.adSlotSizes - Mobile
 
-Please use these sizes for your ad integration on mobile viewports for now:
+Ad slot sizes define what ad formats are requested for each slot.
+This is a suggestion for the sizes for your ad integration on mobile viewports. You can change the requested sizes and slots as needed:
 
 ```javascript
 
