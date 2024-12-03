@@ -87,6 +87,9 @@ Basically there are only three important steps to implement a basic ad integrati
 
 **Important**: It is very important, that you **do not** load the adlib asynchronically! Otherwise this will lead to [cumulative layout shifts](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) and delay the headerbidding a lot, which will cost your page real money in unrealised profits. 
 
+There is a way to load a part of the adlib asynchronically. In this case, only the most important scripts are loaded directly, to handle tasks like creating placeholders.
+Other modules are then loaded on demand. If you plan to integrate the adlib with this scenario, please contact us at adtechnology@axelspringer.com to talk about the needed changes.
+
 
 <br>
 
