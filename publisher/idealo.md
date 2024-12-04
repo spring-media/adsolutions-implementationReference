@@ -276,7 +276,7 @@ _If you no longer want to receive the test ads, you can always remove the cookie
 
 **Important**: Please don't try to test ads on Localhost. Ads will be not delivered on localhost without updates on your environment.
 
-If you have no other choice but to test on localhost, you have to change your hosts file and map localhost with any domain _(for example "www.test.com")_, so that ad requests have a valid domain. 
+If you have no other choice but to test on localhost, you have to change your hosts file and map localhost with any domain _(for example "`www.test.com`")_, so that ad requests have a valid domain. 
 Ad requests coming from localhost are always blocked.
 
 <br>
