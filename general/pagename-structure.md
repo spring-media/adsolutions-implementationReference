@@ -6,6 +6,25 @@ There are different approaches - some publishers might only have 10 different pa
 
 <br>
 
+## Table of Contents
+
+1. [General](#general)
+   - [Pagenames](#pagenames)
+   - [Placements](#placements)
+   - [Placement Groups](#placement-groups)
+   - [Platforms](#platforms)
+2. [Creating placements for a Xandr migration](#creating-placements-for-a-xandr-migration)
+   - [Example: Create placements in Xandr](#example-create-placements-in-xandr)
+3. [Use key values to reduce number of placement groups](#use-key-values-to-reduce-number-of-placement-groups)
+4. [Make inventory bundles with multiple placement groups (content categories)](#make-inventory-bundles-with-multiple-placement-groups-content-categories)
+   - [Content Categories](#content-categories)
+   - [Example: Using a content category to bundle placement groups](#example-using-a-content-category-to-bundle-placement-groups)
+5. [Example: What happens in an impression?](#example-what-happens-in-an-impression)
+
+
+
+<br>
+
 ## General
 
 <br>
@@ -196,7 +215,7 @@ These content categories can be used as target for a campaign, so that you can j
 <br>
 <br><br>
 
-### Example of use
+### Example: Using a content category to bundle placement groups
 
 Let us continue with the previous example. Our pagenames are the following:
  - product_keyboards
