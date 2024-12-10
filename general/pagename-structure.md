@@ -171,7 +171,7 @@ adSSetup = {
   ...
   view: "d",
   pagename: "product",
-  target: "producttype=smartphones"
+  target: "producttype=smartphones;"
   ...
 }
 ```
@@ -268,7 +268,7 @@ adSSetup: {
         }],
    },
    pagename: "news_story",
-   target: "topic=economics"
+   target: "topic=economics;"
    ...
 }
 ```
