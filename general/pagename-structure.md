@@ -275,7 +275,7 @@ adSSetup: {
 
 <br>
 
-Since you are visiting the page with your phone, we know that the platform is `mew` and the pagename is `news_story`.<br>
+Since you are visiting the page with your phone, the publisher sets the `adSSetup.view = "m"` - therefore we know that the platform is `mew` and the pagename is `news_story`.<br>
 So now we know that we have to ask the adserver for the placement group `publisher.com-mew-news_story`.<br>
 
 In the next step, the adlib looks into the adSSetup and checks what placements are ordered in `adSSetup.adPlacements`. These placements must exist in the placement group in Xandr.<br>
