@@ -64,6 +64,8 @@ The `adSSetup` object acts as a configuration for ad delivery.
 </script>
 ```
 
+**Important**: Please make sure that parameter target contains all relevant content keywords...
+
 For a detailed explanation of `adSSetup` parameters, see [this reference](https://github.com/spring-media/adsolutions-implementationReference/blob/master/general/adSSetup-in-detail.md).
 
 #### AdSSetup.adSlotSizes - Desktop
