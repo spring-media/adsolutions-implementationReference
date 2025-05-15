@@ -49,16 +49,13 @@ The `adSSetup` object acts as a configuration for ad delivery.
 ```html
 <script type="text/javascript">
     adSSetup = {
-        view: "d",
-        partners: true,
+        view: "d", // values d for desktop, m for mobile
         adPlacements: [ ... ], // see below
         adSlotSizes: { ... }, // see below
-        placeholder: { ... },
-        colorBg: true,
-        bgClick: true,
+        colorBg: false,
+        bgClick: false,
         hasVideoPlayer: false,
-        isArticle: true,
-        pageName: "Newsite_WebINT",
+        pageName: "upday_website",
         target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;" // important: set context relevant values and key-values here; should be specific for every article
     }
 </script>
@@ -74,10 +71,10 @@ For a detailed explanation of `adSSetup` parameters, see [this reference](https:
 adSSetup = {
     "adPlacements": ["googletag-desktop-div-gpt-ad-desktoparticle-1", "googletag-desktop-div-gpt-ad-desktoparticle-2", "googletag-desktop-div-gpt-ad-desktoparticle-3", "googletag-desktop-div-gpt-ad-desktoparticle-4"],
     "adSlotSizes": {
-        "googletag-desktop-div-gpt-ad-desktoparticle-1": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "googletag-desktop-div-gpt-ad-desktoparticle-2": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "googletag-desktop-div-gpt-ad-desktoparticle-3": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "googletag-desktop-div-gpt-ad-desktoparticle-4": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }]
+        "googletag-desktop-div-gpt-ad-desktoparticle-1": [{ "minWidth": 1, "sizes": [[300,250], [320,480], [300,600]] }],
+        "googletag-desktop-div-gpt-ad-desktoparticle-2": [{ "minWidth": 1, "sizes": [[300,250], [320,480], [300,600]] }],
+        "googletag-desktop-div-gpt-ad-desktoparticle-3": [{ "minWidth": 1, "sizes": [[300,250], [320,480], [300,600]] }],
+        "googletag-desktop-div-gpt-ad-desktoparticle-4": [{ "minWidth": 1, "sizes": [[300,250], [320,480], [300,600]] }]
     }
 }
 ```
@@ -88,10 +85,10 @@ adSSetup = {
 adSSetup = {
     "adPlacements": ["googletag-mobile-div-gpt-ad-mobilearticle-1", "googletag-mobile-div-gpt-ad-mobilearticle-2", "googletag-mobile-div-gpt-ad-mobilearticle-3", "googletag-mobile-div-gpt-ad-mobilearticle-4"],
     "adSlotSizes": {
-        "googletag-mobile-div-gpt-ad-mobilearticle-1": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "googletag-mobile-div-gpt-ad-mobilearticle-2": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "googletag-mobile-div-gpt-ad-mobilearticle-3": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "googletag-mobile-div-gpt-ad-mobilearticle-4": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }]
+        "googletag-mobile-div-gpt-ad-mobilearticle-1": [{ "minWidth": 1, "sizes": [[300,250], [320,480], [300,600]] }],
+        "googletag-mobile-div-gpt-ad-mobilearticle-2": [{ "minWidth": 1, "sizes": [[300,250], [320,480], [300,600]] }],
+        "googletag-mobile-div-gpt-ad-mobilearticle-3": [{ "minWidth": 1, "sizes": [[300,250], [320,480], [300,600]] }],
+        "googletag-mobile-div-gpt-ad-mobilearticle-4": [{ "minWidth": 1, "sizes": [[300,250], [320,480], [300,600]] }]
     }
 }
 ```
@@ -102,9 +99,12 @@ adSSetup = {
 
 Ad containers must be provided for each requested ad placement.
 
+**Important**: We will decide on naming convention once we have access to test page and GAM... 
+So for now you can just use existing advertising div's and place them in appropriate position (bascially replicate status quo). 
+
 ```html
-<div id="mrecWrapper">
-    <div id="mrec"></div>
+<div id="[tbd]Wrapper">
+    <div id="[tbd]"></div>
 </div>
 ```
 
