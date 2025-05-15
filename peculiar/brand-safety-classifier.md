@@ -9,6 +9,9 @@ Please call the API when a new article is published.
 ## Table of Contents
 
  - [What is the Brand Safety Classifier?](#what-is-the-brand-safety-classifier)
+ - [Sentiment Analysis](#sentiment-analysis)
+    - [Sentiment Keyvalues Overview](#sentiment-keyvalues-overview)
+    - [Classification Conditions](#classification-conditions)
  - [Request Parameter](#request-parameter)
  - [POST Request](#post-request)
  - [Response Formats](#response-formats)
@@ -35,6 +38,83 @@ Our Brand Safety Classification API is a non critical service, that will enable 
 Publishers can simply add a request that gets the related keywords for a given article and save these keywords in the CMS, so that these can later be used for targeting in the adSSetup object.
 
 In the ideal case, the service is called only once when a new article is published. Keep in mind, that you should not add this request into the time critical publishing pipeline - but simply let the request run in parallel. It is okay if the article is going live without these keywords. When the response from this API is ready, you can just enrich the article with these keywords.
+
+
+<br>
+<br>
+
+## Sentiment Analysis
+
+As of May 2025 we also classify sentiments on articles.<br>
+As long as you enrich the AdSSetup targets dynamically with the delivered keyvalues, you do not need to make changes on how you handle the classification response.
+
+### Sentiment Keyvalues Overview
+
+| Key Name    | Values                     | Description                    | 
+|-------------|----------------------------|--------------------------------|
+| mood_amuse  | high, low, medium, veryLow | Sentiment Analysis: Amusement  | 
+| mood_anger  | high, low, medium, veryLow | Sentiment Analysis: Anger      | 
+| mood_fear   | high, low, medium, veryLow | Sentiment Analysis: Fear       | 
+| mood_enjoy  | high, low, medium, veryLow | Sentiment Analysis: Enjoyment  | 
+| mood_insp  | high, low, medium, veryLow | Sentiment Analysis: Inspiration | 
+| mood_optm  | high, low, medium, veryLow | Sentiment Analysis: Optimism    | 
+| mood_sad   | high, low, medium, veryLow | Sentiment Analysis: Sadness     | 
+
+
+<br>
+<br>
+
+
+
+### Classification Conditions
+
+#### 1. **Amusement**
+- Content is light-hearted, playful, comedic, or designed to entertain. The primary emotional response is smiling, laughter, or a sense of fun.  
+- Is applied if the main tone is funny, witty, satirical, or features feel-good entertainment, memes, harmless pranks, light pop culture, etc.  
+- **Sample:** _"See how Berlin’s ducks caused the morning commuter chaos — again!"_
+
+---
+
+#### 2. **Anger**
+- Content may evoke strong displeasure, frustration, or outrage—usually about injustice, failure, controversy, or scandal. Focus is on conflict, blame, or aggressive criticism.  
+- Is applied when the article features scandal, accusations, heated debates, outrage, or exposes wrongdoing. (Not for all negative news, only when anger dominates.)  
+- **Sample:** _"Public outcry after politician’s expense fraud uncovered"_
+
+---
+
+#### 3. **Fear**
+- Content emphasizes threats, anxieties, dangers, or risks. The primary emotion is concern, worry, or distress about potential harm (physical, economic, societal, etc.).  
+- Is applied when the story induces fear or anxiety (e.g., disasters, crime spikes, health scares, war, warnings).  
+- **Sample:** _"Rise in new COVID variant cases worries health experts"_
+
+---
+
+#### 4. **Inspiration**
+- Content that uplifts, motivates, or encourages the reader. The main response is admiration, a desire to emulate, or feeling hopeful through positive action or resilience.  
+- Is applied for stories about overcoming adversity, heroic acts, personal triumphs, major social impact, or profiles meant to motivate the audience.  
+- **Sample:** _"Paralympian’s journey from accident to gold medal success"_
+
+---
+
+#### 5. **Optimism**
+- Content focused on positive developments, hope for the future, or improvements. The tone is upbeat, reassuring, and forward-looking.  
+- Is applied when the article emphasizes solutions, improvements, positive forecasts, or new opportunities — rather than just celebrating individuals ("inspiration"), it’s about society or context.  
+- **Sample:** _"German economy expected to rebound strongly next year"_
+
+---
+
+#### 6. **Sadness**
+- Content that deals with loss, mourning, tragedy, or negative outcomes. The dominant emotional response is sorrow, sympathy, or regret.  
+- Is applied for reporting on deaths, disasters, personal loss stories, major setbacks, or when a sympathetic tone is foregrounded.  
+- **Sample:** _"Community mourns loss of beloved local teacher"_
+
+---
+
+#### 7. **Enjoyment**
+- Content centered on pleasure, satisfaction, or delight—about experiences, events, or activities that offer joy and fun (distinct from "amusement", which is humor-based).  
+- Is applied when the article covers positive lifestyle stories, leisure activities, travel, gastronomy, or cultural events with a tone of enjoyment rather than laughter.  
+- **Sample:** _"A guide to enjoying the best summer festivals in Munich"_
+
 
 
 <br>
@@ -224,8 +304,8 @@ It should be enough to only send the initial published article content for the c
 Here's an overview of the brand safety keywords in Xandr. The possible values for each keyword are [`veryLow`, `low`, `medium`, `high`]:
 
 
-| Xandr Keyword  | Brand Safety Category   |
-|----------------|-------------------------|
+| Xandr Keyword  | Brand Safety Category                 |
+|----------------|---------------------------------------|
 | bs_adlt        | Adult & Explicit Sexual Content       |
 | bs_arms        | Arms & Ammunition                     |
 | bs_crime       | Crime & Harmful Acts to Individuals and Society and Human Right Violations  |
@@ -237,6 +317,13 @@ Here's an overview of the brand safety keywords in Xandr. The possible values fo
 | bs_spam        | Spam or Harmful Content               |
 | bs_terr        | Terrorism                             |
 | bs_ssis        | Sensitive Social Issues               |
+| mood_amuse     | Sentiment Analysis: Amusement         | 
+| mood_anger     | Sentiment Analysis: Anger             | 
+| mood_fear      | Sentiment Analysis: Fear              | 
+| mood_enjoy     | Sentiment Analysis: Enjoyment         | 
+| mood_insp      | Sentiment Analysis: Inspiration       | 
+| mood_optm      | Sentiment Analysis: Optimism          | 
+| mood_sad       | Sentiment Analysis: Sadness           | 
 
 _Experience has shown that articles are mainly flagged with the categories_ `bs_crime` _and_ `bs_death`.
 
