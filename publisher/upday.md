@@ -29,7 +29,7 @@ AdLib is the core component for ad delivery. It must be included in the **header
 ```html
 <html>
 <head>
-    <title>Business Insider</title>
+    <title>Upday</title>
     <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/upday.js"></script>
 </head>
 <body>
