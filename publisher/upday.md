@@ -51,15 +51,15 @@ The `adSSetup` object acts as a configuration for ad delivery.
     adSSetup = {
         view: "d",
         partners: true,
-        adPlacements: ["superbanner", "sky", "mrec"],
-        adSlotSizes: { ... },
+        adPlacements: [ ... ], // see below
+        adSlotSizes: { ... }, // see below
         placeholder: { ... },
         colorBg: true,
         bgClick: true,
         hasVideoPlayer: false,
         isArticle: true,
-        pageName: "",
-        target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
+        pageName: "Newsite_WebINT",
+        target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;" // important: set context relevant values and key-values here; should be specific for every article
     }
 </script>
 ```
@@ -72,14 +72,12 @@ For a detailed explanation of `adSSetup` parameters, see [this reference](https:
 
 ```javascript
 adSSetup = {
-    "adPlacements": ["sky", "mrec", "mrec_btf_2", "mrec_btf_3", "mrec_btf_4", "mrec_btf", "inpage"],
+    "adPlacements": ["googletag-desktop-div-gpt-ad-desktoparticle-1", "googletag-desktop-div-gpt-ad-desktoparticle-2", "googletag-desktop-div-gpt-ad-desktoparticle-3", "googletag-desktop-div-gpt-ad-desktoparticle-4"],
     "adSlotSizes": {
-        "sky": [{ "minWidth": 1, "sizes": [[300,600], [160,600], [120,600] }],
-        "mrec": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "mrec_btf_2": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "mrec_btf_3": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "mrec_btf": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "inpage": [{ "minWidth": 1, "sizes": [[1,1], [5,5] }],
+        "googletag-desktop-div-gpt-ad-desktoparticle-1": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
+        "googletag-desktop-div-gpt-ad-desktoparticle-2": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
+        "googletag-desktop-div-gpt-ad-desktoparticle-3": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
+        "googletag-desktop-div-gpt-ad-desktoparticle-4": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }]
     }
 }
 ```
@@ -88,13 +86,12 @@ adSSetup = {
 
 ```javascript
 adSSetup = {
-    "adPlacements": ["mrec", "mrec_btf_2", "mrec_btf_3", "mrec_btf_4", "mrec_btf", "inpage"],
-    "adSlotSizes": { 
-        "mrec": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "mrec_btf_2": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "mrec_btf_3": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "mrec_btf": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
-        "inpage": [{ "minWidth": 1, "sizes": [[1,1], [5,5] }],
+    "adPlacements": ["googletag-mobile-div-gpt-ad-mobilearticle-1", "googletag-mobile-div-gpt-ad-mobilearticle-2", "googletag-mobile-div-gpt-ad-mobilearticle-3", "googletag-mobile-div-gpt-ad-mobilearticle-4"],
+    "adSlotSizes": {
+        "googletag-mobile-div-gpt-ad-mobilearticle-1": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
+        "googletag-mobile-div-gpt-ad-mobilearticle-2": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
+        "googletag-mobile-div-gpt-ad-mobilearticle-3": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }],
+        "googletag-mobile-div-gpt-ad-mobilearticle-4": [{ "minWidth": 1, "sizes": [[300,600], [300,300], [300,250]], [300,75]], [320,160], [320,75], [320,50] }]
     }
 }
 ```
