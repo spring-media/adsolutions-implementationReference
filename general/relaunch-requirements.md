@@ -1,12 +1,16 @@
-# Page Structure (Inner/Outer Wrapper)
+🚧 Work in Progress 🚧
+
+
+# Relaunch Requirements - Page Structure (Inner/Outer Wrapper)
 
 ## Goal
 
-AdLib requires correct selectors for inner and outer wrappers to properly center and position special formats (Fireplace, Wallpaper, Sitebar).
+The goal for this document is for you to learn what to keep in mind when planning a relaunch for a website with an active Adlib integration.
+The AdLib requires correct selectors for inner and outer wrappers to properly center and position special formats (e.g. Fireplace, Wallpaper, Sitebar, ...).
 
 ## Why Inner/Outer Wrapper?
 
-AdLib uses the wrapper structure to:
+The AdLib uses the wrapper structure to:
 - **Determine page width** (for responsive ads)
 - **Center content** (for special formats)
 - **Position ads correctly** (outside/inside content)
@@ -15,7 +19,7 @@ AdLib uses the wrapper structure to:
 
 ```html
 <body>
-  <!-- OuterWrapper: Entire page -->
+  <!-- OuterWrapper: Entire page container -->
   <div id="page" class="page-wrapper">
     
     <!-- Navigation (outside InnerWrapper) -->
@@ -48,10 +52,10 @@ AdLib uses the wrapper structure to:
 
 ### Definition
 The **InnerWrapper** is the main content area of the page (usually `<main>`, `#content`, `.content-wrapper`).
+While the content is often centered per default, one of the biggest reasons for this selector construct are cases where the inner wrapper is not centered, so we can detect where to place certain ad elements.
 
 ### Requirements
 - ✅ **Fixed width** (e.g., 1000px, 1200px) or **max-width**
-- ✅ **Centered** (usually `margin: 0 auto`)
 - ✅ **Contains article content**
 - ❌ **NOT** `<body>` as selector
 
@@ -77,7 +81,7 @@ The **InnerWrapper** is the main content area of the page (usually `<main>`, `#c
 </div>
 ```
 
-**Reason:** Superbanner must be exactly as wide as the InnerWrapper to correctly center special formats (Fireplace, Wallpaper).
+**Important:** Superbanner must be exactly as wide as the InnerWrapper to correctly center special formats (Fireplace, Wallpaper).
 
 ## OuterWrapper Selector
 
@@ -175,9 +179,9 @@ The **OuterWrapper** is the outermost container of the page (usually `#page`, `.
 ## Troubleshooting
 
 **Special formats not centered**
-- Check: InnerWrapper selector correct?
-- Check: InnerWrapper has fixed width?
-- Check: Superbanner outside InnerWrapper?
+- Check: Does the InnerWrapper has a fixed width?
+- Check: Has one of the selectors changed?
+- Check: Is the Superbanner outside the InnerWrapper?
 
 **Ads overlap content**
-- Check: Z-index conflicts?
+- Check: Are there Z-index conflicts?
