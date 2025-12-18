@@ -73,7 +73,7 @@ Basically there are only three important steps to implement a basic ad integrati
 <html>
     <head>
         <title>Your great website</title>
-+       <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/idealo.js"></script>
++       <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/toralarm.js"></script>
     </head>
     <body>
 
@@ -121,7 +121,7 @@ Other modules are then loaded on demand. If you plan to integrate the adlib with
 +            }
 +        </script>
         
-        <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/idealo.js"></script>
+        <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/toralarm.js"></script>
     </head>
     <body>
 
@@ -205,7 +205,7 @@ adSSetup = {
             }
         </script>
         
-        <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/idealo.js"></script>
+        <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/toralarm.js"></script>
     </head>
     <body>
 
