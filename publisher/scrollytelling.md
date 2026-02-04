@@ -18,6 +18,8 @@ In this document you will learn how to implement our adlib in your site to deliv
         - [AdSSetup.adSlotSizes - Desktop](#adssetupadslotsizes---desktop) 
         - [AdSSetup.adSlotSizes - Mobile](#adssetupadslotsizes---mobile) 
     - [3. Provide Ad Slots](#3-provide-ad-slots)
+    - [4. Advertisement Labeling](#4-advertisement-labeling)
+    - [5. Next Steps](#5-next-steps)
  - [QA and testing](#qa-and-testing)
     - [Testads](#testads)
     - [Human detection](#human-detection)
@@ -86,7 +88,7 @@ Basically there are only three important steps to implement a basic ad integrati
 +            adSSetup = {
 +                view: "d",
 +                partners: true,
-+                adPlacements: ["superbanner", "sky"],
++                adPlacements: ["billboard", "billboard_btf"],
 +                adSlotSizes: { ... },
 +                placeholder: { ... },
 +                colorBg: true,
@@ -135,13 +137,13 @@ adSSetup = {
     ...
     "adPlacements": ["superbanner", "sky"],
     "adSlotSizes": { 
-        "superbanner": [{
+        "billboard": [{
             "minWidth": 1,
-            "sizes": [[728, 90], [728, 600], [1000, 600]]
+            "sizes": [[728, 90], [970, 250], [800, 250]]
         }], 
-        "sky": [{
+        "billboard_btf": [{
             "minWidth": 1,
-            "sizes": [[160, 600], [120, 600], [300, 600], [500, 1000], [1000, 1000]]
+            "sizes": [[728, 90], [970, 250], [800, 250]]
         }]
     },
     ...
@@ -167,7 +169,11 @@ adSSetup = {
     "adSlotSizes": { 
         "mrec": [{
             "minWidth": 1,
-            "sizes": [[320,160], [320,75], [320,50], [300,300], [300,250]]
+            "sizes": [[300, 600], [320, 480], [320, 460], [300, 300], [300, 250]]
+        }],
+        "mrec_btf": [{
+            "minWidth": 1,
+            "sizes": [[300, 600], [320, 480], [320, 460], [300, 300], [300, 250]]
         }]
     }
     ...
@@ -179,7 +185,7 @@ adSSetup = {
 <br>
 
 
-#### 🚧 Work in progress 🚧 - finalize sizes and formats with Media Impact
+#### 🚧 Work in progress 🚧 - finalize sizes, formats, pagename & target with Media Impact
 
 ## 3. Provide Ad Slots
 
@@ -197,7 +203,7 @@ adSSetup = {
             adSSetup = {
                 view: "d",
                 partners: true,
-                adPlacements: ["superbanner", "sky"],
+                adPlacements: ["billboard", "billboard_btf"],
                 adSlotSizes: { ... },
                 placeholder: { ... },
                 colorBg: true,
@@ -205,19 +211,18 @@ adSSetup = {
                 hasVideoPlayer: false,
                 isArticle: true,
                 pageName: "news_story",
-                target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;",
-                iabTax: "IAB2,IAB2-1,1,32"
+                target: "value1;value2;value3;key1=value1,value2;key2=value1,value2;"
             }
         </script>
         
-        <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/adtechnology.axelspringer.js"></script>
+        <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/bild.js"></script>
     </head>
     <body>
 
       <div class="your-content">...</div>
       
-+     <div id="superbannerWrapper">
-+         <div id="superbanner"></div>
++     <div id="billboardWrapper">
++         <div id="billboard"></div>
 +     </div>
 
       <div class="your-content">...</div>
@@ -230,7 +235,21 @@ adSSetup = {
 <br>
 
 
-## 4. Next steps
+
+## 4. Advertisement Labeling
+
+As a wish from the Media Impact Product team - it would be great if you could implement a proper advertisement labeling before and after each adslot to make a clear switch between the content and ads.
+For example:
+
+Werbung <br>
+[AdSlot] <br>
+Jetzt gehts weiter mit dem Artikel
+
+
+
+<br>
+
+## 5. Next steps
 
  - Check for PUR status - if PUR is active, we are not allowed to load the adlib.
  - Before loading the adlib, wait for CMP. Make sure that the CMP is loaded as early as possible.
