@@ -18,8 +18,9 @@ In this document you will learn how to implement our adlib in your site to deliv
         - [AdSSetup.adSlotSizes - Desktop](#adssetupadslotsizes---desktop) 
         - [AdSSetup.adSlotSizes - Mobile](#adssetupadslotsizes---mobile) 
     - [3. Provide Ad Slots](#3-provide-ad-slots)
-    - [4. Advertisement Labeling](#4-advertisement-labeling)
-    - [5. Next Steps](#5-next-steps)
+ - [Advertisement Labeling](#advertisement-labeling)
+ - [Next Steps](#next-steps)
+ - [Detect environment - iFrame embed vs. standalone](#detect-environment---iframe-embed-vs-standalone)
  - [QA and testing](#qa-and-testing)
     - [Testads](#testads)
     - [Human detection](#human-detection)
@@ -88,7 +89,7 @@ Basically there are only three important steps to implement a basic ad integrati
 +            adSSetup = {
 +                view: "d",
 +                partners: true,
-+                adPlacements: ["billboard", "billboard_btf"],
++                adPlacements: ["widget", "widget_2"],
 +                adSlotSizes: { ... },
 +                placeholder: { ... },
 +                colorBg: true,
@@ -120,12 +121,13 @@ You can find a detailed overview with explanation of all parameters for the adSS
 
  - Make sure, that the adSSetup Object is ready, when the adlib is loaded, so that we can use your configuration to make the call to the ad server.
  - Be sure that you only order placements in the adSSetup.adPlacements, for which you know that you have a matching ad slot on your page, where the delivered ad can be rendered in.
+ - In the adPlacements array, you defined which adslots you have on your page - for example "widget", "widget_2", "widget_3" (you can continue like this, depending on how long your content is).
+ - In the adSlotSizes object you defined the sizes for the "widget" placement. Since we only have "widget" and "widget_{n}" slots on the page, we use the sizes of the first slot to clone the others.
 
 
 <br>
 
 
-#### 🚧 Work in progress 🚧 - finalize sizes and formats with Media Impact
 
 ### AdSSetup.adSlotSizes - Desktop
 
@@ -135,16 +137,12 @@ Please use these sizes for your ad integration on desktop viewports for now:
 
 adSSetup = {
     ...
-    "adPlacements": ["superbanner", "sky"],
+    "adPlacements": ["widget", "widget_2"],
     "adSlotSizes": { 
-        "billboard": [{
+        "widget": [{
             "minWidth": 1,
             "sizes": [[728, 90], [970, 250], [800, 250]]
-        }], 
-        "billboard_btf": [{
-            "minWidth": 1,
-            "sizes": [[728, 90], [970, 250], [800, 250]]
-        }]
+        }],
     },
     ...
 }
@@ -155,7 +153,6 @@ adSSetup = {
 <br>
 
 
-#### 🚧 Work in progress 🚧 - finalize sizes and formats with Media Impact
 
 ### AdSSetup.adSlotSizes - Mobile
 
@@ -165,16 +162,12 @@ Please use these sizes for your ad integration on mobile viewports for now:
 
 adSSetup = {
     ...
-    "adPlacements": ["mrec"],
+    "adPlacements": ["widget", "widget_2"],
     "adSlotSizes": { 
-        "mrec": [{
+        "widget": [{
             "minWidth": 1,
             "sizes": [[300, 600], [320, 480], [320, 460], [300, 300], [300, 250]]
         }],
-        "mrec_btf": [{
-            "minWidth": 1,
-            "sizes": [[300, 600], [320, 480], [320, 460], [300, 300], [300, 250]]
-        }]
     }
     ...
 }
@@ -185,7 +178,6 @@ adSSetup = {
 <br>
 
 
-#### 🚧 Work in progress 🚧 - finalize sizes, formats, pagename & target with Media Impact
 
 ## 3. Provide Ad Slots
 
@@ -203,7 +195,7 @@ adSSetup = {
             adSSetup = {
                 view: "d",
                 partners: true,
-                adPlacements: ["billboard", "billboard_btf"],
+                adPlacements: ["widget", "widget_2"],
                 adSlotSizes: { ... },
                 placeholder: { ... },
                 colorBg: true,
@@ -221,8 +213,14 @@ adSSetup = {
 
       <div class="your-content">...</div>
       
-+     <div id="billboardWrapper">
-+         <div id="billboard"></div>
++     <div id="widgetWrapper">
++         <div id="widget"></div>
++     </div>
+
+      <div class="your-content">...</div>
+
++     <div id="widget_2Wrapper">
++         <div id="widget_2"></div>
 +     </div>
 
       <div class="your-content">...</div>
@@ -236,7 +234,7 @@ adSSetup = {
 
 
 
-## 4. Advertisement Labeling
+# Advertisement Labeling
 
 As a wish from the Media Impact Product team - it would be great if you could implement a proper advertisement labeling before and after each adslot to make a clear switch between the content and ads.
 For example:
@@ -245,26 +243,30 @@ Werbung <br>
 [AdSlot] <br>
 Jetzt gehts weiter mit dem Artikel
 
+<br>
+
+If you have questions regarding the advertisement labeling, please reach out to Jakob Stoltmann.
+
 
 
 <br>
 
-## 5. Next steps
+# Next steps
 
  - Check for PUR status - if PUR is active, we are not allowed to load the adlib.
  - Before loading the adlib, wait for CMP. Make sure that the CMP is loaded as early as possible.
  - Load the adlib after the CMP and as early as possible, too. Make sure that the adlib is **never** loaded asynchronously.
- - If scrollytelling is used as an embed on the page, check if you are loaded in an iFrame or directly on the page. If you're directly on the page, you should be able to get all the relevant ad values from the parent pages' adSSetup object.
-
-
+ - If scrollytelling is used as an embed on the page, check if you are loaded in an iFrame or directly on the page. If you're directly on the page, you should be able to get all the relevant ad values from the parent pages' adSSetup object. We have a script prepared for this scenario, please see the next part in this document.
 
 
 <br>
 
 
-And just like that, you already have a basic working ad integration on your page. If you would like to test the ad delivery, [here you can set a cookie](https://reports.asadcdn.com/testads.html) to receive some test ads via a test segment.
+# Detect environment - iFrame embed vs. standalone
 
-_If you no longer want to receive the test ads, you can always remove the cookie via the 'Remove Testads' button on the same page._
+We prepared a script you can use, to detect in which environment you are. <br>
+You can find it [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/peculiar/ads-in-widgets.md).
+
 
 
 <br>
