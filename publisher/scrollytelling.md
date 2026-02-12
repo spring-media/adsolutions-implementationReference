@@ -11,16 +11,11 @@ In this document you will learn how to implement our adlib in your site to deliv
 
 ## Table of contents
 
- - [Strategy](#strategy)
- - [Basic setup](#basic-setup)
-    - [1. Include the AdLib](#1-include-the-adlib)
-    - [2. AdSSetup - provide the config for the ad delivery](#2-adssetup---provide-the-config-for-the-ad-delivery)
-        - [AdSSetup.adSlotSizes - Desktop](#adssetupadslotsizes---desktop) 
-        - [AdSSetup.adSlotSizes - Mobile](#adssetupadslotsizes---mobile) 
-    - [3. Provide Ad Slots](#3-provide-ad-slots)
+ - [Ad Integration Steps for Scrollytelling](#ad-integration-steps-for-scrollytelling)
+    - [Use our widget integration script](#use-our-widget-integration-script)
+    - [Provide Ad Slots](#provide-ad-slots)
  - [Advertisement Labeling](#advertisement-labeling)
  - [Next Steps](#next-steps)
- - [Detect environment - iFrame embed vs. standalone](#detect-environment---iframe-embed-vs-standalone)
  - [QA and testing](#qa-and-testing)
     - [Testads](#testads)
     - [Human detection](#human-detection)
@@ -34,56 +29,143 @@ In this document you will learn how to implement our adlib in your site to deliv
 
 
 
-# Basic setup
+# Ad Integration Steps for Scrollytelling
+
+## Use our widget integration script
+
+> As Scrollytelling is a special case with two scenarios (standalone and embed), we prepared a script that will load the adlib and create the adSSetup for you - matching both scenarios:
 
 
-Basically there are only three important steps to implement a basic ad integration:
+```html
+<script>
+    (() => {
+        const slots = ["widget", "widget_2"], pageName = "scrollytelling_story", targets = "",
+            framed = globalThis === window.top,
+            windowWidth = document.documentElement?.clientWidth || document.body?.clientWidth || window.innerWidth;
+        let adlibWindow = null, frame = globalThis, view;
 
-<br>
+        const loadAdLibrary = () => {
+            const adlib = document.createElement("script");
+            adlib.src = "https://www.asadcdn.com/adlib/pages/bild.js";
+            document.head.appendChild(adlib);
+        }
 
+        const setSize = () => {
+            window.adSSetup.adSlotSizes.widget = [{
+                "minWidth": 1,
+                "sizes": [[300, 600], [320, 480], [320, 460], [300, 300], [300, 250]]
+            }, {
+                "minWidth": 727,
+                "sizes": [[728, 90], [970, 250], [800, 250]]
+            }];
+        }
 
-## 1. Include the AdLib
+        if (windowWidth >= 728) {
+            view = "d";
+        } else {
+            view = "m";
+        }
 
-> Our AdLib is the heart of the ad delivery. There are many features and processes, that are done by the adlib and of course, you need to include the script on your page to get a working ad delivery.
-> During the onboarding process we provide you a tailor-made version for your page that takes many different settings and special requirements of the site into account - in this case the bild.js.
+        while (frame) {
+            try {
+                if (frame.frames["__asadlibLocator"]) {
+                    adlibWindow = frame;
+                    break;
+                }
+            } catch {
+            }
+            if (frame === window.top) {
+                break;
+            }
+            frame = frame.parent;
+        }
 
-<br>
+        if (adlibWindow === globalThis) {
+            setSize();
+            slots.forEach(slot => {
+                globalThis.adSSetup.adPlacements.push(slot);
+                document.dispatchEvent(new CustomEvent('renderAd', {
+                    'detail': slot
+                }));
+            });
+        } else if (adlibWindow && framed) {
+            window.addEventListener("message", (msg) => {
+                if (msg?.data?.message === "pageSet") {
+                    window.adSSetup = msg.data.data;
+                    window.adSSetup.adPlacements = slots;
+                    setSize();
+                    loadAdLibrary();
+                }
+            }, false);
+            window.top.postMessage('sendPageSet:;:' + window.name, '*');
+        } else {
+            globalThis.adSSetup = {
+                view: view,
+                partners: true,
+                adPlacements: slots,
+                adSlotSizes: {},
+                placeholder: {},
+                bgClick: true,
+                hasVideoPlayer: false,
+                isArticle: true,
+                pageName: pageName,
+                target: targets
+            }
 
-
-```diff
-
-<html>
-    <head>
-        <title>Your great website</title>
-+       <script type="text/javascript" src="https://www.asadcdn.com/adlib/pages/bild.js"></script>
-    </head>
-    <body>
-
-      <div class="your-content">...</div>
-      <div class="your-content">...</div>
-      
-    </body>
-</html>
+            setSize();
+            loadAdLibrary();
+        }
+    })();
+</script>
 ```
 
-**Important**: It is very important, that you **do not** load the adlib asynchronically! Otherwise this will lead to [cumulative layout shifts](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) and delay the headerbidding a lot, which will cost your page real money in unrealised profits. 
+<br>
+<br>
+
+Most important for you is the first line in the above script
+
+```javascript
+const slots = ["widget", "widget_2"], pageName = "scrollytelling_story", targets = "",
+```
 
 <br>
 
+**slots**
 <br>
 
+In `slots`, you define the adSlots you have on the page. If your article is longer and has more adSlots, you have to list them here, so that they will be "ordered" with the ad request.
+Since we use only `widget`and `widget_btf`, we only define the sizes (which decide the available ad formats) for the `widget` - every `widget_{n}` slot will be a clone of the first `widget` slot and will have the same size definitions.
 
-## 2. AdSSetup - provide the config for the ad delivery
+<br>
 
-> Think of this part like a shopping cart - in the AdSSetup object, you define various settings. For example, you have to 'order' the type of Ads, you want to see on your page, like Mrecs, Billboards and Superbanners.
-> But there are also some features, you can control via the AdSSetup object, like the appearance of the placeholders. 
+**pagename**
+<br>
+
+Another important part is the `pagename`. This attribute indicates the environment - if you are running standalone, you will use "scrollytelling_story" - if you're running as embed, you will use the pagename of the parent page.<br>
+**The script handles this for you.**
+
+<br>
+<br>
+
+The script does all the heavy lifting for you, including:
+ - loading the adlib
+ - detecting the viewport and setting allowed ad formats (sizes) accordingly
+ - detecting the environment (standalone vs. embed)
+ - getting all relevant adSSetup settings from parent, when running as embed
+
+<br>
+<br>
+
+This is what the script will build for you. 
+
+<br>
 
 
 ```diff
 
 <html>
     <head>
-        <title>Your great website</title>
+        <title>Scrollytelling Widget</title>
         
 +        <script type="text/javascript">
 +            adSSetup = {
@@ -113,7 +195,7 @@ Basically there are only three important steps to implement a basic ad integrati
 </html>
 ```
 
-You can find a detailed overview with explanation of all parameters for the adSSetup [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/general/adSSetup-in-detail.md).
+If you want to learn more about the adSSetup object, you can find a detailed overview with explanation of all parameters [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/general/adSSetup-in-detail.md).
 
 <br>
 
@@ -122,64 +204,15 @@ You can find a detailed overview with explanation of all parameters for the adSS
  - Make sure, that the adSSetup Object is ready, when the adlib is loaded, so that we can use your configuration to make the call to the ad server.
  - Be sure that you only order placements in the adSSetup.adPlacements, for which you know that you have a matching ad slot on your page, where the delivered ad can be rendered in.
  - In the adPlacements array, you defined which adslots you have on your page - for example "widget", "widget_2", "widget_3" (you can continue like this, depending on how long your content is).
- - In the adSlotSizes object you defined the sizes for the "widget" placement. Since we only have "widget" and "widget_{n}" slots on the page, we use the sizes of the first slot to clone the others.
+ - In the adSlotSizes object you defined the sizes for the "widget" adslot. Since we only have "widget" and "widget_{n}" slots on the page, we use the sizes of the first slot to clone the others.
 
 
+<br>
 <br>
 
 
 
-### AdSSetup.adSlotSizes - Desktop
-
-Please use these sizes for your ad integration on desktop viewports for now:
-
-```javascript
-
-adSSetup = {
-    ...
-    "adPlacements": ["widget", "widget_2"],
-    "adSlotSizes": { 
-        "widget": [{
-            "minWidth": 1,
-            "sizes": [[728, 90], [970, 250], [800, 250]]
-        }],
-    },
-    ...
-}
-
-```
-
-
-<br>
-
-
-
-### AdSSetup.adSlotSizes - Mobile
-
-Please use these sizes for your ad integration on mobile viewports for now:
-
-```javascript
-
-adSSetup = {
-    ...
-    "adPlacements": ["widget", "widget_2"],
-    "adSlotSizes": { 
-        "widget": [{
-            "minWidth": 1,
-            "sizes": [[300, 600], [320, 480], [320, 460], [300, 300], [300, 250]]
-        }],
-    }
-    ...
-}
-
-```
-
-
-<br>
-
-
-
-## 3. Provide Ad Slots
+## Provide Ad Slots
 
 > You as publisher need to provide us a container for each ad, that you ordered via the adSSetup object. The delivered ads will be rendered in these Ad Slots, so it is very important that there is a container for each ad on the page. The Ad Slots will need the ad type as id and have to be completely unstyled.
 > If you need styling around the ad, you can set a wrapper around the Ad Slot and style this wrapper instead.
@@ -189,7 +222,7 @@ adSSetup = {
 
 <html>
     <head>
-        <title>Your great website</title>
+        <title>Scrollytelling</title>
         
         <script type="text/javascript">
             adSSetup = {
@@ -255,18 +288,8 @@ If you have questions regarding the advertisement labeling, please reach out to 
 
  - Check for PUR status - if PUR is active, we are not allowed to load the adlib.
  - Before loading the adlib, wait for CMP. Make sure that the CMP is loaded as early as possible.
- - Load the adlib after the CMP and as early as possible, too. Make sure that the adlib is **never** loaded asynchronously.
- - If scrollytelling is used as an embed on the page, check if you are loaded in an iFrame or directly on the page. If you're directly on the page, you should be able to get all the relevant ad values from the parent pages' adSSetup object. We have a script prepared for this scenario, please see the next part in this document.
-
-
-<br>
-
-
-# Detect environment - iFrame embed vs. standalone
-
-We prepared a script you can use, to detect in which environment you are. <br>
-You can find it [here](https://github.com/spring-media/adsolutions-implementationReference/blob/master/peculiar/ads-in-widgets.md).
-
+ - Load the provided script after the CMP and as early as possible, too. Make sure that the adlib is **never** loaded asynchronously.
+ - If scrollytelling is used as an embed on the page, check if you are loaded in an iFrame or directly on the page. If you're directly on the page, you should be able to get all the relevant ad values from the parent pages' adSSetup object. Thats what the provided script will do for you.
 
 
 <br>
