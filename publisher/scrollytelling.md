@@ -1,6 +1,3 @@
-#### 🚧 Work in progress 🚧 
-
-
 # Scrollytelling - Ad Integration Guide
 
 Welcome to your Ad Integration documentation! 
