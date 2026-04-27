@@ -278,8 +278,8 @@ Now that we have received our classification response, we can simple take the ke
 You can use something like the following code snippet:
 
 ```javascript
-for (var match of classification.matches) {
-  adSSetup.target += `${match.key}=${match.value};`;
+for (var match of response.classification.matches) {
+   adSSetup.target += `${match.keyValueTarget.key}=${match.keyValueTarget.value};`;
 }
 ```
 
