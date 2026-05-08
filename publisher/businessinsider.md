@@ -1,6 +1,5 @@
 # Business Insider - Ad Integration Guide
 
-> ⚠️ **Caution:** The required `.js` file for this integration has not yet been created. This will be created together during the integration phase.
 
 Welcome to the Ad Integration documentation for Business Insider!
 
