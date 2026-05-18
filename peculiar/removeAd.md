@@ -9,7 +9,7 @@ In this case you should inform the adlib by calling an adlib event:
 <div id="billboard_btf_2_wrapper" class="billboard_Wrapper" style="float:right; width:300px;">...</div>
 
 <script>
-    var ev = new CustomEvent('remove', {'detail': 'billboard_btf_2'});
+    var ev = new CustomEvent('removeAd', {'detail': 'billboard_btf_2'});
     document.dispatchEvent(ev);
 </script>
 ```
