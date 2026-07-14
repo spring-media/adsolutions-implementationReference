@@ -198,11 +198,11 @@ adSSetup = {
     ...
     "view": "d",
     "adSlotSizes": {
-        "SNA_HM1_Ad": [{
+        "HM1_Ad": [{
             "minWidth": 1,
             "sizes": [[300, 600]]
         }], 
-        "SNA_LDR//BB1_Ad": [{
+        "LDR--BB1_Ad": [{
             "minWidth": 1,
             "sizes": [[728, 90], [970, 90]]
         }]},
@@ -342,11 +342,11 @@ Otherwise, if you plan to have a more granular, standardized naming convention f
 +                partners: true,
 +                adPlacements: ["SNA_HM1_Ad", "SNA_LDR//BB1_Ad"],
 +                adSlotSizes: {
-+                    "SNA_HM1_Ad": [{
++                    "HM1_Ad": [{
 +                        "minWidth": 1,
 +                        "sizes": [[300, 600]]
 +                    }], 
-+                    "SNA_LDR//BB1_Ad": [{
++                    "LDR--BB1_Ad": [{
 +                        "minWidth": 1,
 +                        "sizes": [[728, 90], [970, 90]]
 +                    }]},
@@ -366,12 +366,12 @@ Otherwise, if you plan to have a more granular, standardized naming convention f
     <body>
 
       <div class="your-content">...</div>
-+     <div id="SNA_HM1_Ad-wrapper">
-+         <div id="SNA_HM1_Ad" data-adunit="/13259764/SNA_HM1_Ad"></div>
++     <div id="HM1_Ad-wrapper">
++         <div id="HM1_Ad" data-adunit="/13259764/SNA_HM1_Ad"></div>
 +     </div>
       <div class="your-content">...</div>
-+     <div id="SNA_LDR//BB1_Ad-wrapper">
-+         <div id="SNA_LDR//BB1_Ad" data-adunit="/13259764/SNA_LDR//BB1_Ad"></div>
++     <div id="LDR--BB1_Ad-wrapper">
++         <div id="LDR--BB1_Ad" data-adunit="/13259764/SNA_LDR//BB1_Ad"></div>
 +     </div>
       <div class="your-content">...</div>
       
@@ -398,11 +398,11 @@ If you have a lot of static ad unit names that do not follow one standard naming
 +                partners: true,
 +                adPlacements: ["HM1_Ad", "LDR--BB1_Ad"],
 +                adSlotSizes: {
-+                    "SNA_HM1_Ad": [{
++                    "HM1_Ad": [{
 +                        "minWidth": 1,
 +                        "sizes": [[300, 600]]
 +                    }], 
-+                    "SNA_LDR//BB1_Ad": [{
++                    "LDR--BB1_Ad": [{
 +                        "minWidth": 1,
 +                        "sizes": [[728, 90], [970, 90]]
 +                    }]},
