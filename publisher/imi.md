@@ -13,9 +13,7 @@ In this document you will learn how to implement our adlib in your site to deliv
 
 ## Table of contents
 
-- [Strategy](#strategy)
-  - [Option 1: Full dynamic ad units in AdSSetup](#option-1-full-dynamic-ad-units-in-adssetup)
-  - [Option 2: Full ad unit names as data attributes](#option-2-full-ad-unit-names-as-data-attributes)
+- [Ad unit overview](#ad-unit-overview)
 - [Basic setup](#basic-setup)
   - [1. Include the AdLib](#1-include-the-adlib)
   - [2. AdSSetup - provide the config for the ad delivery](#2-adssetup---provide-the-config-for-the-ad-delivery)
@@ -25,6 +23,9 @@ In this document you will learn how to implement our adlib in your site to deliv
     - [General](#general)
     - [Custom adslot ids](#custom-adslot-ids)
     - [Example](#example)
+- [Strategy](#strategy)
+  - [Option 1: Full dynamic ad units in AdSSetup](#option-1-full-dynamic-ad-units-in-adssetup)
+  - [Option 2: Full ad unit names as data attributes](#option-2-full-ad-unit-names-as-data-attributes)
 - [QA and testing](#qa-and-testing)
   - [Testads](#testads)
   - [Human detection](#human-detection)
@@ -36,6 +37,8 @@ In this document you will learn how to implement our adlib in your site to deliv
 
 -----
 
+
+# Ad unit overview
 
 From the excel ad unit overview you provided, it seems like a lot of the ad units do not follow a standardized structure, which will be a potential challenge when setting up a full dynamic ad integration that we usually have on the pages we manage.
 
@@ -325,34 +328,11 @@ So the ad unit "/13259764/SNA_LDR//BB1_Ad" would become the ad slot id "LDR--BB1
 
 We evaluated two possible strategies for a clean ad integration on your sites.
 
-1. Use a fully dynamic adSSetup with standardized ad unit structure (see below), or
+1. Use a fully dynamic adSSetup with standardized ad unit structure, or
 2. Use a smaller adSSetup configuration and set the full ad unit name as data attribute on the ad slot elements you provide on the page.
 
 
-From the excel ad unit overview you provided, it seems like a lot of the ad units do not follow a standardized structure, which will be a potential challenge when setting up a full dynamic ad integration that we usually have on the pages we manage.
-
-We crawled a part of skynewsarabia and from that it looks like there are less variable ad units - we only found the following ad units: 
-
-```javascript
-[
-  "/13259764/SNA_LDR//BB1_Ad",
-  "/13259764/SNA_HM1_Ad",
-  "/13259764/SNA_HM2_Ad",
-  "/13259764/SNA_Side_MPU1_Ad",
-  "/13259764/SNA_LDR//BB2_Ad",
-  "/13259764/SNA_Article_LDR//BB1_Ad",
-  "/13259764/SNA_Article_HM2_Ad",
-  "/13259764/SNA_Article_HM1_Ad",
-  "/13259764/SNA_Article_Promo_Ad",
-  "/13259764/SNA_Article_Promo_Ad2",
-  "/13259764/SNA_TeadsVideo_Ad",
-  "/13259764/SNA_Article_LDR//BB2_Ad",
-  "/13259764/SNA_Insidepage_LDR//BB1_Ad",
-  "/13259764/SNA_Insidepage_LDR//BB2_Ad",
-  "/13259764/SNA_Insidepage_HM1_Ad",
-  "/13259764/SNA_Insidepage_HM2_Ad"
-]
-```
+As mentioned earlier, we crawled a part of skynewsarabia and from that it looks like there are less variable ad units - we only found the ad units mentioned in the section [Ad unit overview](#ad-unit-overview). 
 
 So if these are the only ad units you currently use, we could go with the first strategy.
 
