@@ -1,15 +1,6 @@
 # IMI - Ad Integration Guide
 
-
-> 🚧 Work in progress 🚧
->
-> **Important:** Please do not reference to this documentation yet, as this is still working in progress in its early phase.
-
-Welcome to your Ad Integration documentation! 
-In this document you will learn how to implement our adlib in your site to deliver ads with it.
-
 <br>
-
 
 ## Table of contents
 
@@ -135,6 +126,7 @@ We have prepared the following two adlib instances for you:
  - https://www.asadcdn.com/adlib/pages/thenationalnews.js
  - https://www.asadcdn.com/adlib/pages/skynewsarabia.js
 
+<br>
 
 **Important**: 
  - It is very important, that you **do not** load the adlib asynchronically! Otherwise this will lead to [cumulative layout shifts](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) and delay the headerbidding a lot, which will cost your page real money in unrealised profits. 
