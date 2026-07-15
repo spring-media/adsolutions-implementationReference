@@ -26,9 +26,6 @@ In this document you will learn how to implement our adlib in your site to deliv
 - [Strategy](#strategy)
   - [Option 1: Full dynamic ad units in AdSSetup](#option-1-full-dynamic-ad-units-in-adssetup)
   - [Option 2: Full ad unit names as data attributes](#option-2-full-ad-unit-names-as-data-attributes)
-- [QA and testing](#qa-and-testing)
-  - [Testads](#testads)
-  - [Human detection](#human-detection)
 - [Help](#help)
    
 
@@ -139,8 +136,9 @@ We have prepared the following two adlib instances for you:
  - https://www.asadcdn.com/adlib/pages/skynewsarabia.js
 
 
-**Important**: It is very important, that you **do not** load the adlib asynchronically! Otherwise this will lead to [cumulative layout shifts](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) and delay the headerbidding a lot, which will cost your page real money in unrealised profits. 
-
+**Important**: 
+ - It is very important, that you **do not** load the adlib asynchronically! Otherwise this will lead to [cumulative layout shifts](https://github.com/spring-media/adsolutions-implementationReference/blob/master/cumulative-layout-shift.md) and delay the headerbidding a lot, which will cost your page real money in unrealised profits. 
+ - Please make sure that the adlib is loaded **after** the CMP stub.
 
 
 <br>
@@ -252,10 +250,7 @@ adSSetup = {
 
 ```
 
-
-
 <br>
-
 
 
 ## 3. Provide Ad Slots
@@ -447,32 +442,6 @@ If you have a lot of static ad unit names that do not follow one standard naming
 </html>
 ```
 
-<br>
-
-# QA and testing
-
-**Important**: Please don't try to test ads on Localhost. Ads will be not delivered on localhost.
-
-
-## Testads
-
-If you would like to test the ad delivery, [here you can set a cookie](https://reports.asadcdn.com/testads.html) to receive some test ads via a test segment.
-<br>
-
-> _If you no longer want to receive the test ads, you can always remove the cookie via the 'Remove Testads' button on the same page._
-
-<br>
-
-
-
-
-## Human detection
-
-It can happen, that the adserver does not deliver ads, when the user emulates devices in the browser.
-
-In general the detection tries to find non human or potential malicious requests (e.g. making adcalls from localhost, making many requests within the same second, uncommon request headers, ...).
-
-<br>
 
 
 -----
