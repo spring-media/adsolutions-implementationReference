@@ -140,7 +140,7 @@ Here's the requested information converted into a markdown table:
 
 ## POST Request
 
-Send your `POST` request to `https://classifier.prd.adtech.as-infra.de/brand-safety`.
+Send your `POST` request to `https://reports.asadcdn.com/toto-v2/brand-safety`.
 
 We expect a json object in the following format:
 
